@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="MM_NDSJ_LV0"/>
+    <CUpgrade id="MM_NDSJ_LV1">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="2.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="1"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="1"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="CCData_FactoryTrain"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="CCData_FactoryTrain"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV2">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="4.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="2"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="2"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="2000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="2000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="2000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV3">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="6.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="3"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="3"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="4000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="4000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="4000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV4">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="8.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="4"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="4"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="8000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="8000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="8000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV5">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="10.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="5"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="5"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="16000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="16000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="16000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV6">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="12.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="6"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="6"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="32000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="32000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="32000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV7">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="14.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="7"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="7"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="64000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="64000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="64000"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_LV8">
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Behavior,CCData_LocustMPTimedLife,Duration" Value="16.000000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeRegenRate" Value="8"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeRegenRate" Value="8"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Brakk,LifeMax" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeMax" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Brakk,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxious,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Slivan,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasque,LifeMax" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_Mitosaurus,LifeMax" Value="128000"/>
+        <EffectArray Operation="Set" Reference="Unit,CCData_StoryBoss_Slivan,LifeMax" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeMax" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSTorrasqueBurrowed,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeStart" Value="128000"/>
+        <EffectArray Reference="Unit,CCData_StoryBoss_HotSNoxiousBurrowed,LifeMax" Value="128000"/>
+    </CUpgrade>
+    <CItemContainer id="MM_HumanItems_12Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+    </CItemContainer>
+    <CItemContainer id="MM_VehiclesEquipment">
+        <Slots Equip="1" Row="0" Column="0">
+            <Classes value="ItemClass_ZhuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="1" Column="0">
+            <Classes value="ItemClass_ZhuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="2" Column="0">
+            <Classes value="ItemClass_FuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="3" Column="0">
+            <Classes value="ItemClass_FuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="4" Column="0">
+            <Classes value="ItemClass_SE"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="0">
+            <Classes value="ItemClass_SE"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="0" Column="5">
+            <Classes value="ItemClass_ZhuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="1" Column="5">
+            <Classes value="ItemClass_ZhuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="2" Column="5">
+            <Classes value="ItemClass_FuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="3" Column="5">
+            <Classes value="ItemClass_FuPao"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="4" Column="5">
+            <Classes value="ItemClass_SE"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="5">
+            <Classes value="ItemClass_SE"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="1">
+            <Classes value="ItemClass_FaDongJi"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="2">
+            <Classes value="ItemClass_FaDongJi"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="3">
+            <Classes value="ItemClass_CZhuangzhi"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="4">
+            <Classes value="ItemClass_CZhuangzhi"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+    </CItemContainer>
+    <CItemContainer id="MM_HumanEquipment">
+        <Slots Equip="1" Row="0" Column="0">
+            <Classes value="LZDYJJ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="1" Column="0">
+            <Classes value="DBJJGYQ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="2" Column="0">
+            <Classes value="DBJJKZDY"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="3" Column="0">
+            <Classes value="DBJJNLMK"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="4" Column="0">
+            <Classes value="DBJJYQ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="0">
+            <Classes value="DBJJFJ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="0" Column="5">
+            <Classes value="Weapon"/>
+            <Classes value="InventoryPlaceholder"/>
+            <Classes value="DCBQ"/>
+        </Slots>
+        <Slots Equip="1" Row="1" Column="5">
+            <Classes value="Head"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="2" Column="5">
+            <Classes value="ItemClass_Body"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="3" Column="5">
+            <Classes value="Hands"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="4" Column="5">
+            <Classes value="Feet"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="5">
+            <Classes value="Trinket"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="1">
+            <Classes value="WPXZ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="2">
+            <Classes value="WPXZ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="3">
+            <Classes value="WPXZ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+        <Slots Equip="1" Row="5" Column="4">
+            <Classes value="WPXZ"/>
+            <Classes value="InventoryPlaceholder"/>
+        </Slots>
+    </CItemContainer>
+    <CItemContainer id="MM_VehiclesItems_64Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="0" Column="4"/>
+        <Slots Row="0" Column="5"/>
+        <Slots Row="0" Column="6"/>
+        <Slots Row="0" Column="7"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="1" Column="4"/>
+        <Slots Row="1" Column="5"/>
+        <Slots Row="1" Column="6"/>
+        <Slots Row="1" Column="7"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+        <Slots Row="2" Column="4"/>
+        <Slots Row="2" Column="5"/>
+        <Slots Row="2" Column="6"/>
+        <Slots Row="2" Column="7"/>
+        <Slots Row="3" Column="0"/>
+        <Slots Row="3" Column="1"/>
+        <Slots Row="3" Column="2"/>
+        <Slots Row="3" Column="3"/>
+        <Slots Row="3" Column="4"/>
+        <Slots Row="3" Column="5"/>
+        <Slots Row="3" Column="6"/>
+        <Slots Row="3" Column="7"/>
+        <Slots Row="4" Column="0"/>
+        <Slots Row="4" Column="1"/>
+        <Slots Row="4" Column="2"/>
+        <Slots Row="4" Column="3"/>
+        <Slots Row="4" Column="4"/>
+        <Slots Row="4" Column="5"/>
+        <Slots Row="4" Column="6"/>
+        <Slots Row="4" Column="7"/>
+        <Slots Row="5" Column="0"/>
+        <Slots Row="5" Column="1"/>
+        <Slots Row="5" Column="2"/>
+        <Slots Row="5" Column="3"/>
+        <Slots Row="5" Column="4"/>
+        <Slots Row="5" Column="5"/>
+        <Slots Row="5" Column="6"/>
+        <Slots Row="5" Column="7"/>
+        <Slots Row="6" Column="0"/>
+        <Slots Row="6" Column="1"/>
+        <Slots Row="6" Column="2"/>
+        <Slots Row="6" Column="3"/>
+        <Slots Row="6" Column="4"/>
+        <Slots Row="6" Column="5"/>
+        <Slots Row="6" Column="6"/>
+        <Slots Row="6" Column="7"/>
+        <Slots Row="7" Column="0"/>
+        <Slots Row="7" Column="1"/>
+        <Slots Row="7" Column="2"/>
+        <Slots Row="7" Column="3"/>
+        <Slots Row="7" Column="4"/>
+        <Slots Row="7" Column="5"/>
+        <Slots Row="7" Column="6"/>
+        <Slots Row="7" Column="7"/>
+    </CItemContainer>
+    <CItemContainer id="MM_VehiclesItems_48Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="0" Column="4"/>
+        <Slots Row="0" Column="5"/>
+        <Slots Row="0" Column="6"/>
+        <Slots Row="0" Column="7"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="1" Column="4"/>
+        <Slots Row="1" Column="5"/>
+        <Slots Row="1" Column="6"/>
+        <Slots Row="1" Column="7"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+        <Slots Row="2" Column="4"/>
+        <Slots Row="2" Column="5"/>
+        <Slots Row="2" Column="6"/>
+        <Slots Row="2" Column="7"/>
+        <Slots Row="3" Column="0"/>
+        <Slots Row="3" Column="1"/>
+        <Slots Row="3" Column="2"/>
+        <Slots Row="3" Column="3"/>
+        <Slots Row="3" Column="4"/>
+        <Slots Row="3" Column="5"/>
+        <Slots Row="3" Column="6"/>
+        <Slots Row="3" Column="7"/>
+        <Slots Row="4" Column="0"/>
+        <Slots Row="4" Column="1"/>
+        <Slots Row="4" Column="2"/>
+        <Slots Row="4" Column="3"/>
+        <Slots Row="4" Column="4"/>
+        <Slots Row="4" Column="5"/>
+        <Slots Row="4" Column="6"/>
+        <Slots Row="4" Column="7"/>
+        <Slots Row="5" Column="0"/>
+        <Slots Row="5" Column="1"/>
+        <Slots Row="5" Column="2"/>
+        <Slots Row="5" Column="3"/>
+        <Slots Row="5" Column="4"/>
+        <Slots Row="5" Column="5"/>
+        <Slots Row="5" Column="6"/>
+        <Slots Row="5" Column="7"/>
+    </CItemContainer>
+    <CItemContainer id="MM_VehiclesItems_32Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="0" Column="4"/>
+        <Slots Row="0" Column="5"/>
+        <Slots Row="0" Column="6"/>
+        <Slots Row="0" Column="7"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="1" Column="4"/>
+        <Slots Row="1" Column="5"/>
+        <Slots Row="1" Column="6"/>
+        <Slots Row="1" Column="7"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+        <Slots Row="2" Column="4"/>
+        <Slots Row="2" Column="5"/>
+        <Slots Row="2" Column="6"/>
+        <Slots Row="2" Column="7"/>
+        <Slots Row="3" Column="0"/>
+        <Slots Row="3" Column="1"/>
+        <Slots Row="3" Column="2"/>
+        <Slots Row="3" Column="3"/>
+        <Slots Row="3" Column="4"/>
+        <Slots Row="3" Column="5"/>
+        <Slots Row="3" Column="6"/>
+        <Slots Row="3" Column="7"/>
+    </CItemContainer>
+    <CItemContainer id="MM_VehiclesItems_24Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="0" Column="4"/>
+        <Slots Row="0" Column="5"/>
+        <Slots Row="0" Column="6"/>
+        <Slots Row="0" Column="7"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="1" Column="4"/>
+        <Slots Row="1" Column="5"/>
+        <Slots Row="1" Column="6"/>
+        <Slots Row="1" Column="7"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+        <Slots Row="2" Column="4"/>
+        <Slots Row="2" Column="5"/>
+        <Slots Row="2" Column="6"/>
+        <Slots Row="2" Column="7"/>
+    </CItemContainer>
+    <CItemContainer id="MM_HumanItems_24Slot">
+        <Slots Row="0" Column="0"/>
+        <Slots Row="0" Column="1"/>
+        <Slots Row="0" Column="2"/>
+        <Slots Row="0" Column="3"/>
+        <Slots Row="1" Column="0"/>
+        <Slots Row="1" Column="1"/>
+        <Slots Row="1" Column="2"/>
+        <Slots Row="1" Column="3"/>
+        <Slots Row="2" Column="0"/>
+        <Slots Row="2" Column="1"/>
+        <Slots Row="2" Column="2"/>
+        <Slots Row="2" Column="3"/>
+        <Slots Row="3" Column="0"/>
+        <Slots Row="3" Column="1"/>
+        <Slots Row="3" Column="2"/>
+        <Slots Row="3" Column="3"/>
+        <Slots Row="4" Column="0"/>
+        <Slots Row="4" Column="1"/>
+        <Slots Row="4" Column="2"/>
+        <Slots Row="4" Column="3"/>
+        <Slots Row="5" Column="0"/>
+        <Slots Row="5" Column="1"/>
+        <Slots Row="5" Column="2"/>
+        <Slots Row="5" Column="3"/>
+    </CItemContainer>
+</Catalog>
