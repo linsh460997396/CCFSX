@@ -2064,19 +2064,20 @@ Defensive Matrix=防御矩阵
 DocInfo/DescLong=纪念虫出封锁线及老作者“奥西亚”，缅怀童年回忆"重装机兵"<n/>>>>感谢“奧西亞”对二创的鼓励支持<n/>>>>沙盒版由玩家布置建筑、装饰、视野、路径阻断及怪物后自动运作<n/>>>>开源：https://github.com/linsh460997396/CCFSX.git<n/>>>>声明：不能用于收费等商业行为，请继承素材标注的鸣谢列表<n/>>>>讨论群：514946372
 DocInfo/DescShort=8
 DocInfo/Name=虫出封锁线[Osia_沙盒纪念版]
-DocInfo/PatchNote014=--------------------------------------------
-DocInfo/PatchNote015=>>>感谢作者“奧西亞”我们才能玩到这么有趣的图
-DocInfo/PatchNote016=>>>沙盒版指推平地形，由玩家布置建筑装饰视野路径阻断及各类BOSS小怪或僵尸出生器后自动运作
-DocInfo/PatchNote017=--------------------------------------------
-DocInfo/PatchNote018=△开发成员：蔚蓝星海
-DocInfo/PatchNote019=--------------------------------------------
-DocInfo/PatchNote020=☆感谢奥西亚对二创的鼓励支持；
-DocInfo/PatchNote021=☆感谢绝缘体（绝地求生开源素材）、yxxiaobin（听风阁_RPG镶嵌强化系统MOD）；
-DocInfo/PatchNote022=☆感谢麦德三世（技术指导）、☆感谢孔明的脚本教程、
-DocInfo/PatchNote023=☆感谢德大图文并茂的物编教程...☆感谢编辑器群的朋友们..
-DocInfo/PatchNote024=☆感谢曾经的虫出复刻小组（素材及演示），虽然它已解散...感谢老一辈地图作者们...
-DocInfo/PatchNote025=PS：地图创作以年为单位，这是一个反复放弃和继续的过程，站在巨人的肩膀让创作变得容易得多。
-DocInfo/PatchNote026=>>>鸣谢列表将在完成时一并添加..
+DocInfo/PatchNote001=>>>鸣谢列表将在完成时一并添加..
+DocInfo/PatchNote014=沙盒框架V0.6.1
+DocInfo/PatchNote015=--------------------------------------------
+DocInfo/PatchNote016=>>>感谢作者“奧西亞”我们才能玩到这么有趣的图
+DocInfo/PatchNote017=>>>沙盒版指推平地形，由玩家布置建筑装饰视野路径阻断及各类BOSS小怪或僵尸出生器后自动运作
+DocInfo/PatchNote018=--------------------------------------------
+DocInfo/PatchNote019=△开发成员：蔚蓝星海
+DocInfo/PatchNote020=--------------------------------------------
+DocInfo/PatchNote021=☆感谢奥西亚对二创的鼓励支持；
+DocInfo/PatchNote022=☆感谢绝缘体（绝地求生开源素材）、yxxiaobin（听风阁_RPG镶嵌强化系统MOD）；
+DocInfo/PatchNote023=☆感谢麦德三世（技术指导）、☆感谢孔明的脚本教程、
+DocInfo/PatchNote024=☆感谢德大图文并茂的物编教程...☆感谢编辑器群的朋友们..
+DocInfo/PatchNote025=☆感谢曾经的虫出复刻小组（素材及演示），虽然它已解散...感谢老一辈地图作者们...
+DocInfo/PatchNote026=PS：地图创作以年为单位，这是一个反复放弃和继续的过程，站在巨人的肩膀让创作变得容易得多。
 DocInfo/Website=http://www.scmapset.com/
 Effect/Name/ATSLaserBatteryU=G03R机炮
 Effect/Name/AdeptPhaseShiftCancelAB=AdeptPhaseShiftCancelAB
@@ -8010,7 +8011,7 @@ Param/Value/D68A1EE6=<s val="ys_green164">通过<c val="FFFF00">【管理员指�
 Param/Value/D6C351EA=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.1
+Param/Value/D6F4D09B=V0.6.1
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
 Param/Value/D7083C63=/
