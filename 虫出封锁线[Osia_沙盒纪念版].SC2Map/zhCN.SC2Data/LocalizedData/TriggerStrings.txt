@@ -395,6 +395,7 @@ Category/Name/CF9222BA=AI_扩张
 Category/Name/D054FDC5=成员
 Category/Name/D1905105=AI_探索
 Category/Name/D30796C6=成员
+Category/Name/D4E98369=次元入侵[分支]
 Category/Name/D7289762=载具掌控者（硬件级权限）
 Category/Name/D80878CE=工业建造（需驾驶载具或依靠其他机械、建筑来制作）
 Category/Name/D951AED1=主车库
