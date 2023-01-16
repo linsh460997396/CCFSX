@@ -70,7 +70,7 @@
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="12"/>
+            <Value Id="10"/>
         </Default>
     </Attribute>
     <Attribute>

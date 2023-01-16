@@ -4,18 +4,18 @@
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="161790672" Position="47.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="炮台2T" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
     <ObjectPoint Id="1171" Position="19.5,89,0" Scale="1,1,1" Type="Normal" Name="机件A点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="539621450" Position="45.0288,129.9738,0" Scale="1,1,1" Type="Normal" Name="坦克1T" Color="0,0,0,0">
+    <ObjectPoint Id="161790672" Position="47.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="炮台2T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1734901942" Position="71.4995,241.7998,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="控制器，需要５分钟来破解（防守虫族）" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectPoint>
+    <ObjectPoint Id="539621450" Position="45.0288,129.9738,0" Scale="1,1,1" Type="Normal" Name="坦克1T" Color="0,0,0,0">
+        <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="566" Position="78.06,8.0961,0" Scale="1,1,1" Type="Normal" Name="商店内" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
@@ -23,50 +23,50 @@
     <ObjectPoint Id="958799402" Position="68.306,224.7263,0" Scale="1,1,1" Type="Normal" Name="传送点[基地L_巨型工厂 1F]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1096" Position="7.5,165.5,0" Scale="1,1,1" Type="Normal" Name="敌军临时放置点" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
     <ObjectPoint Id="2138722037" Position="91.6267,205.5808,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="第二剧情开启" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1507606912" Position="69.271,195.149,0" Scale="1,1,1" Type="Normal" Name="坦克1" Color="0,0,0,0">
+    <ObjectPoint Id="1096" Position="7.5,165.5,0" Scale="1,1,1" Type="Normal" Name="敌军临时放置点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1996381865" Position="30.434,221.2456,0" Scale="1,1,1" Type="Normal" Name="传送点[基地L B1 坡道]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1124" Position="43,150.5,0" Scale="1,1,1" Type="Normal" Name="广场进攻点" Color="0,0,0,0">
+    <ObjectPoint Id="1507606912" Position="69.271,195.149,0" Scale="1,1,1" Type="Normal" Name="坦克1" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="740708755" Position="67.271,184.149,0" Scale="1,1,1" Type="Normal" Name="坦克2" Color="0,0,0,0">
+    <ObjectPoint Id="1124" Position="43,150.5,0" Scale="1,1,1" Type="Normal" Name="广场进攻点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1162463280" Position="68.0798,175.7597,0" Scale="1,1,1" Type="Normal" Name="佣兵测试点[镇外]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1102696767" Position="183.0544,156.253,0" Scale="1,1,1" Type="Normal" Name="异形巢穴" Color="0,0,0,0">
+    <ObjectPoint Id="740708755" Position="67.271,184.149,0" Scale="1,1,1" Type="Normal" Name="坦克2" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="175006495" Position="168.4255,177.9772,0" Scale="1,1,1" Type="Normal" Name="机甲建造点II" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="233876750" Position="71.271,184.149,0" Scale="1,1,1" Type="Normal" Name="炮台2" Color="0,0,0,0">
+    <ObjectPoint Id="1102696767" Position="183.0544,156.253,0" Scale="1,1,1" Type="Normal" Name="异形巢穴" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1153" Position="20,105,0" Scale="1,1,1" Type="Normal" Name="僵尸部队A" Color="0,0,0,0">
+    <ObjectPoint Id="233876750" Position="71.271,184.149,0" Scale="1,1,1" Type="Normal" Name="炮台2" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1348594788" Position="160.72,185.7697,0" Scale="1,1,1" Type="Normal" Name="进攻点001" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
+    <ObjectPoint Id="1153" Position="20,105,0" Scale="1,1,1" Type="Normal" Name="僵尸部队A" Color="0,0,0,0">
+        <Flag Index="PointHidden" Value="1"/>
+    </ObjectPoint>
     <ObjectPoint Id="876113542" Position="38.8078,19.2207,0" Scale="1,1,1" Type="Normal" Name="营口位置点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1635902219" Position="47.9255,3.5954,0" Scale="1,1,1" Type="Normal" Name="支援点" Color="0,0,0,0">
+    <ObjectPoint Id="1405916787" Position="161.16,238.94,0" Scale="1,1,1" Type="Normal" Name="出口点_山洞[北]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1405916787" Position="161.16,238.94,0" Scale="1,1,1" Type="Normal" Name="出口点_山洞[北]" Color="0,0,0,0">
+    <ObjectPoint Id="1635902219" Position="47.9255,3.5954,0" Scale="1,1,1" Type="Normal" Name="支援点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1094" Position="41,130,0" Scale="1,1,1" Type="Normal" Name="砲台 003" Color="0,0,0,0">
@@ -78,13 +78,13 @@
     <ObjectPoint Id="941747307" Position="71.271,195.149,0" Scale="1,1,1" Type="Normal" Name="炮台4" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="996" Position="40.5,5.5,0" Scale="1,1,1" Type="StartLoc" Name="玩家出生圈" Color="0,0,0,0">
+    <ObjectPoint Id="1092" Position="41,119,0" Scale="1,1,1" Type="Normal" Name="砲台 001" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1261916382" Position="135.2946,124.9045,0" Scale="1,1,1" Type="Normal" Name="SOS点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1092" Position="41,119,0" Scale="1,1,1" Type="Normal" Name="砲台 001" Color="0,0,0,0">
+    <ObjectPoint Id="996" Position="40.5,5.5,0" Scale="1,1,1" Type="StartLoc" Name="玩家出生圈" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="416" Position="20.5,50.5,0" Scale="1,1,1" Type="Normal" Name="商店外" Color="0,0,0,0">
@@ -94,12 +94,12 @@
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1043" Position="49.5,159.5,0" Scale="1,1,1" Type="Normal" Name="虫族基地点" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
     <ObjectPoint Id="546752002" Position="27.7526,246.4096,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="传送点[地下基地L B1]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectPoint>
+    <ObjectPoint Id="1043" Position="49.5,159.5,0" Scale="1,1,1" Type="Normal" Name="虫族基地点" Color="0,0,0,0">
+        <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1172" Position="40,126,0" Scale="1,1,1" Type="Normal" Name="敌部队集装箱" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
@@ -117,28 +117,28 @@
     <ObjectPoint Id="603305481" Position="153.0732,135.5617,0" Scale="1,1,1" Type="Normal" Name="他们的指挥官，让玩家去救博士" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="522556397" Position="43.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="坦克2T" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
     <ObjectPoint Id="1995732517" Position="41.0288,129.9738,0" Scale="1,1,1" Type="Normal" Name="炮台3T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1095" Position="47,130,0" Scale="1,1,1" Type="Normal" Name="砲台 004" Color="0,0,0,0">
+    <ObjectPoint Id="522556397" Position="43.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="坦克2T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="297464670" Position="10.7275,249.4152,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="打死他就行了" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1100" Position="43,119,0" Scale="1,1,1" Type="Normal" Name="坦克 002" Color="0,0,0,0">
+    <ObjectPoint Id="1095" Position="47,130,0" Scale="1,1,1" Type="Normal" Name="砲台 004" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1601354795" Position="206.613,136.8312,0" Scale="1,1,1" Type="Normal" Name="遗迹门口" Color="0,0,0,0">
+    <ObjectPoint Id="1100" Position="43,119,0" Scale="1,1,1" Type="Normal" Name="坦克 002" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1977567870" Position="96.8562,231.0126,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="出兵地点（巢虫和跳虫）" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectPoint>
+    <ObjectPoint Id="1601354795" Position="206.613,136.8312,0" Scale="1,1,1" Type="Normal" Name="遗迹门口" Color="0,0,0,0">
+        <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1974273369" Position="65.271,195.149,0" Scale="1,1,1" Type="Normal" Name="炮台3" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
@@ -153,10 +153,10 @@
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1093" Position="47,119,0" Scale="1,1,1" Type="Normal" Name="砲台 002" Color="0,0,0,0">
+    <ObjectPoint Id="997" Position="85.5,166.5,0" Scale="1,1,1" Type="StartLoc" Name="异虫出生圈" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="997" Position="85.5,166.5,0" Scale="1,1,1" Type="StartLoc" Name="异虫出生圈" Color="0,0,0,0">
+    <ObjectPoint Id="1093" Position="47,119,0" Scale="1,1,1" Type="Normal" Name="砲台 002" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1887462394" Position="43.48,109.96,0" Scale="1,1,1" Type="Normal" Name="佣兵测试点[镇内]" Color="0,0,0,0">
@@ -171,10 +171,10 @@
     <ObjectPoint Id="1965513722" Position="40.0288,125.9738,0" Scale="1,1,1" Type="Normal" Name="部队集装箱T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="987" Position="50.5,6.5,0" Scale="1,1,1" Type="Normal" Name="建造点" Color="0,0,0,0">
+    <ObjectPoint Id="171668970" Position="41.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="炮台1T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="171668970" Position="41.0288,118.9738,0" Scale="1,1,1" Type="Normal" Name="炮台1T" Color="0,0,0,0">
+    <ObjectPoint Id="987" Position="50.5,6.5,0" Scale="1,1,1" Type="Normal" Name="建造点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="186" Position="42.1198,6.19,0" Scale="1,1,1" Type="Normal" Name="玩家出生点" Color="0,0,0,0">
@@ -193,14 +193,14 @@
     <ObjectPoint Id="524255296" Position="71.4943,240.6467,0" Scale="1,1,1" Type="Normal" Name="传送点[基地T_控制塔 1F]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="706725374" Position="112.2033,94.0412,0" Scale="1,1,1" Type="Normal" Name="看见是3位玩家后让玩家去找他们的队长" Color="0,0,0,0">
+    <ObjectPoint Id="2050066883" Position="244.99,19.0397,0" Scale="1,1,1" Type="Normal" Name="出口点_山洞[南]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1590740680" Position="84.5224,211.7397,0" Rotation="0.7851" Scale="1,1,1" Type="Normal" Name="获得开门权利（开门）" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="2050066883" Position="244.99,19.0397,0" Scale="1,1,1" Type="Normal" Name="出口点_山洞[南]" Color="0,0,0,0">
+    <ObjectPoint Id="706725374" Position="112.2033,94.0412,0" Scale="1,1,1" Type="Normal" Name="看见是3位玩家后让玩家去找他们的队长" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="990" Position="62,75.5,0" Scale="1,1,1" Type="Normal" Name="商店外[2号店]" Color="0,0,0,0">
@@ -212,16 +212,16 @@
     <ObjectPoint Id="643261814" Position="8.7998,196.7597,0" Scale="1,1,1" Type="Normal" Name="出口点_山洞[西]" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1278934705" Position="47.0288,129.9738,0" Scale="1,1,1" Type="Normal" Name="炮台4T" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
     <ObjectPoint Id="998961922" Position="43.5197,103.45,0" Scale="1,1,1" Type="Normal" Name="水池点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="1099" Position="45,130,0" Scale="1,1,1" Type="Normal" Name="坦克 001" Color="0,0,0,0">
+    <ObjectPoint Id="1278934705" Position="47.0288,129.9738,0" Scale="1,1,1" Type="Normal" Name="炮台4T" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="956635373" Position="110.7832,95.1811,0" Scale="1,1,1" Type="Normal" Name="开门时士兵以为是虫族（准备开枪姿势）" Color="0,0,0,0">
+        <Flag Index="PointHidden" Value="1"/>
+    </ObjectPoint>
+    <ObjectPoint Id="1099" Position="45,130,0" Scale="1,1,1" Type="Normal" Name="坦克 001" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="356" Position="77,164,0" Scale="1,1,1" Type="Normal" Name="人物暂时存放点" Color="0,0,0,0">
@@ -258,6 +258,4 @@
         <CameraValue Index="BokehFStop" Value="0.0097"/>
         <CameraValue Index="BokehMaxCoC" Value="1"/>
     </ObjectCamera>
-    <ObjectUnit Id="1419687561" Position="8.7001,2.855,0" Rotation="5.3845" Scale="1,1,1" UnitType="CCData_NovaResupplyCrate"/>
-    <ObjectUnit Id="1936325292" Position="10.9792,3.4387,0" Rotation="4.0957" Scale="1,1,1" UnitType="CCData_PickupZbx"/>
 </PlacedObjects>
