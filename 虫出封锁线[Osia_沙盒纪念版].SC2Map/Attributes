@@ -908,10 +908,11 @@
         <Value>
             <Id Value="2"/>
             <Name Value="Attribute008/Value002/Name"/>
+            <Description Value="Attribute008/Value002/Desc"/>
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="1"/>
+            <Value Id="2"/>
         </Default>
     </Attribute>
     <Attribute>
@@ -978,7 +979,7 @@
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="1"/>
+            <Value Id="2"/>
         </Default>
     </Attribute>
     <DefaultVariants Value="0"/>
