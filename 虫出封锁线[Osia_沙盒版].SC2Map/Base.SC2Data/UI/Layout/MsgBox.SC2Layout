@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="MsgBoxTemplate">
+        <Width val="900"/>
+        <Anchor side="Top" relative="$parent" pos="Mid" offset="-180"/>
+        <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+        <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+        <Anchor side="Bottom" relative="$this/TipLabel" pos="Max" offset="120"/>
+        <Visible val="false"/>
+        <RenderType val="LDR"/>
+        <Frame type="Image" name="BGimg">
+            <Anchor relative="$parent"/>
+            <Texture val="@@UI/TriggerDialogFrameBackground"/>
+            <TextureType val="Border"/>
+            <Tiled val="true"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Image" name="Background">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="25"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="25"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-25"/>
+            <Anchor side="Bottom" relative="$parent" pos="Max" offset="-22"/>
+            <Texture val="@@UI/StandardListBox"/>
+            <TextureType val="Border"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Label" name="TipLabel">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="50"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="45"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-45"/>
+            <Style val="@@@StandardTooltip"/>
+            <CollapseLayout val="true"/>
+            <PreserveAnchorOffset val="true"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Button" name="YesButton" template="TriggerDialogFrame/TriggerControlButtonTemplate">
+            <Height val="50"/>
+            <Width val="150"/>
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Visible val="false"/>
+            <Shortcut val="Y"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Button" name="NoButton" template="TriggerDialogFrame/TriggerControlButtonTemplate">
+            <Height val="50"/>
+            <Width val="150"/>
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Visible val="false"/>
+            <Shortcut val="N"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Button" name="OKButton" template="TriggerDialogFrame/TriggerControlButtonTemplate">
+            <Height val="50"/>
+            <Width val="150"/>
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Shortcut val="O"/>
+            <RenderType val="LDR"/>
+        </Frame>
+        <Frame type="Button" name="CancelButton" template="TriggerDialogFrame/TriggerControlButtonTemplate">
+            <Height val="50"/>
+            <Width val="150"/>
+            <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+            <Visible val="false"/>
+            <Shortcut val="C"/>
+            <RenderType val="LDR"/>
+        </Frame>
+    </Frame>
+</Desc>
