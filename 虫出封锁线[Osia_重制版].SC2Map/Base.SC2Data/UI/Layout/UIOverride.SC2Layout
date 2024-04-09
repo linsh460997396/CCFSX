@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="GameUI/UIContainer" file="GameUI">
+        <Frame type="Frame" name="ConsoleUIContainer">
+            <Frame type="InventoryPanel" name="InventoryPanel">
+                <Frame type="Frame" name="BottomAnchor">
+                    <Width val="1"/>
+                    <Height val="1"/>
+                </Frame>
+                <Frame type="Frame" name="RightAnchor">
+                    <Width val="1"/>
+                    <Height val="1"/>
+                </Frame>
+                <Frame type="Frame" name="ToolTipAnchor">
+                    <Width val="1"/>
+                    <Height val="1"/>
+                    <Anchor side="Bottom" relative="$parent/BottomAnchor" pos="Max" offset="0"/>
+                    <Anchor side="Right" relative="$parent/RightAnchor" pos="Max" offset="0"/>
+                </Frame>
+            </Frame>
+        </Frame>
+
+        <Frame type="Frame" name="FullscreenUpperContainer">
+            <Frame type="Frame" name="AllianceAnchor">
+                <Width val="1"/>
+                <Height val="36"/>
+                <Anchor side="Top" relative="$parent" pos="Min" offset="5"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
+            </Frame>
+            <Frame type="AlliancePanelToggleButton" name="AllianceButton">
+                <Anchor side="Top" relative="$parent/AllianceAnchor" pos="Min" offset="0"/>
+                <Anchor side="Right" relative="$parent/AllianceAnchor" pos="Max" offset="0"/>
+            </Frame>
+            <Frame type="Frame" name="TeamResourceAnchor">
+                <Width val="1"/>
+                <Height val="36"/>
+                <Anchor side="Top" relative="$parent/AllianceButton" pos="Min" offset="5"/>
+                <Anchor side="Right" relative="$parent/AllianceButton" pos="Max" offset="-5"/>
+            </Frame>
+            <Frame type="TeamResourcePanelToggleButton" name="TeamResourceButton">
+                <Anchor side="Top" relative="$parent/TeamResourceAnchor" pos="Min" offset="0"/>
+                <Anchor side="Right" relative="$parent/TeamResourceAnchor" pos="Max" offset="0"/>
+            </Frame>
+        </Frame>
+    </Frame>
+</Desc>
