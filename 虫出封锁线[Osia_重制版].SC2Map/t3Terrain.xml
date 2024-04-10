@@ -4,7 +4,7 @@
         <cliffSetList num="1">
             <cliffSet i="0" name="KorhalCityCliff0"/>
         </cliffSetList>
-        <vertData quantizeBias="2.100881e+01" quantizeScale="4.579039e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="2.100920e+01" quantizeScale="4.579090e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="KorhalCity"/>
@@ -1108,7 +1108,7 @@
             <blockTextureSet i="1022" tileSet="0"/>
             <blockTextureSet i="1023" tileSet="0"/>
         </blockTextureSetList>
-        <cliffCellList num="16384" numOccupied="1241">
+        <cliffCellList num="16384" numOccupied="1239">
             <cc i="5" f="1" cid="0" cvar="0"/>
             <cc i="6" f="1" cid="0" cvar="0"/>
             <cc i="33" f="1" cid="0" cvar="3"/>
@@ -1244,9 +1244,9 @@
             <cc i="6084" f="1" cid="0" cvar="0"/>
             <cc i="6085" f="1" cid="0" cvar="0"/>
             <cc i="6086" f="1" cid="0" cvar="0"/>
-            <cc i="6194" f="1" cid="0" cvar="0"/>
+            <cc i="6194" f="1" cid="0" cvar="3"/>
             <cc i="6195" f="1" cid="0" cvar="0"/>
-            <cc i="6196" f="1" cid="0" cvar="0"/>
+            <cc i="6196" f="1" cid="0" cvar="3"/>
             <cc i="6206" f="1" cid="0" cvar="0"/>
             <cc i="6207" f="1" cid="0" cvar="0"/>
             <cc i="6208" f="1" cid="0" cvar="0"/>
@@ -1254,23 +1254,21 @@
             <cc i="6213" f="1" cid="0" cvar="0"/>
             <cc i="6214" f="1" cid="0" cvar="0"/>
             <cc i="6215" f="1" cid="0" cvar="0"/>
-            <cc i="6323" f="1" cid="0" cvar="0"/>
+            <cc i="6323" f="1" cid="0" cvar="2"/>
             <cc i="6324" f="1" cid="0" cvar="0"/>
-            <cc i="6325" f="1" cid="0" cvar="0"/>
+            <cc i="6325" f="1" cid="0" cvar="2"/>
             <cc i="6335" f="1" cid="0" cvar="0"/>
             <cc i="6336" f="1" cid="0" cvar="0"/>
             <cc i="6342" f="1" cid="0" cvar="0"/>
             <cc i="6343" f="1" cid="0" cvar="0"/>
             <cc i="6344" f="1" cid="0" cvar="0"/>
-            <cc i="6452" f="1" cid="0" cvar="0"/>
-            <cc i="6453" f="1" cid="0" cvar="0"/>
-            <cc i="6454" f="1" cid="0" cvar="0"/>
+            <cc i="6452" f="1" cid="0" cvar="1"/>
+            <cc i="6453" f="1" cid="0" cvar="3"/>
             <cc i="6471" f="1" cid="0" cvar="0"/>
             <cc i="6472" f="1" cid="0" cvar="0"/>
             <cc i="6473" f="1" cid="0" cvar="0"/>
-            <cc i="6581" f="1" cid="0" cvar="0"/>
-            <cc i="6582" f="1" cid="0" cvar="0"/>
-            <cc i="6583" f="1" cid="0" cvar="0"/>
+            <cc i="6582" f="1" cid="0" cvar="3"/>
+            <cc i="6583" f="1" cid="0" cvar="1"/>
             <cc i="6600" f="1" cid="0" cvar="0"/>
             <cc i="6601" f="1" cid="0" cvar="0"/>
             <cc i="6602" f="1" cid="0" cvar="0"/>
@@ -1311,7 +1309,7 @@
             <cc i="6696" f="1" cid="0" cvar="1"/>
             <cc i="6697" f="1" cid="0" cvar="0"/>
             <cc i="6698" f="1" cid="0" cvar="0"/>
-            <cc i="6710" f="1" cid="0" cvar="0"/>
+            <cc i="6710" f="1" cid="0" cvar="2"/>
             <cc i="6711" f="1" cid="0" cvar="0"/>
             <cc i="6712" f="1" cid="0" cvar="0"/>
             <cc i="6729" f="1" cid="0" cvar="0"/>
@@ -1324,7 +1322,7 @@
             <cc i="6816" f="1" cid="0" cvar="3"/>
             <cc i="6819" f="1" cid="0" cvar="1"/>
             <cc i="6826" f="1" cid="0" cvar="3"/>
-            <cc i="6839" f="1" cid="0" cvar="0"/>
+            <cc i="6839" f="1" cid="0" cvar="2"/>
             <cc i="6840" f="1" cid="0" cvar="0"/>
             <cc i="6841" f="1" cid="0" cvar="0"/>
             <cc i="6858" f="1" cid="0" cvar="0"/>
@@ -1337,7 +1335,7 @@
             <cc i="6944" f="1" cid="0" cvar="0"/>
             <cc i="6947" f="1" cid="0" cvar="2"/>
             <cc i="6954" f="1" cid="0" cvar="3"/>
-            <cc i="6968" f="1" cid="0" cvar="0"/>
+            <cc i="6968" f="1" cid="0" cvar="2"/>
             <cc i="6969" f="1" cid="0" cvar="0"/>
             <cc i="6970" f="1" cid="0" cvar="0"/>
             <cc i="6979" f="1" cid="0" cvar="0"/>

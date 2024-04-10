@@ -903,6 +903,32 @@
     <CActorSiteOpLocalOffset id="SOpMoveDownBy0Dot2">
         <LocalOffset value="0.000000,0.000000,-0.200000"/>
     </CActorSiteOpLocalOffset>
+    <CFootprint id="OS_Footprint1x1Contour">
+        <Layers index="Check" Area="0,0,1,1">
+            <Rows value="."/>
+        </Layers>
+        <Layers index="Place" Area="0,0,1,1">
+            <Rows value="."/>
+        </Layers>
+        <Shape>
+            <Radius value="0.559"/>
+            <Offsets value="-0.25,-0.5;0.25,-0.5;-0.25,0.5;0.25,0.5;-0.5,-0.25;-0.5,0.25;0.5,-0.25;0.5,0.25"/>
+            <Borders value="0,4,2;1,0,2;2,3,2;3,7,2;4,5,2;5,2,2;6,1,2;7,6,2"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="OS_Footprintdot25xdot25">
+        <Layers index="Check" Area="0,0,1,1">
+            <Rows value="."/>
+        </Layers>
+        <Layers index="Place" Area="0,0,1,1">
+            <Rows value="."/>
+        </Layers>
+        <Shape>
+            <Radius value="0.7072"/>
+            <Offsets value="-0.5,0.25;0.5,0.25;-0.5,0.5;0.5,0.5"/>
+            <Borders value="0,2,2;1,0,2;2,3,2;3,1,2"/>
+        </Shape>
+    </CFootprint>
     <CModel id="OS_MultiCamera">
         <Model value="Assets\UI\TechPurchase\TechPurchasePortraitCamera\TechPurchasePortraitCamera.m3"/>
     </CModel>

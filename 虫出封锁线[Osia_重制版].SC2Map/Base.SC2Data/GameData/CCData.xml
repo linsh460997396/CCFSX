@@ -7633,6 +7633,55 @@
         <CaseArray Validator="IsDead" Effect="CCData_RP_RavenScramblerDummy"/>
         <CaseDefault value="CCData_RP_RavenScramblerMissileLM"/>
     </CEffectSwitch>
+    <CAbilMorph id="CCData_FKBaffleWallDown">
+        <EditorCategories value="AbilityorEffectType:Structures"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="CCData_FKBaffleWallDown"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Charge Location="Unit"/>
+            <Cooldown Location="Unit"/>
+        </Cost>
+        <InfoArray Unit="CCData_FKBaffleWallDown" CollideRange="0">
+            <SectionArray index="Abils">
+                <EffectArray index="Start" value="SupplyDepotMorphingApplyBehavior"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="1.3"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="1.3"/>
+            </SectionArray>
+            <SectionArray index="Mover">
+                <DurationArray index="Duration" value="1.3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="1.3"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilMorph id="CCData_FKBaffleWall">
+        <EditorCategories value="AbilityorEffectType:Structures"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="CCData_FKBaffleWallUp"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Charge Location="Unit"/>
+            <Cooldown Location="Unit" TimeUse="-1"/>
+        </Cost>
+        <InfoArray Unit="CCData_FKBaffleWall" CollideRange="0">
+            <SectionArray index="Abils">
+                <EffectArray index="Start" value="SupplyDepotMorphingApplyBehavior"/>
+            </SectionArray>
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="1.3"/>
+            </SectionArray>
+            <SectionArray index="Mover">
+                <DurationArray index="Duration" value="1.3"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="1.3"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
     <CAbilEffectInstant id="CCData_WallUpgrade">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Cost>
@@ -7723,8 +7772,8 @@
     </CAbilMorph>
     <CAbilMorph id="CCData_FKWallDown">
         <EditorCategories value="AbilityorEffectType:Structures"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="CCData_FKWallDown"/>
-        <InfoArray Unit="CCData_FKWallDown" CollideRange="0">
+        <CmdButtonArray index="Execute" DefaultButtonFace="CCData_FKBaffleWallDown"/>
+        <InfoArray Unit="CCData_FKBaffleWallDown" CollideRange="0">
             <SectionArray index="Abils">
                 <EffectArray index="Start" value="SupplyDepotMorphingApplyBehavior"/>
             </SectionArray>
@@ -13060,6 +13109,22 @@
         <EditorCategories value="TechType:Ability"/>
         <NodeArray index="Show" Link="CountUpgradeSJTX112CompleteOnly"/>
     </CRequirement>
+    <CButton id="CCData_FKBaffleWallDown">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+    </CButton>
+    <CButton id="CCData_FKBaffleWallUp">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+    </CButton>
+    <CButton id="CCData_Lower">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+    </CButton>
+    <CButton id="CCData_Raise">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+    </CButton>
     <CButton id="CCData_WallUpgradeLV100">
         <Icon value="Assets\Textures\btn-upgrade-zerg-hydriaticacid.dds"/>
     </CButton>
@@ -13080,6 +13145,10 @@
         <Icon value="Assets\Textures\tronsquare1_white.dds"/>
         <AlertIcon value="Assets\Textures\tronsquare1_white.dds"/>
     </CButton>
+    <CButton id="CCData_RaiseFYMQ">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
+    </CButton>
     <CButton id="CCData_LowerFYMQ">
         <Icon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
@@ -13087,10 +13156,6 @@
     <CButton id="CCData_FKWallDown">
         <Icon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
         <AlertIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
-    </CButton>
-    <CButton id="CCData_RaiseFYMQ">
-        <Icon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
-        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
     </CButton>
     <CButton id="CCData_FKWallUp">
         <Icon value="Assets\Textures\btn-building-terran-supplydepot-silver.dds"/>
@@ -16873,6 +16938,131 @@
         <Missile value="CCData_OptimizeMissile"/>
         <ImpactMap index="None" Model="MissileTurretAttackImpact" Sound="MissileTurret_AttackImpact"/>
     </CActorAction>
+    <CActorUnit id="CCData_FKBaffleWall" parent="GenericUnitStandard" unitName="CCData_FKBaffleWall">
+        <Aliases value="_CreepEngulfable"/>
+        <Aliases value="_UnitLarge"/>
+        <Macros value="SnowVisualUnitMacroMP"/>
+        <Macros value="SnowVisualBuildingMacro"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWall.Start" Send="Create CCData_SupplyDepotBuild"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWall.Start" Send="Create BuildingTerrainFlatten"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWall.Cancel" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWall.Finish" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWall.Start" Send="QueryRadius 1.750000 BuildingCrushQueryResponse"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWall.Normal" Send="Create BuildingTerrainFlatten"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWall.Suppressed" Send="Create BuildingTerrainFlattenInstant"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWall.EditorPlaced" Send="Create BuildingTerrainFlattenEditor"/>
+        <On Terms="UnitDeath.CCData_FKBaffleWall" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_FKBaffleWallDown" Send="AnimGroupRemove Unburrow"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_FKBaffleWallDown" Send="AnimGroupApply Burrow Burrow Stand,Burrow ClosingFull"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWall" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWallDown" Send="Create"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWallDown" Send="AnimGroupRemove Burrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWallDown" Send="AnimGroupApply Unburrow Stand,Unburrow Stand,Unburrow Instant"/>
+        <On Terms="ActorCreation" Send="TextureSelectBySlot main {RequireAll diffuse}"/>
+        <On Terms="ActorCreation" Send="TextureSelectByMatch main.diffuse main"/>
+        <On Terms="ActorCreation" Send="TextureSelectById MapPic_MM_diffuse_4"/>
+        <Model value="MapPic_MM_diffuse_4"/>
+        <Scale value="1.000000,0.250000,1.000000"/>
+        <ModelFlags index="OutlineOccluder" value="1"/>
+        <CreepHeightClass value="Small"/>
+        <CreepRateGrow value="Grow"/>
+        <CreepRateShrink value="Shrink"/>
+        <BuildModel value="MapPic_MM_diffuse_4"/>
+        <DeathArray index="Normal" ModelLink="" SoundLink="SupplyDepot_Explode"/>
+        <DeathArray index="UnderConstruction" SoundLink="SupplyDepot_Explode"/>
+        <PlacementModel value="MapPic_MM_diffuse_4"/>
+        <PlacementSound value="Terran_BuildingPlacementSmall"/>
+        <PortraitModel value="MapPic_MM_diffuse_4"/>
+        <BarOffset value="70"/>
+        <BarWidth value="80"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Raised.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
+        <NameOffset value="40"/>
+        <SoundArray index="Ready" value="SupplyDepot_Ready"/>
+        <SoundArray index="What" value="SupplyDepot_What"/>
+        <SoundArray index="Construction" value="Terran_ConstructionWhat"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Raised.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorUnit id="CCData_FKBaffleWallDown" parent="GenericUnitStandard" unitName="CCData_FKBaffleWallDown">
+        <Aliases value="_CreepEngulfable"/>
+        <Aliases value="_UnitLarge"/>
+        <Macros value="SnowVisualUnitMacroMP"/>
+        <Macros value="SnowVisualBuildingMacro"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWallDown.Start" Send="Create SupplyDepotLoweredBuild"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWallDown.Start" Send="Create BuildingTerrainFlatten"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWallDown.Cancel" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWallDown.Finish" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="UnitConstruction.CCData_FKBaffleWallDown.Start" Send="QueryRadius 1.750000 BuildingCrushQueryResponse"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWallDown.Normal" Send="Create BuildingTerrainFlatten"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWallDown.Suppressed" Send="Create BuildingTerrainFlattenInstant"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWallDown.EditorPlaced" Send="Create BuildingTerrainFlattenEditor"/>
+        <On Terms="UnitDeath.CCData_FKBaffleWallDown" Target="_BuildingTerrainFlatten" Send="Destroy"/>
+        <On Terms="UnitBirth.CCData_FKBaffleWallDown" Send="AnimGroupApply Burrow Burrow Stand,Burrow ClosingFull"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_FKBaffleWall" Send="AnimGroupRemove Burrow"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_FKBaffleWall" Send="AnimGroupApply Unburrow Unburrow Stand ClosingFull"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWallDown" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWall" Send="Create"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWall" Send="AnimGroupRemove Unburrow"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_FKBaffleWall" Send="AnimGroupApply Burrow Stand,Burrow Stand,Burrow Instant"/>
+        <Model value="MapPic_MM_diffuse_4"/>
+        <Scale value="1.000000,0.250000,0.010000"/>
+        <ModelFlags index="OutlineOccluder" value="1"/>
+        <CreepHeightClass value="Tiny"/>
+        <CreepRateGrow value="Grow"/>
+        <CreepRateShrink value="Shrink"/>
+        <BuildModel value="MapPic_MM_diffuse_4"/>
+        <DeathArray index="Normal" ModelLink="" SoundLink="SupplyDepot_Explode"/>
+        <PlacementModel value="MapPic_MM_diffuse_4"/>
+        <PlacementSound value="Terran_BuildingPlacementSmall"/>
+        <PortraitModel value="MapPic_MM_diffuse_4"/>
+        <BarOffset value="70"/>
+        <BarWidth value="80"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <ErrorArray Error="CantBuildLocationInvalid" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
+        <ErrorArray Error="CantFindPlacementLocation" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
+        <ErrorArray Error="CantBuildOnThat" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Lowered.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
+        <SoundArray index="Ready" value="SupplyDepot_Ready"/>
+        <SoundArray index="Help" value="SupplyDepotHelp"/>
+        <SoundArray index="What" value="SupplyDepot_What"/>
+        <SoundArray index="Yes" value="SupplyDepotYes"/>
+        <SoundArray index="Attack" value="SupplyDepotYes"/>
+        <SoundArray index="Pissed" value="SupplyDepotPissed"/>
+        <SoundArray index="Construction" value="Terran_ConstructionWhat"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Lowered.dds"/>
+        </Wireframe>
+    </CActorUnit>
     <CActorUnit id="CCData_Sentry" parent="GenericUnitBase" unitName="CCData_Sentry">
         <Aliases value="_UnitMedium"/>
         <Macros value="TerrainSquibAnimations"/>
@@ -16971,51 +17161,6 @@
         <StatusBarFlags index="Magazine" value="0"/>
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
-    <CActorUnit id="CCData_TechTreeZealot" parent="GenericUnitStandardNoAutoSoundLinks" unitName="CCData_TechTreeZealot">
-        <Model value="Zealot"/>
-        <BuildModel value="ZealotWarpIn"/>
-        <PlacementModel value="ZealotPlacement"/>
-        <PortraitModel value="ZealotPortrait"/>
-        <UnitIcon value="Assets\Textures\ui_void_armyupgrade_lockedicon.dds"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
-        <StatusBarFlags index="Shields" value="0"/>
-        <StatusBarFlags index="Life" value="0"/>
-        <StatusBarFlags index="Energy" value="0"/>
-        <StatusBarFlags index="Cargo" value="0"/>
-        <StatusBarFlags index="Progress" value="0"/>
-        <StatusBarFlags index="Duration" value="0"/>
-        <StatusBarFlags index="Magazine" value="0"/>
-        <StatusBarFlags index="Workers" value="0"/>
-    </CActorUnit>
-    <CActorUnit id="CCData_Artifact" parent="TerranBuilding" unitName="CCData_Artifact">
-        <On Terms="Abil.EnergyNova.SourceCastStart" Send="AnimBracketStop Work"/>
-        <On Terms="Behavior.ArtifactRecharging.Off" Send="AnimBracketStart Work Work,Start Work Work,End"/>
-        <On Terms="ActorCreation" Send="AnimBracketStart Work Work,Start Work Work,End"/>
-        <Model value="Artifact"/>
-        <BuildModel value="Artifact"/>
-        <DeathArray index="Normal" ModelLink="Artifact" SoundLink="CyberneticsCore_Explode"/>
-        <DeathActorModel value="UnitDeathModelUnscaled"/>
-        <PlacementModel value="Artifact"/>
-        <GroupIcon>
-            <Image value="Assets\Textures\Wireframe-terran-artifactcontainmentfield.dds"/>
-        </GroupIcon>
-        <HeroIcon value="Assets\Textures\btn-building-terran-artifact.dds"/>
-        <HighlightTooltip value="Unit/Name/Artifact"/>
-        <LifeArmorIcon value="Assets\Textures\btn-armor-protoss-buildingplating.dds"/>
-        <UnitIcon value="Assets\Textures\btn-building-terran-artifact.dds"/>
-        <Wireframe>
-            <Image value="Assets\Textures\Wireframe-terran-artifactcontainmentfield.dds"/>
-        </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
-        <StatusBarFlags index="Shields" value="0"/>
-        <StatusBarFlags index="Life" value="0"/>
-        <StatusBarFlags index="Energy" value="0"/>
-        <StatusBarFlags index="Cargo" value="0"/>
-        <StatusBarFlags index="Progress" value="0"/>
-        <StatusBarFlags index="Duration" value="0"/>
-        <StatusBarFlags index="Magazine" value="0"/>
-        <StatusBarFlags index="Workers" value="0"/>
-    </CActorUnit>
     <CActorUnit id="CCData_FKWallDown" parent="GenericUnitStandard" unitName="CCData_FKWallDown">
         <Aliases value="_CreepEngulfable"/>
         <Aliases value="_UnitLarge"/>
@@ -17050,6 +17195,7 @@
         <PortraitModel value="MapPic_MM_diffuse_4"/>
         <BarOffset value="70"/>
         <BarWidth value="80"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <ErrorArray Error="CantBuildLocationInvalid" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
         <ErrorArray Error="CantFindPlacementLocation" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
         <ErrorArray Error="CantBuildOnThat" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
@@ -17065,10 +17211,54 @@
         <SoundArray index="Attack" value="SupplyDepotYes"/>
         <SoundArray index="Pissed" value="SupplyDepotPissed"/>
         <SoundArray index="Construction" value="Terran_ConstructionWhat"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
         <UnitFlags index="ShowBlobShadow" value="0"/>
         <UnitIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Lowered.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorUnit id="CCData_TechTreeZealot" parent="GenericUnitStandardNoAutoSoundLinks" unitName="CCData_TechTreeZealot">
+        <Model value="Zealot"/>
+        <BuildModel value="ZealotWarpIn"/>
+        <PlacementModel value="ZealotPlacement"/>
+        <PortraitModel value="ZealotPortrait"/>
+        <UnitIcon value="Assets\Textures\ui_void_armyupgrade_lockedicon.dds"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_Artifact" parent="TerranBuilding" unitName="CCData_Artifact">
+        <On Terms="Abil.EnergyNova.SourceCastStart" Send="AnimBracketStop Work"/>
+        <On Terms="Behavior.ArtifactRecharging.Off" Send="AnimBracketStart Work Work,Start Work Work,End"/>
+        <On Terms="ActorCreation" Send="AnimBracketStart Work Work,Start Work Work,End"/>
+        <Model value="Artifact"/>
+        <BuildModel value="Artifact"/>
+        <DeathArray index="Normal" ModelLink="Artifact" SoundLink="CyberneticsCore_Explode"/>
+        <DeathActorModel value="UnitDeathModelUnscaled"/>
+        <PlacementModel value="Artifact"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-terran-artifactcontainmentfield.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-building-terran-artifact.dds"/>
+        <HighlightTooltip value="Unit/Name/Artifact"/>
+        <LifeArmorIcon value="Assets\Textures\btn-armor-protoss-buildingplating.dds"/>
+        <UnitIcon value="Assets\Textures\btn-building-terran-artifact.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-terran-artifactcontainmentfield.dds"/>
         </Wireframe>
         <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <StatusBarFlags index="Shields" value="0"/>
@@ -17144,51 +17334,6 @@
         <HostSiteOps Ops="SOpShadow CCData_TerranBuildingFacing"/>
         <Model value="SupplyDepotBuild"/>
     </CActorModel>
-    <CActorSiteOpRotationExplicit id="CCData_TerranBuildingFacing"/>
-    <CActorSplat id="CCData_SupplyDepotSplat" unitName="SupplyDepot">
-        <Aliases value="_Snapshot"/>
-        <Inherits index="CloakEffect" value="1"/>
-        <Inherits index="Decal" value="1"/>
-        <Inherits index="Visibility" value="1"/>
-        <Supporter Subject="::Creator"/>
-        <On Terms="SupporterDestruction" Send="Destroy"/>
-        <On Terms="ActorOrphan" Send="Destroy"/>
-        <On Terms="UnitBirth.CCData_SupplyDepot" Send="Create"/>
-        <Host Subject="_Selectable"/>
-        <HoldTime value="-1.000000"/>
-        <Model value="SupplyDepotSplat"/>
-    </CActorSplat>
-    <CActorUnit id="CCData_SpaceArmoredGenerator" parent="TerranBuilding" unitName="CCData_SpaceArmoredGenerator">
-        <On Terms="UnitBirth.SpaceArmoredGeneratorB" Send="Create"/>
-        <On Terms="ActorCreation" Send="Create SoundEmitter Doodad_SpaceArmoredGenerator"/>
-        <Model value="SpaceArmoredGenerator"/>
-        <BuildModel value="SpaceArmoredGenerator"/>
-        <DeathArray index="Normal" ModelLink="SpaceArmoredGeneratorDeath" SoundLink="Armory_Explode"/>
-        <PlacementModel value="SpaceArmoredGenerator"/>
-        <PortraitModel value="AdjutantPortrait"/>
-        <BarOffset value="120"/>
-        <BarWidth value="135"/>
-        <GroupIcon>
-            <Image value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
-        </GroupIcon>
-        <HeroIcon value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
-        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
-        <NameOffset value="150"/>
-        <UnitFlags index="ShowBlobShadow" value="0"/>
-        <UnitIcon value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
-        <Wireframe>
-            <Image value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
-        </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
-        <StatusBarFlags index="Shields" value="0"/>
-        <StatusBarFlags index="Life" value="0"/>
-        <StatusBarFlags index="Energy" value="0"/>
-        <StatusBarFlags index="Cargo" value="0"/>
-        <StatusBarFlags index="Progress" value="0"/>
-        <StatusBarFlags index="Duration" value="0"/>
-        <StatusBarFlags index="Magazine" value="0"/>
-        <StatusBarFlags index="Workers" value="0"/>
-    </CActorUnit>
     <CActorUnit id="CCData_SupplyDepot" parent="GenericUnitStandard" unitName="CCData_SupplyDepot">
         <Aliases value="_CreepEngulfable"/>
         <Aliases value="_UnitLarge"/>
@@ -17236,6 +17381,7 @@
         <PortraitModel value="SupplyDepotPortrait"/>
         <BarOffset value="70"/>
         <BarWidth value="80"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <GroupIcon>
             <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Raised.dds"/>
         </GroupIcon>
@@ -17245,12 +17391,6 @@
         <SoundArray index="Ready" value="SupplyDepot_Ready"/>
         <SoundArray index="What" value="SupplyDepot_What"/>
         <SoundArray index="Construction" value="Terran_ConstructionWhat"/>
-        <UnitFlags index="ShowBlobShadow" value="0"/>
-        <UnitIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
-        <Wireframe>
-            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Raised.dds"/>
-        </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -17259,7 +17399,13 @@
         <StatusBarFlags index="Duration" value="0"/>
         <StatusBarFlags index="Magazine" value="0"/>
         <StatusBarFlags index="Workers" value="0"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Raised.dds"/>
+        </Wireframe>
     </CActorUnit>
+    <CActorSiteOpRotationExplicit id="CCData_TerranBuildingFacing"/>
     <CActorUnit id="CCData_SupplyDepotLowered" parent="GenericUnitStandard" unitName="CCData_SupplyDepotLowered">
         <Aliases value="_CreepEngulfable"/>
         <Aliases value="_UnitLarge"/>
@@ -17304,6 +17450,7 @@
         <PortraitModel value="SupplyDepotPortrait"/>
         <BarOffset value="70"/>
         <BarWidth value="80"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <ErrorArray Error="CantBuildLocationInvalid" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
         <ErrorArray Error="CantFindPlacementLocation" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
         <ErrorArray Error="CantBuildOnThat" Text="e_cmdCantRaise" Sound="UI_GenericError"/>
@@ -17319,10 +17466,53 @@
         <SoundArray index="Attack" value="SupplyDepotYes"/>
         <SoundArray index="Pissed" value="SupplyDepotPissed"/>
         <SoundArray index="Construction" value="Terran_ConstructionWhat"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
         <UnitFlags index="ShowBlobShadow" value="0"/>
         <UnitIcon value="Assets\Textures\btn-building-terran-supplydepotlowered.dds"/>
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-SupplyDepot-Lowered.dds"/>
+        </Wireframe>
+    </CActorUnit>
+    <CActorSplat id="CCData_SupplyDepotSplat" unitName="SupplyDepot">
+        <Aliases value="_Snapshot"/>
+        <Inherits index="CloakEffect" value="1"/>
+        <Inherits index="Decal" value="1"/>
+        <Inherits index="Visibility" value="1"/>
+        <Supporter Subject="::Creator"/>
+        <On Terms="SupporterDestruction" Send="Destroy"/>
+        <On Terms="ActorOrphan" Send="Destroy"/>
+        <On Terms="UnitBirth.CCData_SupplyDepot" Send="Create"/>
+        <Host Subject="_Selectable"/>
+        <HoldTime value="-1.000000"/>
+        <Model value="SupplyDepotSplat"/>
+    </CActorSplat>
+    <CActorUnit id="CCData_SpaceArmoredGenerator" parent="TerranBuilding" unitName="CCData_SpaceArmoredGenerator">
+        <On Terms="UnitBirth.SpaceArmoredGeneratorB" Send="Create"/>
+        <On Terms="ActorCreation" Send="Create SoundEmitter Doodad_SpaceArmoredGenerator"/>
+        <Model value="SpaceArmoredGenerator"/>
+        <BuildModel value="SpaceArmoredGenerator"/>
+        <DeathArray index="Normal" ModelLink="SpaceArmoredGeneratorDeath" SoundLink="Armory_Explode"/>
+        <PlacementModel value="SpaceArmoredGenerator"/>
+        <PortraitModel value="AdjutantPortrait"/>
+        <BarOffset value="120"/>
+        <BarWidth value="135"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-buildingarmor.dds"/>
+        <NameOffset value="150"/>
+        <UnitFlags index="ShowBlobShadow" value="0"/>
+        <UnitIcon value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-SpaceArmoredGenerator.dds"/>
         </Wireframe>
         <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
         <StatusBarFlags index="Shields" value="0"/>
@@ -40462,6 +40652,7 @@
         <On Terms="UnitDeath.CCData_HB_MilitarySandbag" Send="Create"/>
         <On Terms="UnitDeath.CCData_FKWall" Send="Create"/>
         <On Terms="UnitDeath.CCData_FKWallDown" Send="Create"/>
+        <On Terms="UnitDeath.CCData_FKBaffleWallDown" Send="Create"/>
         <On Terms="ActorCreation" Send="AnimBracketStart destroy Death"/>
         <On Terms="AnimBracketState.*.AfterClosing; AnimName destroy" Send="Destroy"/>
         <On Terms="ActorCreation" Send="TimerSet 1.600000 Die"/>
@@ -47635,16 +47826,7 @@
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_Optimize" parent="MissileDefault">
-        <MotionPhases index="0">
-            <Driver value="Guidance"/>
-            <Acceleration value="3200"/>
-            <MaxSpeed value="5"/>
-            <ClearanceAcceleration value="75"/>
-            <Outro value="-1"/>
-            <ThrowBandYaw value="-360,-360,-360,-360"/>
-            <ThrowBandPitch value="-360,-360,-360,-360"/>
-            <YawPitchRoll value="719.2968"/>
-        </MotionPhases>
+        <MotionPhases index="0" MaxSpeed="5" ThrowBandYaw="-360,-360,-360,-360" ThrowBandPitch="-360,-360,-360,-360"/>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_TrackRocket">
         <PathMode value="Flying"/>
@@ -47693,14 +47875,10 @@
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_DukesRevengeYamato" parent="MissileDefault">
         <MotionPhases index="0">
-            <Driver value="Guidance"/>
-            <Acceleration value="3200"/>
             <MaxSpeed value="40"/>
-            <ClearanceAcceleration value="75"/>
             <Outro value="0"/>
             <ThrowBandYaw value="-360,-360,-360,-360"/>
             <ThrowBandPitch value="-360,-360,-360,-360"/>
-            <YawPitchRoll value="719.2968"/>
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_105mmCannonBall">
@@ -47716,27 +47894,19 @@
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_ChargeStrikeCannon" parent="MissileDefault">
         <MotionPhases index="0">
-            <Driver value="Guidance"/>
             <Acceleration value="1000"/>
             <MaxSpeed value="34.75"/>
-            <ClearanceAcceleration value="75"/>
-            <Outro value="-1"/>
             <ThrowBandYaw value="-360,-360,-360,-360"/>
             <ThrowBandPitch value="-360,-360,-360,-360"/>
-            <YawPitchRoll value="719.2968"/>
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_G03RJiPao" parent="MissileDefault">
         <MotionPhases index="0">
-            <Driver value="Guidance"/>
             <Acceleration value="150"/>
             <MaxSpeed value="27"/>
-            <ClearanceAcceleration value="75"/>
             <IgnoresTerrain value="1"/>
-            <Outro value="-1"/>
             <ThrowBandYaw value="-360,-360,-360,-360"/>
             <ThrowBandPitch value="-360,-360,-360,-360"/>
-            <YawPitchRoll value="719.2968"/>
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_StarshipCannon">
@@ -47821,10 +47991,8 @@
         <PathMode value="Flying"/>
         <MotionPhases index="0">
             <Driver value="Throw"/>
-            <Acceleration value="3200"/>
             <Speed value="10"/>
             <MaxSpeed value="10"/>
-            <ClearanceAcceleration value="75"/>
             <Outro value="2.5,3"/>
             <Timeout value="10"/>
             <ThrowRotationType value="ThrowForward"/>
@@ -47840,7 +48008,6 @@
             <MaxSpeed value="28"/>
             <Outro value="3.5,4"/>
             <Timeout value="10"/>
-            <YawPitchRoll value="MAX"/>
             <Overlays Scale="2,1"/>
         </MotionPhases>
         <MotionPhases>
@@ -47861,7 +48028,6 @@
             <ClearanceLookahead value="0"/>
             <ClearanceAcceleration value="0"/>
             <IgnoresTerrain value="1"/>
-            <Outro value="-1"/>
             <ThrowVector value="0,-1,0"/>
             <ThrowBandYaw value="-360,-360,-360,-360"/>
             <ThrowBandPitch value="-360,-360,-360,-360"/>
@@ -47890,16 +48056,7 @@
         </MotionPhases>
     </CMoverMissile>
     <CMoverMissile id="CCData_Missile_BiologicalCannon" parent="MissileDefault">
-        <MotionPhases index="0">
-            <Driver value="Guidance"/>
-            <Acceleration value="3200"/>
-            <MaxSpeed value="18"/>
-            <ClearanceAcceleration value="75"/>
-            <Outro value="-1"/>
-            <ThrowBandYaw value="-360,-360,-360,-360"/>
-            <ThrowBandPitch value="-360,-360,-360,-360"/>
-            <YawPitchRoll value="719.2968"/>
-        </MotionPhases>
+        <MotionPhases index="0" MaxSpeed="18" ThrowBandYaw="-360,-360,-360,-360" ThrowBandPitch="-360,-360,-360,-360"/>
     </CMoverMissile>
     <CMoverMissile id="CCData_MindBoltWeapon">
         <MotionPhases>
@@ -49268,6 +49425,99 @@
             <ChanceArray index="Turn" value="0"/>
         </Fidget>
     </CTurret>
+    <CUnit id="CCData_FKBaffleWall">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostResource index="Minerals" value="200"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="CCData_FKWallDown"/>
+        <AbilArray Link="CCData_WallUpgrade"/>
+        <AbilArray Link="CCData_WallUpgradeLV10"/>
+        <AbilArray Link="CCData_WallUpgradeLV100"/>
+        <BehaviorArray Link="TerranBuildingBurnDown"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts>
+            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons Face="CCData_FKBaffleWallDown" Type="AbilCmd" AbilCmd="CCData_FKWallDown,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+            <LayoutButtons Face="CCData_WallUpgrade" Type="AbilCmd" AbilCmd="CCData_WallUpgrade,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV10" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV10,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV100" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV100,Execute" Row="0" Column="2"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="OS_Footprint1x1Contour"/>
+        <PlacementFootprint value="OS_Footprintdot25xdot25"/>
+        <EditorCategories value=""/>
+    </CUnit>
+    <CUnit id="CCData_FKBaffleWallDown">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostResource index="Minerals" value="200"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="CCData_FKBaffleWall"/>
+        <AbilArray Link="CCData_WallUpgrade"/>
+        <AbilArray Link="CCData_WallUpgradeLV10"/>
+        <AbilArray Link="CCData_WallUpgradeLV100"/>
+        <BehaviorArray Link="TerranBuildingBurnDown"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts>
+            <LayoutButtons Face="CCData_FKBaffleWallUp" Type="AbilCmd" AbilCmd="CCData_FKBaffleWall,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="CCData_WallUpgrade" Type="AbilCmd" AbilCmd="CCData_WallUpgrade,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV10" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV10,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV100" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV100,Execute" Row="0" Column="2"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="OS_Footprintdot25xdot25Underground2"/>
+        <EditorCategories value=""/>
+    </CUnit>
     <CUnit id="CCData_Sentry">
         <DeathRevealRadius value="3"/>
         <Race value="Prot"/>
@@ -49489,6 +49739,50 @@
             <Cooldown Link="Zealot/Revive"/>
         </ReviveInfoBase>
     </CUnit>
+    <CUnit id="CCData_FKWallDown">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostResource index="Minerals" value="200"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="CCData_FKWall"/>
+        <AbilArray Link="CCData_WallUpgrade"/>
+        <AbilArray Link="CCData_WallUpgradeLV10"/>
+        <AbilArray Link="CCData_WallUpgradeLV100"/>
+        <BehaviorArray Link="TerranBuildingBurnDown"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts>
+            <LayoutButtons Face="CCData_FKWallUp" Type="AbilCmd" AbilCmd="CCData_FKWall,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="CCData_WallUpgrade" Type="AbilCmd" AbilCmd="CCData_WallUpgrade,Execute" Row="0" Column="0"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV10" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV10,Execute" Row="0" Column="1"/>
+            <LayoutButtons Face="CCData_WallUpgradeLV100" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV100,Execute" Row="0" Column="2"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="Footprint1x1Underground"/>
+        <EditorCategories value=""/>
+    </CUnit>
     <CUnit id="CCData_SpaceArmoredGenerator">
         <DeathRevealRadius value="3"/>
         <Facing value="315"/>
@@ -49533,9 +49827,94 @@
         <GlossaryPriority value="31"/>
         <TechTreeUnlockedUnitArray value=""/>
     </CUnit>
+    <CUnit id="CCData_SupplyDepot">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostResource index="Minerals" value="200"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="CCData_SupplyDepotLower"/>
+        <BehaviorArray Link="TerranBuildingBurnDown"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts>
+            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons Face="CCData_LowerFYMQ" Type="AbilCmd" AbilCmd="CCData_SupplyDepotLower,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="Footprint1x1Contour"/>
+        <PlacementFootprint value="Footprint1x1"/>
+        <MinimapRadius value="1.25"/>
+        <EditorCategories value=""/>
+    </CUnit>
+    <CUnit id="CCData_SupplyDepotLowered">
+        <DeathRevealRadius value="3"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="200"/>
+        <LifeMax value="200"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostResource index="Minerals" value="200"/>
+        <RepairTime value="20"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress"/>
+        <AbilArray Link="CCData_SupplyDepotRaise"/>
+        <BehaviorArray Link="TerranBuildingBurnDown"/>
+        <BehaviorArray Link="FireSuppressionSystem"/>
+        <CardLayouts>
+            <LayoutButtons Face="CCData_RaiseFYMQ" Type="AbilCmd" AbilCmd="CCData_SupplyDepotRaise,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="Footprint1x1Underground"/>
+        <MinimapRadius value="1.25"/>
+        <EditorCategories value=""/>
+        <LeaderAlias value="SupplyDepot"/>
+        <HotkeyAlias value="SupplyDepot"/>
+        <SelectAlias value="SupplyDepot"/>
+    </CUnit>
     <CUnit id="CCData_FKWall">
         <DeathRevealRadius value="3"/>
-        <FlagArray index="Turnable" value="0"/>
         <FlagArray index="PreventDefeat" value="1"/>
         <FlagArray index="PreventDestroy" value="1"/>
         <FlagArray index="PenaltyRevealed" value="1"/>
@@ -49581,149 +49960,7 @@
         <SeparationRadius value="1.25"/>
         <Footprint value="Footprint1x1Contour"/>
         <PlacementFootprint value="Footprint1x1"/>
-        <MinimapRadius value="1.25"/>
         <EditorCategories value=""/>
-        <TechAliasArray value="Alias_SupplyDepot"/>
-    </CUnit>
-    <CUnit id="CCData_FKWallDown">
-        <DeathRevealRadius value="3"/>
-        <FlagArray index="Turnable" value="0"/>
-        <FlagArray index="PreventDefeat" value="1"/>
-        <FlagArray index="PreventDestroy" value="1"/>
-        <FlagArray index="PenaltyRevealed" value="1"/>
-        <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="TownAlert" value="1"/>
-        <FlagArray index="NoPortraitTalk" value="1"/>
-        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
-        <PlaneArray index="Ground" value="1"/>
-        <Collide index="Burrow" value="1"/>
-        <Collide index="Ground" value="1"/>
-        <Collide index="Structure" value="1"/>
-        <Collide index="RoachBurrow" value="1"/>
-        <Collide index="ForceField" value="1"/>
-        <Collide index="Small" value="1"/>
-        <Attributes index="Structure" value="1"/>
-        <LifeStart value="200"/>
-        <LifeMax value="200"/>
-        <LifeArmor value="2"/>
-        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
-        <TurningRate value="719.4726"/>
-        <Sight value="9"/>
-        <CostResource index="Minerals" value="200"/>
-        <RepairTime value="20"/>
-        <AttackTargetPriority value="11"/>
-        <AbilArray Link="BuildInProgress"/>
-        <AbilArray Link="CCData_FKWall"/>
-        <AbilArray Link="CCData_WallUpgrade"/>
-        <AbilArray Link="CCData_WallUpgradeLV10"/>
-        <AbilArray Link="CCData_WallUpgradeLV100"/>
-        <BehaviorArray Link="TerranBuildingBurnDown"/>
-        <BehaviorArray Link="FireSuppressionSystem"/>
-        <CardLayouts>
-            <LayoutButtons Face="CCData_RaiseFYMQ" Type="AbilCmd" AbilCmd="CCData_FKWall,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="CCData_WallUpgrade" Type="AbilCmd" AbilCmd="CCData_WallUpgrade,Execute" Row="0" Column="0"/>
-            <LayoutButtons Face="CCData_WallUpgradeLV10" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV10,Execute" Row="0" Column="1"/>
-            <LayoutButtons Face="CCData_WallUpgradeLV100" Type="AbilCmd" AbilCmd="CCData_WallUpgradeLV100,Execute" Row="0" Column="2"/>
-        </CardLayouts>
-        <Radius value="1.25"/>
-        <SeparationRadius value="1.25"/>
-        <Footprint value="Footprint1x1Underground"/>
-        <MinimapRadius value="1.25"/>
-        <EditorCategories value=""/>
-        <LeaderAlias value="SupplyDepot"/>
-        <HotkeyAlias value="SupplyDepot"/>
-        <SelectAlias value="SupplyDepot"/>
-        <TechAliasArray value="Alias_SupplyDepot"/>
-    </CUnit>
-    <CUnit id="CCData_SupplyDepot">
-        <DeathRevealRadius value="3"/>
-        <FlagArray index="Turnable" value="0"/>
-        <FlagArray index="PreventDefeat" value="1"/>
-        <FlagArray index="PreventDestroy" value="1"/>
-        <FlagArray index="PenaltyRevealed" value="1"/>
-        <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="TownAlert" value="1"/>
-        <FlagArray index="NoPortraitTalk" value="1"/>
-        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
-        <PlaneArray index="Ground" value="1"/>
-        <Collide index="Burrow" value="1"/>
-        <Collide index="Ground" value="1"/>
-        <Collide index="Structure" value="1"/>
-        <Collide index="RoachBurrow" value="1"/>
-        <Collide index="ForceField" value="1"/>
-        <Collide index="Locust" value="1"/>
-        <Collide index="Small" value="1"/>
-        <Attributes index="Structure" value="1"/>
-        <LifeStart value="200"/>
-        <LifeMax value="200"/>
-        <LifeArmor value="2"/>
-        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
-        <TurningRate value="719.4726"/>
-        <Sight value="9"/>
-        <CostResource index="Minerals" value="200"/>
-        <RepairTime value="20"/>
-        <AttackTargetPriority value="11"/>
-        <AbilArray Link="BuildInProgress"/>
-        <AbilArray Link="CCData_SupplyDepotLower"/>
-        <BehaviorArray Link="TerranBuildingBurnDown"/>
-        <BehaviorArray Link="FireSuppressionSystem"/>
-        <CardLayouts>
-            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
-            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
-            <LayoutButtons Face="CCData_LowerFYMQ" Type="AbilCmd" AbilCmd="CCData_SupplyDepotLower,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
-        </CardLayouts>
-        <Radius value="1.25"/>
-        <SeparationRadius value="1.25"/>
-        <Footprint value="Footprint1x1Contour"/>
-        <PlacementFootprint value="Footprint1x1"/>
-        <MinimapRadius value="1.25"/>
-        <EditorCategories value=""/>
-        <TechAliasArray value="Alias_SupplyDepot"/>
-    </CUnit>
-    <CUnit id="CCData_SupplyDepotLowered">
-        <DeathRevealRadius value="3"/>
-        <FlagArray index="Turnable" value="0"/>
-        <FlagArray index="PreventDefeat" value="1"/>
-        <FlagArray index="PreventDestroy" value="1"/>
-        <FlagArray index="PenaltyRevealed" value="1"/>
-        <FlagArray index="UseLineOfSight" value="1"/>
-        <FlagArray index="TownAlert" value="1"/>
-        <FlagArray index="NoPortraitTalk" value="1"/>
-        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
-        <PlaneArray index="Ground" value="1"/>
-        <Collide index="Burrow" value="1"/>
-        <Collide index="Ground" value="1"/>
-        <Collide index="Structure" value="1"/>
-        <Collide index="RoachBurrow" value="1"/>
-        <Collide index="ForceField" value="1"/>
-        <Collide index="Small" value="1"/>
-        <Attributes index="Structure" value="1"/>
-        <LifeStart value="200"/>
-        <LifeMax value="200"/>
-        <LifeArmor value="2"/>
-        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
-        <TurningRate value="719.4726"/>
-        <Sight value="9"/>
-        <CostResource index="Minerals" value="200"/>
-        <RepairTime value="20"/>
-        <AttackTargetPriority value="11"/>
-        <AbilArray Link="BuildInProgress"/>
-        <AbilArray Link="CCData_SupplyDepotRaise"/>
-        <BehaviorArray Link="TerranBuildingBurnDown"/>
-        <BehaviorArray Link="FireSuppressionSystem"/>
-        <CardLayouts>
-            <LayoutButtons Face="CCData_RaiseFYMQ" Type="AbilCmd" AbilCmd="CCData_SupplyDepotRaise,Execute" Row="2" Column="0"/>
-        </CardLayouts>
-        <Radius value="1.25"/>
-        <SeparationRadius value="1.25"/>
-        <Footprint value="Footprint1x1Underground"/>
-        <MinimapRadius value="1.25"/>
-        <EditorCategories value=""/>
-        <LeaderAlias value="SupplyDepot"/>
-        <HotkeyAlias value="SupplyDepot"/>
-        <SelectAlias value="SupplyDepot"/>
-        <TechAliasArray value="Alias_SupplyDepot"/>
     </CUnit>
     <CUnit id="CCData_Artifact">
         <FlagArray index="Unclickable" value="0"/>

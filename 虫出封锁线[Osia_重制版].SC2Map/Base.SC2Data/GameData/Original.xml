@@ -598,6 +598,7 @@
         <On Terms="UnitCreation.CCData_SupplyDepotLowered" Send="Create"/>
         <On Terms="UnitCreation.CCData_FKWall" Send="Create"/>
         <On Terms="UnitCreation.CCData_FKWallDown" Send="Create"/>
+        <On Terms="UnitCreation.CCData_FKBaffleWallDown" Send="Create"/>
     </CActorStateMonitor>
     <CActorUnit id="Thor">
         <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
