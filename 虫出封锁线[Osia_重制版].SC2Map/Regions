@@ -385,6 +385,7 @@
     </region>
     <region id="1015">
         <name value="流浪军基地道路[镇内]"/>
+        <invisible/>
         <shape type="rect">
             <quad value="38.5002,112,48.5,137"/>
         </shape>
@@ -481,6 +482,7 @@
     </region>
     <region id="9035">
         <name value="流浪军基地[镇内]"/>
+        <invisible/>
         <shape type="rect">
             <quad value="38,118.5002,49,130.5"/>
         </shape>

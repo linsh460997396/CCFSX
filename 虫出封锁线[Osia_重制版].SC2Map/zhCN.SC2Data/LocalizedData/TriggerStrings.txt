@@ -7041,6 +7041,7 @@ FunctionDef/Name/CC67500F=结局界面
 FunctionDef/Name/CC8B6FE8=诺亚进攻
 FunctionDef/Name/CCD23DF3=重置头衔[载具]
 FunctionDef/Name/CCDBD4D4=读取补档执行次数
+FunctionDef/Name/CDCA204C=足印装饰物替换
 FunctionDef/Name/CE596E4D=波次进攻[外星]
 FunctionDef/Name/CEA1E1AD=刷新主单位控制组
 FunctionDef/Name/CECBB723=贴士按钮[临时]

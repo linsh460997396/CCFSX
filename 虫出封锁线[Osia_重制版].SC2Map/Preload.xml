@@ -33,139 +33,22 @@
 <Asset path="assets\textures\btn-unit-collection-taldarim-probe.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.lvl0" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
-<Actor id="Aiur_CliffRocks_SmallRocks" Variations="0,1,5,6"/>
-<Actor id="Aiur_Destroyed_Protoss_Carrier"/>
-<Actor id="Aiur_Destroyed_Protoss_Units" Variations="0,4,7"/>
-<Actor id="Aiur_GroundCover" Variations="0"/>
-<Actor id="Aiur_Tree_Large" Variations="0,1"/>
-<Actor id="Aiur_Trees_Log" Variations="1"/>
-<Actor id="Aiur_Trees_Regular" Variations="10,12"/>
-<Actor id="Aiur_Trees_Regular_Grouped" Variations="0,1,2,3,4,5"/>
-<Actor id="BarrelPhysics"/>
-<Actor id="Blast_Craters_Big" Variations="0,3,4"/>
-<Actor id="DOM_LabFloodLight" Variations="1,2"/>
-<Actor id="DOM_LabGlassWalls" Variations="0,1,2,4"/>
-<Actor id="DOM_Walkways" Variations="4"/>
-<Actor id="DecalSpace" Variations="11"/>
-<Actor id="Elsecaro_Civilian_Car_Orange" Variations="2,3"/>
 <Actor id="GenericBuildingRubble" Variations="4,5,7"/>
-<Actor id="GhostCorpses" Variations="1"/>
-<Actor id="JarbanMinor_BloodSmear" Variations="0"/>
-<Actor id="JarbanMinor_CaveEntrance" Variations="1"/>
-<Actor id="JarbanMinor_CliffElevator" Variations="3"/>
-<Actor id="JarbanMinor_Crate" Variations="0,1,2,3,4,5"/>
-<Actor id="JarbanMinor_Fence" Variations="0,2,4,5,6,7"/>
-<Actor id="JarbanMinor_FenceBarbwire" Variations="0,1,2,3"/>
-<Actor id="JarbanMinor_Flag" Variations="0,1"/>
-<Actor id="JarbanMinor_Floodlight" Variations="0,2"/>
-<Actor id="JarbanMinor_IndustrialGarage" Variations="1"/>
-<Actor id="JarbanMinor_Medium_Rock" Variations="0,3,4,5,6,7,8"/>
-<Actor id="JarbanMinor_MiningBot" Variations="0"/>
-<Actor id="JarbanMinor_MiningCart" Variations="0,2,3"/>
-<Actor id="JarbanMinor_Pallete_Large" Variations="1"/>
-<Actor id="JarbanMinor_Sandbags" Variations="2"/>
-<Actor id="JarbanMinor_Tank" Variations="2"/>
-<Actor id="JarbanMinor_Tent_Large"/>
-<Actor id="KorhalBuildingsMedium" Variations="3"/>
 <Actor id="KorhalDestroyedBuilding" Variations="0,1,2"/>
-<Actor id="KorhalMengskSymbolSplat"/>
-<Actor id="Korhal_Antenna" Variations="1"/>
-<Actor id="Korhal_ConstructionCranes" Variations="1,4"/>
-<Actor id="Korhal_FlagTattered"/>
-<Actor id="Korhal_FuelTank" Variations="2"/>
-<Actor id="Korhal_FuelTank_Destroyed" Variations="0,1"/>
-<Actor id="Korhal_MarineStatueRuined" Variations="0"/>
-<Actor id="Korhal_Platform_CliffTower" Variations="0,1"/>
-<Actor id="Korhal_Platform_Hatches" Variations="0"/>
-<Actor id="Korhal_Platform_LandingLights" Variations="2,3"/>
-<Actor id="Korhal_Platform_OilMarks" Variations="0,2"/>
-<Actor id="Korhal_Platform_Road_Corner_Diagonal" Variations="1"/>
-<Actor id="Korhal_SiegeTank_Destroyed"/>
-<Actor id="Korhal_SpacePort_Container" Variations="2"/>
-<Actor id="Korhal_SpacePort_LuggageTruck" Variations="0"/>
-<Actor id="MilitarySupplies" Variations="3,4,7"/>
 <Actor id="PortZionBarrelPhysics"/>
-<Actor id="RoadDestroyedEndCap" Variations="0"/>
-<Actor id="RoadMetalCornerDiagonal" Variations="0,2"/>
-<Actor id="RoadMetalCornerStraight" Variations="5"/>
-<Actor id="RoadMetalDiagonal" Variations="0,2,3,4"/>
-<Actor id="RoadMetalStraight" Variations="1"/>
-<Actor id="RoadRoundAbout" Variations="1"/>
-<Actor id="SnowRefinery_Terran_Barrier" Variations="1"/>
-<Actor id="SnowRefinery_Terran_CliffGarage" Variations="0,3,4"/>
-<Actor id="SnowRefinery_Terran_ModularCliff_Thin" Variations="3"/>
-<Actor id="SpaceGunRack" Variations="0,2,3,4"/>
-<Actor id="Tarsonis_Bridge_DiagonalAlt"/>
-<Actor id="Tarsonis_DeadMarine" Variations="0,1,2,4"/>
-<Actor id="Tarsonis_GroundTrims" Variations="0,1"/>
-<Actor id="Tarsonis_Ramp_Stairs" Variations="1"/>
-<Actor id="TerranHalfWall"/>
-<Actor id="UnbuildablePlates" Variations="3"/>
-<Actor id="ZergCarcasses" Variations="0,2,4,5,6"/>
+<Actor id="SpaceGunRack" Variations="0"/>
 <Actor id="ZerusTallGrassCluster" Variations="1"/>
-<Actor id="PathingBlocker1x1Doodad"/>
-<Actor id="PathingBlocker45DegreesDoodad"/>
-<Actor id="PathingBlocker2x2Doodad"/>
-<Actor id="BuildingBlocker1x1Doodad"/>
-<Actor id="AiurCurtain" Variations="0,2,3"/>
-<Actor id="AiurFoliage" Variations="0,1,2,3,4,5"/>
-<Actor id="AlarmLight" Variations="0,1"/>
-<Actor id="BarracksWrecked"/>
-<Actor id="BelShirCurtain" Variations="0,1,2,3"/>
-<Actor id="BioDomeHalfBuiltDoodad" Variations="0"/>
 <Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
-<Actor id="BunkerWrecked"/>
-<Actor id="CableLight"/>
-<Actor id="CastanarLightboard" Variations="1,2,3"/>
-<Actor id="ChainLinkFenceStraight" Variations="2,3,5,6,7"/>
-<Actor id="Crate" Variations="3"/>
-<Actor id="Decal" Variations="2,8,9,18,26"/>
-<Actor id="FloatingCreepPad"/>
-<Actor id="LandingTower"/>
-<Actor id="MetalWallDiagonal" Variations="2,3,4"/>
-<Actor id="MineralCart" Variations="0,2"/>
-<Actor id="PortZionDumpster"/>
 <Actor id="PortZionGroundMix" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
-<Actor id="PortZionStorage"/>
-<Actor id="PortZionTires" Variations="2"/>
-<Actor id="PortZionTower" Variations="9"/>
 <Actor id="RainEmitterLarge"/>
-<Actor id="RooftopEntrance"/>
-<Actor id="RooftopSolarPanels" Variations="0"/>
-<Actor id="SecurityFenceStraight"/>
-<Actor id="SpacePlatformBarrier" Variations="0,1,3"/>
-<Actor id="StoreFrontCityProps" Variations="1,2"/>
-<Actor id="TrenchHorizontalDoodad" Variations="0"/>
-<Actor id="Vines" Variations="1"/>
 <Actor id="Waterfall"/>
-<Actor id="WreckedCargoTruckCorpse" Variations="0"/>
-<Actor id="WreckedJackal"/>
-<Actor id="WreckedSandbags" Variations="0,1,2"/>
-<Actor id="WreckedVehicles" Variations="0"/>
-<Actor id="CargoTruckCreep" Variations="2"/>
-<Actor id="ColonistVehicleWrecked" Variations="0,2"/>
-<Actor id="WreckedCargoTruck" Variations="3"/>
-<Actor id="ColonistSupplies" Variations="9"/>
-<Actor id="ColonistSupplyCrate" Variations="0,2,3,4,5,6,7,8"/>
-<Actor id="ValhallaCabinet" Variations="5"/>
-<Actor id="ValhallaThorConstruction" Variations="3"/>
-<Actor id="AnimalCorpse" Variations="0,2,3,5,6,7,8"/>
-<Actor id="Bodybag" Variations="0"/>
 <Actor id="TarsonisArrow"/>
-<Actor id="ColonistCorpse" Variations="0,1,2,3,5,6,8,9,11,14,15,17,18,19"/>
-<Actor id="MarineCorpse" Variations="0,1,2,3,4,5,6,8,9"/>
-<Actor id="ScientistCorpseGory" Variations="5,7"/>
-<Actor id="SplatAliveInside"/>
-<Actor id="TRaynor01RadarDish"/>
-<Actor id="TRaynor02MineLift"/>
-<Actor id="BattlecruiserLokiDock"/>
-<Actor id="VultureChase_CargoTruckUnitBarrels"/>
+<Actor id="ColonistCorpse" Variations="0,1,2,3,5,6,8,11,15,17,18,19"/>
+<Actor id="MarineCorpse" Variations="0,1,3,4,5,6"/>
 <Actor id="OS_HaHaMiroScreen"/>
-<Actor id="CCData_Blocker4x4"/>
-<Actor id="CCData_Blocker2x2"/>
-<Actor id="CCData_Blocker12x12"/>
-<Actor id="CCData_Blocker8x8"/>
-<Actor id="CCData_ChuShou"/>
+<Actor id="CCData_ColonistSupplies" Variations="9"/>
+<Actor id="CCData_MilitarySupplies" Variations="3"/>
+<Actor id="CCData_RoadRoundAbout" Variations="1"/>
 <Actor id="CCData_ArmyCrateGroup"/>
 <Behavior id="Detector10"/>
 <Behavior id="MercReaperJump"/>
@@ -248,7 +131,6 @@
 <Unit id="UltraliskBurrowed"/>
 <Unit id="OrbitalCommand"/>
 <Unit id="Ursadon"/>
-<Unit id="Beacon_ProtossSmall"/>
 <Unit id="Lyote"/>
 <Unit id="CarrionBird"/>
 <Unit id="KarakMale"/>
@@ -262,42 +144,13 @@
 <Unit id="Dog"/>
 <Unit id="Sheep"/>
 <Unit id="Cow"/>
-<Unit id="DestructibleSearchlight" Variations="0,1,2"/>
-<Unit id="DestructibleBullhornLights" Variations="1"/>
 <Unit id="DestructibleStreetlight" Variations="0,3"/>
-<Unit id="DestructibleStoreFrontCityProps" Variations="0,2"/>
-<Unit id="DestructibleBillboardTall" Variations="0,3"/>
-<Unit id="DestructibleSpacePlatformBarrier" Variations="0,1,2,3"/>
-<Unit id="DestructibleSignsConstruction" Variations="1"/>
 <Unit id="DestructibleDebris4x4"/>
-<Unit id="GlobeStatue"/>
 <Unit id="SpartanCompany"/>
-<Unit id="ColonistShip"/>
-<Unit id="DestructibleGateDiagonalBLURLowered"/>
-<Unit id="DestructibleGateDiagonalBLUR"/>
-<Unit id="DestructibleGateDiagonalULBR"/>
-<Unit id="MetalGateDiagonalBLUR" UserTag="莱克希设施"/>
+<Unit id="DestructibleGateStraightVerticalLF"/>
 <Unit id="DominionKillTeam"/>
-<Unit id="AvernusGateControl" Variations="0"/>
-<Unit id="HomeSmall" Variations="1" UserTag="莱克希设施"/>
 <Unit id="Goliath"/>
-<Unit id="TaurenOuthouse" UserTag="莱克希设施"/>
-<Unit id="Biodome" Variations="1" UserTag="莱克希设施"/>
-<Unit id="DestructibleKorhalFlag" Variations="1"/>
-<Unit id="DestructibleKorhalPodium"/>
-<Unit id="DestructibleKorhalFoliage" Variations="2,3,4,5"/>
-<Unit id="InfestedMercHaven" UserTag="莱克希设施"/>
-<Unit id="PlatformConnector" UserTag="莱克希设施"/>
-<Unit id="ExplodingBarrelLarge"/>
-<Unit id="InfestableHut" Variations="0,4" UserTag="莱克希设施"/>
-<Unit id="PickupGrenades"/>
-<Unit id="PalletMinerals"/>
-<Unit id="AbandonedBuilding" Variations="0" UserTag="莱克希设施"/>
-<Unit id="NewFolsomPrisonEntrance" UserTag="莱克希设施"/>
-<Unit id="ItemGrenades"/>
 <Unit id="ReaperPlacement"/>
-<Unit id="PickupScrapSalvage1x1"/>
-<Unit id="PickupScrapSalvage3x3"/>
 <Unit id="ThornLizard"/>
 <Unit id="DestructibleCityDebris2x4Horizontal"/>
 <Unit id="DestructibleCityDebris6x6"/>
@@ -310,30 +163,17 @@
 <Unit id="Defiler"/>
 <Unit id="PrimalRoachBurrowed"/>
 <Unit id="PrimalHydraliskBurrowed"/>
-<Unit id="MoebiusLabDoorsThinLeft"/>
-<Unit id="MoebiusLabDoorsThinRightLowered"/>
-<Unit id="MoebiusLabDoorsThinRight"/>
 <Unit id="ScantipedeParasiticSmall"/>
-<Unit id="ExplodingGasBarrelLarge"/>
-<Unit id="HybridHatchEntrance" UserTag="莱克希设施"/>
 <Unit id="LeapingCritter"/>
-<Unit id="KorhalBaseDoor" UserTag="莱克希设施"/>
-<Unit id="MatriarchDNAPickup"/>
 <Unit id="ScantipedeParasitic"/>
-<Unit id="SpaceVentDestructibleUnit"/>
-<Unit id="UmojanLabMonitorFloorDestructible2"/>
-<Unit id="ZergBiomassPickup" Variations="2"/>
 <Unit id="Yeti"/>
 <Unit id="YetiMomma"/>
 <Unit id="GiantYeti"/>
-<Unit id="ArmoredGenerator" UserTag="莱克希设施"/>
 <Unit id="ZerusAlienTreeHover"/>
-<Unit id="MoebiusLabHoldingPen"/>
 <Unit id="DefilerMPBurrowed"/>
 <Unit id="DefilerMP"/>
 <Unit id="Moopy"/>
 <Unit id="Ursula"/>
-<Unit id="LargePalletMinerals"/>
 <Unit id="KasaiSpaceWhale"/>
 <Unit id="OS_ReneeCamera"/>
 <Unit id="OS_ScreenMaJia"/>
@@ -354,7 +194,8 @@
 <Unit id="CCData_HB_FangZhenJiPao"/>
 <Unit id="CCData_HB_MissileTurret"/>
 <Unit id="CCData_HB_TeslaTurret"/>
-<Unit id="CCData_ZhuCheKu" Variations="0,1"/>
+<Unit id="CCData_FKBaffle4Wall"/>
+<Unit id="CCData_ZhuCheKu" Variations="1"/>
 <Unit id="CCData_ZhenBaoXiang"/>
 <Unit id="CCData_BeiYongCheKu" Variations="0,1"/>
 <Unit id="CCData_ShengChanCheJian"/>
@@ -364,7 +205,7 @@
 <Unit id="CCData_V10013_HadesFlame"/>
 <Unit id="CCData_T29_ZhuShenEX"/>
 <Unit id="CCData_V10111_StormFighter"/>
-<Unit id="CCData_SpaceArmoredGenerator"/>
+<Unit id="CCData_PortZionDumpster"/>
 <Unit id="CCData_Scientist" Variations="0"/>
 <Unit id="CCData_NovaResupplyCrate"/>
 <Unit id="CCData_PalletGas"/>
@@ -377,7 +218,6 @@
 <Unit id="CCData_PickupHealthFull"/>
 <Unit id="CCData_TeShuBaoXiang"/>
 <Unit id="CCData_T17_Bulldozer" Variations="1"/>
-<Unit id="CCData_T20_Bus"/>
 <Unit id="CCData_V10012_Goliath"/>
 <Unit id="CCData_V10047_DefenderM"/>
 <Unit id="CCData_V10072_MoShaZheM"/>
@@ -395,11 +235,9 @@
 <Unit id="CCData_WuQiNew"/>
 <Unit id="CCData_JiJian"/>
 <Unit id="CCData_JiJianNew"/>
-<Unit id="CCData_T26_CargoTruck"/>
 <Unit id="CCData_T03_Goliath"/>
-<Unit id="CCData_V10096_ArmyCarrierG"/>
 <Unit id="CCData_Storefront" Variations="1,4,8"/>
-<Unit id="CCData_Storefront2F" Variations="0,1"/>
+<Unit id="CCData_Storefront2F" Variations="0"/>
 <Unit id="CCData_ShanMaiLanTian"/>
 <Unit id="CCData_ZobieMaker"/>
 <Unit id="CCData_Honor"/>
@@ -409,7 +247,6 @@
 <Unit id="CCData_Star"/>
 <Unit id="CCData_TongXunDaLou" Variations="0,1,2,3,4,5,6,7"/>
 <Unit id="CCData_SheJiTuNew"/>
-<Unit id="CCData_V10112_OptimizePrime"/>
 <Unit id="CCData_V10113_DukesRevenge"/>
 <Unit id="CCData_V10023_RepiarTank"/>
 <Unit id="CCData_GasCanisterProtoss"/>
@@ -500,6 +337,7 @@
 <Unit id="DZA_DBJJCPU9_DF"/>
 <Unit id="DZA_DBJJCPU10_DF"/>
 <Unit id="CCData_NovaXanthosAssault"/>
+<Unit id="CCData_ValhallaCabinet" Variations="6"/>
 <Weapon id="SpartanCompanyGUpgraded"/>
 <Weapon id="MengskWraithG"/>
 <Weapon id="SJPirateCapitalShip"/>

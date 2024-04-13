@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog/>
+<Catalog>
+    <CActorUnit id="CCData_UnitBlocker4x42" parent="PathingBlocker" unitName="CCData_UnitBlocker4x4">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+        <HighlightTooltip value="Unit/Name/CCData_UnitBlocker4x42"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_UnitBlocker12x12" parent="PathingBlocker" unitName="CCData_UnitBlocker12x12">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_UnitBlocker8x8" parent="PathingBlocker" unitName="CCData_UnitBlocker8x8">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_UnitBlocker2x2" parent="PathingBlocker" unitName="CCData_UnitBlocker2x2">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_PathingBlocker1x1Doodad" parent="PathingBlocker" unitName="CCData_PathingBlocker1x1Doodad">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_PathingBlocker2x2Doodad" parent="PathingBlocker" unitName="CCData_PathingBlocker2x2Doodad">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_BuildBlocker2x2" parent="PathingBlocker" unitName="CCData_BuildBlocker2x2">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+    <CActorUnit id="CCData_PathingBlocker1x1_45DegreesDoodad" parent="PathingBlocker" unitName="CCData_PathingBlocker1x1_45DegreesDoodad">
+        <EditorModel value="PathingandSightBlocker1x1Doodad"/>
+    </CActorUnit>
+</Catalog>
