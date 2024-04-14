@@ -32291,10 +32291,8 @@
         <Collide index="Colossus" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="120"/>
-        <LifeMax value="9999"/>
-        <LifeRegenRate value="9999"/>
-        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
         <TurningRate value="999.8437"/>
         <Radius value="0.1875"/>
         <SeparationRadius value="0.375"/>
@@ -32314,10 +32312,8 @@
         <Collide index="Colossus" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="120"/>
-        <LifeMax value="9999"/>
-        <LifeRegenRate value="9999"/>
-        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
         <TurningRate value="999.8437"/>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -32912,10 +32908,8 @@
         <Collide index="Colossus" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="120"/>
-        <LifeMax value="9999"/>
-        <LifeRegenRate value="9999"/>
-        <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
         <TurningRate value="999.8437"/>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>

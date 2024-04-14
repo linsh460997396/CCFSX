@@ -44,6 +44,8 @@ Abil/Name/CCData_EradicatorTurnTurret=根除者转动炮塔
 Abil/Name/CCData_EternalSacredSpear=永恒圣枪
 Abil/Name/CCData_EternalSacredSpearUp=永恒圣枪·超
 Abil/Name/CCData_ExcavatorWork=挖掘工作
+Abil/Name/CCData_FKBaffleWall=升起防御板墙
+Abil/Name/CCData_FKBaffleWallDown=降下防御板墙
 Abil/Name/CCData_FKWall=升起防御墙
 Abil/Name/CCData_FKWallDown=降下防御墙
 Abil/Name/CCData_FS_RavenShredderMissile=粉碎飞弹
@@ -137,8 +139,8 @@ Abil/Name/CCData_Stimpack=强化剂
 Abil/Name/CCData_Story_ShipLand=着陆（剧情飞船）
 Abil/Name/CCData_Story_ShipLiftOff=升空（剧情飞船）
 Abil/Name/CCData_SuZhuZiDanKu=宿主子弹库
-Abil/Name/CCData_SupplyDepotLower=降下防御门墙
-Abil/Name/CCData_SupplyDepotRaise=升起防御门墙
+Abil/Name/CCData_SupplyDepotLower=降下防御站
+Abil/Name/CCData_SupplyDepotRaise=升起防御站
 Abil/Name/CCData_SwarmHostSpawnLocusts=孵化蝗虫
 Abil/Name/CCData_T04_APMode=攻城模式
 Abil/Name/CCData_T04_NormalMode=普通模式
@@ -227,12 +229,13 @@ Attribute002/Value008/Name=破碎银河系R8
 Attribute002/Value009/Desc=地图编号9
 Attribute002/Value009/Name=破碎银河系R9
 Attribute002/Value010/Desc=地图编号10
-Attribute002/Value010/Name=虫出封锁线[Osia_沙盒版]
+Attribute002/Value010/Name=虫出封锁线[Osia_重制版]
 Attribute002/Value011/Desc=地图编号11
 Attribute002/Value011/Name=重装机兵
 Attribute002/Value012/Desc=地图编号0
 Attribute002/Value012/Name=测试
-Attribute002/Value013/Name=银河破裂者
+Attribute002/Value013/Desc=地图编号12
+Attribute002/Value013/Name=虫出封锁线[Osia_沙盒版]
 Attribute003/Desc=开局默认的全员统一光照
 Attribute003/Name=[>>游戏光照<<]
 Attribute003/Value001/Desc=允许每个玩家选择不同的光照渲染
@@ -1064,6 +1067,8 @@ Button/Name/CCData_Excavator=重挖掘机
 Button/Name/CCData_ExcavatorWork=挖掘工作
 Button/Name/CCData_FBZJLand=着陆（风暴战机）
 Button/Name/CCData_FBZJLift=升空（风暴战机）
+Button/Name/CCData_FKBaffleWallDown=降下防御板墙
+Button/Name/CCData_FKBaffleWallUp=升起防御板墙
 Button/Name/CCData_FKWall=防御墙
 Button/Name/CCData_FKWallDown=降下防御墙
 Button/Name/CCData_FKWallUp=升起防御墙
@@ -1141,7 +1146,8 @@ Button/Name/CCData_LeiWangShouBurrowDown=潜地（雷王兽）
 Button/Name/CCData_LeiWangShouBurrowUp=出地（雷王兽）
 Button/Name/CCData_LoadGunAmmunition=装填枪械弹药
 Button/Name/CCData_LocustMP=蝗虫（百生兽孵化）
-Button/Name/CCData_LowerFYMQ=降下防御门墙
+Button/Name/CCData_Lower=降下
+Button/Name/CCData_LowerFYMQ=降下防御站
 Button/Name/CCData_M110FortressCannon=M110堡垒加农炮
 Button/Name/CCData_M110SPFortressCannon=M110SP堡垒加农炮
 Button/Name/CCData_M34MolotovCocktail=M34燃烧弹
@@ -1195,7 +1201,8 @@ Button/Name/CCData_RPGLauncher=火箭发射器
 Button/Name/CCData_RPGLauncherP=火箭发射器
 Button/Name/CCData_RP_RavenScramblerMissile=扰频飞弹
 Button/Name/CCData_RTruck=建造燃料卡车
-Button/Name/CCData_RaiseFYMQ=升起防御门墙
+Button/Name/CCData_Raise=升起
+Button/Name/CCData_RaiseFYMQ=升起防御站
 Button/Name/CCData_RavenLand=着陆（操作港作业机）
 Button/Name/CCData_RavenLift=升空（操作港作业机）
 Button/Name/CCData_RedHeatFlare=红热照明弹
@@ -1339,6 +1346,7 @@ Button/Name/PZQHS3=高级品质强化石
 Button/Name/SHANGDIANZHIPAI=指派
 Button/Name/SpiderMineReplenish=生成蜘蛛雷
 Button/Name/TornadoMissile=龙卷风导弹
+Button/Name/UnknownButton=未知按钮
 Button/Name/WPLAN=物品栏
 Button/Name/ZBLAN=装备栏
 Button/Tooltip/49SlotBag=49格包，就是有49个格子的背包。
@@ -1631,6 +1639,9 @@ Button/Tooltip/CCData_EradicatorLaunchMissile=标记一个目标位置并发射�
 Button/Tooltip/CCData_EradicatorMissileMode=变形为飞弹模式。
 Button/Tooltip/CCData_EradicatorRailgunFire=专心瞄准后，发射一枚穿刺弹攻击弹道覆盖的所有敌人，造成100点伤害。
 Button/Tooltip/CCData_ExcavatorWork=命令选中的单位移动到目标地点，并对沿途遭遇的敌人发起攻击。收到攻击一个目标的命令后，单位会持续攻击该目标，直到对方被消灭。
+Button/Tooltip/CCData_FKBaffleWall=升起防御墙，阻止地面单位出入。
+Button/Tooltip/CCData_FKBaffleWallDown=降下建筑，允许地面单位出入。
+Button/Tooltip/CCData_FKBaffleWallUp=升起建筑，阻止地面单位出入。
 Button/Tooltip/CCData_FKWall=升起防御墙，阻止地面单位出入。
 Button/Tooltip/CCData_FKWallDown=降下建筑，允许地面单位出入。
 Button/Tooltip/CCData_FKWallUp=升起建筑，阻止地面单位出入。
@@ -1671,6 +1682,7 @@ Button/Tooltip/CCData_JuSha=发射一枚灵能子弹，造成<d ref="Effect,Nova
 Button/Tooltip/CCData_KD8Charge=可在短时间内引爆，造成10点伤害并击退附近的单位。
 Button/Tooltip/CCData_KingBoss_MoRiShou=巨型突击猛兽，能够进行范围攻击。<n/><n/><c val="#ColorAttackInfo">可以对地</c><n/>
 Button/Tooltip/CCData_LocustMP=生命短暂但异常坚韧的危险生物。<n/><n/><c val="#ColorAttackInfo">可以对地。</c>
+Button/Tooltip/CCData_Lower=降下建筑，允许地面单位出入。
 Button/Tooltip/CCData_LowerFYMQ=降下建筑，允许地面单位出入。
 Button/Tooltip/CCData_MedicHeal=治疗一个友方生物单位。<n/><n/><c val="f078ff">每消耗<d ref="Effect,heal,RechargeVitalRate * Effect,heal,DrainVitalCostFactor"/>点能量可恢复<d ref="Effect,heal,RechargeVitalRate"/>点生命值。</c>
 Button/Tooltip/CCData_MedicalExcitatoryFrone=向该单位注入效力强劲的强化剂，使其攻击和移动速度在数秒内得到显著提升，但会消耗10点生命值。
@@ -1705,6 +1717,7 @@ Button/Tooltip/CCData_PsionicRadar=使诺娃能够使用雷达看到敌人的灵
 Button/Tooltip/CCData_RPGLauncher=RPG火箭发射器<n/>注：无法攻击近距离（射程1.5范围内的）目标
 Button/Tooltip/CCData_RPGLauncherP=RPG火箭发射器<n/>注：无法攻击近距离（射程1.5范围内的）目标
 Button/Tooltip/CCData_RailGunTurret=自动防御炮塔。对一条直线上的敌方地面单位造成伤害。<d ref="Behavior,RailGunTurretTimedLife,Duration"/>秒后时间耗尽。<n/><n/><c val="#ColorAttackInfo">可以对地。</c>
+Button/Tooltip/CCData_Raise=升起建筑，阻止地面单位出入。
 Button/Tooltip/CCData_RaiseFYMQ=升起建筑，阻止地面单位出入。
 Button/Tooltip/CCData_RawSolarite=太阳能碎片最纯净的形态。可用于升级太阳核心。
 Button/Tooltip/CCData_RefineryRich=建造在瓦斯气泉上，用于采集高能瓦斯。
@@ -2087,8 +2100,8 @@ DOCSTR_ZZSMXX=<s val="ZZSMZS">什么是装备制造</s><n/>　　根据制造规
 Defensive Matrix=防御矩阵
 DocInfo/DescLong=纪念虫出封锁线及老作者“奥西亚”，缅怀童年回忆"重装机兵"
 DocInfo/DescShort=8
-DocInfo/Name=虫出封锁线[Osia_沙盒版]
-DocInfo/PatchNote001=1）继承自“虫出封锁线[Osia_重制版]”。
+DocInfo/Name=虫出封锁线[Osia_重制版]
+DocInfo/PatchNote045=提示：本图尚未结束测试，会有长期改动
 Effect/Name/ATSLaserBatteryU=G03R机炮
 Effect/Name/AdeptPhaseShiftCancelAB=AdeptPhaseShiftCancelAB
 Effect/Name/AdeptPsionicTransferDamage=AdeptPsionicTransferDamage
@@ -2888,6 +2901,7 @@ Effect/Name/CCData_TissueAssimilationSecondary_DuZhangShou=Tissue Assimilation S
 Effect/Name/CCData_TissueAssimilation_DuZhangShou=Tissue Assimilation
 Effect/Name/CCData_TitanMechMissileDamage=Titan Mech Missile (Damage)
 Effect/Name/CCData_TitanMechMissileLM=Titan Mech Missile (Launch Missile)
+Effect/Name/CCData_TrueDamage=真实伤害
 Effect/Name/CCData_TuiJinQiII=推进器·II
 Effect/Name/CCData_UltraliskBurrowChargeHold=Ultralisk Burrow Charge Hold
 Effect/Name/CCData_UltraliskBurrowChargeHold_DuZhangShou=Ultralisk Burrow Charge Hold
@@ -3458,7 +3472,7 @@ Effect/Name/lsssjh=镭射搜索集合
 Effect/Name/lsyc=镭射延迟
 Effect/Name/yshxss=验算核心搜索区域
 Effect/Name/yshxyy=验算核心应用
-HelpGameMechanic_00_Description=<s val="ys_red164"><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2><s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头></c>。
+HelpGameMechanic_00_Description=<s val="ys_red164"><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2><s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头></c>。
 HelpGameMechanic_00_Name=<s val="ys_red164"><游戏控制操作介绍>：</c>
 HelpGameMechanic_01_Description=<s val="ys_red164"><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。
 HelpGameMechanic_01_Name=
@@ -3548,7 +3562,7 @@ Kinetic/Name/CKineticRotate=CKineticRotate
 Kinetic/Name/CKineticSequence=CKineticSequence
 Kinetic/Name/CKineticSet=CKineticSet
 Kinetic/Name/CKineticTranslate=CKineticTranslate
-LoadingScreen/MMHelp00=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>
+LoadingScreen/MMHelp00=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>
 LoadingScreen/MMHelp01=<s val="ys_green165">"不断增多的变异生物致使<s val="ys_blue165"><赏金圣殿><s val="ys_green165">组织建立，组织情报共享于所有的幸存者聚集地，圣殿成员被称之为赏金猎人，赏金猎人通过猎杀分布在世界各地的怪物领取赏金。"<n><s val="ys_WhiteGrey165">-By 拉多镇酒吧 某猎人
 LoadingScreen/MMHelp02=<s val="ys_green165">"<s val="ys_blue165"><诺亚><s val="ys_green165">不仅作为智脑为人类提供环境分析和治理方案，还作为人工智能机械的主脑应对变异生物的威胁，本来一切都安然有序..."<n><s val="ys_WhiteGrey165">-By 亡者<奥利奥·雷·霍金森>博士的笔记</c>
 LoadingScreen/MMHelp03=<s val="ys_blue165"><诺亚><s val="ys_green165">的<s val="ys_yellow165"><幸存者保护主动防御系统><s val="ys_green165">遭到不明生物性入侵，所有机械部队瘫痪，建立在各地的幸存者生存地岌岌可危，赏金猎人们拿起了手中的战车和武器抵御汹涌攻击而来的变异生物...<n><s val="ys_WhiteGrey165">-By 剧情故事</c>
@@ -3923,7 +3937,7 @@ Param/Expression/7934D634=我知道守着她毫无意义，但是我还是想守
 Param/Expression/7A69163E=~A~~B~
 Param/Expression/7A699B8C=~A~
 Param/Expression/7AD1A649=~A~
-Param/Expression/7B04405E=重装沙盒~A~
+Param/Expression/7B04405E=沙盒版~A~
 Param/Expression/7B3BB01F=~A~~B~
 Param/Expression/7C20121C=~A~~B~
 Param/Expression/7C2AE47F=已解除~A~
@@ -4575,7 +4589,7 @@ Param/Value/0F33E019=【更多指令】
 Param/Value/0F37A0F8=<s val="ys_green164">【车辆改造】<c val="FFFF00">轻便摩托车改-I式 <c val="FF00FF">设计图</c>
 Param/Value/0F412175=<c val="FFFF80">受到轻微损伤！</c>
 Param/Value/0F41A854=<c val="FF8040">的</c>
-Param/Value/0F479561=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/0F479561=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/0F57D562=<s val="ys_green164">【当前特兵数[异形]】
 Param/Value/0F5FE63D=<c val="FFFFFF">使用指令</c>
 Param/Value/0F6AE8AD=/
@@ -5055,6 +5069,7 @@ Param/Value/28502FED=<c val="FF0000">底盘大破！</c>
 Param/Value/2853CA96=<c val="FF00FF">地堡设计图</c>
 Param/Value/28615AA3=启用！操作者是管理员
 Param/Value/2863687C=<c val="FF8040">得到资金</c>
+Param/Value/2867F711=着陆指令：-yjzlj land
 Param/Value/286855AF=为援乘载具
 Param/Value/2868EE52=<c val="FF8040">S-E中破！</c>
 Param/Value/287CA049=<c val="FFFF00">【支援辅机】转让</c>
@@ -5187,7 +5202,7 @@ Param/Value/306AE7CB=<c val="FF8040">得到</c>
 Param/Value/30840C03=<c val="FF8040">得到</c>
 Param/Value/308B9DB7=<c val="FF8080">A</c><c val="FF8989">I</c><c val="FF9393">限</c><c val="FFB0B0">制</c><c val="FFCDCD">器</c><c val="FFEAEA">+</c><c val="FFF4F4">1</c>
 Param/Value/3096C12D=<c val="FF8080">外</c><c val="FF9A9A">星</c><c val="FFB6B6">器</c><c val="FFD0D0">官</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
-Param/Value/30AA7823=虫出封锁线[Osia_扩图重制版]
+Param/Value/30AA7823=虫出封锁线[Osia_沙盒版]
 Param/Value/30C5D9FE=设置自动镜头 = <c val="FFFF00">[5]
 Param/Value/30CA9249=<c val="FFFF00">【误伤冷却】已关闭</c>
 Param/Value/30CE3E86=狙击步枪S 只能由战士装备!
@@ -5262,7 +5277,7 @@ Param/Value/3484898B=<s val="ys_green164">【特典】<c val="FFFF00">移民飞�
 Param/Value/3493695D=<s val="ys_green164">【专精化】<c val="00FFFF">[超级计算机]<c val="FFFF00">结构中枢-核心供能/硬件模块</c><c val="FF00FF">LV</c>
 Param/Value/34A0D5A3=<c val="FF8040">[底盘重量]</c>
 Param/Value/34B4678F=<c val="FF00FF">【移动至 人物监禁点】已启用！</c>
-Param/Value/34C175EF=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/34C175EF=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/34C4DC01=<c val="FF8040">得到</c>
 Param/Value/34CBBE1C=<c val="FF8040">得到</c>
 Param/Value/34CE8DCD=<c val="FF8040">得到</c>
@@ -5417,6 +5432,7 @@ Param/Value/3DC57959=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷�
 Param/Value/3DC7F80D=<c val="FF8040">得到</c>
 Param/Value/3DCFF802=<s val="ys_green164">【重型车辆】<c val="FFFF00">推土机改 <c val="FF00FF">设计图</c>
 Param/Value/3DD2F797=<c val="FF8040">的</c>
+Param/Value/3DE940CC=着陆指令：-fbzj land
 Param/Value/3DF1FD81=<s val="ys_green164">【车辆】<c val="FFFF00">货物卡车 <c val="FF00FF">设计图</c>
 Param/Value/3DFC4333=<s val="ys_green124"><c val="FFFF00">
 Param/Value/3DFD1228=9
@@ -6642,7 +6658,7 @@ Param/Value/8378457D=为当前载具！<c val="FFFF00">生物指纹</c> <c val="
 Param/Value/839D9912=<c val="FFFF00">【监狱无敌】已关闭</c>
 Param/Value/83B05978=<s val="ys_green164">【轻型战车】<c val="FFFF00">军用运输机 <c val="FF00FF">设计图</c>
 Param/Value/83C6FCAF=启用！操作者是管理员
-Param/Value/83E44CDE=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/83E44CDE=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/83F59CBB=<s val="ys_red164"><大家元旦快乐！ELF酱给大家献上福利>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -ELF福利 <c val="FFFF00"><每分钟获得随机资金><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -ELF福利2 <c val="FFFF00"><给大家随机福利><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -大家元旦快乐 <c val="FFFF00"><王兽箱掉率提高1/3~1/2><n>注：ELF福利只能输入一次！
 Param/Value/840172B9=<c val="FF8040">得到</c>
 Param/Value/8401899C=等级已最高！
@@ -7922,7 +7938,7 @@ Param/Value/CAC1B7B2=<c val="FF8080">铅</c><c val="FFAFAF">矿</c><c val="FFDED
 Param/Value/CAD2EAC4=<c val="FF8080">铂</c><c val="FFAFAF">矿</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/CAE0F240=<s val="ys_green164">【大型战车】<c val="FFFF00">豹式-V1 <c val="FF00FF">设计图</c>
 Param/Value/CAE64B69=<c val="FF8040">[底盘状态]</c>
-Param/Value/CAEC9159=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>。
+Param/Value/CAEC9159=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>。
 Param/Value/CB096F30=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[7]</c></c>！
 Param/Value/CB0FEF34=启用！操作者是管理员
 Param/Value/CB112C6E=<c val="FF00FF">MK3激光步枪设计图</c>
@@ -8145,12 +8161,12 @@ Param/Value/D6596128=<c val="FF8040">得到</c>
 Param/Value/D65DD6E2=<s val="ys_green164">【特典】<c val="FFFF00">古斯塔夫及轨道炮改 <c val="FF00FF">设计图</c>
 Param/Value/D66B9685=<c val="FFFF00">稀金
 Param/Value/D66F67A8=<c val="FF00FF">等离子切割机设计图</c>
-Param/Value/D679FA7A=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"><数字1更换用途></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随控制单位<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/D679FA7A=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/D68A1EE6=<s val="ys_green164">通过<c val="FFFF00">【管理员指令】</c>对<玩家1>
 Param/Value/D6C351EA=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.2
+Param/Value/D6F4D09B=V0.37
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
 Param/Value/D7083C63=/
@@ -8970,6 +8986,7 @@ Unit/Name/CCData_AutoTurretReleaseWeapon=自动机炮武器发射
 Unit/Name/CCData_AutoTurretReleaseWeaponDOM=自动机炮武器发射DOM
 Unit/Name/CCData_BaoXiang=宝箱
 Unit/Name/CCData_BeiYongCheKu=备用车库
+Unit/Name/CCData_BuildBlocker2x2=建筑阻断器2x2
 Unit/Name/CCData_BuildingRuin=建筑废墟
 Unit/Name/CCData_CaissonGrenade=榴弹弹药箱
 Unit/Name/CCData_CaissonRocket=火箭弹弹药箱
@@ -8981,6 +8998,12 @@ Unit/Name/CCData_DeploySpiderMinesMissile=部署蜘蛛雷飞弹
 Unit/Name/CCData_DragoonWeapon=龙骑士
 Unit/Name/CCData_Dummy_HellFire=地狱火焰
 Unit/Name/CCData_EradicatorMissileWeapon=根除者飞弹
+Unit/Name/CCData_FKBaffleWall=防御板墙
+Unit/Name/CCData_FKBaffleWallDown=防御板墙（缩地）
+Unit/Name/CCData_FKBaseWall=基地墙
+Unit/Name/CCData_FKBaseWallDown=基地墙（缩地）
+Unit/Name/CCData_FKReinforcedWall=加固型墙
+Unit/Name/CCData_FKReinforcedWallDown=加固型墙（缩地）
 Unit/Name/CCData_FKWall=防御墙
 Unit/Name/CCData_FKWallDown=防御墙（缩地）
 Unit/Name/CCData_FS_RavenShredderMissileWeapon=粉碎飞弹
@@ -9012,6 +9035,7 @@ Unit/Name/CCData_HealingDrone=生物机械修理无人机
 Unit/Name/CCData_HealingDroneReleaseWeapon=治疗无人机释放
 Unit/Name/CCData_HelsAngelFighterWeapon=地狱天使(战机武器)
 Unit/Name/CCData_Hero_Armer=武装者
+Unit/Name/CCData_Hero_Lilys=莉莉丝
 Unit/Name/CCData_Honor=功勋
 Unit/Name/CCData_HunterSeekerWeapon=猎杀飞弹
 Unit/Name/CCData_HurricaneMissileLeft=飓风飞弹 左
@@ -9091,12 +9115,20 @@ Unit/Name/CCData_NovaXanthosAssaultGun=NovaXanthosAssaultGun
 Unit/Name/CCData_NovaXanthosDeathLaserAttackMissile=死亡射线
 Unit/Name/CCData_PalletGas=高能瓦斯周转箱
 Unit/Name/CCData_PalletMinerals=晶体矿箱
+Unit/Name/CCData_PathBlocker12x12=路径阻断器12x12
+Unit/Name/CCData_PathBlocker2x2=路径阻断器2x2
+Unit/Name/CCData_PathBlocker4x4=路径阻断器4x4
+Unit/Name/CCData_PathBlocker8x8=路径阻断器8x8
+Unit/Name/CCData_PathingBlocker1x1Doodad=Pathing Blocker 1x1 Doodad
+Unit/Name/CCData_PathingBlocker1x1_45DegreesDoodad=Pathing Blocker 1x1 45 Degrees Doodad
+Unit/Name/CCData_PathingBlocker2x2Doodad=Pathing Blocker 2x2 Doodad
 Unit/Name/CCData_PerditionTurret=末日炮塔
 Unit/Name/CCData_PickupGrenades=手榴弹
 Unit/Name/CCData_PickupHealthFull=全满补给
 Unit/Name/CCData_PickupZbx=装备箱（里面存放着几件随机物品）
 Unit/Name/CCData_PointDefenseDrone=定点防御靶机
 Unit/Name/CCData_PointDefenseDroneReleaseWeapon=定点防御靶机拦截
+Unit/Name/CCData_PortZionDumpster=Deadman's Port Dumpster /
 Unit/Name/CCData_Pretender=伪装者
 Unit/Name/CCData_ProtossCrates=星灵贮藏器
 Unit/Name/CCData_RP_RavenScramblerMissile=扰频飞弹
@@ -9126,8 +9158,8 @@ Unit/Name/CCData_StoryBoss_Mitosaurus=毒裂兽
 Unit/Name/CCData_StoryBoss_Slivan=百生丝莉芬
 Unit/Name/CCData_Story_FeiChuan=飞船
 Unit/Name/CCData_Story_FeiChuanFlying=飞船
-Unit/Name/CCData_SupplyDepot=防御门墙
-Unit/Name/CCData_SupplyDepotLowered=防御门墙（缩地）
+Unit/Name/CCData_SupplyDepot=防御站
+Unit/Name/CCData_SupplyDepotLowered=防御站（缩地）
 Unit/Name/CCData_T01_DiYiShiTu=第一使徒
 Unit/Name/CCData_T02_Hellion=恶火
 Unit/Name/CCData_T03_Goliath=歌利亚武装机器人
@@ -9166,6 +9198,10 @@ Unit/Name/CCData_TongXunDaLou=通讯大楼
 Unit/Name/CCData_UB_ChargeCore=充能核心
 Unit/Name/CCData_UB_Nostradamus=超电磁炮
 Unit/Name/CCData_UB_NukePowerPlant=核融合发电厂
+Unit/Name/CCData_UnitBlocker12x12=单位阻碍12x12
+Unit/Name/CCData_UnitBlocker2x2=单位阻碍2x2
+Unit/Name/CCData_UnitBlocker4x4=单位阻碍4x4
+Unit/Name/CCData_UnitBlocker8x8=单位阻碍8x8
 Unit/Name/CCData_V10001_Atlas=阿特拉斯
 Unit/Name/CCData_V10002_OdinEX=奥丁EX
 Unit/Name/CCData_V10003AP_ThorEX=雷神EX·AP模式
@@ -9287,6 +9323,7 @@ Unit/Name/CCData_V10111_StormFighter=<c val="FF00FF">风暴战机</c>
 Unit/Name/CCData_V10112_OptimizePrime=擎天柱卡车
 Unit/Name/CCData_V10113_DukesRevenge=<s val="ys_BlackRed224">一级战列舰</s>
 Unit/Name/CCData_V10114_Raven=操作港作业机
+Unit/Name/CCData_ValhallaCabinet=Valhalla Cabinet
 Unit/Name/CCData_VehicleEnergy=载具能量
 Unit/Name/CCData_VehicleSP=载具装甲
 Unit/Name/CCData_VoidHighTemplarPsiOrbMissile=High Templar Psi Orb Missile
@@ -9294,6 +9331,7 @@ Unit/Name/CCData_VultureWeapon=秃鹫-碎片榴弹发射物
 Unit/Name/CCData_WaLiMaker=瓦力生成器
 Unit/Name/CCData_WangShouBaoXiang=王兽宝箱
 Unit/Name/CCData_WarbotBMissile=战斗机器人B型飞弹
+Unit/Name/CCData_WreckedCargoTruck=Wrecked Cargo Truck
 Unit/Name/CCData_WuQi=武器
 Unit/Name/CCData_WuQiNew=新型武器
 Unit/Name/CCData_XiuLiChang=修理场
@@ -9302,6 +9340,14 @@ Unit/Name/CCData_ZhenBaoXiang=珍宝箱
 Unit/Name/CCData_ZhuCheKu=主车库
 Unit/Name/CCData_ZobieMaker=僵尸生成器
 Unit/Name/CCData_Zombie=僵尸
+Unit/Name/CCData_Zombie2=僵尸II型
+Unit/Name/CCData_Zombie3=僵尸III型
+Unit/Name/CCData_Zombie4=僵尸IV型
+Unit/Name/CCData_Zombie5=僵尸V型
+Unit/Name/CCData_Zombie6=僵尸VI型
+Unit/Name/CCData_Zombie7=僵尸VII型
+Unit/Name/CCData_Zombie8=僵尸VIII型
+Unit/Name/CCData_Zombie9=僵尸IX型
 Unit/Name/CLMB= 材料模板
 Unit/Name/CSDX=刺蛇毒腺
 Unit/Name/ColonistShip=飞船
@@ -10127,6 +10173,7 @@ Weapon/Name/CCData_TeslaArc=特斯拉发射器
 Weapon/Name/CCData_ThermalLances=热能射线枪
 Weapon/Name/CCData_ThorsHammer=雷神之锤
 Weapon/Name/CCData_ThunderGun=电光冲击枪
+Weapon/Name/CCData_TrueDamageWeapon=真实伤害武器
 Weapon/Name/CCData_TyphoonPod=台风飞弹舱
 Weapon/Name/CCData_UmojanLabWarbot=和平守护者
 Weapon/Name/CCData_UmojanLabWarbotII=和平守护者·II型

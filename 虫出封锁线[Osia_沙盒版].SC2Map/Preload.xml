@@ -64,6 +64,7 @@
 <Behavior id="znyshx"/>
 <Behavior id="lsjq"/>
 <Behavior id="BJSJ10"/>
+<Effect id="CCData_TrueDamage"/>
 <Effect id="CCData_EnergyNovaSet"/>
 <Effect id="CCData_ZeroDamage"/>
 <Effect id="YSSSYXHDWP"/>

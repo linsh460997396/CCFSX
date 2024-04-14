@@ -1,23 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog>
-    <CUnit id="CCData_UnitBlocker8x8" parent="PATHINGBLOCKER">
-        <BoostedCliffLevel value="3"/>
-        <Footprint value="CCData_Footprint_8x8"/>
-    </CUnit>
-    <CUnit id="CCData_UnitBlocker4x4" parent="PATHINGBLOCKER">
-        <BoostedCliffLevel value="3"/>
-        <Footprint value="CCData_Footprint_4x4"/>
-    </CUnit>
-    <CUnit id="CCData_UnitBlocker12x12" parent="PATHINGBLOCKER">
-        <BoostedCliffLevel value="3"/>
-        <Footprint value="CCData_Footprint_12x12"/>
-    </CUnit>
-    <CUnit id="CCData_WreckedCargoTruck">
-        <Footprint value="FootprintDoodad3x3"/>
-        <EditorCategories value="ObjectType:Prop"/>
-    </CUnit>
-    <CUnit id="CCData_UnitBlocker2x2" parent="PATHINGBLOCKER">
-        <BoostedCliffLevel value="3"/>
-        <Footprint value="CCData_Footprint_2x2"/>
-    </CUnit>
-</Catalog>
+<Catalog/>
+
