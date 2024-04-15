@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Include path="UI/Layout/CommonPanel.SC2Layout"/>
+    <Include path="UI/Layout/RichDialogControl.SC2Layout"/>
+    <Include path="UI/Layout/UIOverride.SC2Layout"/>
+    <Include path="UI/Layout/RDC_UnitStatus.SC2Layout"/>
+    <Include path="UI/Layout/HeroPortrait.SC2Layout"/>
+    <Include path="UI/Layout/TargetPortrait.SC2Layout"/>
+    <Include path="UI/Layout/TargetPortraitB.SC2Layout"/>
+    <Include path="UI/Layout/TreeView.SC2Layout"/>
+    <Include path="UI/Layout/MsgBox.SC2Layout"/>
+    <Include path="UI/Layout/ShopPanel.SC2Layout"/>
+    <Include path="UI/Layout/OptionButton.SC2Layout"/>
+    <Include path="UI/Layout/CommandPanel1.SC2Layout"/>
+    <Include path="UI/Layout/InfoPaneGroup2.SC2Layout"/>
+    <Include path="UI/Layout/MapUIOverride.SC2Layout"/>
+    <Include path="UI/Layout/LoadScreen.SC2Layout"/>
+    <Include path="UI/Layout/ChatUI.SC2Layout"/>
+    <Include path="UI/Layout/CustomChatDisplay.SC2Layout"/>
+</Desc>
