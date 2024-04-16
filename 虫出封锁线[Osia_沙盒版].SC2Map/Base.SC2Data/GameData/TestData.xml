@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog/>
+<Catalog>
+    <CModel id="CCData_MechanicalCrab" parent="Unit">
+        <Model value="Assets\Models\Umojan_Crab.m3"/>
+        <EditorCategories value=""/>
+    </CModel>
+</Catalog>

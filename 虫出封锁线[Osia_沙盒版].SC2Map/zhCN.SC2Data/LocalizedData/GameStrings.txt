@@ -229,13 +229,11 @@ Attribute002/Value008/Name=破碎银河系R8
 Attribute002/Value009/Desc=地图编号9
 Attribute002/Value009/Name=破碎银河系R9
 Attribute002/Value010/Desc=地图编号10
-Attribute002/Value010/Name=虫出封锁线[Osia_重制版]
+Attribute002/Value010/Name=虫出封锁线[Osia_扩图重制版]
 Attribute002/Value011/Desc=地图编号11
 Attribute002/Value011/Name=重装机兵
 Attribute002/Value012/Desc=地图编号0
 Attribute002/Value012/Name=测试
-Attribute002/Value013/Desc=地图编号12
-Attribute002/Value013/Name=虫出封锁线[Osia_沙盒版]
 Attribute003/Desc=开局默认的全员统一光照
 Attribute003/Name=[>>游戏光照<<]
 Attribute003/Value001/Desc=允许每个玩家选择不同的光照渲染
@@ -451,6 +449,12 @@ Attribute026/Desc=调试模式会显示或向调试窗口输出额外信息，�
 Attribute026/Name=[>>调试模式<<]
 Attribute026/Value001/Name=关闭
 Attribute026/Value002/Name=开启
+Attribute027/Desc=播放莉莉丝被抓之类的剧本
+Attribute027/Name=[>>游戏剧情<<]
+Attribute027/Value001/Desc=有玩家没看过剧本时自动进行播放
+Attribute027/Value001/Name=自动
+Attribute027/Value002/Name=始终启用
+Attribute027/Value003/Name=关闭
 Behavior/Name/BJSJ0=暴击几率 +<d ref="Behavior,BJSJ0,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%
 Behavior/Name/BJSJ1=暴击几率 +<d ref="Behavior,BJSJ1,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%
 Behavior/Name/BJSJ10=暴击几率 +<d ref="Behavior,BJSJ10,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%
@@ -1458,8 +1462,8 @@ Button/Tooltip/AN10052=<img path="Assets\Textures\btn-tips-credit.dds" height="2
 Button/Tooltip/AN10052P=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>15000<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>1<n/>前代文明遗留下来的重炮型战车，经考古专家研究，铭牌似乎写着古斯塔夫級...<n><n><c val="FFFF00">铭牌上写着：[Code.10052]
 Button/Tooltip/AN10053=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>8000<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>1<n/>此轻型机甲被称为鼓舞者，可以对地对空<n><n><c val="FFFF00">铭牌上写着：[NO.10053]
 Button/Tooltip/AN10053P=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>8000<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>1<n/>此轻型机甲被称为鼓舞者，可以对地对空<n><n><c val="FFFF00">铭牌上写着：[NO.10053]
-Button/Tooltip/AN10054=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲[专精1]><c><n/>巨型攻城雙足兵器，具有夷平整座城市的力量。<n/><n/><c val="#ColorAttackInfo">武器阵列：空中/地面</c><n><n><c val="FFFF00">铭牌上写着：天神级###特殊型[Code.10054X]<n></c><c val="FF0000"><专精><c val="FF00FF">黄金奥丁升级（共9级）</c>
-Button/Tooltip/AN10054P=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲[专精1]><c><n/>巨型攻城雙足兵器，具有夷平整座城市的力量。<n/><n/><c val="#ColorAttackInfo">武器阵列：空中/地面</c><n><n><c val="FFFF00">铭牌上写着：天神级###特殊型[Code.10054X]<n></c><c val="FF0000"><专精><c val="FF00FF">黄金奥丁升级（共9级）</c>
+Button/Tooltip/AN10054=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲[专精1]><c><n/>巨型攻城雙足兵器，具有夷平整座城市的力量。<n/><n/><c val="#ColorAttackInfo">武器阵列：空中/地面</c><n><n><c val="FFFF00">铭牌上写着：天神级###特殊型[Code.10054]<n></c><c val="FF0000"><专精><c val="FF00FF">黄金奥丁升级（共9级）</c>
+Button/Tooltip/AN10054P=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲[专精1]><c><n/>巨型攻城雙足兵器，具有夷平整座城市的力量。<n/><n/><c val="#ColorAttackInfo">武器阵列：空中/地面</c><n><n><c val="FFFF00">铭牌上写着：天神级###特殊型[Code.10054]<n></c><c val="FF0000"><专精><c val="FF00FF">黄金奥丁升级（共9级）</c>
 Button/Tooltip/AN10055=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲><n><n><c val="FFFF00">铭牌上写着：圣天使级###特殊型[Code.10055]
 Button/Tooltip/AN10055P=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>22500<img path="Assets\Textures\icon-gas-terran-nobg.dds" height="20" width="20"/>3 <c val="FFFF00">(特典!)<c><n/>人類技術最高傑作，可發動全方位致命性打擊<n>配备星舰装甲、拥有先进的瞄准和武器系统<n><c val="#ColorAttackInfo"><特性：特装机甲><n><n><c val="FFFF00">铭牌上写着：圣天使级###特殊型[Code.10055]
 Button/Tooltip/AN10056=<img path="Assets\Textures\btn-tips-credit.dds" height="20" width="20"/>6000<n/>紧急时刻，将普通车辆改装为战斗机甲使用，配备人控炮塔。<n/><n/><c val="#ColorAttackInfo">可以对地。<n></c><n/><c val="FFFF00">铭牌上写着：[Code.10056]
@@ -3937,7 +3941,7 @@ Param/Expression/7934D634=我知道守着她毫无意义，但是我还是想守
 Param/Expression/7A69163E=~A~~B~
 Param/Expression/7A699B8C=~A~
 Param/Expression/7AD1A649=~A~
-Param/Expression/7B04405E=沙盒版~A~
+Param/Expression/7B04405E=重制版~A~
 Param/Expression/7B3BB01F=~A~~B~
 Param/Expression/7C20121C=~A~~B~
 Param/Expression/7C2AE47F=已解除~A~
@@ -4288,6 +4292,7 @@ Param/Value/00239574=+1
 Param/Value/002E84E3=<c val="FF8040">得到</c>
 Param/Value/00311235=<c val="FF8040">得到</c>
 Param/Value/003D7C1C=<c val="FF8040">得到回收补偿资金</c>
+Param/Value/004E26CA=下搜船就安排它们捡漏...
 Param/Value/00531974=<c val="FF00FF">【雷王兽】已启用！</c>
 Param/Value/0064673F=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[1]</c></c>！
 Param/Value/0072812F=<s val="ys_green164">AI波次指令-攻击玩家1
@@ -4316,6 +4321,7 @@ Param/Value/016BABC4=<c val="FF00FF">【Code】10113</c>
 Param/Value/01743131=你全身上下都是宝贝，怎么拿
 Param/Value/017A6BE8=<c val="FF00FF">【Code】10111</c>
 Param/Value/017A97EF=/
+Param/Value/019BEFE7=把尸袋和这几个平民弄上飞船！
 Param/Value/01A3955F=<s val="ys_green164">【剧情BOSS数】
 Param/Value/01A523D2=<s val="ys_green164">【天赋化】<c val="FFFF00">模块加装-<c val="00FFFF">辅助机库扩展</c><c val="FF00FF">LV</c>
 Param/Value/01A676A2=<s val="ys_green164">右上方的目标头像框（配置可存储<img path="Assets\Textures\ui-editoricon-general_save.dds"/>）
@@ -5202,7 +5208,7 @@ Param/Value/306AE7CB=<c val="FF8040">得到</c>
 Param/Value/30840C03=<c val="FF8040">得到</c>
 Param/Value/308B9DB7=<c val="FF8080">A</c><c val="FF8989">I</c><c val="FF9393">限</c><c val="FFB0B0">制</c><c val="FFCDCD">器</c><c val="FFEAEA">+</c><c val="FFF4F4">1</c>
 Param/Value/3096C12D=<c val="FF8080">外</c><c val="FF9A9A">星</c><c val="FFB6B6">器</c><c val="FFD0D0">官</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
-Param/Value/30AA7823=虫出封锁线[Osia_沙盒版]
+Param/Value/30AA7823=虫出封锁线[Osia_扩图重制版]
 Param/Value/30C5D9FE=设置自动镜头 = <c val="FFFF00">[5]
 Param/Value/30CA9249=<c val="FFFF00">【误伤冷却】已关闭</c>
 Param/Value/30CE3E86=狙击步枪S 只能由战士装备!
@@ -5269,6 +5275,7 @@ Param/Value/33DE116C=<c val="FF8040">的</c>
 Param/Value/33EC172B=<c val="FF8000">积分</c>
 Param/Value/33F2BF52=<s val="ys_green164">[错误]该单位无弹仓！
 Param/Value/33FCEC9D=<c val="FF8040">得到</c>
+Param/Value/3454B141=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/3464DAC0=<c val="FF8040">的</c>
 Param/Value/3466A16B=<s val="ys_green205"><c val="FFFF00">F3</c><开启/关闭个人背包>
 Param/Value/3469BE63=<c val="FF8040">得到资金</c>
@@ -5370,6 +5377,7 @@ Param/Value/3A47B6F8=怪物 <c val="FFFF00">掉落了</c> <c val="FF00FF"><I 型
 Param/Value/3A4C2005=<s val="ys_green164">"意外死亡报告" => <c val="FFFF00">假</c>
 Param/Value/3A4EB65B=<c val="FF8040">底盘中度损坏！</c>
 Param/Value/3A58467F=<c val="FF8040">得到</c>
+Param/Value/3A5C3E2B=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/3A80D74B=<c val="FF8040">[主炮名称]</c>
 Param/Value/3A9014D4=<s val="ys_green164">玩家</s>
 Param/Value/3AABAD28=<s val="ys_green164">【特典】<c val="FFFF00">无敌巴士 <c val="FF00FF">设计图</c>
@@ -6534,6 +6542,7 @@ Param/Value/7C2FB677=/
 Param/Value/7C373037=_NY_时间差] = 
 Param/Value/7C3FD24D= [讲武德]</c></s>
 Param/Value/7C5186F0=<c val="FF00FF">戰犬设计图</c>
+Param/Value/7C651865=父亲...
 Param/Value/7C6CD90C=<c val="FF8040">得到</c>
 Param/Value/7C7DF72C=<c val="FF00FF">专精化 <c val="00FFFF">[风暴战机]<c val="FFFF00">激光炮/维修模块</c></c>升级</c>
 Param/Value/7C85D305=<s val="ys_green165">对抗模式：<c val="FFFF00">关</c><c val="FF8040">（PVE）</c></s>
@@ -6588,6 +6597,7 @@ Param/Value/7FFAE962=<c val="FF8000">敵兵</c>：是。
 Param/Value/7FFDF336=<c val="FF00FF">【移动至 玩家出生点】已启用！</c>
 Param/Value/800BC982=<s val="ys_green165">信息栏<c val="FFFF00">OFF</c></s>
 Param/Value/8036226E=启用！操作者是管理员
+Param/Value/8040ECD9=#@￥%...！#@￥% ...！(•́へ•́╬)！
 Param/Value/804A94B3=<c val="FFFFFF">使用指令</c>
 Param/Value/805C2361=<c val="FF8040">获得珍贵图纸</c>
 Param/Value/8065BF44=<c val="FF00FF">使用指令</c>
@@ -6644,6 +6654,7 @@ Param/Value/82D661A7=<s val="ys_green164">【特典】<c val="FFFF00">医疗机�
 Param/Value/82DA6955=<c val="FF8040">得到</c>
 Param/Value/82E52415=<c val="FF8040">得到</c>
 Param/Value/82F252BA=<c val="FF8040">得到</c>
+Param/Value/82FD5659=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/82FF777F=【当前】阀值增减=
 Param/Value/830F1794=<c val="FFFF00">启用</c>
 Param/Value/833BD9ED=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷神E1 <c val="FF00FF">设计图</c>
@@ -6788,6 +6799,7 @@ Param/Value/8B110717=【玩家指令】
 Param/Value/8B17574C=<c val="FF00FF">您正在使用建造厂！请稍后再试！</c>
 Param/Value/8B33848A=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-阳电子破坏炮 <c val="FF00FF">LV</c>
 Param/Value/8B46A115=<c val="FF8040">得到</c>
+Param/Value/8B6A1E14=<c val="FFFF00">改造人</c>
 Param/Value/8B78D9FD=<s val="ys_green164">【轻型战车】<c val="FFFF00">军用运输机 <c val="FF00FF">设计图</c>
 Param/Value/8B8736BF=【管理指令】
 Param/Value/8BA6268C=<c val="FFFF00">【天赋化 武器改装-开启主炮<c val="00FFFF">[风暴战机升级]</c>】</c>设置对象
@@ -6814,6 +6826,7 @@ Param/Value/8C5F2E49=<c val="FF8040">[S-E状态]</c>
 Param/Value/8C6EC882=<c val="FFFF00">王兽箱出货率提升！</c>
 Param/Value/8C83CD46=<s val="ys_green164">支援载具【<c val="FFFF00">清理者-超级计算机</c>】</c>
 Param/Value/8C87C261=<c val="FF8040">得到</c>
+Param/Value/8C887BFA=快点！...我要等不及了... 你们这群蠢货！
 Param/Value/8C896D72=<c val="FF00FF">战狼-II设计图</c>
 Param/Value/8C98FF27=<s val="ys_green164">难度等级调整为LV1【简单】
 Param/Value/8C9F828A=<s val="ys_yellow164">新系统情报公开：（与原虫出掉落叠加）<n/>杀敌掉落：5%触发抽签（抽怪物掉落池）<n/>怪物掉落池：2%出特殊宝箱（掉落后混在原作箱子里）<n/>特殊宝箱：50%抽新池；宝箱：1/60抽新池<n/>新池：7/1431掉落目前三个典藏载具（风暴战机5一级战列舰1黄金奥丁1）<n/>新池：20/1431掉落建筑图（其中工业建筑无掉落，需连接卫星下载获取）<n/>↓追加介绍<n/>新系统通关奖励[暂不挑难度]：（获取时全员不一样、与原虫出掉落叠加）<n/>特定池（特定功勋加抽，暂取消此池）：<n/>黄金奥丁[需元帅]，出率2%；风暴战机[需一级上将]，出率2%；<n/>一级战列舰[需元帅]，出率2%；<n/><n/>专精池（以下随机抽一次）：<n/>专精化 黄金奥丁升级[9层][需一级上将]，出率2%；<n/>>>>升级包括减少费用、增强装甲护甲和技能<n/>>>>LV1时瓦斯费用-2，护甲+2，堡垒加农射程+2<n/>>>>每提升1级：血量+25，堡垒加农架设时间-0.25s<n/>>>>每提升1级：起始能量+5，永恒圣枪消耗-2；<n/>专精化 风暴战机配件升级[1层][需少将]，出率2%；<n/>>>>含：奖励舞步（嘲讽）+吞云推进器（增强飞雷仓射程）；<n/>专精化 风暴战机硬件升级[9层][需一级少将]，出率2%；<n/>>>>含：提升装甲量、高速激光炮（提升威力）、维修模块（缩短时间）；<n/>专精化 一级战列舰升级[9层][需一级上将]，出率2%；<n/>>>>升级后大幅变更费用、增强主舰炮，升级项目众多不再罗列；<n/><n/>加抽池：（以下随机抽一次）<n/>新池、武器池（暂空）、建造池、特典池（暂空）、天赋池<n/><n/>其中天赋池（以下随机抽一次）：<n/>天赋化 武器改装-电子连结键破坏炮（开启技能）[9层][需少将]，出率2%；<n/>天赋化 武器改装-阳电子破坏炮（开启技能）[9层][需少将]，出率2%；<n/>天赋化 武器改装-开启主炮（开启技能）[9层][需特级上将]，出率2%；<n/>天赋化 武器改装-开启副炮（开启技能）[9层][特级上将]，出率2%。
@@ -6933,6 +6946,7 @@ Param/Value/926B51CA=<c val="FF8040">的</c>
 Param/Value/92734EAC=哈哈！看我发现了什么！
 Param/Value/929B95F4=<c val="FFFF00">【专精化 激光炮/维修模块<c val="00FFFF">[风暴战机升级]</c>】</c>已为玩家
 Param/Value/92BCAEF5=等级已最高！
+Param/Value/92C7B950=<c val="FFFF00">莉莉丝</c>
 Param/Value/92D60EBF=<s val="ys_green164">【中型战车】<c val="FFFF00">SX型安保机器人 <c val="FF00FF">设计图</c>
 Param/Value/92EAF6A7=中度破损
 Param/Value/92FDBE76=<c val="FF00FF">抹杀者-M设计图</c>
@@ -6995,6 +7009,7 @@ Param/Value/963A3857=<c val="FF8040">得到</c>
 Param/Value/96493C2E=被收监！操作者为 
 Param/Value/964B6F62=<c val="FFFF00">超级计算机天赋/专精已升级<c val="FF00FF">[不存档]</c></c>
 Param/Value/96862136=修改<c val="00FF00">按键移动[WASD]</c> = 
+Param/Value/96987F47=你...给我进去！
 Param/Value/96ADBD72=<c val="FF00FF">【怪物掉宝】已开启！阀值 = 100</c>
 Param/Value/96BAEF11=<c val="FF8040">拥有</c>
 Param/Value/97141EB7=<s val="ys_white204"><c val="FF00FF">遭遇</c>
@@ -7666,6 +7681,7 @@ Param/Value/BB246642=<s val="ys_green164"><c val="FF8000">~A~</c>：好了，还
 Param/Value/BB26449B=<s val="ys_green164">【全专精升级】已启用！
 Param/Value/BB31B2EF=<s val="ys_green164">【特典】<c val="FFFF00">黄金奥丁 <c val="FF00FF">设计图</c>
 Param/Value/BB5A5CAA=<s val="ys_blue165">功勋系统 <s val="ys_green165">已关闭！
+Param/Value/BB97FA1B=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/BBA0D5D5=<c val="FFFF00">【专精化 防卫改装-镭射集群<c val="00FFFF">[超级计算机升级]</c>】</c>设置对象
 Param/Value/BBAB19BF=已移动至出生点！操作者为 
 Param/Value/BBD39B42=<c val="FF8040">的</c>
@@ -7948,6 +7964,7 @@ Param/Value/CB285818=<s val="ys_green164">支援载具【<c val="FFFF00">清理�
 Param/Value/CB39B916=<s val="ys_White164"><c val="FF00FF"><c val="FFFF00">【支援测试-风暴战机】</c>已启用！</c>
 Param/Value/CB3F5FB4=<c val="FF8040">得到</c>
 Param/Value/CB43CDBF=<s val="ys_green164">【特典】<c val="FFFF00">救援机甲 <c val="FF00FF">设计图</c>
+Param/Value/CB4B67AC=好了！..准备走了...
 Param/Value/CB53BB4F=<c val="FF8040">的</c>
 Param/Value/CB5A240E=<c val="FF8040">得到</c>
 Param/Value/CB64274A=<s val="ys_green164">【轻型机甲】<c val="FFFF00">RB-II型 <c val="FF00FF">设计图</c>
@@ -8480,6 +8497,7 @@ Param/Value/E74C1895=好了大伙开始拟定一下计划吧，开工了！
 Param/Value/E7605C21=<c val="FF8040">主炮中破！</c>
 Param/Value/E761C1BA=<c val="FF8040">购买速度强化星</c>
 Param/Value/E791F7B6=<s val="ys_green164">【祭祀之雨】 已设为默认！</c>
+Param/Value/E7923FD6=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/E7B86430=<c val="FFFF00">【OB福利】</c>
 Param/Value/E7C2C911=<c val="FF8040">得到</c>
 Param/Value/E7C89CBE=<c val="FFFF00">宝箱</c>
@@ -9323,6 +9341,7 @@ Unit/Name/CCData_V10111_StormFighter=<c val="FF00FF">风暴战机</c>
 Unit/Name/CCData_V10112_OptimizePrime=擎天柱卡车
 Unit/Name/CCData_V10113_DukesRevenge=<s val="ys_BlackRed224">一级战列舰</s>
 Unit/Name/CCData_V10114_Raven=操作港作业机
+Unit/Name/CCData_V10115_MechanicalCrab=<c val="FFFF00">机械螃蟹</c>
 Unit/Name/CCData_ValhallaCabinet=Valhalla Cabinet
 Unit/Name/CCData_VehicleEnergy=载具能量
 Unit/Name/CCData_VehicleSP=载具装甲
@@ -9988,6 +10007,7 @@ Upgrade/Name/SJ10111=风暴战机设计图
 Upgrade/Name/SJ10112=擎天柱卡车设计图
 Upgrade/Name/SJ10113=一级战列舰设计图
 Upgrade/Name/SJ10114=操作港作业机设计图
+Upgrade/Name/SJ10115=机械螃蟹设计图
 Upgrade/Name/SJTX101=狼人头衔
 Upgrade/Name/SJTX102=牧羊人头衔
 Upgrade/Name/SJTX103=群魔祭天头衔

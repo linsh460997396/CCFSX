@@ -1036,6 +1036,9 @@
     <CModel id="OS_HaHaMiroScreen">
         <Model value="Assets\COOP\Zeratul\Portraits\Prophecy_Zeratul_COOP_Portrait\Prophecy_Zeratul_COOP_Portrait.m3"/>
     </CModel>
+    <CSound id="Sound_TakeOff" parent="MUSIC">
+        <AssetArray File="Assets\Sounds\0x37-Takeoff.wav" FacialGroup=""/>
+    </CSound>
     <CSound id="Music_ZiZiZi" parent="MUSIC">
         <AssetArray File="Assets\Music\Music - BOSS战 重装机兵.mp3" FacialGroup=""/>
     </CSound>
