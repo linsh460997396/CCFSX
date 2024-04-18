@@ -154,9 +154,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForceOcclusionHide" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="165581425" Position="82.72,9.18,7.9985" Scale="0.5,0.5,0.5" Type="SpaceGunRack">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="587" Variation="2" Position="39.7468,47.7768,7.9985" Rotation="4.6345" Scale="1,1,2" Type="PortZionGroundMix">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -390,9 +387,6 @@
     <ObjectDoodad Id="844" Variation="1" Position="16.5178,145.09,7.6403" Rotation="5.1555" Scale="1,1,0.0998" Type="ZerusTallGrassCluster">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="572892709" Position="82.73,7.7597,7.9985" Scale="0.5,0.5,0.5" Type="SpaceGunRack">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="807" Variation="1" Position="43.0368,151.4782,7.9985" Rotation="1.543" Scale="0.7995,0.7995,0.7995" Type="ColonistCorpse">
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -427,9 +421,6 @@
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="592" Variation="5" Position="29.1096,51.2067,7.9985" Rotation="5.0615" Scale="1,1,2" Type="PortZionGroundMix">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1797822449" Position="82.73,10.74,7.9985" Scale="0.5,0.5,0.5" Type="SpaceGunRack">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="571" Variation="3" Position="67.3945,33.0024,7.9985" Rotation="0.0197" Scale="1,1,2" Type="PortZionGroundMix">
@@ -668,9 +659,6 @@
     <ObjectDoodad Id="637" Variation="3" Position="59.3808,110.8186,8.235" Rotation="3.3398" Scale="1,1,2" Type="PortZionGroundMix">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="422428861" Position="82.72,6.2,7.9985" Scale="0.5,0.5,0.5" Type="SpaceGunRack">
-        <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
     <ObjectDoodad Id="787" Variation="1" Position="53.5,9.5,7.6403" Rotation="5.266" Scale="1,1,1" Type="ZerusTallGrassCluster">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -711,7 +699,7 @@
     <ObjectDoodad Id="686" Position="70.1247,61.1376,7.9985" Rotation="6.0041" Scale="1,1,2" Type="PortZionGroundMix">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="768" Position="81.3198,4.23,7.9985" Rotation="5.0085" Scale="1,1,1" Type="PortZionBarrelPhysics">
+    <ObjectDoodad Id="768" Position="81.019,4.1396,7.9985" Rotation="5.0085" Scale="1,1,1" Type="PortZionBarrelPhysics">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="709" Variation="5" Position="6.5,16.5,7.9985" Rotation="1.5705" Scale="3.7,3.7,3.7" Type="GenericBuildingRubble">
@@ -1508,7 +1496,9 @@
     <ObjectUnit Id="449" Position="73.5,141.5,0" Rotation="2.31" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="326329779" Position="88.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="326329779" Position="88.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="111" Variation="2" Position="75.5,84.5,0" Scale="1,1,1" UnitType="CCData_TongXunDaLou">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -1633,7 +1623,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="DeferModelLoad" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1663952252" Position="88.5,6.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1663952252" Position="88.5,6.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1142" Position="69,142,0" Scale="1,1,1" UnitType="DestructibleCityDebris2x4Horizontal"/>
     <ObjectUnit Id="469" Position="32,52,0" Scale="1,1,1" UnitType="DestructibleCityDebris2x4Horizontal">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -1695,7 +1687,7 @@
     <ObjectUnit Id="1089" Variation="1" Position="42.5,132.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="94895611" Position="88,3,0" Scale="1,1,1" Name="RPG重铸" UnitType="InfestedDominionHousing2"/>
+    <ObjectUnit Id="94895611" Position="84,8,0" Scale="1,1,1" Name="RPG重铸" UnitType="CCData_ManufacturingStand"/>
     <ObjectUnit Id="76" Position="11.5,157.5,0" Rotation="1.5705" Scale="1,1,1" UnitType="CCData_BuildingRuin">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -1763,7 +1755,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1735877694" Position="88.5,15.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1735877694" Position="88.5,15.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="59" Variation="5" Position="62.5,125.5,0" Rotation="1.5705" Scale="1,1,1.5" UnitType="CCData_BuildingRuin"/>
     <ObjectUnit Id="33796709" Position="34.0397,10.46,0" Rotation="0.7851" Scale="0.75,1,1.7" UnitType="CCData_Storefront2F">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -1799,7 +1793,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1325720859" Position="88.5,3.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1325720859" Position="88.5,3.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="40" Variation="3" Position="54.5,93.5,0" Rotation="1.5703" Scale="1,1,1" UnitType="CCData_BuildingRuin"/>
     <ObjectUnit Id="279371656" Position="67.5231,197.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
@@ -1856,7 +1852,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="DeferModelLoad" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="15961089" Position="83.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="15961089" Position="83.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1148" Position="74.5,126.5,0" Rotation="3.4306" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -1908,7 +1906,6 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="380691517" Position="84,14,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVerticalLF"/>
     <ObjectUnit Id="364196782" Position="74.5231,196.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -1932,7 +1929,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="45" Variation="6" Position="36.5,57.5,0" Scale="1,1,1" UnitType="CCData_TongXunDaLou"/>
-    <ObjectUnit Id="1260185042" Position="84.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1260185042" Position="84.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="345" Variation="3" Position="56.5,49.5,0" Rotation="1.5705" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
     <ObjectUnit Id="1080058820" Position="61.5231,181.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
@@ -1962,7 +1961,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="567961793" Position="87.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="567961793" Position="87.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="861615373" Position="77,165,0" Rotation="5.0588" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
@@ -1985,7 +1986,7 @@
     <ObjectUnit Id="201587139" Position="79.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="194889017" Position="84,7,0" Scale="1,1,1" Name="RPG制造（药剂）" UnitType="InfestedDominionHousing2"/>
+    <ObjectUnit Id="194889017" Position="88,6,0" Scale="1,1,1" Name="RPG制造（药剂）" UnitType="CCData_ManufacturingStand"/>
     <ObjectUnit Id="223245320" Position="60.5231,196.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2016,8 +2017,12 @@
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="823" Position="20.5,131.5,0" Scale="1,1,1" UnitType="CCData_StoryBoss_HotSTorrasque" Player="14"/>
-    <ObjectUnit Id="728001028" Position="88.5,9.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
-    <ObjectUnit Id="19171507" Position="82.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="728001028" Position="88.5,9.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="19171507" Position="82.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="929274148" Position="46.5,132.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2044,7 +2049,8 @@
     <ObjectUnit Id="417981245" Position="58.5,4.5,0" Rotation="4.7121" Scale="1,1,0.7998" Name="备用车库" UnitType="CCData_BeiYongCheKu">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="759" Position="43.5,99,0" Rotation="0.1684" Scale="1,1,1" UnitType="CCData_StoryBoss_Slivan" Player="14"/>
+    <ObjectUnit Id="759" Position="43.5,99,0" Rotation="0.1682" Scale="1,1,1" UnitType="CCData_StoryBoss_Slivan" Player="14"/>
+    <ObjectUnit Id="1885899655" Position="68.448,12.2431,0" Scale="1,1,1" UnitType="CourierU"/>
     <ObjectUnit Id="1113623952" Position="67.5,5.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -2120,13 +2126,17 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="DeferModelLoad" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1784374434" Position="88.5,7.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1784374434" Position="88.5,7.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="350" Position="36,13,0" Scale="1,1,1" Name="营口碎石（左）" UnitType="DestructibleCityDebris2x4Horizontal" Player="13"/>
     <ObjectUnit Id="667563769" Position="66,171,0" Rotation="5.0588" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
     </ObjectUnit>
-    <ObjectUnit Id="1245617556" Position="86.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1245617556" Position="86.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="599189228" Position="65.5231,197.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2150,6 +2160,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="333" Variation="3" Position="67.5,90.5,0" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
+    <ObjectUnit Id="904250783" Position="70,3,0" Rotation="3.1413" Scale="1,1,1" Name="商店大门1" UnitType="DestructibleGateStraightVerticalLF">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1799370186" Position="71,171,0" Rotation="5.0588" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
@@ -2162,7 +2175,9 @@
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1469699225" Position="85.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1469699225" Position="85.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1180" Position="32.5,25.5,0" Rotation="1.6735" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2172,7 +2187,9 @@
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1790733464" Position="88.5,14.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1790733464" Position="88.5,14.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1207" Position="55.5,142.5,0" Rotation="1.4943" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2206,6 +2223,7 @@
     <ObjectUnit Id="950316974" Position="83.5,9.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="1147560443" Position="82,11,0" Scale="1,1,1" UnitType="CCData_WeaponRack"/>
     <ObjectUnit Id="527139626" Position="67.5231,181.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2235,13 +2253,15 @@
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="907334015" Position="84,5,0" Scale="1,1,1" Name="RPG制造（宝石）" UnitType="InfestedDominionHousing2"/>
+    <ObjectUnit Id="907334015" Position="88,8,0" Scale="1,1,1" Name="RPG制造（宝石）" UnitType="CCData_ManufacturingStand"/>
     <ObjectUnit Id="1662443013" Variation="1" Position="46.5,116.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="334" Variation="3" Position="20.5,91.5,0" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
-    <ObjectUnit Id="1577631111" Position="88.5,4.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1577631111" Position="88.5,4.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="352" Position="39,13,0" Scale="1,1,1" Name="营口碎石（中）" UnitType="DestructibleCityDebris2x4Horizontal" Player="13"/>
     <ObjectUnit Id="1192" Position="50.5,18.5,0" Rotation="1.6735" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2261,10 +2281,15 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
     </ObjectUnit>
-    <ObjectUnit Id="594205753" Position="87.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="594205753" Position="87.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1201" Position="48.5,165.5,0" Rotation="1.4943" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="1764318285" Position="82,7,0" Scale="1,1,1" UnitType="CCData_WeaponRack">
+        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="344117512" Position="73.5231,185.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
@@ -2278,10 +2303,7 @@
     <ObjectUnit Id="281578715" Position="71.5231,181.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1055183795" Position="84,3,0" Scale="1,1,1" Name="RPG制造（装备）" UnitType="InfestedDominionHousing2"/>
-    <ObjectUnit Id="1915437352" Position="73.8698,10.1098,0" Rotation="2.9487" Scale="1,1,1" Name="RPG仓库" UnitType="CCData_StorageBox">
-        <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectUnit>
+    <ObjectUnit Id="1055183795" Position="88,10,0" Scale="1,1,1" Name="RPG制造（装备）" UnitType="CCData_ManufacturingStand"/>
     <ObjectUnit Id="2035886854" Position="15,167,0" Rotation="5.059" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
@@ -2294,7 +2316,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="354464257" Position="88.5,5.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="354464257" Position="88.5,5.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="274361177" Position="59.5231,185.4965,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2325,7 +2349,6 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="DeferModelLoad" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1171842443" Position="70,2,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVerticalLF"/>
     <ObjectUnit Id="344" Variation="3" Position="56.5,76.5,0" Rotation="1.5705" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
     <ObjectUnit Id="285" Position="43.5,116.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
@@ -2379,12 +2402,18 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="232366258" Position="82,9,0" Scale="1,1,1" UnitType="CCData_WeaponRack">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1572708595" Position="43.5,116.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="336" Variation="3" Position="20.5,58.5,0" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
     <ObjectUnit Id="1101001588" Position="66.5,13.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="1300359693" Position="84,14,0" Rotation="3.1413" Scale="1,1,1" Name="商店大门2" UnitType="DestructibleGateStraightVerticalLF">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="548954339" Position="66.5,3.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
@@ -2431,9 +2460,13 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
     </ObjectUnit>
-    <ObjectUnit Id="2073750735" Position="88.5,10.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="2073750735" Position="88.5,10.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="332" Variation="3" Position="67.5,107.5,0" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
-    <ObjectUnit Id="232691441" Position="88.5,13.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="232691441" Position="88.5,13.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1203" Position="53.5,159.5,0" Rotation="1.4943" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2489,7 +2522,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1043662692" Position="88.5,12.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1043662692" Position="88.5,12.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1620601725" Position="66,169,0" Rotation="5.059" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
@@ -2519,8 +2554,10 @@
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="323" Variation="3" Position="43.5,91.5,0" Scale="0.5998,0.5998,0.5998" UnitType="DestructibleStreetlight"/>
-    <ObjectUnit Id="1724531270" Position="88,13,0" Scale="1,1,1" UnitType="DestructibleUmojanLabPowerCell"/>
-    <ObjectUnit Id="883065830" Position="88,5,0" Scale="1,1,1" Name="RPG精制" UnitType="InfestedDominionHousing2"/>
+    <ObjectUnit Id="1724531270" Position="88,13,0" Scale="1,1,1" UnitType="CCData_DestructibleUmojanLabPowerCell">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="883065830" Position="84,10,0" Scale="1,1,1" Name="RPG精制" UnitType="CCData_ManufacturingStand"/>
     <ObjectUnit Id="982" Position="14.5,55.5,0" Rotation="4.487" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2580,7 +2617,9 @@
     <ObjectUnit Id="993" Variation="1" Position="62,71,0" Scale="1.2995,1.2995,1.2" UnitType="CCData_Storefront">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="416418997" Position="86.4841,14.243,0" Scale="1,1,1" UnitType="CCData_Zombie5">
+    <ObjectUnit Id="88267526" Position="68.2,2.48,0" Scale="1,1,1" Name="测试商店" UnitType="CCData_SCVShop"/>
+    <ObjectUnit Id="416418997" Position="86.96,13.89,0" Rotation="4.7121" Scale="1,1,1" UnitType="CCData_ZombieLilysMother">
+        <Flag Index="UnitHidden" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="430" Position="72.5,91.5,0" Rotation="1.1782" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
@@ -2657,7 +2696,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="DeferModelLoad" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="398145420" Position="88.5,8.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="398145420" Position="88.5,8.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="960" Position="26.5,46.5,0" Rotation="0.9985" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2707,9 +2748,6 @@
     <ObjectUnit Id="83" Variation="5" Position="77.5,117.5,0" Rotation="1.5705" Scale="1,1,1.5" UnitType="CCData_BuildingRuin">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1522874850" Position="70.5,4.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
-        <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectUnit>
     <ObjectUnit Id="1004756756" Position="19,169,0" Rotation="5.0588" Scale="1,1,1" UnitType="DestructibleDebris4x4">
         <Flag Index="ForcePlacement" Value="1"/>
         <AIFlag Index="IsUseable" Value="0"/>
@@ -2741,7 +2779,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1136" Position="66,136,0" Rotation="4.1992" Scale="1,1,1" UnitType="DestructibleDebris4x4"/>
-    <ObjectUnit Id="1016983670" Position="84.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="1016983670" Position="84.5,11.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="440" Position="61.5,113.5,0" Rotation="3.4326" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
@@ -2883,7 +2923,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="2058538536" Position="88,11,0" Scale="1,1,1" Name="储物箱" UnitType="UmojanLabCageDestructible"/>
+    <ObjectUnit Id="2058538536" Position="68,4,0" Scale="1,1,1" UnitType="CCData_UmojanLabCage">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="998" Position="49.5,157.5,0" Scale="1,1,1" UnitType="Hatchery" Player="14">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -2914,7 +2956,9 @@
     <ObjectUnit Id="66" Position="11.5,78.5,0" Rotation="1.5705" Scale="1,1,1" UnitType="CCData_BuildingRuin">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="737497287" Position="88.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="737497287" Position="88.5,16.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="968" Position="40.5,97.5,0" Rotation="0.0556" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
         <Flag Index="CameraHidden" Value="1"/>
     </ObjectUnit>
@@ -2945,7 +2989,9 @@
     <ObjectUnit Id="1085" Position="47.5,131.5,0" Scale="1,1,1" UnitType="CCData_HB_SandBag">
         <Flag Index="UnitHidden" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="857119512" Position="88.5,2.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall"/>
+    <ObjectUnit Id="857119512" Position="88.5,2.5,0" Scale="1,1,1" UnitType="CCData_FKBaffle4Wall">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="48" Variation="6" Position="32.5,99.5,0" Scale="1,1,2" UnitType="CCData_BuildingRuin"/>
     <ObjectUnit Id="91" Position="76.5,61.5,0" Rotation="1.5705" Scale="1,1,1" UnitType="CCData_BuildingRuin">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -2990,7 +3036,7 @@
     <ObjectUnit Id="72" Variation="5" Position="10.5,143.5,0" Rotation="4.7121" Scale="1,1,1" UnitType="CCData_BuildingRuin">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="560" Position="81.7497,6.0827,0" Rotation="4.712" Scale="1,1,1" UnitType="CCData_Scientist">
+    <ObjectUnit Id="560" Position="81.0097,6.0798,0" Rotation="4.7121" Scale="1,1,1" UnitType="CCData_Scientist">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="442" Position="55.5,150.5,0" Rotation="3.2424" Scale="1,1,1" UnitType="CCData_ZobieMaker" Player="14">
@@ -3425,5 +3471,74 @@
         <GroupObject Id="1748010555"/>
         <GroupObject Id="1799370186"/>
         <GroupObject Id="1847381904"/>
+    </Group>
+    <Group Type="ObjectUnit" Name="商店墙" Id="2">
+        <GroupObject Id="15961089"/>
+        <GroupObject Id="19171507"/>
+        <GroupObject Id="201587139"/>
+        <GroupObject Id="232691441"/>
+        <GroupObject Id="244421349"/>
+        <GroupObject Id="326329779"/>
+        <GroupObject Id="354464257"/>
+        <GroupObject Id="398145420"/>
+        <GroupObject Id="548954339"/>
+        <GroupObject Id="552974561"/>
+        <GroupObject Id="567961793"/>
+        <GroupObject Id="594205753"/>
+        <GroupObject Id="618966498"/>
+        <GroupObject Id="665887056"/>
+        <GroupObject Id="728001028"/>
+        <GroupObject Id="737497287"/>
+        <GroupObject Id="822634887"/>
+        <GroupObject Id="857119512"/>
+        <GroupObject Id="950316974"/>
+        <GroupObject Id="977357838"/>
+        <GroupObject Id="1010481358"/>
+        <GroupObject Id="1016983670"/>
+        <GroupObject Id="1043662692"/>
+        <GroupObject Id="1065909655"/>
+        <GroupObject Id="1068449250"/>
+        <GroupObject Id="1101001588"/>
+        <GroupObject Id="1113623952"/>
+        <GroupObject Id="1126565379"/>
+        <GroupObject Id="1210764543"/>
+        <GroupObject Id="1230880469"/>
+        <GroupObject Id="1242220157"/>
+        <GroupObject Id="1245617556"/>
+        <GroupObject Id="1259007128"/>
+        <GroupObject Id="1260185042"/>
+        <GroupObject Id="1261853793"/>
+        <GroupObject Id="1280108759"/>
+        <GroupObject Id="1299197276"/>
+        <GroupObject Id="1325720859"/>
+        <GroupObject Id="1399079666"/>
+        <GroupObject Id="1423306420"/>
+        <GroupObject Id="1469699225"/>
+        <GroupObject Id="1487758560"/>
+        <GroupObject Id="1502677567"/>
+        <GroupObject Id="1520496502"/>
+        <GroupObject Id="1577631111"/>
+        <GroupObject Id="1632167662"/>
+        <GroupObject Id="1653290116"/>
+        <GroupObject Id="1654822798"/>
+        <GroupObject Id="1663952252"/>
+        <GroupObject Id="1667165223"/>
+        <GroupObject Id="1735877694"/>
+        <GroupObject Id="1759509571"/>
+        <GroupObject Id="1780623065"/>
+        <GroupObject Id="1784374434"/>
+        <GroupObject Id="1790733464"/>
+        <GroupObject Id="1803070006"/>
+        <GroupObject Id="1805990969"/>
+        <GroupObject Id="1831633186"/>
+        <GroupObject Id="1868289828"/>
+        <GroupObject Id="2014269601"/>
+        <GroupObject Id="2024891690"/>
+        <GroupObject Id="2058409228"/>
+        <GroupObject Id="2073750735"/>
+        <GroupObject Id="2088026954"/>
+        <GroupObject Id="2089372269"/>
+        <GroupObject Id="2107180803"/>
+        <GroupObject Id="2127452987"/>
     </Group>
 </PlacedObjects>

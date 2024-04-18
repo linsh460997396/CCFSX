@@ -36,7 +36,6 @@
 <Actor id="GenericBuildingRubble" Variations="4,5,7"/>
 <Actor id="KorhalDestroyedBuilding" Variations="0,1,2"/>
 <Actor id="PortZionBarrelPhysics"/>
-<Actor id="SpaceGunRack" Variations="0"/>
 <Actor id="ZerusTallGrassCluster" Variations="1"/>
 <Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
 <Actor id="PortZionGroundMix" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
@@ -166,21 +165,22 @@
 <Unit id="PrimalRoachBurrowed"/>
 <Unit id="PrimalHydraliskBurrowed"/>
 <Unit id="ScantipedeParasiticSmall"/>
-<Unit id="DestructibleUmojanLabPowerCell"/>
 <Unit id="LeapingCritter"/>
 <Unit id="ScantipedeParasitic"/>
-<Unit id="UmojanLabCageDestructible" Variations="0"/>
 <Unit id="Yeti"/>
 <Unit id="YetiMomma"/>
 <Unit id="GiantYeti"/>
 <Unit id="ZerusAlienTreeHover"/>
-<Unit id="InfestedDominionHousing2"/>
 <Unit id="DefilerMPBurrowed"/>
 <Unit id="DefilerMP"/>
 <Unit id="Moopy"/>
 <Unit id="Ursula"/>
 <Unit id="KasaiSpaceWhale"/>
 <Unit id="BeachGirl"/>
+<Unit id="CCData_SCVShop"/>
+<Unit id="CCData_ManufacturingStand"/>
+<Unit id="CCData_WeaponRack" Variations="0"/>
+<Unit id="CCData_UmojanLabCage" Variations="0"/>
 <Unit id="OS_ReneeCamera"/>
 <Unit id="OS_ScreenMaJia"/>
 <Unit id="OS_HaHaMiro"/>
@@ -196,7 +196,6 @@
 <Unit id="CCData_StoryBoss_HotSTorrasque"/>
 <Unit id="CCData_V10093_ColonistShip"/>
 <Unit id="CCData_Story_FeiChuan"/>
-<Unit id="CCData_Zombie5"/>
 <Unit id="CCData_HB_Campfire"/>
 <Unit id="CCData_HB_SandBag" Variations="0,1,2"/>
 <Unit id="CCData_HB_FangZhenJiPao"/>
@@ -213,6 +212,7 @@
 <Unit id="CCData_V10013_HadesFlame"/>
 <Unit id="CCData_T29_ZhuShenEX"/>
 <Unit id="CCData_V10111_StormFighter"/>
+<Unit id="CCData_StashBox"/>
 <Unit id="CCData_V10115_MechanicalCrab"/>
 <Unit id="CCData_Hero_Lilys"/>
 <Unit id="CCData_ValhallaCabinet" Variations="6"/>
@@ -343,6 +343,8 @@
 <Unit id="DZA_DBJJCPU9_DF"/>
 <Unit id="DZA_DBJJCPU10_DF"/>
 <Unit id="CCData_NovaXanthosAssault"/>
+<Unit id="CCData_ZombieLilysMother"/>
+<Unit id="CCData_DestructibleUmojanLabPowerCell"/>
 <Weapon id="SpartanCompanyGUpgraded"/>
 <Weapon id="MengskWraithG"/>
 <Weapon id="SJPirateCapitalShip"/>

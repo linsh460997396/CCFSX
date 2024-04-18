@@ -766,4 +766,16 @@
             <height value="80"/>
         </shape>
     </region>
+    <region id="22">
+        <name value="商店左"/>
+        <shape type="rect">
+            <quad value="65.2714,0.0131,71.2224,6.313"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="商店右"/>
+        <shape type="rect">
+            <quad value="83.0002,0.1191,89.7663,18.184"/>
+        </shape>
+    </region>
 </Regions>

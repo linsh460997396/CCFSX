@@ -77,7 +77,6 @@
         <Id Value="27"/>
         <Type Value="Global"/>
         <Name Value="Attribute027/Name"/>
-        <Description Value="Attribute027/Desc"/>
         <Availability Value="All"/>
         <Visibility Value="All"/>
         <Access Value="Host"/>

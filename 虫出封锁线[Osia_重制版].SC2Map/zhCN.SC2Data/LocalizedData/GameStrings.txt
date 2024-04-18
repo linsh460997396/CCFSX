@@ -449,7 +449,6 @@ Attribute026/Desc=调试模式会显示或向调试窗口输出额外信息，�
 Attribute026/Name=[>>调试模式<<]
 Attribute026/Value001/Name=关闭
 Attribute026/Value002/Name=开启
-Attribute027/Desc=播放莉莉丝被抓之类的剧本
 Attribute027/Name=[>>游戏剧情<<]
 Attribute027/Value001/Desc=有玩家没看过剧本时自动进行播放
 Attribute027/Value001/Name=自动
@@ -1679,6 +1678,7 @@ Button/Tooltip/CCData_IceProtossCrates=箱子。里面可能有东西。
 Button/Tooltip/CCData_ImmortalBarrierBase=最多可吸收<d ref="Behavior,ImmortalBarrierBase,DamageResponse.ModifyLimit"/>点伤害，持续<d ref="Behavior,ImmortalBarrierBase,Duration"/>秒。
 Button/Tooltip/CCData_ImmortalShakurasShadowCannon=对目标单位或建筑造成<d ref="Effect,ImmortalShakurasShadowCannonDamage,Amount*Effect,ImmortalShakurasShadowCannonCP,PeriodCount"/>点伤害。<n/><n/><c val="#ColorAttackInfo">可以对地面和空中单位使用。</c>
 Button/Tooltip/CCData_IndustrialBuild=基础建筑列表。
+Button/Tooltip/CCData_InfestedDominionHousing=斯基格尔研究站上供帝国部队驻扎的驻地营房。
 Button/Tooltip/CCData_ItemGrenades=掷出一枚手榴弹。
 Button/Tooltip/CCData_JiQiangPaoTai=用工厂生产的标准零件赶制的炮台（防御型），部署时仍需花点时间。</n></n><c val="#ColorAttackInfo">武器阵列：对空对地</c>
 Button/Tooltip/CCData_JiQiangPaoTaiP=自动化防御炮塔。部署后<d ref="Behavior,AutoTurretTimedLife,Duration"/>秒失效。<n/><n/><c val="#ColorAttackInfo">可以对地和对空。</c>
@@ -1688,6 +1688,7 @@ Button/Tooltip/CCData_KingBoss_MoRiShou=巨型突击猛兽，能够进行范围�
 Button/Tooltip/CCData_LocustMP=生命短暂但异常坚韧的危险生物。<n/><n/><c val="#ColorAttackInfo">可以对地。</c>
 Button/Tooltip/CCData_Lower=降下建筑，允许地面单位出入。
 Button/Tooltip/CCData_LowerFYMQ=降下建筑，允许地面单位出入。
+Button/Tooltip/CCData_ManufacturingStand=斯基格尔研究站上供帝国部队驻扎的驻地营房。
 Button/Tooltip/CCData_MedicHeal=治疗一个友方生物单位。<n/><n/><c val="f078ff">每消耗<d ref="Effect,heal,RechargeVitalRate * Effect,heal,DrainVitalCostFactor"/>点能量可恢复<d ref="Effect,heal,RechargeVitalRate"/>点生命值。</c>
 Button/Tooltip/CCData_MedicalExcitatoryFrone=向该单位注入效力强劲的强化剂，使其攻击和移动速度在数秒内得到显著提升，但会消耗10点生命值。
 Button/Tooltip/CCData_MedivacSpeedBoost=使医疗运输机的移动速度提高70%，持续<d time="8"/>。
@@ -3700,7 +3701,7 @@ Param/Expression/21B15E07=~A~~B~
 Param/Expression/22CE2FFD=~A~~B~~C~
 Param/Expression/231F8166=~A~~B~
 Param/Expression/2366CCAC=~A~~B~~C~
-Param/Expression/236F6063=如你所见这里物资充足，我可以帮你做点强化作业，外面生存也很是艰难的。
+Param/Expression/236F6063=<s val="ys_white204">如你所见这里<c val="FFFF00">物资</c>充足，我可以帮你做点<c val="FFFF00">强化</c>作业，外面生存也很是艰难的。
 Param/Expression/2371D041=<s val="ys_White164"><c val="FF00FF">为【玩家~A~】创建武装者单位！</c>
 Param/Expression/23F22F6D=~A~~B~~C~
 Param/Expression/240FF3B5=~A~~B~
@@ -3816,7 +3817,7 @@ Param/Expression/4DDC0E07=~A~~E~~B~~F~~C~~D~
 Param/Expression/4E0DA0D2=呜？哇！有一只庞大的怪兽在这里守着什么，快！一起干掉面前这个大家伙！
 Param/Expression/4E15243F=~A~~B~
 Param/Expression/4E167411=~A~~B~~C~~D~
-Param/Expression/4F2350C7=这附近好像有什么声音，听起来不像是感染者，最好仔细找找。
+Param/Expression/4F2350C7=<s val="ys_green204">这附近好像有什么声音，听起来不像是感染者，<c val="FFFF00">最好仔细找找</c>。</s>
 Param/Expression/4F9CD41B=~A~
 Param/Expression/4FC36FA1=~A~~E~~B~~F~~C~~D~
 Param/Expression/4FF7BA0B=<s val="ys_White164">~A~
@@ -3828,7 +3829,7 @@ Param/Expression/505B1787=<c val="800040">关闭单位查询统计！</c>
 Param/Expression/50F3414B=~A~~B~~C~~D~
 Param/Expression/514718F9=~A~~B~
 Param/Expression/5154BF8C=~A~~E~~B~~F~~C~~D~
-Param/Expression/51CBF276=后面房间还有我成为行尸的老婆，她真的什么都不认得了。
+Param/Expression/51CBF276=<s val="ys_white204">后面房间还有我成为行尸的老婆，她真的什么都不认得了。
 Param/Expression/51D10D1B=<s val="ys_White164">~A~
 Param/Expression/520D4039=~A~~B~~C~
 Param/Expression/5218EFBE=<s val="ys_green164">当前武器 => ~A~[~B~]
@@ -3851,7 +3852,7 @@ Param/Expression/578CB05E=~A~~B~~C~
 Param/Expression/57B442DB=~A~
 Param/Expression/583930C7=~A~~B~~C~~D~
 Param/Expression/585F823F=~A~~B~
-Param/Expression/590D9344=不过我缺少一些燃料，可以的话用你们多余的燃料和我交换吧。
+Param/Expression/590D9344=<s val="ys_white204">不过我缺少一些<c val="FFFF00">燃料</c>，可以的话用你们<c val="FFFF00">多余的燃料</c>和我交换吧。
 Param/Expression/59BE030D=~A~~E~~B~~F~~C~~D~
 Param/Expression/5A6F328F=~A~~B~
 Param/Expression/5A8DC7E1=~A~~B~
@@ -3862,7 +3863,7 @@ Param/Expression/5BC356E0=~A~~B~~C~
 Param/Expression/5C75B198=~A~~B~~C~~D~
 Param/Expression/5D2E946E=~A~~B~~C~~D~
 Param/Expression/5DE89EA5=已被~A~
-Param/Expression/5DEEA748=啊，你是？
+Param/Expression/5DEEA748=<s val="ys_white204">啊，你是？
 Param/Expression/5E80992B=~A~被吸入
 Param/Expression/5F5AB40E=~A~~B~
 Param/Expression/5F6AA44B=~A~~B~~C~~D~
@@ -3937,7 +3938,7 @@ Param/Expression/7885268D=~A~~B~~C~~D~
 Param/Expression/78BC101D=~A~~B~
 Param/Expression/78CE7689=的~A~~B~
 Param/Expression/78E32038=<s val="ys_green164">~C~号玩家：~B~ 单方面视全体用户为~A~
-Param/Expression/7934D634=我知道守着她毫无意义，但是我还是想守着，或许以后有机会能治好她...
+Param/Expression/7934D634=<s val="ys_white204">我知道守着她毫无意义，但是我还是想守着，或许以后<c val="FFFF00">有机会能治好她</c>...
 Param/Expression/7A69163E=~A~~B~
 Param/Expression/7A699B8C=~A~
 Param/Expression/7AD1A649=~A~
@@ -4034,7 +4035,7 @@ Param/Expression/98923C64=~A~
 Param/Expression/98ED0A2E=~A~~B~~C~~D~
 Param/Expression/993D3E68=~A~
 Param/Expression/99CFD664=~A~~B~~C~~D~
-Param/Expression/9A286EA9=我了解了，大叔！我们这一走大概就不会再回来了，大叔你要自己保重。
+Param/Expression/9A286EA9=<s val="ys_white204">我了解了，大叔！我们这一走大概就不会再回来了，大叔你要自己保重。
 Param/Expression/9A525DD2=<s val="ys_green164">~C~号玩家：~B~ 单方面视全体用户为~A~
 Param/Expression/9A54A4F5=~A~~B~~C~~D~
 Param/Expression/9A5B89E3=~A~
@@ -4121,7 +4122,7 @@ Param/Expression/B97F0AB5=~A~
 Param/Expression/B9EF2521=生物认证~A~
 Param/Expression/BA432B5F=~A~~B~~C~~D~
 Param/Expression/BB1D8FE4=~A~
-Param/Expression/BB3D075D=我想不必了，谢谢你的好意...如你所见我的家人都死了。
+Param/Expression/BB3D075D=<s val="ys_white204">我想不必了，谢谢你的好意...如你所见我的家人都死了。
 Param/Expression/BB7DEF83=~A~
 Param/Expression/BC26BA43=~A~设置 聊天频道 => 2 （同盟） </c>
 Param/Expression/BC5B00BD=<s val="ys_White164">~A~
@@ -4129,7 +4130,7 @@ Param/Expression/BCB791AC=~A~~B~
 Param/Expression/BCED0E5E=~A~
 Param/Expression/BDDE7548=哇哦，在这里发现了友军！他们也想登船，但是被前后夹击！
 Param/Expression/BE9592F6=~A~~B~~C~~D~
-Param/Expression/BED33685=真是意外，没想到这时候还能看到其他人。
+Param/Expression/BED33685=<s val="ys_white204">真是意外，没想到这时候还能看到其他人。
 Param/Expression/BF77968E=~A~~B~~C~~D~
 Param/Expression/C02E3BF1=~A~~B~
 Param/Expression/C0C29FD1=~A~~B~~C~
@@ -4148,7 +4149,7 @@ Param/Expression/C57CF9D4=~A~~B~
 Param/Expression/C5ACAED7=~A~~B~
 Param/Expression/C5EB5E69=~A~~B~~C~~D~
 Param/Expression/C6216052=~A~~B~
-Param/Expression/C6643D08=我们是PMC，因为专业的因素躲过一劫，不过补给快枯竭了，正打算离开这里。
+Param/Expression/C6643D08=<s val="ys_white204">我们是PMC，因为专业的因素躲过一劫，不过<c val="FFFF00">补给快枯竭了</c>，正打算离开这里。
 Param/Expression/C73E095A=~A~~B~~C~~D~
 Param/Expression/C7406002=<c val="FFFF00">波次开关 = > ~A~<c val="00FF00">[注：0=关闭，1=运作</c>
 Param/Expression/C74E0C85=~A~~B~~C~~D~
@@ -4167,7 +4168,7 @@ Param/Expression/CC590107=干的好，我们继续前进！
 Param/Expression/CD0465F7=~A~~B~
 Param/Expression/CD17C2D4=~A~~B~
 Param/Expression/CD215113=~A~~B~~C~~D~
-Param/Expression/CD23C76E=大叔，跟我们一起走吧，多带你一个不算什么。
+Param/Expression/CD23C76E=<s val="ys_white204">大叔，跟我们一起走吧，多带你一个不算什么。
 Param/Expression/CD278915=~A~~E~~B~~F~~C~~D~
 Param/Expression/CD72ECC6=<s val="ys_White164">~A~
 Param/Expression/CD959D44=~A~
@@ -4202,7 +4203,7 @@ Param/Expression/D9B587CF=<s val="ys_White164">~A~
 Param/Expression/D9D2817C=~A~~B~~C~~D~
 Param/Expression/DAA07FD7=~A~~E~~B~~F~~C~~D~
 Param/Expression/DAEE64D8=~A~~B~~C~~D~
-Param/Expression/DAF7DF54=这样啊...你们是要离开这里吗？
+Param/Expression/DAF7DF54=<s val="ys_white204">这样啊...你们是要<c val="FFFF00">离开这里</c>吗？
 Param/Expression/DB61BAF0=~A~~B~~C~~D~
 Param/Expression/DB84EBA6=~A~~B~~C~~D~
 Param/Expression/DB8C849E=~A~~B~~C~
@@ -4292,7 +4293,6 @@ Param/Value/00239574=+1
 Param/Value/002E84E3=<c val="FF8040">得到</c>
 Param/Value/00311235=<c val="FF8040">得到</c>
 Param/Value/003D7C1C=<c val="FF8040">得到回收补偿资金</c>
-Param/Value/004E26CA=下搜船就安排它们捡漏...
 Param/Value/00531974=<c val="FF00FF">【雷王兽】已启用！</c>
 Param/Value/0064673F=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[1]</c></c>！
 Param/Value/0072812F=<s val="ys_green164">AI波次指令-攻击玩家1
@@ -4458,6 +4458,7 @@ Param/Value/0847AB4A=<s val="ys_green164">【特典】<c val="FFFF00">古炮 <c 
 Param/Value/08490240=无破损
 Param/Value/084D73A4=<c val="FF00FF">抹杀者-M设计图</c>
 Param/Value/08586073=<c val="FF0000">发动机严重损坏！</c>
+Param/Value/08611AC3=<s val="ys_green205">仓库箱
 Param/Value/086CFD1C=<s val="ys_green164">【重型战车】<c val="FFFF00">蔚蓝星海 <c val="FF00FF">设计图</c>
 Param/Value/08735FAC=闪光弹S 只能由战士装备!
 Param/Value/087C262F=<c val="FF8040">得到</c>
@@ -4613,7 +4614,7 @@ Param/Value/0FF088D3=<c val="FF8040">得到</c>
 Param/Value/0FF1C621=<s val="ys_green164">句柄符合！您已被添加到<c val="FFFF00"> 【开发组】</c>！
 Param/Value/100F2902=生命强化（恢复）的等级已最高！
 Param/Value/1011A0F7=<s val="ys_green165">技能栏<c val="FFFF00">OFF</c></s>
-Param/Value/101DA2C8=大叔，跟我们一起走吧，多带你一个不算什么。
+Param/Value/101DA2C8=<s val="ys_white204">大叔，跟我们一起走吧，多带你一个不算什么。
 Param/Value/10221196=<s val="ys_green164">【天赋化】<c val="FFFF00">验算支援-<c val="00FFFF">下级武器链接</c><c val="FF00FF">LV</c>
 Param/Value/102B8F68=<c val="FF8040">得到</c>
 Param/Value/103E7645=<c val="FF8040">S-E [备用]中度损坏！</c>
@@ -4821,7 +4822,7 @@ Param/Value/1A3EA5AB=<s val="ys_green164">【重型车辆】<c val="FFFF00">装�
 Param/Value/1A64E2DD=<c val="FF8040">得到</c>
 Param/Value/1A66607A=<img path="Assets\jx\上尉徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[上尉]
 Param/Value/1A8FE661=设置 </c>
-Param/Value/1AAFA68F=我了解了，大叔！我们这一走大概就不会再回来了，大叔你要自己保重。
+Param/Value/1AAFA68F=<s val="ys_white204">我了解了，大叔！我们这一走大概就不会再回来了，大叔你要自己保重。
 Param/Value/1AB9D720=<c val="FF8040">得到</c>
 Param/Value/1ABAB834=<c val="FF8040">的</c>
 Param/Value/1AC43C81=<c val="FF8040">得到</c>
@@ -4835,6 +4836,7 @@ Param/Value/1B8B5B2E=<img path="Assets\jx\上士徽记.tga" width="20" height="2
 Param/Value/1B8DDC48=<c val="FF8040">[底盘状态]</c>
 Param/Value/1B9AA75E=<c val="FFFF00">【全专精升级】</c>已为玩家
 Param/Value/1BAB32C7=<c val="FF8040">得到</c>
+Param/Value/1BE424DB=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/1BE454D0=<c val="FF8040">得到</c>
 Param/Value/1BF5F4BC=<c val="FF00FF">专精化 奖励舞步-风暴战机升级</c>
 Param/Value/1C059B96=<c val="FF8040">[主炮重量]</c>
@@ -4931,6 +4933,7 @@ Param/Value/209A816D=<c val="FF8080">气</c><c val="FF9696">体</c><c val="FFACA
 Param/Value/20B26F64=设置！操作者是管理员
 Param/Value/20C7A2B9=<c val="FF8040">得到</c>
 Param/Value/20CF75D5=<c val="FF00FF">铁锤装甲设计图</c>
+Param/Value/20DCDF66=</c>）<n/><n/>
 Param/Value/20EA0DB9=<s val="ys_green164">【轻型机甲】<c val="FFFF00">维京突击者 <c val="FF00FF">设计图</c>
 Param/Value/20F383D9=<c val="FF8040">得到</c>
 Param/Value/20F561EC=<c val="FF8080">钢</c><c val="FFAFAF">梁</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
@@ -4943,6 +4946,7 @@ Param/Value/212F9BB7=<c val="FF8040">得到</c>
 Param/Value/213E7195=<c val="FF0000">耐久-</c><c val="FFFF00">
 Param/Value/21577787=<s val="ys_green165">进行 </c><c val="FFFF00">存档重置！
 Param/Value/2159100C=设置信息显示 => <c val="FFFF00">[所有者转变调试检查]ON
+Param/Value/215BFFF1=装备栏<n/><n/>查看角色的装备。
 Param/Value/215C6101=<c val="FF0000">S-E大破！</c>
 Param/Value/2167DEE9=玩家~C~<c val="FF8000">~A~</c>因票數不足沒有被驅逐。
 Param/Value/21725A1B=<c val="FFFF00">禁用</c>
@@ -5079,6 +5083,7 @@ Param/Value/2867F711=着陆指令：-yjzlj land
 Param/Value/286855AF=为援乘载具
 Param/Value/2868EE52=<c val="FF8040">S-E中破！</c>
 Param/Value/287CA049=<c val="FFFF00">【支援辅机】转让</c>
+Param/Value/2884CD1F=∞
 Param/Value/2897DD5D=模型T台
 Param/Value/289CF936=<c val="FF00FF">医疗机甲设计图</c>
 Param/Value/28B333AF=<c val="FF8040">拥有</c>
@@ -5169,6 +5174,7 @@ Param/Value/2DD906E7=启用！操作者是管理员
 Param/Value/2DF30634=<c val="FF8040">得到</c>
 Param/Value/2E186A82=<s val="ys_green164">[错误]该单位无弹仓！
 Param/Value/2E219C90=<c val="FF00FF">【杀死玩家15】已启用</c>
+Param/Value/2E2FD4F0=剩余：<c val="F9E600">
 Param/Value/2E39F94A=<c val="FF8040">的</c>
 Param/Value/2E3EC93B=5
 Param/Value/2E4CDDA3=<c val="FF8040">S-E中破！</c>
@@ -5553,7 +5559,7 @@ Param/Value/4476F980=<c val="FFFF00">【Code10111】</c>已为玩家
 Param/Value/447E4742=<c val="FF00FF">【怪物掉宝】开启测试！</c>
 Param/Value/44875525=被收监！操作者为 
 Param/Value/4492B951=<c val="FF8040">副炮中破！</c>
-Param/Value/449C1603=如你所见这里物资充足，我可以帮你做点强化作业，外面生存也很是艰难的。
+Param/Value/449C1603=<s val="ys_white204">如你所见这里<c val="FFFF00">物资</c>充足，我可以帮你做点<c val="FFFF00">强化</c>作业，外面生存也很是艰难的。
 Param/Value/44CB9CB7=<c val="FF00FF">奥丁设计图</c>
 Param/Value/44CC5AB2=<s val="ys_green164">【轻型机甲】<c val="FFFF00">帝盾卫兵 <c val="FF00FF">设计图</c>
 Param/Value/44D274BF=<s val="ys_green165">小地图<c val="FFFF00">OFF</c></s>
@@ -5626,7 +5632,7 @@ Param/Value/489AD05E=<c val="FF8040">得到</c>
 Param/Value/48A5E346=<c val="FF8040">[主炮攻击力]</c>
 Param/Value/48B19369=<c val="FF8040">得到</c>
 Param/Value/48B27DE7=<s val="ys_green225">ALL
-Param/Value/48C08F62=后面房间还有我成为行尸的老婆，她真的什么都不认得了。
+Param/Value/48C08F62=<s val="ys_white204">后面房间还有我成为行尸的老婆，她真的什么都不认得了。
 Param/Value/48CC0D6D=<c val="FF00FF">將軍禮車改 设计图</c>
 Param/Value/48D544D5=<c val="FF8040">得到</c>
 Param/Value/48DBF7C6=<c val="FF8040">获得珍贵图纸</c>
@@ -5709,11 +5715,13 @@ Param/Value/4CE28076=<c val="FF8040">得到随机福利能源</c>
 Param/Value/4CEB114C=<c val="FF00FF">雷神閃擊I型设计图</c>
 Param/Value/4CF837EF=<c val="FFFF00">【毒瘴兽】</c>
 Param/Value/4D1467E7=<c val="FF00FF">雷神EX设计图</c>
+Param/Value/4D203EA4=<s val="ys_green205">此处仅测道具，玩家使用会导致全商品每周期遍历检查，用的人越多越卡<n/>请把测试好的商品上架到别处<c val="FFFF00">（如RPG商店-设定为某个武器架）</c>
 Param/Value/4D2493CD=【更多指令】
 Param/Value/4D2FF0C9=<c val="FF8040">获得珍贵图纸</c>
 Param/Value/4D542CD4=<s val="ys_green164">【当前动物数】
 Param/Value/4D56BB3B=【制作团队福利】
 Param/Value/4D5CF457=<c val="FFFF00">【</c><s val="ys_purple165"><c val="FFFF00"></c>牧羊人</c><c val="FFFF00">】</c>
+Param/Value/4D7D3B41=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/4D9F0A87=<c val="FF00FF">精英卫队设计图</c>
 Param/Value/4DA3E336=<s val="ys_green164">波次-B-[自毁]
 Param/Value/4DAA3022=<c val="FF00FF">恶火II式设计图</c>
@@ -5882,7 +5890,7 @@ Param/Value/5780BA3F=的收监计票为
 Param/Value/578CBEC8=<c val="FF00FF">奥利安涡轮跑车改-I式设计图</c>
 Param/Value/5798ABB9=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-开启主炮<c val="00FFFF">[风暴战机] </c><c val="FF00FF">LV</c>
 Param/Value/57A1C9D0=启用！操作者是管理员
-Param/Value/57A8921F=啊，你是？
+Param/Value/57A8921F=<s val="ys_white204">啊，你是？</s>
 Param/Value/57B8AE26=<c val="FF00FF">【开发指令】修改触发对象为玩家8</c>
 Param/Value/57D32019=<c val="FFFF00">开启！</c>
 Param/Value/57E1E1FF=<s val="ys_green165">框选操作<c val="FFFF00">OFF</c></s>
@@ -5921,6 +5929,7 @@ Param/Value/59DE6C86=<s val="ys_green164">【专精化】<c val="00FFFF">[超级
 Param/Value/59E65650=<c val="FF8040">得到</c>
 Param/Value/5A084555=<s val="ys_green164">【车辆】<c val="FFFF00">翻斗车 <c val="FF00FF">设计图</c>
 Param/Value/5A0B886C=<c val="FF8040">得到</c>
+Param/Value/5A1D7A94=<n/>
 Param/Value/5A44C845=<c val="FF8040">的</c>
 Param/Value/5A485563=<c val="FF00FF">聚变爆裂枪设计图</c>
 Param/Value/5A49F921=/
@@ -6060,6 +6069,7 @@ Param/Value/61DA1C81=<c val="FF8040">得到</c>
 Param/Value/61DCE3D6=<c val="FFFF00">【专精化 一级战列舰升级】</c>设置对象
 Param/Value/61F77513=按SHIFT+CTRL+ALT+D打开调试窗口
 Param/Value/61FF0808=<c val="FFFF00">【ELF福利】</c>
+Param/Value/62107B1F=<s val="ys_green205">储物箱
 Param/Value/62146A43=<c val="FFFF80">C装置小破！</c>
 Param/Value/621FAEBF=<c val="FFFF00">【</c><s val="ys_orange164"><c val="FFFF00"></c>小镇英雄</c><c val="FFFF00">】</c>
 Param/Value/622D498C=<s val="ys_green164">【大型机甲】<c val="FFFF00">泰坦X56 <c val="FF00FF">设计图</c>
@@ -6073,7 +6083,7 @@ Param/Value/62B3109B=<c val="00FFFF"> [隔山打牛]</c></c></s>
 Param/Value/62BBB357=<s val="ys_green164">【特典】<c val="FFFF00">将军礼车改 <c val="FF00FF">设计图</c>
 Param/Value/62DA29C6=<c val="FF8080">电</c><c val="FFAFAF">机</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/62E746CB=<s val="ys_green164">"显示载具舱" => <c val="FFFF00">假</c>
-Param/Value/62E8AD45=真是意外，没想到这时候还能看到其他人。
+Param/Value/62E8AD45=<s val="ys_white204">真是意外，没想到这时候还能看到其他人。
 Param/Value/6300D0E8=<c val="FF8040">的</c>
 Param/Value/631A81D2=<c val="FF00FF">X-6 超音速设计图</c>
 Param/Value/631DF939=<c val="FF8040">得到</c>
@@ -6112,6 +6122,7 @@ Param/Value/64B41E62=/
 Param/Value/64CA7435=<c val="FF8040">得到</c>
 Param/Value/64CFCB5D=<c val="FF8040">得到</c>
 Param/Value/64D313EA=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"惡狼-地獄預燃器升級"
+Param/Value/64DC9CB8=<c val="FFFF00">双击</c>打开
 Param/Value/64E1416F=<s val="ys_green165">调试栏<c val="FFFF00">ON</c></s>
 Param/Value/64FFA5D6=<c val="FF8040">得到</c>
 Param/Value/6525C68A=<c val="FF00FF">M134机关枪设计图</c>
@@ -6245,7 +6256,7 @@ Param/Value/6C4DD19E=<s val="ys_green164">【特典】<c val="FFFF00">执行官�
 Param/Value/6C50D040=<c val="FF8000">系统公告：<c val="FF0000">玩家<c val="00FF00">~A~</c>因攻击友军被强制收监。
 Param/Value/6C56A55B=<s val="ys_green164">【天赋化】<c val="FFFF00">验算支援-<c val="00FFFF">下级武器链接</c></c> 设置对象
 Param/Value/6C6ED8D9=<c val="FF8040">得到</c>
-Param/Value/6C6EE04A=我们是PMC，因为专业的因素躲过一劫，不过补给快枯竭了，正打算离开这里。
+Param/Value/6C6EE04A=<s val="ys_white204">我们是PMC，因为专业的因素躲过一劫，不过补给快枯竭了，正打算离开这里。
 Param/Value/6C6F181F=<c val="FF8040">得到随机福利瓦斯</c>
 Param/Value/6C7BF6BA=射程强化等级已最高！
 Param/Value/6C82217C=<c val="FF8040">得到随机福利稀金</c>
@@ -6284,6 +6295,7 @@ Param/Value/6E4AC6ED=生命强化等级已最高！
 Param/Value/6E5E3E7F=你全身上下都是宝贝，怎么拿
 Param/Value/6E6368BC=<s val="ys_green164">【轻型机甲】<c val="FFFF00">不朽者 <c val="FF00FF">设计图</c>
 Param/Value/6E68A6EB=<c val="FF8040">得到</c>
+Param/Value/6E697680=<s val="HCMBCKSM">查看说明</s>
 Param/Value/6E6E24E3=<c val="FF8040">得到</c>
 Param/Value/6E788C9E=<c val="FFFF00">超级计算机天赋/专精已升级<c val="FF00FF">[不存档]</c></c>
 Param/Value/6E7F68C5=<c val="FF00FF">冥府之焰设计图</c>
@@ -6354,6 +6366,7 @@ Param/Value/722251D2=<c val="FFFF00">【专精化 黄金奥丁升级】</c>设�
 Param/Value/72528404=<s val="ys_green164">【车辆】<c val="FFFF00">单驱悬浮车 <c val="FF00FF">设计图</c>
 Param/Value/726623E9=<s val="ys_green164">【重型车辆】<c val="FFFF00">推土机改 <c val="FF00FF">设计图</c>
 Param/Value/727EC501=<s val="ys_green224"><c val="FFFF00">
+Param/Value/728311D4=<c val="800040">改造人</c>
 Param/Value/729D04F5=<s val="ys_green164">【特典】<c val="FFFF00">清理者[超级计算机] <c val="FF00FF">设计图</c>
 Param/Value/72BF6B83=<c val="FF8040">[主炮弹仓]</c>
 Param/Value/72C82484=<s val="ys_green164">波次-C-[集结]
@@ -6393,6 +6406,7 @@ Param/Value/743BD904=<c val="FF8040">得到</c>
 Param/Value/743EC495=<s val="ys_green164">【中型机甲】<c val="FFFF00">战狼 <c val="FF00FF">设计图</c>
 Param/Value/744E95F7=<c val="FF8040">得到</c>
 Param/Value/747135F6=<c val="FF8040">得到</c>
+Param/Value/7478AB3B=你...给我进去！
 Param/Value/74821161=/
 Param/Value/748B257C=<c val="FF00FF">赤练蛇战车设计图</c>
 Param/Value/749CD581=<c val="FF0000">S-E严重损坏！</c>
@@ -6473,6 +6487,7 @@ Param/Value/78C3FDDE=等级已最高！
 Param/Value/78C48508=<c val="FF8080">铀</c><c val="FFAFAF">棒</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/78DAD6D3=+1
 Param/Value/78E22E50=<s val="ys_green165">翻页<c val="FFFF00">1/2</c></s>
+Param/Value/78ED0EC6=<s val="ys_green205">↓这里是备用储藏箱，需<c val="FFFF00">双击</c>打开
 Param/Value/78F635DD=<c val="FFFF00">【天赋化 武器改装-开启S-E<c val="00FFFF">[风暴战机升级]</c>】</c>已为玩家
 Param/Value/7901B904=<c val="FF00FF">【杀死王兽BOSS】已启用</c>
 Param/Value/7919CF70=<c val="FF00FF">光剑设计图</c>
@@ -6523,7 +6538,7 @@ Param/Value/7B1F8811=<s val="ys_green164">【特典】<c val="FFFF00">清理者[
 Param/Value/7B24D6F9=启用！操作者是管理员
 Param/Value/7B253A47=<s val="ys_green164">【轻型机甲】<c val="FFFF00">X-6超音速 <c val="FF00FF">设计图</c>
 Param/Value/7B29DFD8=人车跟踪弹弹药均已满!
-Param/Value/7B3116BD=我知道守着她毫无意义，但是我还是想守着，或许以后有机会能治好她...
+Param/Value/7B3116BD=<s val="ys_white204">我知道守着她毫无意义，但是我还是想守着，或许以后有<c val="FFFF00">机会能治好她</c>...
 Param/Value/7B56ECC2=设置出兵类型 = <c val="FFFF00">[2]
 Param/Value/7B77AA48=<c val="FF8040">得到</c>
 Param/Value/7B78B8F8=<c val="00FF00">稀金交易<c val="FFFF00">已开启！</c></c>
@@ -6566,6 +6581,7 @@ Param/Value/7D92C436=启用！操作者是管理员
 Param/Value/7D9EEBB6=<s val="ys_green164">【天赋化】<c val="FFFF00">验算支援-<c val="00FFFF">下级武器链接</c> 设置对象
 Param/Value/7DA6DD2F=炼化属性数量
 Param/Value/7DABB544=<c val="FF00FF">天赋 <c val="00FFFF">开启<c val="FF0000">聚焦<c val="FFFF00">“虹”</c></c>阵列
+Param/Value/7DAFB64F=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/7DD79727=<c val="FF8040">得到</c>
 Param/Value/7DDAC996=<c val="FF8040">得到</c>
 Param/Value/7DF60F6F=<s val="ys_green164">【专精化】<c val="00FFFF">[超级计算机]<c val="FFFF00">防卫改装-镭射集群/配件模块</c><c val="FF00FF">LV</c>
@@ -6597,7 +6613,7 @@ Param/Value/7FFAE962=<c val="FF8000">敵兵</c>：是。
 Param/Value/7FFDF336=<c val="FF00FF">【移动至 玩家出生点】已启用！</c>
 Param/Value/800BC982=<s val="ys_green165">信息栏<c val="FFFF00">OFF</c></s>
 Param/Value/8036226E=启用！操作者是管理员
-Param/Value/8040ECD9=#@￥%...！#@￥% ...！(•́へ•́╬)！
+Param/Value/8040ECD9=快点！#@￥%...#@￥% ...——╬
 Param/Value/804A94B3=<c val="FFFFFF">使用指令</c>
 Param/Value/805C2361=<c val="FF8040">获得珍贵图纸</c>
 Param/Value/8065BF44=<c val="FF00FF">使用指令</c>
@@ -6654,7 +6670,6 @@ Param/Value/82D661A7=<s val="ys_green164">【特典】<c val="FFFF00">医疗机�
 Param/Value/82DA6955=<c val="FF8040">得到</c>
 Param/Value/82E52415=<c val="FF8040">得到</c>
 Param/Value/82F252BA=<c val="FF8040">得到</c>
-Param/Value/82FD5659=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/82FF777F=【当前】阀值增减=
 Param/Value/830F1794=<c val="FFFF00">启用</c>
 Param/Value/833BD9ED=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷神E1 <c val="FF00FF">设计图</c>
@@ -6754,6 +6769,7 @@ Param/Value/87ED2818=<c val="FFFF00">【ELF福利】</c>
 Param/Value/87FEC64E=<s val="ys_green164">【特典】<c val="FFFF00">医疗机甲III <c val="FF00FF">设计图</c>
 Param/Value/880B8A0D=等级已最高！
 Param/Value/881DEC80=<c val="FF8040">得到</c>
+Param/Value/884F5823=<c val="FFFF00">单击</c>打开
 Param/Value/8860E9E3=<c val="FF8040">的</c>
 Param/Value/88746EE1=<c val="FF8040">的</c>
 Param/Value/88762B4D=剩余时间:
@@ -6773,6 +6789,7 @@ Param/Value/899AAFE3=设置 </c>
 Param/Value/89BD3931=<c val="FF8080">罐</c><c val="FFA2A2">装</c><c val="FFC4C4">水</c><c val="FFE7E7">+</c><c val="FFF2F2">1</c>
 Param/Value/89BEEAA6=<c val="FF8040">得到</c>
 Param/Value/89C0F48B=<s val="ys_green164">随机波次-B-[自毁]
+Param/Value/89C15EAC=</c>秒
 Param/Value/89C57147=<c val="FF8040">[副炮重量]</c>
 Param/Value/89D83917=]
 Param/Value/89E39A86=<s val="ys_green164">【<c val="FFFF00">地球人类救济中心</c>】派遣</c>
@@ -6780,6 +6797,7 @@ Param/Value/89E84DDF=干的好，这家伙出现的地方还真刁专。
 Param/Value/89F3590E=<c val="FF00FF">SX型安保机器人设计图</c>
 Param/Value/8A203C0D=<s val="ys_green164">"聊天显示框" => <c val="FFFF00">ON</c>
 Param/Value/8A347060=<c val="FF00FF">飓风导弹车设计图</c>
+Param/Value/8A6C2293=下搜船就安排杀人兵器捡漏...
 Param/Value/8A6F9BCF=<s val="ys_green164">启用【飞船满血】
 Param/Value/8A7C79D3=（用于<c val="00FF00">复活、炸机、跳车</c>）
 Param/Value/8A7F97CA=<c val="FFFF00">【全图纸升级[新载具部分]】</c>已为玩家
@@ -6795,11 +6813,11 @@ Param/Value/8AD2973A=<s val="ys_green164">通过<c val="FFFF00">【管理员指�
 Param/Value/8AE25DDA=【更多指令】
 Param/Value/8AF7C9E9=<s val="ys_green165">小地图<c val="FFFF00">ON</c></s>
 Param/Value/8AF885B3=<c val="FF00FF">先锋设计图</c>
+Param/Value/8B04FA13=你...给我进去！
 Param/Value/8B110717=【玩家指令】
 Param/Value/8B17574C=<c val="FF00FF">您正在使用建造厂！请稍后再试！</c>
 Param/Value/8B33848A=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-阳电子破坏炮 <c val="FF00FF">LV</c>
 Param/Value/8B46A115=<c val="FF8040">得到</c>
-Param/Value/8B6A1E14=<c val="FFFF00">改造人</c>
 Param/Value/8B78D9FD=<s val="ys_green164">【轻型战车】<c val="FFFF00">军用运输机 <c val="FF00FF">设计图</c>
 Param/Value/8B8736BF=【管理指令】
 Param/Value/8BA6268C=<c val="FFFF00">【天赋化 武器改装-开启主炮<c val="00FFFF">[风暴战机升级]</c>】</c>设置对象
@@ -6812,11 +6830,13 @@ Param/Value/8BFF4121=<c val="FF00FF">【开发指令】修改触发对象为玩�
 Param/Value/8C01B5AA=<c val="FFFF80">S-E小破！</c>
 Param/Value/8C049465=<c val="FF8040">得到</c>
 Param/Value/8C0572B8=【U档情报】
+Param/Value/8C161D8B=
 Param/Value/8C1C3500=<c val="FF8040">得到</c>
 Param/Value/8C1CF9A1=<c val="FF8000">交易量</c>！
 Param/Value/8C2286AC=<c val="FFFF80">底盘轻度损坏！</c>
 Param/Value/8C32796A=/
 Param/Value/8C3B6C07=<c val="FF00FF">轻便摩托车改-I式设计图</c>
+Param/Value/8C3E0567=<c val="FFFF00">双击</c>打开
 Param/Value/8C418FA4=<c val="FF0000"><c val="FFFF00">[新档]</c>_ERROR]<c val="FF80FF">（图纸长度出错！）</c></c>
 Param/Value/8C4C9032=<c val="FF00FF">救援装甲设计图</c>
 Param/Value/8C4EAC5C=<c val="FF8040">得到</c>
@@ -6826,7 +6846,7 @@ Param/Value/8C5F2E49=<c val="FF8040">[S-E状态]</c>
 Param/Value/8C6EC882=<c val="FFFF00">王兽箱出货率提升！</c>
 Param/Value/8C83CD46=<s val="ys_green164">支援载具【<c val="FFFF00">清理者-超级计算机</c>】</c>
 Param/Value/8C87C261=<c val="FF8040">得到</c>
-Param/Value/8C887BFA=快点！...我要等不及了... 你们这群蠢货！
+Param/Value/8C887BFA=#@￥%...！...我要等不及了... 你们这群蠢货！
 Param/Value/8C896D72=<c val="FF00FF">战狼-II设计图</c>
 Param/Value/8C98FF27=<s val="ys_green164">难度等级调整为LV1【简单】
 Param/Value/8C9F828A=<s val="ys_yellow164">新系统情报公开：（与原虫出掉落叠加）<n/>杀敌掉落：5%触发抽签（抽怪物掉落池）<n/>怪物掉落池：2%出特殊宝箱（掉落后混在原作箱子里）<n/>特殊宝箱：50%抽新池；宝箱：1/60抽新池<n/>新池：7/1431掉落目前三个典藏载具（风暴战机5一级战列舰1黄金奥丁1）<n/>新池：20/1431掉落建筑图（其中工业建筑无掉落，需连接卫星下载获取）<n/>↓追加介绍<n/>新系统通关奖励[暂不挑难度]：（获取时全员不一样、与原虫出掉落叠加）<n/>特定池（特定功勋加抽，暂取消此池）：<n/>黄金奥丁[需元帅]，出率2%；风暴战机[需一级上将]，出率2%；<n/>一级战列舰[需元帅]，出率2%；<n/><n/>专精池（以下随机抽一次）：<n/>专精化 黄金奥丁升级[9层][需一级上将]，出率2%；<n/>>>>升级包括减少费用、增强装甲护甲和技能<n/>>>>LV1时瓦斯费用-2，护甲+2，堡垒加农射程+2<n/>>>>每提升1级：血量+25，堡垒加农架设时间-0.25s<n/>>>>每提升1级：起始能量+5，永恒圣枪消耗-2；<n/>专精化 风暴战机配件升级[1层][需少将]，出率2%；<n/>>>>含：奖励舞步（嘲讽）+吞云推进器（增强飞雷仓射程）；<n/>专精化 风暴战机硬件升级[9层][需一级少将]，出率2%；<n/>>>>含：提升装甲量、高速激光炮（提升威力）、维修模块（缩短时间）；<n/>专精化 一级战列舰升级[9层][需一级上将]，出率2%；<n/>>>>升级后大幅变更费用、增强主舰炮，升级项目众多不再罗列；<n/><n/>加抽池：（以下随机抽一次）<n/>新池、武器池（暂空）、建造池、特典池（暂空）、天赋池<n/><n/>其中天赋池（以下随机抽一次）：<n/>天赋化 武器改装-电子连结键破坏炮（开启技能）[9层][需少将]，出率2%；<n/>天赋化 武器改装-阳电子破坏炮（开启技能）[9层][需少将]，出率2%；<n/>天赋化 武器改装-开启主炮（开启技能）[9层][需特级上将]，出率2%；<n/>天赋化 武器改装-开启副炮（开启技能）[9层][特级上将]，出率2%。
@@ -6948,6 +6968,7 @@ Param/Value/929B95F4=<c val="FFFF00">【专精化 激光炮/维修模块<c val="
 Param/Value/92BCAEF5=等级已最高！
 Param/Value/92C7B950=<c val="FFFF00">莉莉丝</c>
 Param/Value/92D60EBF=<s val="ys_green164">【中型战车】<c val="FFFF00">SX型安保机器人 <c val="FF00FF">设计图</c>
+Param/Value/92E0D195=（<c val="FFFFFF">数字键盘 
 Param/Value/92EAF6A7=中度破损
 Param/Value/92FDBE76=<c val="FF00FF">抹杀者-M设计图</c>
 Param/Value/9300C825=<c val="FF00FF">【怪物出现】阀值 = 0</c>
@@ -7009,7 +7030,6 @@ Param/Value/963A3857=<c val="FF8040">得到</c>
 Param/Value/96493C2E=被收监！操作者为 
 Param/Value/964B6F62=<c val="FFFF00">超级计算机天赋/专精已升级<c val="FF00FF">[不存档]</c></c>
 Param/Value/96862136=修改<c val="00FF00">按键移动[WASD]</c> = 
-Param/Value/96987F47=你...给我进去！
 Param/Value/96ADBD72=<c val="FF00FF">【怪物掉宝】已开启！阀值 = 100</c>
 Param/Value/96BAEF11=<c val="FF8040">拥有</c>
 Param/Value/97141EB7=<s val="ys_white204"><c val="FF00FF">遭遇</c>
@@ -7227,7 +7247,7 @@ Param/Value/A2E3FEA3=<c val="FF8040">得到</c>
 Param/Value/A2E4EDD9=<c val="FF00FF">清理者[超级计算机]设计图</c>
 Param/Value/A2EADF11=<c val="FF8040">得到随机福利资金</c>
 Param/Value/A2ECCC83=<c val="FF8040">得到</c>
-Param/Value/A2F3A53A=我想不必了，谢谢你的好意...如你所见我的家人都死了。
+Param/Value/A2F3A53A=<s val="ys_white204">我想不必了，谢谢你的好意...如你所见我的家人都死了。
 Param/Value/A30227AC=
 Param/Value/A32BD9B1=<c val="FF00FF">粒子相位枪·改 设计图</c>
 Param/Value/A32C4425=【玩家指令】
@@ -7250,6 +7270,7 @@ Param/Value/A3FE44AC=<c val="FF00FF">斯巴达设计图</c>
 Param/Value/A402D8CD=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"<c val="FF00FF">第一使徒設計圖</c>"
 Param/Value/A40412DB=设置 </c>
 Param/Value/A416ACDF=<c val="FFFF00">【专精化 奖励舞步-风暴战机升级】</c>设置对象
+Param/Value/A42DAD6C=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/A453E164=<c val="FF8040">得到</c>
 Param/Value/A47D6CFB=<c val="FF8040">的</c>
 Param/Value/A47F4D16=<c val="FF8040">得到</c>
@@ -7302,6 +7323,7 @@ Param/Value/A732FD53=<s val="ys_green164">随机波次-D-[歼敌]
 Param/Value/A734088B=在这里扎营也好一阵子了，状况一直没有改善...
 Param/Value/A75E4FC7=<c val="FF00FF">【Code】10113</c>
 Param/Value/A763DE8F=允许！
+Param/Value/A76A0ED6=素材够了..把剩下人类杀了！
 Param/Value/A76D9F24=等级已最高！
 Param/Value/A788A879=<c val="FF8040">底盘中度损坏！</c>
 Param/Value/A798BC6D=<c val="FF00FF">攻击</c>
@@ -7385,6 +7407,7 @@ Param/Value/ABB7AB00=<s val="ys_green164">【特典】<c val="FFFF00">铁锤装�
 Param/Value/ABD1818E=<c val="FFFF00">剧情任务</c>
 Param/Value/ABD24F80=<c val="FF00FF">攻击</c>
 Param/Value/ABE36A2F=<c val="FF00FF">导弹塔设计图</c>
+Param/Value/ABEED6B7=否(<c val="FFEE00">N</c>)
 Param/Value/ABF31481=<c val="FF00FF">[需元帅军衔]</c>
 Param/Value/ABF89557=<c val="FFFF00">装备箱</c>
 Param/Value/AC07228C=<c val="FF8040">得到</c>
@@ -7416,7 +7439,7 @@ Param/Value/ADAE4350=<c val="FFFF00">【火王兽】</c>
 Param/Value/ADB1F19A=<s val="ys_green164">AI波次指令-攻击玩家13
 Param/Value/ADB4687A=已移动至出生点！操作者为 
 Param/Value/ADC8E869=<c val="FF8040">得到</c>
-Param/Value/ADC8F650=不过我缺少一些燃料，可以的话用你们多余的燃料和我交换吧。
+Param/Value/ADC8F650=<s val="ys_white204">不过我缺少一些<c val="FFFF00">燃料</c>，可以的话用你们<c val="FFFF00">多余的燃料</c>和我交换吧。
 Param/Value/ADE032CE=<c val="FF8040">得到</c>
 Param/Value/ADFA8F37=<c val="FFFF00">【天赋化 武器改装-开启主炮<c val="00FFFF">[风暴战机升级]</c>】</c>设置对象
 Param/Value/AE09E454=<c val="FF8040">获得珍贵图纸</c>
@@ -7435,7 +7458,7 @@ Param/Value/AE47BA17=中度破损
 Param/Value/AE4B0361=<s val="ys_green164">【当前普兵数[外星]】
 Param/Value/AE4C37F5=被收监！操作者为 
 Param/Value/AE4C60B2=的释放计票为
-Param/Value/AE6E7D34=<c val="FF00FF">【管理员机甲 黄金奥丁】大建开启！</c>
+Param/Value/AE6E7D34=<s val="ys_blue184">【管理员机甲 黄金奥丁】大建开启！</s>
 Param/Value/AE74B95F=<c val="FF8040">得到</c>
 Param/Value/AE98740E=<c val="FF8040">购买射程强化星</c>
 Param/Value/AE9D4A5B=<c val="FF00FF">TF改-II式设计图</c>
@@ -7470,7 +7493,7 @@ Param/Value/B00721B0=<c val="FF8040">得到</c>
 Param/Value/B0167B16=<s val="ys_green164">【<c val="FFFF00">地球人类救济中心</c>】派遣</c>
 Param/Value/B036C5CF=<s val="ys_green164">波次-B-[自毁]
 Param/Value/B04D0CD1=<c val="FF8040">得到</c>
-Param/Value/B04F3B66=<s val="ys_green205">点击后<c val="FFFF00">按F3</c>开启仓库
+Param/Value/B04F3B66=<s val="ys_green205">仓库开启后<c val="FFFF00">按F3</c>展开个人背包进行互动
 Param/Value/B05CDEC4=<c val="FFFF00">【操作港作业机】停火</c>
 Param/Value/B060A382=<c val="FF8040">得到</c>
 Param/Value/B064FB38=/
@@ -7529,6 +7552,7 @@ Param/Value/B33B5525=等级已最高！
 Param/Value/B34DA1FB=<c val="FF8040">得到</c>
 Param/Value/B358846F=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"<c val="FFFF00">C14 DMR</c>"
 Param/Value/B36850C3=<c val="FF8040">得到</c>
+Param/Value/B36DED76=<c val="FFFF00">单击</c>打开
 Param/Value/B37A9F9C=装不下了!
 Param/Value/B38C1213=<c val="FF00FF">【存档显示限制】已关闭！</c>
 Param/Value/B390A85E=<c val="FFFF00">追加BOSS音乐</c>
@@ -7561,7 +7585,7 @@ Param/Value/B48674F6=关闭！
 Param/Value/B4A312CC=<c val="FF8040">得到</c>
 Param/Value/B4A69B6A=<c val="FF00FF">翻斗车设计图</c>
 Param/Value/B4A98C68=<c val="FF8040">得到</c>
-Param/Value/B4ABB87C=这样啊...你们是要离开这里吗？
+Param/Value/B4ABB87C=<s val="ys_white204">这样啊...你们是要<c val="FFFF00">离开这里</c>吗？
 Param/Value/B4B41204=<c val="FF8040">得到</c>
 Param/Value/B4CEEB6E=<c val="FF8040">得到</c>
 Param/Value/B4D8C24E=<c val="FF00FF">天赋 <c val="00FFFF">开启风暴战机主炮
@@ -7676,6 +7700,7 @@ Param/Value/BADF6851=<c val="FF8040">得到</c>
 Param/Value/BAFA7F55=<c val="FF8080">硫</c><c val="FFCBCB">+</c><c val="FFE5E5">1</c>
 Param/Value/BB0129AB=/
 Param/Value/BB077E2F=<s val="ys_green164">【天赋化】<c val="FFFF00">模块加装-<c val="00FFFF">辅助机库扩展</c><c val="FF00FF">LV</c>
+Param/Value/BB12CAD7=素材够了..把剩下人类处理掉！
 Param/Value/BB200D3F=启用！操作者是管理员
 Param/Value/BB246642=<s val="ys_green164"><c val="FF8000">~A~</c>：好了，还活着的都上船了，我们离开这里吧。
 Param/Value/BB26449B=<s val="ys_green164">【全专精升级】已启用！
@@ -7701,6 +7726,7 @@ Param/Value/BCA7B7BB=<c val="FF00FF">防卫者-M设计图</c>
 Param/Value/BCA8ADB7=<c val="FF00FF">灭绝者设计图</c>
 Param/Value/BCB61B08=<c val="FF8080">【</c><c val="FF8A8A">怪</c><c val="FF9494">物</c><c val="FF9F9F">掉</c><c val="FFAAAA">宝</c><c val="FFB4B4">】</c><c val="FFBFBF">阀</c><c val="FFC9C9">值</c><c val="FFD4D4">修</c><c val="FFDEDE">改</c><c val="FFE9E9">：</c><c val="FFF3F3">+</c><c val="FFF7F7">1</c><c val="FFFAFA">0</c>
 Param/Value/BCC5F11F=<c val="FFFF00">每分钟获得随机数的资金！</c>
+Param/Value/BCCF6F07=<s val="ys_green205">仓库开启后<c val="FFFF00">按F3</c>展开个人背包进行互动（已自动显示）
 Param/Value/BCDC9174=<c val="FF00FF">专精化 <c val="00FFFF">[超级计算机]<c val="FFFF00">验算核心-核心支持/硬件模块</c></c>升级</c>
 Param/Value/BCDC9210=<s val="ys_green165">框选操作<c val="FFFF00">OFF</c></s>
 Param/Value/BCDDB657=<c val="FFFF00">能源
@@ -7727,6 +7753,7 @@ Param/Value/BDF3B998=<c val="FF00FF">油罐车改 设计图</c>
 Param/Value/BDF5ED34=<c val="FF8040">得到</c>
 Param/Value/BDFF617C=【N档情报】
 Param/Value/BE029F12=<c val="FF8040">得到</c>
+Param/Value/BE0C997A=你...给我进去！
 Param/Value/BE20611D=<c val="FF8040">的</c>
 Param/Value/BE24D1E8=<c val="FF8040">得到</c>
 Param/Value/BE24FF4C=<c val="FFFF80">S-E小破！</c>
@@ -7752,6 +7779,7 @@ Param/Value/BF341E2E=启用！操作者是管理员
 Param/Value/BF35D74E=<c val="FF00FF">攻击</c>
 Param/Value/BF38FC1E=<c val="FF8040">得到回收补偿资金</c>
 Param/Value/BF50A9A9=<c val="FFFF80">S-E轻度损坏！</c>
+Param/Value/BF5BBB49=确定(<c val="FFEE00">O</c>)
 Param/Value/BF721BFF=<s val="ys_green164">【特殊】<c val="FFFF00">矿机 <c val="FF00FF">设计图</c>
 Param/Value/BF73B9E3=<s val="ys_green164">翻页
 Param/Value/BF7BE6C9=<s val="ys_green205"><c val="FFFF00">F3</c><开启/关闭个人背包>
@@ -7790,6 +7818,7 @@ Param/Value/C1454F7C=<c val="FF00FF">泰坦X55设计图</c>
 Param/Value/C1509A09=启用！操作者是管理员
 Param/Value/C15C26DC=<c val="FF8040">[副炮重量]</c>
 Param/Value/C16B583B=<c val="FF8040">得到瓦斯</c>
+Param/Value/C16BE618=下搜船就安排它们捡漏...
 Param/Value/C1771C68=<c val="FF8040">得到</c>
 Param/Value/C1774BBA=等级已最高！
 Param/Value/C1982850=<s val="ys_green164">【AI波次总控】=>ON！
@@ -7825,6 +7854,7 @@ Param/Value/C3429989=<c val="FF8080">信</c><c val="FFAFAF">标</c><c val="FFDED
 Param/Value/C344B132=/
 Param/Value/C34535FE=/
 Param/Value/C34B747C=<c val="FF8040">得到</c>
+Param/Value/C360F5E7=下搜船就安排净化者们捡漏...
 Param/Value/C374DB6F=<c val="FF00FF">【开发指令】修改触发对象为玩家6</c>
 Param/Value/C37980CD=玩家0摧毁了
 Param/Value/C37D8BEF=<s val="ys_purple164">
@@ -7914,6 +7944,7 @@ Param/Value/C8878974=<s val="ys_green164">【建筑】<c val="FFFF00">地狱炮�
 Param/Value/C8A25A8F=<s val="ys_green165">伤害管控</s>
 Param/Value/C8B31487=<s val="ys_green164">【群魔祭天】 已设为默认！</c>
 Param/Value/C8B66228=<s val="ys_green164">【车辆】<c val="FFFF00">单驱悬浮车 <c val="FF00FF">设计图</c>
+Param/Value/C8D700C7=<s val="ys_BlackRed224">帕鲁</s>
 Param/Value/C8DE2B4D=<c val="FF8040">拥有</c>
 Param/Value/C8E481C3=<c val="FF8040">[剩余重量]</c>
 Param/Value/C8E93C57=<c val="FF8080">电</c><c val="FFAFAF">池</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
@@ -8022,6 +8053,7 @@ Param/Value/CE9BE4D9=+1
 Param/Value/CEA52A8A=<c val="FF8040">获得珍贵图纸</c>
 Param/Value/CEAFDD7E=<s val="ys_green164">【生涯专精】<c val="FFFF00">强化专家（速度）</c> 学习完成！</c>
 Param/Value/CEBB0A9A=<c val="FF8040">得到</c>
+Param/Value/CEC1F378=<c val="800040">伪装者</c>
 Param/Value/CEC28F0B=<c val="FF0000">底盘大破！</c>
 Param/Value/CED3D258=本存档已加入防篡改功能，私自修改存档将导致所有记录清零。
 Param/Value/CEF2A22F=<c val="FF00FF">轻便摩托车设计图</c>
@@ -8183,7 +8215,7 @@ Param/Value/D68A1EE6=<s val="ys_green164">通过<c val="FFFF00">【管理员指�
 Param/Value/D6C351EA=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.37
+Param/Value/D6F4D09B=V0.38
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
 Param/Value/D7083C63=/
@@ -8330,6 +8362,7 @@ Param/Value/DE9F9D10=<s val="ys_green164">设置<c val="FFFF00">【僵尸生成�
 Param/Value/DEB57FD9=启用！操作者是管理员
 Param/Value/DEBBD3DB=<c val="FFFF00">每分钟获得随机数的资金！</c>
 Param/Value/DEC527BC=设置！操作者是管理员
+Param/Value/DEE29BC4=<s val="ys_green205">储物箱
 Param/Value/DEE4D09E=<c val="FFFF00">【Code10054】</c>已为玩家
 Param/Value/DEFADCCF=/
 Param/Value/DF0055A3=<c val="FF00FF">战地装甲设计图</c>
@@ -8424,7 +8457,7 @@ Param/Value/E37A77D0=<s val="ModCenterSize28Bold"><c val="FFBF00">恭</c><c val=
 Param/Value/E37DB0B3=<c val="FF8040">得到</c>
 Param/Value/E39D6592=<s val="ys_green164">【车辆】<c val="FFFF00">莫西干全地形摩托车 <c val="FF00FF">设计图</c>
 Param/Value/E39E3314=<c val="FF8040">的</c>
-Param/Value/E3B9C341=这附近好像有什么声音，听起来不像是感染者，最好仔细找找。
+Param/Value/E3B9C341=<s val="ys_green204">这附近好像有什么声音，听起来不像是感染者，<c val="FFFF00">最好仔细找找</c>。</s>
 Param/Value/E3BF9900=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享关闭</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[7]</c></c>！
 Param/Value/E3C5AA49=</c>]
 Param/Value/E3D01A65=<s val="ys_green164">【特典】<c val="FFFF00">操作港作业机 <c val="FF00FF">设计图</c>
@@ -8638,6 +8671,7 @@ Param/Value/F06C0BC8=<c val="FFFF00">主线任务</c>
 Param/Value/F072A216=<c val="FF8040">得到</c>
 Param/Value/F07541B0=<c val="FF8040">得到射程强化星</c>
 Param/Value/F087D71D=<s val="ys_White164"><c val="FF00FF"><c val="FFFF00">【支援测试-一级战列舰】</c>已启用！</c>
+Param/Value/F0BA6EA1=取消(<c val="FFEE00">C</c>)
 Param/Value/F0E92CBF=<c val="FF00FF">风暴战机设计图</c>
 Param/Value/F0F97F54=<c val="FF00FF">狼式-R设计图</c>
 Param/Value/F127BE70=<s val="ys_green164">【特典】<c val="FFFF00">特斯拉电磁塔 <c val="FF00FF">设计图</c>
@@ -8646,6 +8680,7 @@ Param/Value/F1518212=<c val="FF8040">得到</c>
 Param/Value/F15D37E7=<s val="ys_WhiteGrey164">失</s>
 Param/Value/F17B547D=<s val="ys_green165">目标头像<c val="FFFF00">OFF</c></s>
 Param/Value/F18AC097=<s val="ys_green164">【轻型战车】<c val="FFFF00">秃鹫 <c val="FF00FF">设计图</c>
+Param/Value/F19A691A=是(<c val="FFEE00">Y</c>)
 Param/Value/F19A8E6D=<s val="ys_green164">【隔山打牛】 已设为默认！</c>
 Param/Value/F1A13FB1=[<c val="00FF00">游戏场次</c>]：
 Param/Value/F1A8D23E=设置信息显示 => <c val="FFFF00">[乘降调试检查]ON
@@ -8767,6 +8802,7 @@ Param/Value/F8B937C1=<c val="FF8040">[副炮名称]</c>
 Param/Value/F8BD06B4=<s val="ys_green164">鼠标左键点击恢复框选<c val="FFFF00">（右键隐藏）</c><n/><c val="FF8080">检测到蓄力挖掘导致框选自动屏蔽</c>
 Param/Value/F8BDDD6F=<c val="FF00FF">根除者设计图</c>
 Param/Value/F8DB4E42=等级已最高！
+Param/Value/F8EE8777=<s val="ys_green205">仓库箱
 Param/Value/F8FE541F=<c val="FF8040">得到</c>
 Param/Value/F906FCB4=<c val="FF00FF">疯马APT设计图</c>
 Param/Value/F9091F9C=【当前】阀值增减=
@@ -9013,6 +9049,7 @@ Unit/Name/CCData_Crystal=水晶
 Unit/Name/CCData_D8ChargeWeapon=D-8型炸药
 Unit/Name/CCData_DeepRemoteEnergy=幽能
 Unit/Name/CCData_DeploySpiderMinesMissile=部署蜘蛛雷飞弹
+Unit/Name/CCData_DestructibleUmojanLabPowerCell=监禁室
 Unit/Name/CCData_DragoonWeapon=龙骑士
 Unit/Name/CCData_Dummy_HellFire=地狱火焰
 Unit/Name/CCData_EradicatorMissileWeapon=根除者飞弹
@@ -9061,6 +9098,7 @@ Unit/Name/CCData_HurricaneMissileRight=飓风飞弹 右
 Unit/Name/CCData_IceProtossCrates=星灵贮藏器
 Unit/Name/CCData_ImmortalShakurasShadowCannonMissile=Immortal Shakuras Shadow Cannon Missile
 Unit/Name/CCData_ImmortalTaldarimWeaponMissile=Immortal Tal'darim Weapon Missile
+Unit/Name/CCData_InfestedDominionHousing=帝国驻地
 Unit/Name/CCData_JiJian=机件
 Unit/Name/CCData_JiJianNew=新机件
 Unit/Name/CCData_KAshWormWeapon=火焰吐息
@@ -9076,6 +9114,7 @@ Unit/Name/CCData_LocustMPEggAMissileWeapon=多人模式 蝗虫虫卵 发射物�
 Unit/Name/CCData_LocustMPEggBMissileWeapon=多人模式 蝗虫虫卵 发射物武器B
 Unit/Name/CCData_LongboltMissileWeapon=长箭飞弹
 Unit/Name/CCData_MainArmsAmmunitionBox=主武器弹药箱
+Unit/Name/CCData_ManufacturingStand=制造设施
 Unit/Name/CCData_MedicalKit=医疗包
 Unit/Name/CCData_MengskReaperD8ChargeWeapon=蒙斯克收割者 D8炸药 武器
 Unit/Name/CCData_MercReaperD8ChargeWeapon=雇佣兵收割者D9 充能
@@ -9154,6 +9193,7 @@ Unit/Name/CCData_RailGunTurret=磁轨炮塔
 Unit/Name/CCData_RailGunTurretReleaseWeapon=磁轨炮塔释放
 Unit/Name/CCData_RawSolarite=原生太阳能碎片
 Unit/Name/CCData_RichOxygenInjection=富氧针剂
+Unit/Name/CCData_SCVShop=SCVShop
 Unit/Name/CCData_Scientist=中年男子
 Unit/Name/CCData_Sentry=机械哨兵
 Unit/Name/CCData_ShanMaiLanTian=山脉蓝天
@@ -9166,7 +9206,8 @@ Unit/Name/CCData_SniperRifle=狙击步枪
 Unit/Name/CCData_SpaceArmoredGenerator=装甲发电机
 Unit/Name/CCData_SpiderMine=蜘蛛雷
 Unit/Name/CCData_Star=强化星
-Unit/Name/CCData_StorageBox=储物箱
+Unit/Name/CCData_StashBox=仓库箱
+Unit/Name/CCData_StorageBox=备用储藏箱
 Unit/Name/CCData_Storefront=店面
 Unit/Name/CCData_Storefront2F=店面2F
 Unit/Name/CCData_StoryBoss_Brakk=巴拉克
@@ -9216,6 +9257,7 @@ Unit/Name/CCData_TongXunDaLou=通讯大楼
 Unit/Name/CCData_UB_ChargeCore=充能核心
 Unit/Name/CCData_UB_Nostradamus=超电磁炮
 Unit/Name/CCData_UB_NukePowerPlant=核融合发电厂
+Unit/Name/CCData_UmojanLabCage=Umojan Lab Cage
 Unit/Name/CCData_UnitBlocker12x12=单位阻碍12x12
 Unit/Name/CCData_UnitBlocker2x2=单位阻碍2x2
 Unit/Name/CCData_UnitBlocker4x4=单位阻碍4x4
@@ -9342,7 +9384,7 @@ Unit/Name/CCData_V10112_OptimizePrime=擎天柱卡车
 Unit/Name/CCData_V10113_DukesRevenge=<s val="ys_BlackRed224">一级战列舰</s>
 Unit/Name/CCData_V10114_Raven=操作港作业机
 Unit/Name/CCData_V10115_MechanicalCrab=<c val="FFFF00">机械螃蟹</c>
-Unit/Name/CCData_ValhallaCabinet=Valhalla Cabinet
+Unit/Name/CCData_ValhallaCabinet=货架
 Unit/Name/CCData_VehicleEnergy=载具能量
 Unit/Name/CCData_VehicleSP=载具装甲
 Unit/Name/CCData_VoidHighTemplarPsiOrbMissile=High Templar Psi Orb Missile
@@ -9350,6 +9392,7 @@ Unit/Name/CCData_VultureWeapon=秃鹫-碎片榴弹发射物
 Unit/Name/CCData_WaLiMaker=瓦力生成器
 Unit/Name/CCData_WangShouBaoXiang=王兽宝箱
 Unit/Name/CCData_WarbotBMissile=战斗机器人B型飞弹
+Unit/Name/CCData_WeaponRack=武器架
 Unit/Name/CCData_WreckedCargoTruck=Wrecked Cargo Truck
 Unit/Name/CCData_WuQi=武器
 Unit/Name/CCData_WuQiNew=新型武器
@@ -9367,6 +9410,7 @@ Unit/Name/CCData_Zombie6=僵尸VI型
 Unit/Name/CCData_Zombie7=僵尸VII型
 Unit/Name/CCData_Zombie8=僵尸VIII型
 Unit/Name/CCData_Zombie9=僵尸IX型
+Unit/Name/CCData_ZombieLilysMother=莉莉丝母亲（感染）
 Unit/Name/CLMB= 材料模板
 Unit/Name/CSDX=刺蛇毒腺
 Unit/Name/ColonistShip=飞船

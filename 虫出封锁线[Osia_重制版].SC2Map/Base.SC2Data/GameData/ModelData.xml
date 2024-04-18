@@ -15,4 +15,8 @@
         <TechPurchaseCamera value="Star2CameraLow11"/>
         <UnitGlossaryCamera value="Star2CameraLow11"/>
     </CModel>
+    <CModel id="CCData_SCVUmojan" parent="Unit">
+        <Model value="Assets\Units\Terran\SCV_Umojan\SCV_Umojan.m3"/>
+        <EditorCategories value=""/>
+    </CModel>
 </Catalog>

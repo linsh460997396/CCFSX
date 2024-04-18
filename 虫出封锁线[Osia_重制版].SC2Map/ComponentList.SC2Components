@@ -11,4 +11,5 @@
     <DataComponent Type="attr">Attributes</DataComponent>
     <DataComponent Type="plob">Objects</DataComponent>
     <DataComponent Type="regi">Regions</DataComponent>
+    <DataComponent Type="cine">Cinematics</DataComponent>
 </Components>
