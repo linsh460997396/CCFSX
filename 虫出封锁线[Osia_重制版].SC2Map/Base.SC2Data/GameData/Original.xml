@@ -207,6 +207,28 @@
         <ZoomDefault value="3"/>
         <PitchIncrement value="2.000000"/>
     </CCamera>
+    <!--                                                                                         -->
+    <!-- DestructibleGateStraightVerticalLF .................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="DestructibleGateStraightVerticalLF">
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="DestructibleUmojanLabPowerCell">
+        <On Terms="UnitDeath" Send="Destroy"/>
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+    </CActorUnit>
+    <CActorUnit id="InfestedDominionHousing2">
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+    </CActorUnit>
     <CActorUnit id="HoverSiegeModeMorphModel">
         <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020AP_LeopardV" Send="Create"/>
         <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020AP_LeopardV" Send="AnimPlay Start Morph,Start"/>

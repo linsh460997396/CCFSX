@@ -181,6 +181,7 @@
 <Unit id="CCData_ManufacturingStand"/>
 <Unit id="CCData_WeaponRack" Variations="0"/>
 <Unit id="CCData_UmojanLabCage" Variations="0"/>
+<Unit id="CCData_DestructibleUmojanLabPowerCell"/>
 <Unit id="OS_ReneeCamera"/>
 <Unit id="OS_ScreenMaJia"/>
 <Unit id="OS_HaHaMiro"/>
@@ -212,6 +213,7 @@
 <Unit id="CCData_V10013_HadesFlame"/>
 <Unit id="CCData_T29_ZhuShenEX"/>
 <Unit id="CCData_V10111_StormFighter"/>
+<Unit id="CCData_ZombieLilysMother"/>
 <Unit id="CCData_StashBox"/>
 <Unit id="CCData_V10115_MechanicalCrab"/>
 <Unit id="CCData_Hero_Lilys"/>
@@ -343,8 +345,6 @@
 <Unit id="DZA_DBJJCPU9_DF"/>
 <Unit id="DZA_DBJJCPU10_DF"/>
 <Unit id="CCData_NovaXanthosAssault"/>
-<Unit id="CCData_ZombieLilysMother"/>
-<Unit id="CCData_DestructibleUmojanLabPowerCell"/>
 <Weapon id="SpartanCompanyGUpgraded"/>
 <Weapon id="MengskWraithG"/>
 <Weapon id="SJPirateCapitalShip"/>

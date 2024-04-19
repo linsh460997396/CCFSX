@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog>
-    <CModel id="CCData_MagicField" parent="Unit" Race="Protoss">
-        <Model value="Assets\Effects\Terran\ArcadeMegaBombImpact\ArcadeMegaBombImpact.m3"/>
-        <AnimSpeed value="2.000000"/>
-        <Occlusion value="Show"/>
-        <PlanetPanelCamera value="Star2CameraLow11"/>
-        <Radius value="1.375000"/>
-        <ScaleMax value="0.400000,0.400000,0.400000"/>
-        <ScaleMin value="0.400000,0.400000,0.400000"/>
-        <SelectionOffset value="0.000000,0.000000,-0.750000"/>
-        <SelectionRadius value="1.718700"/>
-        <ShadowRadius value="1.718700"/>
-        <SquibTypeDefault value="Metal"/>
-        <TechPurchaseCamera value="Star2CameraLow11"/>
-        <UnitGlossaryCamera value="Star2CameraLow11"/>
-    </CModel>
-    <CModel id="CCData_SCVUmojan" parent="Unit">
-        <Model value="Assets\Units\Terran\SCV_Umojan\SCV_Umojan.m3"/>
-        <EditorCategories value=""/>
-    </CModel>
-</Catalog>
+<Catalog/>
