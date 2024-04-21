@@ -1156,9 +1156,7 @@
     <ObjectPoint Id="1261916382" Position="135.2946,124.9045,0" Scale="1,1,1" Type="Normal" Name="SOS点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="996" Position="40.5,5.5,0" Scale="1,1,1" Type="StartLoc" Name="玩家出生圈" Color="0,0,0,0">
-        <Flag Index="PointHidden" Value="1"/>
-    </ObjectPoint>
+    <ObjectPoint Id="996" Position="40.5,5.5,0" Scale="1,1,1" Type="StartLoc" Name="玩家出生点" Color="0,0,0,0"/>
     <ObjectPoint Id="1092" Position="41,119,0" Scale="1,1,1" Type="Normal" Name="砲台 001" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
@@ -1231,7 +1229,7 @@
     <ObjectPoint Id="1093" Position="47,119,0" Scale="1,1,1" Type="Normal" Name="砲台 002" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
-    <ObjectPoint Id="997" Position="85.5,166.5,0" Scale="1,1,1" Type="StartLoc" Name="异虫出生圈" Color="0,0,0,0">
+    <ObjectPoint Id="997" Position="85.5,166.5,0" Scale="1,1,1" Type="StartLoc" Name="异虫出生点" Color="0,0,0,0">
         <Flag Index="PointHidden" Value="1"/>
     </ObjectPoint>
     <ObjectPoint Id="1887462394" Position="43.48,109.96,0" Scale="1,1,1" Type="Normal" Name="佣兵测试点[镇内]" Color="0,0,0,0">

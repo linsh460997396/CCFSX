@@ -355,9 +355,8 @@
     </region>
     <region id="104">
         <name value="玩家出生区"/>
-        <invisible/>
         <shape type="circle">
-            <center value="41.5617,7.1826"/>
+            <center value="40.5,5.5"/>
             <radius value="2"/>
         </shape>
     </region>
