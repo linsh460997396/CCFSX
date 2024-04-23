@@ -8226,7 +8226,7 @@ Param/Value/D61B74D2=中度破损
 Param/Value/D6246846=<c val="FF8080">钚</c><c val="FFAFAF">丸</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/D6377A27=<c val="FF8040">得到</c>
 Param/Value/D63E0D6D=【更多指令】
-Param/Value/D64774E1=<s val="ys_green164">显/隐工业资源列表<c val="FFFF00"><~键></c>
+Param/Value/D64774E1=<s val="ys_green164">显/隐工业资源列表<c val="FFFF00"><待开发></c>
 Param/Value/D64A6C00=<s val="ys_green164">别出小地图的圈圈了!</s>
 Param/Value/D64DCC58=<s val="ys_green164"><c val="FFFF00">待更新</c>
 Param/Value/D6596128=<c val="FF8040">得到</c>
@@ -8238,7 +8238,7 @@ Param/Value/D68A1EE6=<s val="ys_green164">通过<c val="FFFF00">【管理员指�
 Param/Value/D6C351EA=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.38
+Param/Value/D6F4D09B=V0.39
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
 Param/Value/D7083C63=/
