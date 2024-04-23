@@ -6,12 +6,12 @@
 <Asset path="assets\textures\btn-tips-missioncase.dds" Type="Image"/>
 <Asset path="ui\button\nanakey_ui_x.dds" Type="Image"/>
 <Asset path="assets\textures\ui_battle_missionbuttonicon_normaloverpressedover.dds" Type="Image"/>
-<Asset path="assets\textures\decal_spray_0109_01.lvl0" Type="Image"/>
 <Asset path="ui\box\nanakey_ui_custombutton_01.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0109_01.lvl0" Type="Image"/>
 <Asset path="ui\button\itemgridlight.tga" Type="Image"/>
-<Asset path="assets\textures\decal_spray_0109_01.dds" Type="Image"/>
 <Asset path="assets\textures\black.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0114_01.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0109_01.dds" Type="Image"/>
 <Asset path="ui\button\itemgridrarility.dds" Type="Image"/>
 <Asset path="assets\textures\ui_btn_aicommand_commandcard_defend.dds" Type="Image"/>
 <Asset path="ui\button\itemgridbutton.tga" Type="Image"/>
@@ -29,8 +29,8 @@
 <Asset path="assets\textures\video_static_black.lvl0" Type="Image"/>
 <Asset path="assets\textures\targetingcursorcircle_a.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.dds" Type="Image"/>
-<Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
 <Asset path="assets\textures\btn-unit-collection-taldarim-probe.dds" Type="Image"/>
+<Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.lvl0" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
 <Actor id="OS_HaHaMiroScreen"/>
@@ -74,10 +74,10 @@
 <Model id="NanaKey_UI_VehicleFPS_Display"/>
 <Model id="NanaKey_BG_TerrainGroup21"/>
 <Model id="NanaKey_BG_TankmodeWalls"/>
-<Model id="OS_ReneeCamera"/>
-<Model id="OS_ReneeScreen"/>
 <Model id="OS_HaHaMiro"/>
 <Model id="OS_HaHaMiroScreen"/>
+<Model id="OS_ReneeCamera"/>
+<Model id="OS_ReneeScreen"/>
 <Model id="CCData_HeXinQiu"/>
 <Model id="CCData_DongHua01"/>
 <Model id="CCData_DongHua02"/>
@@ -131,6 +131,7 @@
 <Unit id="SpartanCompany"/>
 <Unit id="DominionKillTeam"/>
 <Unit id="Goliath"/>
+<Unit id="Civilian"/>
 <Unit id="ReaperPlacement"/>
 <Unit id="ThornLizard"/>
 <Unit id="Artosilope"/>
@@ -154,9 +155,10 @@
 <Unit id="Moopy"/>
 <Unit id="Ursula"/>
 <Unit id="KasaiSpaceWhale"/>
+<Unit id="BeachGirl"/>
+<Unit id="OS_HaHaMiro"/>
 <Unit id="OS_ReneeCamera"/>
 <Unit id="OS_ScreenMaJia"/>
-<Unit id="OS_HaHaMiro"/>
 <Unit id="CCData_MedicalKit"/>
 <Unit id="CCData_SniperRifle"/>
 <Unit id="CCData_GrenadeLauncher"/>
@@ -165,6 +167,7 @@
 <Unit id="CCData_MainArmsAmmunitionBox"/>
 <Unit id="CCData_RichOxygenInjection"/>
 <Unit id="CCData_CaissonGrenade"/>
+<Unit id="CCData_V10093_ColonistShip"/>
 <Unit id="CCData_HB_FangZhenJiPao"/>
 <Unit id="CCData_HB_MissileTurret"/>
 <Unit id="CCData_HB_TeslaTurret"/>
@@ -175,6 +178,9 @@
 <Unit id="CCData_V10013_HadesFlame"/>
 <Unit id="CCData_T29_ZhuShenEX"/>
 <Unit id="CCData_V10111_StormFighter"/>
+<Unit id="CCData_StashBox"/>
+<Unit id="CCData_V10115_MechanicalCrab"/>
+<Unit id="CCData_Hero_Lilys"/>
 <Unit id="CCData_NovaResupplyCrate"/>
 <Unit id="CCData_PalletGas"/>
 <Unit id="CCData_GasCanisterZerg"/>
@@ -217,6 +223,7 @@
 <Unit id="CCData_VehicleSP"/>
 <Unit id="CCData_VehicleEnergy"/>
 <Unit id="CCData_FlashbangGrenade"/>
+<Unit id="CCData_StorageBox"/>
 <Unit id="CCData_V10079_SuperComputer"/>
 <Unit id="CourierU"/>
 <Unit id="DCQ0"/>

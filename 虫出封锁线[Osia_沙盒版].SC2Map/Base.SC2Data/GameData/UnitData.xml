@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog/>
-
+<Catalog>
+    <CUnit id="MMFunc_BuildBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+    </CUnit>
+    <CUnit id="MMFunc_PathBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+    </CUnit>
+    <CUnit id="MMFunc_ViewBuildBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+    </CUnit>
+    <CUnit id="MMFunc_ViewPathBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+    </CUnit>
+</Catalog>

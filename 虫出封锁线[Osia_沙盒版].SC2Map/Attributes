@@ -71,11 +71,34 @@
         <Value>
             <Id Value="13"/>
             <Name Value="Attribute002/Value013/Name"/>
-            <Description Value="Attribute002/Value013/Desc"/>
         </Value>
         <Default>
             <Slot Id="Global"/>
             <Value Id="13"/>
+        </Default>
+    </Attribute>
+    <Attribute>
+        <Id Value="27"/>
+        <Type Value="Global"/>
+        <Name Value="Attribute027/Name"/>
+        <Availability Value="All"/>
+        <Visibility Value="All"/>
+        <Access Value="Host"/>
+        <Value>
+            <Id Value="1"/>
+            <Name Value="Attribute027/Value001/Name"/>
+        </Value>
+        <Value>
+            <Id Value="2"/>
+            <Name Value="Attribute027/Value002/Name"/>
+        </Value>
+        <Value>
+            <Id Value="3"/>
+            <Name Value="Attribute027/Value003/Name"/>
+        </Value>
+        <Default>
+            <Slot Id="Global"/>
+            <Value Id="1"/>
         </Default>
     </Attribute>
     <Attribute>
