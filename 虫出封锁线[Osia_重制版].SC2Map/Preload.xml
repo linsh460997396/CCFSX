@@ -8,7 +8,6 @@
 <Asset path="assets\textures\ui_battle_missionbuttonicon_normaloverpressedover.dds" Type="Image"/>
 <Asset path="ui\box\nanakey_ui_custombutton_01.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0109_01.lvl0" Type="Image"/>
-<Asset path="editordata\images\previewerglobal.tga" Type="Image"/>
 <Asset path="ui\button\itemgridlight.tga" Type="Image"/>
 <Asset path="assets\textures\black.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0114_01.dds" Type="Image"/>
