@@ -90,6 +90,7 @@
 <Sound id="UI_TextPrintout"/>
 <Sound id="UI_DoorMenu_ListSelect"/>
 <Sound id="HellionTankMorph_StandMorphEnd_Stage04"/>
+<Sound id="StoneZealot_Birth" Variations="0"/>
 <Sound id="Music_BossFight_Osia" Variations="0"/>
 <Soundtrack id="nDLC_Music_Nova01_FinalEscape"/>
 <Soundtrack id="nDLC_Music_Nova04_Intro"/>
@@ -128,6 +129,7 @@
 <Unit id="Dog"/>
 <Unit id="Sheep"/>
 <Unit id="Cow"/>
+<Unit id="InfestedCivilian"/>
 <Unit id="SpartanCompany"/>
 <Unit id="DominionKillTeam"/>
 <Unit id="Goliath"/>
@@ -143,7 +145,9 @@
 <Unit id="Defiler"/>
 <Unit id="PrimalRoachBurrowed"/>
 <Unit id="PrimalHydraliskBurrowed"/>
+<Unit id="Roachling"/>
 <Unit id="ScantipedeParasiticSmall"/>
+<Unit id="KerriganInfestBroodling"/>
 <Unit id="LeapingCritter"/>
 <Unit id="ScantipedeParasitic"/>
 <Unit id="Yeti"/>

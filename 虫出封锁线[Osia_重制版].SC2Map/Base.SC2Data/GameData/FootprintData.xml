@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog>
-    <CFootprint id="Footprint2x2">
-        <Shape>
-            <Offsets value="-1,-1;1,-1;-1,1;1,1"/>
-            <Borders value="0,2,2;1,0,2;2,3,2;3,1,2"/>
-        </Shape>
-    </CFootprint>
-</Catalog>
+<Catalog/>

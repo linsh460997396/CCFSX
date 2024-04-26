@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <terrain version="115">
     <heightMap tileSet="KorhalCity" uvtiling="24.000000 24.000000 0.000000 0.000000 " dim="257 257 " offset="0.000000 0.000000 0.000000 " scale="1.000000e+00 1.000000e+00 1.000000e+00 ">
-        <vertData quantizeBias="1.000000e+00" quantizeScale="1.525902e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="1.000076e+00" quantizeScale="1.525902e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="KorhalCity"/>

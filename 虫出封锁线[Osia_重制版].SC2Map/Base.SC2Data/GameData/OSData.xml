@@ -889,13 +889,8 @@
     <CActorSiteOpLocalOffset id="SOpMoveUpBy0Dot3">
         <LocalOffset value="0.000000,0.000000,0.300000"/>
     </CActorSiteOpLocalOffset>
-    <CActorSiteOpRotationExplicit id="OS_SOpPointToCamera">
-        <Forward value="0.000000,-0.559000,0.829000"/>
-        <IsLocal value="1"/>
-    </CActorSiteOpRotationExplicit>
-    <CActorSiteOpLocalOffset id="OS_SOpProphecyCameraOffset">
-        <LocalOffset value="0.000000,-29.000000,40.000000"/>
-    </CActorSiteOpLocalOffset>
+    <CActorSiteOpRotationExplicit id="OS_SOpPointToCamera"/>
+    <CActorSiteOpLocalOffset id="OS_SOpProphecyCameraOffset"/>
     <CActorSiteOpLocalOffset id="SOpMoveDownBy0Dot29">
         <EditorCategories value=""/>
         <LocalOffset value="0.000000,0.000000,-0.290000"/>
@@ -1021,21 +1016,11 @@
             <Borders value="0,2,1;1,0,1;2,3,1;3,1,1"/>
         </Shape>
     </CFootprint>
-    <CModel id="OS_MultiCamera">
-        <Model value="Assets\UI\TechPurchase\TechPurchasePortraitCamera\TechPurchasePortraitCamera.m3"/>
-    </CModel>
-    <CModel id="OS_ReneeCamera">
-        <Model value="Assets\Models\Renee_UI_RTTCamera_OB1.m3"/>
-    </CModel>
-    <CModel id="OS_ReneeScreen">
-        <Model value="Assets\Models\Renee_UI_RTTDisplay.m3"/>
-    </CModel>
-    <CModel id="OS_HaHaMiro">
-        <Model value="Assets\COOP\Zeratul\Camera\Prophecy_Zeratul_COOP_Camera\Prophecy_Zeratul_COOP_Camera.m3"/>
-    </CModel>
-    <CModel id="OS_HaHaMiroScreen">
-        <Model value="Assets\COOP\Zeratul\Portraits\Prophecy_Zeratul_COOP_Portrait\Prophecy_Zeratul_COOP_Portrait.m3"/>
-    </CModel>
+    <CModel id="OS_MultiCamera"/>
+    <CModel id="OS_ReneeCamera"/>
+    <CModel id="OS_ReneeScreen"/>
+    <CModel id="OS_HaHaMiro"/>
+    <CModel id="OS_HaHaMiroScreen"/>
     <CSound id="Sound_TakeOff" parent="MUSIC">
         <AssetArray File="Assets\Sounds\0x37-Takeoff.wav" FacialGroup=""/>
     </CSound>
@@ -1063,31 +1048,25 @@
     <CSound id="Sound_Victory" parent="MUSIC">
         <AssetArray File="Assets\Music\Music - Victory.mp3" FacialGroup=""/>
     </CSound>
-    <CUnit id="OS_ReneeCamera">
-        <FlagArray index="Unclickable" value="0"/>
-        <FlagArray index="Unhighlightable" value="0"/>
-        <FlagArray index="Untooltipable" value="0"/>
-        <FlagArray index="Invulnerable" value="1"/>
-        <MinimapRadius value="0"/>
-        <EditorCategories value=""/>
+    <CUnit id="MMFunc_BuildBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
     </CUnit>
-    <CUnit id="OS_ScreenMaJia">
-        <FlagArray index="Unclickable" value="0"/>
-        <FlagArray index="Unhighlightable" value="0"/>
-        <FlagArray index="Untooltipable" value="0"/>
-        <FlagArray index="Invulnerable" value="1"/>
-        <Height value="4"/>
-        <MinimapRadius value="0"/>
-        <EditorCategories value=""/>
+    <CUnit id="MMFunc_PathBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
     </CUnit>
-    <CUnit id="OS_HaHaMiro">
-        <FlagArray index="Unclickable" value="0"/>
-        <FlagArray index="Unhighlightable" value="0"/>
-        <FlagArray index="Untooltipable" value="0"/>
-        <FlagArray index="Invulnerable" value="1"/>
-        <MinimapRadius value="0"/>
-        <EditorCategories value=""/>
+    <CUnit id="MMFunc_ViewBuildBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
     </CUnit>
+    <CUnit id="MMFunc_ViewPathBlocker1x1">
+        <LifeStart value="500000"/>
+        <LifeMax value="500000"/>
+    </CUnit>
+    <CUnit id="OS_ReneeCamera"/>
+    <CUnit id="OS_ScreenMaJia"/>
+    <CUnit id="OS_HaHaMiro"/>
     <CBehaviorBuff id="OS_MianYiShangHai_FeiDiDeath">
         <InfoFlags index="Hidden" value="1"/>
         <DamageResponse Fatal="1" ModifyFraction="-1" TargetFilters="-;Enemy">
