@@ -777,4 +777,16 @@
             <quad value="83.0002,0.1191,89.7663,18.184"/>
         </shape>
     </region>
+    <region id="26">
+        <name value="禁入区A"/>
+        <shape type="rect">
+            <quad value="78.6003,17.0002,85.4,179"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="禁入区B"/>
+        <shape type="rect">
+            <quad value="0.15,168,78.65,179"/>
+        </shape>
+    </region>
 </Regions>
