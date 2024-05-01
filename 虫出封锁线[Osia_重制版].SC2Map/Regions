@@ -778,15 +778,21 @@
         </shape>
     </region>
     <region id="26">
-        <name value="禁入区A"/>
+        <name value="禁入区R1"/>
         <shape type="rect">
-            <quad value="78.6003,17.0002,85.4,179"/>
+            <quad value="78.6003,17.0002,89.4,179"/>
         </shape>
     </region>
     <region id="27">
-        <name value="禁入区B"/>
+        <name value="禁入区T1"/>
         <shape type="rect">
             <quad value="0.15,168,78.65,179"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="禁入区R2"/>
+        <shape type="rect">
+            <quad value="89,0.5002,96,19.5"/>
         </shape>
     </region>
 </Regions>
