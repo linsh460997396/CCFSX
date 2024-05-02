@@ -33,7 +33,22 @@
 <Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.lvl0" Type="Image"/>
 <Actor id="SYSTEM_ActorConfig"/>
+<Actor id="GenericBuildingRubble" Variations="4,5,7"/>
+<Actor id="KorhalDestroyedBuilding" Variations="0,1,2"/>
+<Actor id="PortZionBarrelPhysics"/>
+<Actor id="ZerusTallGrassCluster" Variations="1"/>
+<Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
+<Actor id="PortZionGroundMix" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
+<Actor id="RainEmitterLarge"/>
+<Actor id="Waterfall"/>
+<Actor id="TarsonisArrow"/>
+<Actor id="ColonistCorpse" Variations="0,1,2,3,5,6,8,11,15,17,18,19"/>
+<Actor id="MarineCorpse" Variations="0,1,3,4,5,6"/>
 <Actor id="OS_HaHaMiroScreen"/>
+<Actor id="CCData_ColonistSupplies" Variations="9"/>
+<Actor id="CCData_MilitarySupplies" Variations="3"/>
+<Actor id="CCData_RoadRoundAbout" Variations="1"/>
+<Actor id="CCData_ArmyCrateGroup"/>
 <Behavior id="Detector10"/>
 <Behavior id="MercReaperJump"/>
 <Behavior id="OS_Grind120_1"/>
@@ -90,7 +105,6 @@
 <Sound id="UI_TextPrintout"/>
 <Sound id="UI_DoorMenu_ListSelect"/>
 <Sound id="HellionTankMorph_StandMorphEnd_Stage04"/>
-<Sound id="StoneZealot_Birth" Variations="0"/>
 <Sound id="Music_BossFight_Osia" Variations="0"/>
 <Soundtrack id="nDLC_Music_Nova01_FinalEscape"/>
 <Soundtrack id="nDLC_Music_Nova04_Intro"/>
@@ -101,6 +115,7 @@
 <Unit id="Reaper"/>
 <Unit id="Marauder"/>
 <Unit id="Observer"/>
+<Unit id="Hatchery"/>
 <Unit id="Zergling"/>
 <Unit id="Hydralisk"/>
 <Unit id="Roach"/>
@@ -129,13 +144,17 @@
 <Unit id="Dog"/>
 <Unit id="Sheep"/>
 <Unit id="Cow"/>
-<Unit id="InfestedCivilian"/>
+<Unit id="DestructibleStreetlight" Variations="0,3"/>
+<Unit id="DestructibleDebris4x4"/>
 <Unit id="SpartanCompany"/>
+<Unit id="DestructibleGateStraightVerticalLF"/>
 <Unit id="DominionKillTeam"/>
 <Unit id="Goliath"/>
 <Unit id="Civilian"/>
 <Unit id="ReaperPlacement"/>
 <Unit id="ThornLizard"/>
+<Unit id="DestructibleCityDebris2x4Horizontal"/>
+<Unit id="DestructibleCityDebris6x6"/>
 <Unit id="Artosilope"/>
 <Unit id="Anteplott"/>
 <Unit id="Crabeetle"/>
@@ -145,9 +164,7 @@
 <Unit id="Defiler"/>
 <Unit id="PrimalRoachBurrowed"/>
 <Unit id="PrimalHydraliskBurrowed"/>
-<Unit id="Roachling"/>
 <Unit id="ScantipedeParasiticSmall"/>
-<Unit id="KerriganInfestBroodling"/>
 <Unit id="LeapingCritter"/>
 <Unit id="ScantipedeParasitic"/>
 <Unit id="Yeti"/>
@@ -171,27 +188,49 @@
 <Unit id="CCData_MainArmsAmmunitionBox"/>
 <Unit id="CCData_RichOxygenInjection"/>
 <Unit id="CCData_CaissonGrenade"/>
+<Unit id="CCData_StoryBoss_HotSNoxious"/>
+<Unit id="CCData_StoryBoss_HotSTorrasque"/>
 <Unit id="CCData_V10093_ColonistShip"/>
+<Unit id="CCData_Story_FeiChuan"/>
+<Unit id="CCData_HB_Campfire"/>
+<Unit id="CCData_HB_SandBag" Variations="0,1,2"/>
 <Unit id="CCData_HB_FangZhenJiPao"/>
 <Unit id="CCData_HB_MissileTurret"/>
 <Unit id="CCData_HB_TeslaTurret"/>
+<Unit id="CCData_FKBaffle4Wall"/>
+<Unit id="CCData_ZhuCheKu" Variations="1"/>
 <Unit id="CCData_ZhenBaoXiang"/>
+<Unit id="CCData_BeiYongCheKu" Variations="0,1"/>
+<Unit id="CCData_ShengChanCheJian"/>
 <Unit id="CCData_TeYiBaoXiang"/>
 <Unit id="CCData_WangShouBaoXiang"/>
 <Unit id="CCData_V10016_TerminatorT800"/>
 <Unit id="CCData_V10013_HadesFlame"/>
 <Unit id="CCData_T29_ZhuShenEX"/>
 <Unit id="CCData_V10111_StormFighter"/>
+<Unit id="CCData_SCVShop"/>
+<Unit id="CCData_ManufacturingStand"/>
+<Unit id="CCData_WeaponRack" Variations="0"/>
+<Unit id="CCData_UmojanLabCage" Variations="0"/>
+<Unit id="CCData_DestructibleUmojanLabPowerCell"/>
+<Unit id="CCData_ZombieLilysMother"/>
 <Unit id="CCData_StashBox"/>
 <Unit id="CCData_V10115_MechanicalCrab"/>
 <Unit id="CCData_Hero_Lilys"/>
+<Unit id="CCData_ValhallaCabinet" Variations="6"/>
+<Unit id="CCData_PortZionDumpster"/>
+<Unit id="CCData_Scientist" Variations="0"/>
 <Unit id="CCData_NovaResupplyCrate"/>
 <Unit id="CCData_PalletGas"/>
 <Unit id="CCData_GasCanisterZerg"/>
 <Unit id="CCData_BaoXiang"/>
+<Unit id="CCData_StoryBoss_Mitosaurus"/>
+<Unit id="CCData_StoryBoss_Slivan"/>
+<Unit id="CCData_StoryBoss_Brakk"/>
 <Unit id="CCData_Pretender"/>
 <Unit id="CCData_PickupHealthFull"/>
 <Unit id="CCData_TeShuBaoXiang"/>
+<Unit id="CCData_T17_Bulldozer" Variations="1"/>
 <Unit id="CCData_V10012_Goliath"/>
 <Unit id="CCData_V10047_DefenderM"/>
 <Unit id="CCData_V10072_MoShaZheM"/>
@@ -209,9 +248,17 @@
 <Unit id="CCData_WuQiNew"/>
 <Unit id="CCData_JiJian"/>
 <Unit id="CCData_JiJianNew"/>
+<Unit id="CCData_T03_Goliath"/>
+<Unit id="CCData_Storefront" Variations="1,4,8"/>
+<Unit id="CCData_Storefront2F" Variations="0"/>
+<Unit id="CCData_ShanMaiLanTian"/>
+<Unit id="CCData_ZobieMaker"/>
 <Unit id="CCData_Honor"/>
+<Unit id="CCData_XiuLiChang"/>
 <Unit id="CCData_ShopSOS"/>
+<Unit id="CCData_BuildingRuin" Variations="0,1,2,3,4,5,6,7"/>
 <Unit id="CCData_Star"/>
+<Unit id="CCData_TongXunDaLou" Variations="0,1,2,3,4,5,6,7"/>
 <Unit id="CCData_SheJiTuNew"/>
 <Unit id="CCData_V10113_DukesRevenge"/>
 <Unit id="CCData_V10023_RepiarTank"/>

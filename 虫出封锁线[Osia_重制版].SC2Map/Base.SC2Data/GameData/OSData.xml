@@ -1025,28 +1025,28 @@
         <AssetArray File="Assets\Sounds\0x37-Takeoff.wav" FacialGroup=""/>
     </CSound>
     <CSound id="Music_ZiZiZi" parent="MUSIC">
-        <AssetArray File="Assets\Music\Music - BOSS战 重装机兵.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Music - BOSS战 重装机兵.mp3" FacialGroup=""/>
     </CSound>
     <CSound id="Music_BossFight_Osia" parent="MUSIC">
-        <AssetArray File="Assets\Music\Music - BOSS战 虫出.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Music - BOSS战 虫出.mp3" FacialGroup=""/>
     </CSound>
     <CSound id="Music_BossFight_MM" parent="MUSIC">
-        <AssetArray File="Assets\Music\Music - BOSS战 重装机兵.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Music - BOSS战 重装机兵.mp3" FacialGroup=""/>
     </CSound>
     <CSound id="Sound_ElectricGun" parent="Combat">
-        <AssetArray File="Assets\Music\Sound - 电枪.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Sound - 电枪.wav" FacialGroup=""/>
     </CSound>
     <CSound id="Sound_RAElectricAttack" parent="Combat">
-        <AssetArray File="Assets\Music\Sound - 红警电击.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Sound - 红警电击.mp3" FacialGroup=""/>
     </CSound>
     <CSound id="Sound_Rain" parent="MUSIC">
         <AssetArray File="Assets\Sounds\Uni\Ambience\Campaigns\Ambience_TRaynor03Rain.ogg"/>
     </CSound>
     <CSound id="Sound_RareItem" parent="MUSIC">
-        <AssetArray File="Assets\Music\Sound - 稀有宝物.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Sound - 稀有宝物.wav" FacialGroup=""/>
     </CSound>
     <CSound id="Sound_Victory" parent="MUSIC">
-        <AssetArray File="Assets\Music\Music - Victory.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Music - Victory.mp3" FacialGroup=""/>
     </CSound>
     <CUnit id="MMFunc_BuildBlocker1x1">
         <LifeStart value="500000"/>

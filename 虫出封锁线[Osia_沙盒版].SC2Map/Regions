@@ -355,9 +355,8 @@
     </region>
     <region id="104">
         <name value="玩家出生区"/>
-        <invisible/>
         <shape type="circle">
-            <center value="41.5617,7.1826"/>
+            <center value="40.5,5.5"/>
             <radius value="2"/>
         </shape>
     </region>
@@ -764,6 +763,36 @@
             <center value="193.5334,61.1242"/>
             <width value="80"/>
             <height value="80"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="商店左"/>
+        <shape type="rect">
+            <quad value="65.2714,0.0131,71.2224,6.313"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="商店右"/>
+        <shape type="rect">
+            <quad value="83.0002,0.1191,89.7663,18.184"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="禁入区R1"/>
+        <shape type="rect">
+            <quad value="78.6003,17.0002,89.4,179"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="禁入区T1"/>
+        <shape type="rect">
+            <quad value="0.15,168,78.65,179"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="禁入区R2"/>
+        <shape type="rect">
+            <quad value="89,0.5002,96,19.5"/>
         </shape>
     </region>
 </Regions>

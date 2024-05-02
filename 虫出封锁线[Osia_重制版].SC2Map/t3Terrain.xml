@@ -4,7 +4,7 @@
         <cliffSetList num="1">
             <cliffSet i="0" name="KorhalCityCliff0"/>
         </cliffSetList>
-        <vertData quantizeBias="2.101003e+01" quantizeScale="4.579136e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="2.101040e+01" quantizeScale="4.579180e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="KorhalCity"/>

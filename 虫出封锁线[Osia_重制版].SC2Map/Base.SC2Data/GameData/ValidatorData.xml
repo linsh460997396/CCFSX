@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog>
-    <CValidatorCombine id="CCData_TargetRefuelable">
-        <CombineArray value="CCData_TargetIsMoRiTurret"/>
-        <CombineArray value="CCData_TargetIsMoRiTurretDown"/>
-    </CValidatorCombine>
-</Catalog>
+<Catalog/>
+

@@ -693,7 +693,7 @@
         <On Terms="UnitCreation.CCData_HB_PerditionTurret" Send="Create"/>
         <On Terms="UnitCreation.CCData_HB_AutoTurret" Send="Create"/>
         <On Terms="UnitCreation.CCData_HB_FangZhenJiPao" Send="Create"/>
-        <On Terms="UnitCreation.CCData_HB_ShaoQiangTa" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_WhistleRingRobot" Send="Create"/>
         <On Terms="UnitCreation.CCData_HB_GasFortDown" Send="Create"/>
         <On Terms="UnitCreation.CCData_HB_GasFort" Send="Create"/>
     </CActorStateMonitor>
