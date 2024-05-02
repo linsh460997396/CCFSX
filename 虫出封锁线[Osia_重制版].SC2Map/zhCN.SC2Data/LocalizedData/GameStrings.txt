@@ -4359,7 +4359,6 @@ Param/Value/00311235=<c val="FF8040">得到</c>
 Param/Value/003D7C1C=<c val="FF8040">得到回收补偿资金</c>
 Param/Value/00531974=<c val="FF00FF">【雷王兽】已启用！</c>
 Param/Value/0072812F=<s val="ys_green164">AI波次指令-攻击玩家1
-Param/Value/0076CF46=<s val="ys_green165">框选<c val="FFFF00">OFF</c></s>
 Param/Value/008BAB81=<c val="FF8040">得到</c>
 Param/Value/0094FE4F=</c><c val="00FFFF">大级递增</c>
 Param/Value/009A07D0=<c val="FF8080">灌</c><c val="FF9A9A">装</c><c val="FFB6B6">原</c><c val="FFD0D0">油</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
@@ -4554,7 +4553,6 @@ Param/Value/09E17741=的收监计票为
 Param/Value/09FFEF35=启用！操作者是管理员
 Param/Value/0A000183=<s val="ys_green224"><c val="FFFF00">
 Param/Value/0A163815=<s val="ys_White164"><c val="FF0000"><c val="FFFF00">[新档]</c>_ERROR]<c val="FF80FF">（Mtz图纸长度出错！）</c></c>
-Param/Value/0A16833F=<s val="ys_green164">鼠标左键点击恢复框选<c val="FFFF00">（右键隐藏）</c><n/><c val="FF8080">检测到蓄力挖掘导致框选自动屏蔽</c>
 Param/Value/0A3B1260=<c val="FF00FF">TF改-II式设计图</c>
 Param/Value/0A53233B=<c val="FF8040">得到</c>
 Param/Value/0A5445A4=<c val="FF8040">[副炮状态]</c>
