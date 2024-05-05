@@ -3503,7 +3503,7 @@ Effect/Name/lsssjh=镭射搜索集合
 Effect/Name/lsyc=镭射延迟
 Effect/Name/yshxss=验算核心搜索区域
 Effect/Name/yshxyy=验算核心应用
-HelpGameMechanic_00_Description=<s val="ys_red164"><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2><s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头></c>。
+HelpGameMechanic_00_Description=<s val="ys_red164"><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><ESC隐藏>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2><s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头></c>。
 HelpGameMechanic_00_Name=<s val="ys_red164"><游戏控制操作介绍>：</c>
 HelpGameMechanic_01_Description=<s val="ys_red164"><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。
 HelpGameMechanic_01_Name=
@@ -3593,7 +3593,7 @@ Kinetic/Name/CKineticRotate=CKineticRotate
 Kinetic/Name/CKineticSequence=CKineticSequence
 Kinetic/Name/CKineticSet=CKineticSet
 Kinetic/Name/CKineticTranslate=CKineticTranslate
-LoadingScreen/MMHelp00=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>
+LoadingScreen/MMHelp00=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><ESC隐藏>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<>"键：</c><s val="ys_WhiteGrey164"><信息及技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFF00"><玩家指令集（制作中）-开放部分）></c>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -clear <c val="FFFF00"><清除屏幕消息><c val="FFFFFF"> -help <c val="FFFF00"><显示帮助><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -jb<c val="FFFF00"> <查询玩家名称句柄><c val="FFFFFF"> -jx<c val="FFFF00"> <查询玩家军衔等级><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -zj<c val="FFFF00"> <载具名及唯一识别号><c val="FFFFFF"> -P1~8<c val="FFFF00"> <共享控制给玩家1~8><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -red/orange/yellow/green/blue/purple/black/white<c val="FFFF00"> <涂装单位颜色><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -g1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改玩家光照渲染><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -G1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17<c val="FFFF00"> <修改全局光照渲染><n>>>>注：上述指令大小写敏感，部分指令影响全局玩家，-P1~8 off<关闭共享><n>>>>注：在聊天窗口输入<c val="FFFFFF"> -tf/ex<c val="FFFF00"> <查天赋/专精，后跟1~8查玩家></c><c val="FFFFFF"> -help<c val="FFFF00"> <可再次查看帮助>。</c><n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c><n><c val="00FF00">"F10/F12/Alt+F11"键：</c><s val="ys_WhiteGrey164"><星际菜单/帮助/交流></c>（F10常驻屏幕右上，透明化了但可以点）<n><c val="FFFFFF">当物品快捷栏未打开时，按<s val="ys_green164"><数字1><c val="FFFFFF">等同<c val="FFFF00"><F2></c>
 LoadingScreen/MMHelp01=<s val="ys_green165">"不断增多的变异生物致使<s val="ys_blue165"><赏金圣殿><s val="ys_green165">组织建立，组织情报共享于所有的幸存者聚集地，圣殿成员被称之为赏金猎人，赏金猎人通过猎杀分布在世界各地的怪物领取赏金。"<n><s val="ys_WhiteGrey165">-By 拉多镇酒吧 某猎人
 LoadingScreen/MMHelp02=<s val="ys_green165">"<s val="ys_blue165"><诺亚><s val="ys_green165">不仅作为智脑为人类提供环境分析和治理方案，还作为人工智能机械的主脑应对变异生物的威胁，本来一切都安然有序..."<n><s val="ys_WhiteGrey165">-By 亡者<奥利奥·雷·霍金森>博士的笔记</c>
 LoadingScreen/MMHelp03=<s val="ys_blue165"><诺亚><s val="ys_green165">的<s val="ys_yellow165"><幸存者保护主动防御系统><s val="ys_green165">遭到不明生物性入侵，所有机械部队瘫痪，建立在各地的幸存者生存地岌岌可危，赏金猎人们拿起了手中的战车和武器抵御汹涌攻击而来的变异生物...<n><s val="ys_WhiteGrey165">-By 剧情故事</c>
@@ -3766,6 +3766,7 @@ Param/Expression/2A126B42=~A~~B~
 Param/Expression/2A35B560=~A~~E~~B~~F~~C~~D~
 Param/Expression/2B177F8B=~A~~E~~B~~F~~C~~D~
 Param/Expression/2BCC5633=~A~这是什么...大牛！还会潜地？哦不...
+Param/Expression/2BFD7C4D=<s val="ys_green164"><c val="FFFF00">添加指令到常用指令栏</c>
 Param/Expression/2C3B8A86=~A~~B~
 Param/Expression/2D11EF3F=~A~~B~~C~~D~
 Param/Expression/2D4CE337=~A~~B~
@@ -3857,6 +3858,7 @@ Param/Expression/4E04E581=~A~~B~~C~
 Param/Expression/4E0DA0D2=呜？哇！有一只庞大的怪兽在这里守着什么，快！一起干掉面前这个大家伙！
 Param/Expression/4E15243F=~A~~B~
 Param/Expression/4E167411=~A~~B~~C~~D~
+Param/Expression/4F1DD6C0=<img path="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
 Param/Expression/4F2350C7=<s val="ys_green204">这附近好像有什么声音，听起来不像是感染者，<c val="FFFF00">最好仔细找找</c>。</s>
 Param/Expression/4F9CD41B=~A~
 Param/Expression/4FC36FA1=~A~~E~~B~~F~~C~~D~
@@ -4010,6 +4012,7 @@ Param/Expression/81C736A3=<n/>    <CTexture id="MapPic_MM_diffuse_~A~"><n/>     
 Param/Expression/81EB5CAF=~A~+~B~
 Param/Expression/81F356CA=~A~
 Param/Expression/82177820=~A~
+Param/Expression/824AEA48=<s val="ys_green164"><c val="FFFF00">当前不允许直接点击按钮执行指令</c><n/>再次点击将切换至[可用状态]
 Param/Expression/827734F1=~A~~E~~B~~F~~C~~D~
 Param/Expression/82AF13A8=~A~
 Param/Expression/8353BEB4=~A~
@@ -4513,7 +4516,7 @@ Param/Value/07F7EA1B=<c val="FF8040">得到</c>
 Param/Value/07FDEF0D=<c val="FF8040">得到</c>
 Param/Value/08040219=只能装备一套飞行装备!（暂未设计进包裹）
 Param/Value/080F3EA5=<c val="FF00FF">新型挖掘机设计图</c>
-Param/Value/08104711=<s val="ShopNameLabel">Shop</s>
+Param/Value/08104711=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/08182188=<s val="ys_green164">通过<c val="FFFF00">【管理员指令】</c>对<玩家1>
 Param/Value/08218F8C=<s val="ys_green164">通过<c val="FFFF00">【管理员指令】</c>对<玩家3>
 Param/Value/0825D61B=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-电子连结键破坏炮 <c val="FF00FF">升级</c>
@@ -4660,7 +4663,7 @@ Param/Value/0F255152=<c val="FFFF00">超级计算机图纸掉率提升！</c>
 Param/Value/0F37A0F8=<s val="ys_green164">【车辆改造】<c val="FFFF00">轻便摩托车改-I式 <c val="FF00FF">设计图</c>
 Param/Value/0F412175=<c val="FFFF80">受到轻微损伤！</c>
 Param/Value/0F41A854=<c val="FF8040">的</c>
-Param/Value/0F479561=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/0F479561=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><ESC隐藏>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/0F57D562=<s val="ys_green164">【当前特兵数[异形]】
 Param/Value/0F5FE63D=<c val="FFFFFF">使用指令</c>
 Param/Value/0F6AE8AD=/
@@ -4690,6 +4693,7 @@ Param/Value/10826EB4=<c val="FF8080">罐</c><c val="FF9696">装</c><c val="FFACA
 Param/Value/10A856A9=<c val="FF8040">得到</c>
 Param/Value/10B22F4D=<c val="FF8040">S-E中度损坏！</c>
 Param/Value/10B56743=<c val="FFFF00">【全天赋升级】</c>已为玩家
+Param/Value/10CA4853=<s val="BL_ButtonGreen205">添加</s>
 Param/Value/10D183B7=<s val="ys_green164">显/隐快捷道具栏<c val="FFFF00"><F3></c>（配置可存储<img path="Assets\Textures\ui-editoricon-general_save.dds"/>）
 Param/Value/10E91EE8=<c val="FF00FF">【雷王兽】已启用！</c>
 Param/Value/10ECBFC2=<s val="ys_green164">设置<c val="FFFF00">【视物品为盟友】</c>= 
@@ -4727,7 +4731,6 @@ Param/Value/12445778=<c val="FFFF00">【支援辅机】飞空</c>
 Param/Value/1264712E=<c val="FF00FF">恶火II式设计图</c>
 Param/Value/1265660F=<c val="FF00FF">歌利亚武装机器人改 设计图</c>
 Param/Value/12703810=<c val="FF00FF">战斧-I型设计图</c>
-Param/Value/12734870=<s val="ys_green164">"A型商店模型T台" => <c val="FFFF00">真</c>
 Param/Value/128BCCC3=<c val="FF00FF">使者设计图</c>
 Param/Value/1293C319=<s val="ys_green164">"鼠标拖拽框选" => <c val="FFFF00">自动关闭</c>
 Param/Value/12BF2439=<s val="ys_green164">【特典】<c val="FFFF00">黄金圣徒改 <c val="FF00FF">设计图</c>
@@ -4747,7 +4750,6 @@ Param/Value/13535785=<c val="FF8040">[S-E状态]</c>
 Param/Value/1357ED83=<c val="FF8040">得到</c>
 Param/Value/135ECFF6=<c val="FFFF80">主炮小破！</c>
 Param/Value/1360660B=<s val="ys_green164">【车辆】<c val="FFFF00">轻便摩托车 <c val="FF00FF">设计图</c>
-Param/Value/137185B1=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/1380B910=的军衔等级为
 Param/Value/139A5A5D=<s val="ModCenterSize28Bold"><c val="FFBF00">恭</c><c val="EDBE1D">喜</c><c val="DABE3C">地</c><c val="C8BE5A">獄</c><c val="B6BE79">難</c><c val="A4BE97">度</c><c val="92BEB5">通</c><c val="7FBED4">關</c><c val="6EBEF2">!</c><n/><img path="Assets\Buttons\ArchangelGEX.dds" height="68" width="68"/><n/> 您獲得了第一使徒專精強化(開火效率)。</s>
 Param/Value/139DAE0A=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷神E1 <c val="FF00FF">设计图</c>
@@ -4763,6 +4765,7 @@ Param/Value/13EDC3D7=<c val="FFFF00">【监狱无敌】已开启</c>
 Param/Value/13F1F115=<c val="FF8040">得到</c>
 Param/Value/13FE632E=<c val="FF0000">底盘大破！</c>
 Param/Value/14048ADD=为
+Param/Value/1407CA4E=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/1411B263=<s val="ys_green164">【天赋化】<c val="FFFF00">验算支援-下级武器链接<c val="00FFFF">[超级计算机] </c><c val="FF00FF">升级</c>
 Param/Value/1434C0C4=<c val="FF8040">得到</c>
 Param/Value/143978BF=+1
@@ -4876,6 +4879,7 @@ Param/Value/19FE5D22=<c val="FF0000">发动机大破！</c>
 Param/Value/19FFC926=<c val="FF00FF">导弹塔设计图</c>
 Param/Value/1A047414=<c val="FF8040">得到</c>
 Param/Value/1A09A138=_驾驶员炸离
+Param/Value/1A1E96B7=
 Param/Value/1A2195D2=<s val="ys_green164">【专精化】<c val="FFFF00">一级战列舰 <c val="FF00FF">升级</c>
 Param/Value/1A231C0E=<c val="FF8040">得到</c>
 Param/Value/1A243F2A=　否(NO)　
@@ -5150,7 +5154,6 @@ Param/Value/2867F711=着陆指令：-yjzlj land
 Param/Value/2868EE52=<c val="FF8040">S-E中破！</c>
 Param/Value/287CA049=<c val="FFFF00">【支援辅机】转让</c>
 Param/Value/2884CD1F=∞
-Param/Value/2897DD5D=模型T台
 Param/Value/289CF936=<c val="FF00FF">医疗机甲设计图</c>
 Param/Value/28B333AF=<c val="FF8040">拥有</c>
 Param/Value/28D88DDC=0
@@ -5360,7 +5363,7 @@ Param/Value/3484898B=<s val="ys_green164">【特典】<c val="FFFF00">移民飞�
 Param/Value/3493695D=<s val="ys_green164">【专精化】<c val="00FFFF">[超级计算机]<c val="FFFF00">结构中枢-核心供能/硬件模块</c><c val="FF00FF">LV</c>
 Param/Value/34A0D5A3=<c val="FF8040">[底盘重量]</c>
 Param/Value/34B4678F=<c val="FF00FF">【移动至 人物监禁点】已启用！</c>
-Param/Value/34C175EF=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><双击显隐任务UI>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
+Param/Value/34C175EF=<s val="ys_red164"><游戏控制操作介绍>：<n><c val="FFFFFF">1、单击<s val="ys_yellow164">"F2"键：<s val="ys_White164">选中控制单位<s val="ys_yellow164"><双击执行玩家镜头>；<n><c val="FFFFFF">2、单击<s val="ys_green164">"="键：<s val="ys_White164">开启高空镜头<s val="ys_green164"><俯瞰地图>；<n><c val="FFFFFF">3、单击<s val="ys_green164">"-"键：<s val="ys_White164">允许鼠标靠边拖屏<s val="ys_green164"><旋转镜头时会自动禁用>；<n><c val="FFFFFF">4、单击<s val="ys_blue164">"F1"键：<s val="ys_White164">菜单<s val="ys_blue164"><ESC隐藏>；<n><c val="FFFFFF">5、单击<s val="ys_orange164">"\"键：<s val="ys_White164">恢复初始镜头<s val="ys_orange164"><预防镜头Bug>；<n><c val="FFFFFF">6、单击<s val="ys_green164">"F3"键：<s val="ys_White164">物品快捷栏<s val="ys_yellow164"></c>；双击<s val="ys_green164">"Tab"键：<s val="ys_White164">切换频道<s val="ys_yellow164"><聊天></c>；<n><c val="FFFFFF">7、单击<s val="ys_green164">"F5/F6"：<s val="ys_White164">跟随/取消跟随<s val="ys_purple164"><WASD+鼠标中键操作角色></c>；<n><c val="FFFFFF">8、按<s val="ys_green164">"SHIFT+CTRL+F"：<s val="ys_WhiteGrey164">跟随选中单位<s val="ys_orange164"><c val="FFFF00"><该状态下再按则<s val="ys_WhiteGrey164">关闭跟随</c>></c>；<n><c val="FFFFFF">9、按<s val="ys_green164">"Shift+Alt+Ctrl+D"：<s val="ys_WhiteGrey164">打开检测系统<s val="ys_orange164"><c val="FFFF00"><可查询玩家经验值等情况></c>；<n><c val="FFFFFF">10、单击<c val="00FF00">"F"键：</c><s val="ys_WhiteGrey164"><搭乘机甲></c>；双击<c val="00FF00">"<或>"键：</c><s val="ys_WhiteGrey164"><显隐信息或技能面板></c>；<n><c val="FFFFFF">11、双击<c val="00FF00">"分号"键：</c><s val="ys_WhiteGrey164"><资源面板></c>；双击<c val="00FF00">"M"键：</c><s val="ys_WhiteGrey164"><小地图></c>；<n><c val="FFFFFF">12、双击<c val="00FF00">"*"键<c val="FF8000">（数字键盘）</c>：</c><s val="ys_WhiteGrey164"><开关中立保护（决定伤害对中立是否起效）></c>。<n><n><c val="FFFFFF">开启<s val="ys_green164">"自动拾取"<c val="FFFFFF">若觉得效果不佳，可手动按</c><c val="FFFF00"><快捷键N><c val="FFFFFF">加快拾取！</c>
 Param/Value/34C4DC01=<c val="FF8040">得到</c>
 Param/Value/34CBBE1C=<c val="FF8040">得到</c>
 Param/Value/34CE8DCD=<c val="FF8040">得到</c>
@@ -5423,6 +5426,7 @@ Param/Value/3843FF9C=<c val="FF8040">得到</c>
 Param/Value/38526189=<c val="FF8040">得到</c>
 Param/Value/385509DC=<s val="ys_green225">关闭
 Param/Value/3857FA2F=<c val="FF8040">得到</c>
+Param/Value/387743A7=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/388FCF4D=【当前】阀值增减=
 Param/Value/3895DE5E=<s val="ys_green164">"显示头像框（角色）" => <c val="FFFF00">真</c>
 Param/Value/38A893C5=先清理你的背包再捡东西
@@ -5592,6 +5596,7 @@ Param/Value/425935F1=<c val="FF8040">的</c>
 Param/Value/4268B1B2=<c val="FFFF00">【专精化 激光炮/维修模块<c val="00FFFF">[风暴战机升级]</c>】</c>设置对象
 Param/Value/42704C3F=<c val="FF8040">得到</c>
 Param/Value/427FC517=<c val="FF00FF">新酷多多驱跑车设计图</c>
+Param/Value/4289E78C=<s val="BL_ButtonOrange205"><c val="800040">禁止</c></s><s val="BL_ButtonOrange165">(状态)</s>
 Param/Value/428F5E8A=<c val="FF8040">的</c>
 Param/Value/42A42B76=<c val="FFFF00">
 Param/Value/42AD1255=<c val="FF00FF">鼓舞者设计图</c>
@@ -5907,7 +5912,6 @@ Param/Value/5440E662=<c val="FF8040">得到随机福利瓦斯</c>
 Param/Value/5449D318=<s val="ys_green165">资源栏<c val="FFFF00">ON</c></s>
 Param/Value/5452BD57=<c val="FF8040">的</c>
 Param/Value/547CDC6C=<c val="FF00FF">使者设计图</c>
-Param/Value/5496BF80=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/549F7311=<s val="ys_green164">【建筑】<c val="FFFF00">导弹塔 <c val="FF00FF">设计图</c>
 Param/Value/54A90166=<c val="FF8040">得到</c>
 Param/Value/54AFE655=/
@@ -5929,6 +5933,7 @@ Param/Value/55A4FFEB=<c val="FF8040">[S-E耐久]</c>
 Param/Value/55A66B49=25
 Param/Value/55B6F358=<c val="FF8040">得到</c>
 Param/Value/55BCA991=<c val="FF8040">得到</c>
+Param/Value/55CDEC25=
 Param/Value/55E6A296=<c val="FF8040">副炮[备用]中度损坏！</c>
 Param/Value/55EADE87=怪物 <c val="FFFF00">掉落了</c> <c val="FF00FF"><V 型锻造图></c>
 Param/Value/5624CC95=<c val="FF00FF">维京突击者设计图</c>
@@ -5936,6 +5941,7 @@ Param/Value/562EABFB=<c val="FF00FF">变更【亚格卓拉】所属为敌人</c>
 Param/Value/562F6A18=<s val="ys_green224"><c val="FFFF00">[物资补给]</c>秘密商人营地<n/><s val="ys_purple164"><c val="FF8080">鼠标中键可隐藏按钮（重新靠近时显示）</c>
 Param/Value/564D40CD=<s val="ys_green164">【轻型机甲】<c val="FFFF00">歌利亚武装机器人改 <c val="FF00FF">设计图</c>
 Param/Value/5656CC1A=<c val="FF8040">得到</c>
+Param/Value/565841C8=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/5681657C=为当前【跟随单位组】内的单位
 Param/Value/56864B7B=<s val="ys_green124"><c val="FFFF00">
 Param/Value/56874D74=启用！操作者是管理员
@@ -6078,6 +6084,7 @@ Param/Value/5EA2FABA=<s val="ys_yellow165">监狱开关 = OFF！<s val="ys_green
 Param/Value/5EACB766=<s val="ys_green205"><c val="FFFF00">F3</c><开启/关闭个人背包>
 Param/Value/5ED1CA0E=<c val="FFFF80">C装置小破！</c>
 Param/Value/5EDB33BD=<c val="FF8040">得到</c>
+Param/Value/5EF520E1=模型T台
 Param/Value/5F1CFF20=<c val="FF00FF">收割者设计图</c>
 Param/Value/5F23C9D9=<s val="ys_green164">【轻型机甲】<c val="FFFF00">帝盾卫兵 <c val="FF00FF">设计图</c>
 Param/Value/5F40F08B=<c val="FF8040">购买速度强化星</c>
@@ -6314,7 +6321,6 @@ Param/Value/6B8B60A7=<c val="FF00FF">军神-MS设计图</c>
 Param/Value/6B9323F7=B单位 =>
 Param/Value/6B9A971B=<c val="FF00FF">传奇散弹枪设计图</c>
 Param/Value/6BA0B0E7=<自己>
-Param/Value/6BA4263F=图片型
 Param/Value/6BC1AD5A=<c val="FF8040">得到</c>
 Param/Value/6BDCC47C= <s val="ys_BlackRed165">[黑车头子]</c></s>
 Param/Value/6BF46083=<c val="FF00FF">平板车设计图</c>
@@ -6433,6 +6439,7 @@ Param/Value/71F3DDAF=<c val="FFFF00">【全天赋升级】</c>已为玩家
 Param/Value/720CD1AE=_普兵随机数] = 
 Param/Value/721B565C=<c val="FF8040">得到</c>
 Param/Value/722251D2=<c val="FFFF00">【专精化 黄金奥丁升级】</c>设置对象
+Param/Value/723FE3AE=<img path="Assets\Textures\btn-unit-zerg-omegalisk.dds"/>
 Param/Value/72528404=<s val="ys_green164">【车辆】<c val="FFFF00">单驱悬浮车 <c val="FF00FF">设计图</c>
 Param/Value/725FA021=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享关闭</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[6]</c></c>！
 Param/Value/726623E9=<s val="ys_green164">【重型车辆】<c val="FFFF00">推土机改 <c val="FF00FF">设计图</c>
@@ -6496,7 +6503,6 @@ Param/Value/7570B2C6=<c val="FF8000">~A~</c>：可惡，直接就開火打過來
 Param/Value/75798872=<c val="FFFF00">稀金
 Param/Value/758DAF69=<s val="ys_green164">单位指令[诺亚强A单位]注：无视不可指挥、禁足
 Param/Value/759A9E9E=<c val="FF8080">定</c><c val="FFAFAF">子</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
-Param/Value/75A7D812=<s val="BL_ButtonOrange205">Exit</s><s val="BL_ButtonOrange165">(Esc)</s>
 Param/Value/75BD9E6E=<s val="ys_White164">对面有敌军！！！看起来...是人类！？怎么会...他们精神错乱了么！
 Param/Value/75BF6EE7=<c val="FF00FF">医疗机甲III设计图</c>
 Param/Value/75C994CB=<s val="ys_green224"><c val="FFFF00">
@@ -6517,7 +6523,6 @@ Param/Value/7665D406=<c val="FF8040">得到</c>
 Param/Value/76C39779=<c val="FF8040">得到</c>
 Param/Value/76D087DA=<c val="FF8040">得到</c>
 Param/Value/76DD9344=任务时间越来越紧张...
-Param/Value/76E2138F=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/76E7EE5C=<s val="ys_green165">技能栏<c val="FFFF00">ON</c></s>
 Param/Value/76F2041A=<s val="ys_green164">通过<c val="FFFF00">【管理员指令】</c>对<玩家1>
 Param/Value/7707EE54=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷神E1 <c val="FF00FF">设计图</c>
@@ -6610,6 +6615,7 @@ Param/Value/7AE5F228=<c val="FF8040">得到</c>
 Param/Value/7AF0E149=反伤单位 =>
 Param/Value/7AFC185F=<s val="ys_green164">【轻型战车】<c val="FFFF00">Mini TX-12 <c val="FF00FF">设计图</c>
 Param/Value/7B06F6D4=<c val="FF8040">拥有</c>
+Param/Value/7B19BFF2=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/7B1F8811=<s val="ys_green164">【特典】<c val="FFFF00">清理者[超级计算机] <c val="FF00FF">设计图</c>
 Param/Value/7B24D6F9=启用！操作者是管理员
 Param/Value/7B253A47=<s val="ys_green164">【轻型机甲】<c val="FFFF00">X-6超音速 <c val="FF00FF">设计图</c>
@@ -7057,6 +7063,7 @@ Param/Value/935B5094=<s val="ys_yellow165">工厂大建图标[未获得设计图
 Param/Value/9363FC06=<c val="FF8040">得到</c>
 Param/Value/9371F5E6=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"<c val="FF00FF">閃擊雷神設計圖</c>"
 Param/Value/93797852=<c val="FF8040">得到</c>
+Param/Value/937BD94D=<s val="ys_blue165">
 Param/Value/93846FA8=<c val="FF8040">得到</c>
 Param/Value/938D0DE2=<img path="Assets\jx\上兵徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[上兵]
 Param/Value/939B13D5=<c val="FF8040">得到</c>
@@ -7083,9 +7090,10 @@ Param/Value/94CB5C6A=<s val="ys_green165">驾驶舱<c val="FFFF00">ON</c></s>
 Param/Value/94E84C8C=<s val="ys_green164">【专精化】<c val="FFFF00">超级计算机<c val="00FFFF">硬件模块</c> <c val="FF00FF">升级</c>
 Param/Value/94EF65C2=<c val="FF00FF">攻击</c>
 Param/Value/9503F6B1=<c val="FF00FF">不朽者设计图</c>
-Param/Value/9508244E=太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水太纯的药水
+Param/Value/9508244E=说明文本
 Param/Value/9542F2CA=【ELF福利】
 Param/Value/95486F68=<c val="FF8040">得到</c>
+Param/Value/954F471B=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/9572FE15=<c val="FF8040">得到</c>
 Param/Value/95782F15=设置 => <c val="FFFF00">[检测原厂特殊兵种]ON
 Param/Value/9589CA82=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-阳电子破坏炮 <c val="FF00FF">升级</c>
@@ -7153,7 +7161,6 @@ Param/Value/9A1C519B=<c val="FFFF00">【OB福利】</c>
 Param/Value/9A2D8A0A=<c val="FFFF00">【专精化 激光炮/维修模块<c val="00FFFF">[风暴战机升级]</c>】</c>已为玩家
 Param/Value/9A2E5C29=<c val="FF8040">得到</c>
 Param/Value/9A423B9A=9
-Param/Value/9A426DB5=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/9A43618E=<c val="FF00FF">雷神CE设计图</c>
 Param/Value/9A56288F=<c val="FF8040">[主炮防御力]</c>
 Param/Value/9A58B12F=<s val="ys_green164">【轻型战车】<c val="FFFF00">内陆猎手 <c val="FF00FF">设计图</c>
@@ -7526,7 +7533,6 @@ Param/Value/AE21C436=<s val="ys_green164">【轻型机甲】<c val="FFFF00">货�
 Param/Value/AE2E7694=<c val="FF8040">拥有</c>
 Param/Value/AE3D30C5=【管理指令】
 Param/Value/AE425FD6=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[4]</c></c>！
-Param/Value/AE445E9E=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/AE47BA17=中度破损
 Param/Value/AE4B0361=<s val="ys_green164">【当前普兵数[外星]】
 Param/Value/AE4C37F5=被收监！操作者为 
@@ -7631,6 +7637,7 @@ Param/Value/B390A85E=<c val="FFFF00">追加BOSS音乐</c>
 Param/Value/B391556D=<s val="ys_green165">任务栏<c val="FFFF00">ON</c></s>
 Param/Value/B3A8CA56=<c val="FF8040">得到</c>
 Param/Value/B3B9CC0E=<c val="FF00FF">天赋 <c val="00FFFF">武器改装-电子连结键破坏炮
+Param/Value/B3BAD8C6=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/B3BBDBE7=<s val="ys_green164">【全专精降级】已启用！
 Param/Value/B3C77B72=<c val="FF00FF">【Code】10111</c>
 Param/Value/B3D0836F=<c val="FF8040">得到</c>
@@ -7741,7 +7748,6 @@ Param/Value/B91E66AB=<s val="ys_green164">【特典】<c val="FFFF00">第一使�
 Param/Value/B92AC63A=<c val="FF00FF">温彻斯特设计图</c>
 Param/Value/B9369F83=<c val="FF8040">控制</c>
 Param/Value/B93DDD4E=<c val="FF00FF">使用指令</c>
-Param/Value/B94212C7=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/B94488D6=+1
 Param/Value/B966FFBD=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/B96926AB=<s val="ys_green164">【大型机甲】<c val="FFFF00">阿特拉斯 <c val="FF00FF">设计图</c>
@@ -7760,6 +7766,7 @@ Param/Value/BA7DF328=<c val="FFFF00">禁用</c>
 Param/Value/BA8957A2=<c val="FF00FF">运兵车改-I式 设计图</c>
 Param/Value/BA8B53A2=<c val="FF8040">得到</c>
 Param/Value/BA9C2DC2=<c val="FFFF00">【天赋化 武器改装-阳电子破坏炮】</c>已为玩家
+Param/Value/BAA81A17=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/BAAB5D56=<s val="ys_green164">【中型战车】<c val="FFFF00">蚁式-S1 <c val="FF00FF">设计图</c>
 Param/Value/BABF9BD6=<c val="FF00FF">冥府之焰设计图</c>
 Param/Value/BAC2310F=<c val="FFFF00">调试模式ON
@@ -8420,7 +8427,6 @@ Param/Value/DDAE66CB=<c val="FFFF80">底盘轻度损坏！</c>
 Param/Value/DDAF553B=<c val="FF8040">得到瓦斯</c>
 Param/Value/DDB11AE0=<s val="ys_green164">设置 => <c val="FFFF00">[SC2调试信息] = OFF</s>
 Param/Value/DDBCFF23=<c val="FF8040">得到</c>
-Param/Value/DDBD4BAF=<s val="BL_ButtonGreen205">购买</s>
 Param/Value/DDBE8053=<c val="FF8040">获得珍贵图纸</c>
 Param/Value/DDDC716B=<c val="FF8040">得到</c>
 Param/Value/DDDECBB3=<c val="FF8040">得到</c>
@@ -8593,7 +8599,6 @@ Param/Value/E640B5C7=<c val="FFFF00">【专精化 奖励舞步-风暴战机升�
 Param/Value/E64D0DF8=<s val="ys_green164">【人类建造】<c val="FFFF00">路障<c val="FF00FF">设计图</c>
 Param/Value/E6514E20=的收监计票为
 Param/Value/E65EDE36=_普兵随机数] = 
-Param/Value/E6640F34=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/E6681FD2=<c val="FF8080">钢</c><c val="FFAFAF">锭</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/E6728E5D=<s val="ys_White164">通过<c val="FFFF00">【指令】</c>对
 Param/Value/E675DE96=<c val="FF00FF">地堡设计图</c>
@@ -8811,6 +8816,7 @@ Param/Value/F3978EDA=已经有狙击步枪了！（暂未设计进包裹）
 Param/Value/F3A98DD1=<c val="FF8040">的</c>
 Param/Value/F3C2122B=<s val="ys_green164">【车辆】<c val="FFFF00">运兵车 <c val="FF00FF">设计图</c>
 Param/Value/F3D8BE19=<c val="FF00FF">鼓舞者设计图</c>
+Param/Value/F3DA1F4A=<s val="ShopNameLabel">Mod配置</s>
 Param/Value/F3F14C9C=【元旦福利】
 Param/Value/F3F28E50=人类主武器弹药已满!
 Param/Value/F3F4CDD8=<c val="FF8040">得到</c>
@@ -9013,7 +9019,6 @@ Param/Value/FF687CE4=<s val="ys_green164">【大型机甲】<c val="FFFF00">奥�
 Param/Value/FF739690=全体玩家的
 Param/Value/FF766CBE=<s val="ys_green164">【大型战车】<c val="FFFF00">虎式-K1 <c val="FF00FF">设计图</c>
 Param/Value/FFB4C303=的<c val="FFFF00">生物指纹</c> <c val="00FF00">已设置共享</c>..
-Param/Value/FFBA6890=<s val="ys_green164">"A型商店模型T台" => <c val="FFFF00">假</c>
 Param/Value/FFC50867=你的英雄装不下了!（富氧针剂S暂未设计进包裹）
 Param/Value/FFD21A3F=<c val="FF00FF">【雷王兽】已启用！</c>
 Param/Value/FFD30F6D=<c val="FF00FF">大天使原型机设计图</c>

@@ -4,6 +4,7 @@
 <Asset path="ui\box\ui_duihuaqipao.tga" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0114_01.lvl0" Type="Image"/>
 <Asset path="assets\textures\btn-tips-missioncase.dds" Type="Image"/>
+<Asset path="assets\buttons\icons\04.dds" Type="Image"/>
 <Asset path="ui\button\nanakey_ui_x.dds" Type="Image"/>
 <Asset path="assets\textures\ui_battle_missionbuttonicon_normaloverpressedover.dds" Type="Image"/>
 <Asset path="ui\box\nanakey_ui_custombutton_01.dds" Type="Image"/>
@@ -14,20 +15,28 @@
 <Asset path="assets\textures\decal_spray_0109_01.dds" Type="Image"/>
 <Asset path="ui\button\itemgridrarility.dds" Type="Image"/>
 <Asset path="assets\textures\ui_btn_aicommand_commandcard_defend.dds" Type="Image"/>
+<Asset path="assets\buttons\icons\05.dds" Type="Image"/>
+<Asset path="assets\buttons\icons\03.dds" Type="Image"/>
 <Asset path="ui\button\itemgridbutton.tga" Type="Image"/>
 <Asset path="assets\textures\btn-unit-terran-marineblackops.dds" Type="Image"/>
 <Asset path="ui\box\nanakey_ui_custombutton_02.dds" Type="Image"/>
 <Asset path="assets\textures\targetingcursorcircle_a.lvl0" Type="Image"/>
 <Asset path="assets\textures\ui_ingame_resourcesharing_numberfieldselectedframe.dds" Type="Image"/>
 <Asset path="assets\textures\ui_research_frame_available_line_protoss.dds" Type="Image"/>
+<Asset path="assets\buttons\icons\02.dds" Type="Image"/>
 <Asset path="assets\textures\sc2_ui_ingame_storymode_panel_faction_purifier_underline.dds" Type="Image"/>
 <Asset path="ui\box\nanakey_ui_customdialog.tga" Type="Image"/>
+<Asset path="assets\buttons\icons\07.dds" Type="Image"/>
+<Asset path="assets\buttons\icons\06.dds" Type="Image"/>
 <Asset path="assets\textures\nanakey_ui_2d_shop_button02.dds" Type="Image"/>
+<Asset path="assets\textures\sm_char_256tileground.lvl0" Type="Image"/>
 <Asset path="assets\textures\nanakey_ui_2d_shop_button01.dds" Type="Image"/>
 <Asset path="ui\button\itemgridbutton_light.tga" Type="Image"/>
+<Asset path="assets\buttons\icons\01.dds" Type="Image"/>
 <Asset path="assets\textures\renee_groupiconempty.dds" Type="Image"/>
 <Asset path="assets\textures\video_static_black.lvl0" Type="Image"/>
 <Asset path="assets\textures\targetingcursorcircle_a.dds" Type="Image"/>
+<Asset path="assets\textures\sm_char_256tileground.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.dds" Type="Image"/>
 <Asset path="assets\textures\btn-unit-collection-taldarim-probe.dds" Type="Image"/>
 <Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
@@ -83,9 +92,9 @@
 <Effect id="CCData_EnergyNovaSet"/>
 <Effect id="CCData_ZeroDamage"/>
 <Effect id="YSSSYXHDWP"/>
+<Model id="Invisible"/>
 <Model id="MissileTurretBirth"/>
 <Model id="THorner05SElectricalArcs"/>
-<Model id="BarrageModel"/>
 <Model id="NanaKey_UI_VehicleFPS_Display"/>
 <Model id="NanaKey_BG_TerrainGroup21"/>
 <Model id="NanaKey_BG_TankmodeWalls"/>
@@ -105,6 +114,7 @@
 <Sound id="UI_TextPrintout"/>
 <Sound id="UI_DoorMenu_ListSelect"/>
 <Sound id="HellionTankMorph_StandMorphEnd_Stage04"/>
+<Sound id="30SecondSilence"/>
 <Sound id="Music_BossFight_Osia" Variations="0"/>
 <Soundtrack id="nDLC_Music_Nova01_FinalEscape"/>
 <Soundtrack id="nDLC_Music_Nova04_Intro"/>
