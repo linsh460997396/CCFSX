@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\video_static_black.dds" Type="Image"/>
+<Asset path="ui\box\ui_duihuaqipao.tga" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0114_01.lvl0" Type="Image"/>
+<Asset path="assets\textures\btn-tips-missioncase.dds" Type="Image"/>
+<Asset path="ui\button\nanakey_ui_x.dds" Type="Image"/>
+<Asset path="assets\textures\ui_battle_missionbuttonicon_normaloverpressedover.dds" Type="Image"/>
+<Asset path="ui\box\nanakey_ui_custombutton_01.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0109_01.lvl0" Type="Image"/>
+<Asset path="ui\button\itemgridlight.tga" Type="Image"/>
+<Asset path="assets\textures\black.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0114_01.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0109_01.dds" Type="Image"/>
+<Asset path="ui\button\itemgridrarility.dds" Type="Image"/>
+<Asset path="assets\textures\ui_btn_aicommand_commandcard_defend.dds" Type="Image"/>
+<Asset path="ui\button\itemgridbutton.tga" Type="Image"/>
+<Asset path="assets\textures\btn-unit-terran-marineblackops.dds" Type="Image"/>
+<Asset path="ui\box\nanakey_ui_custombutton_02.dds" Type="Image"/>
+<Asset path="assets\textures\targetingcursorcircle_a.lvl0" Type="Image"/>
+<Asset path="assets\textures\ui_ingame_resourcesharing_numberfieldselectedframe.dds" Type="Image"/>
+<Asset path="assets\textures\ui_research_frame_available_line_protoss.dds" Type="Image"/>
+<Asset path="assets\textures\sc2_ui_ingame_storymode_panel_faction_purifier_underline.dds" Type="Image"/>
+<Asset path="ui\box\nanakey_ui_customdialog.tga" Type="Image"/>
+<Asset path="assets\textures\nanakey_ui_2d_shop_button02.dds" Type="Image"/>
+<Asset path="assets\textures\sm_char_256tileground.lvl0" Type="Image"/>
+<Asset path="assets\textures\nanakey_ui_2d_shop_button01.dds" Type="Image"/>
+<Asset path="ui\button\itemgridbutton_light.tga" Type="Image"/>
+<Asset path="assets\textures\renee_groupiconempty.dds" Type="Image"/>
+<Asset path="assets\textures\video_static_black.lvl0" Type="Image"/>
+<Asset path="assets\textures\blackgrid2.lvl0" Type="Image"/>
+<Asset path="assets\textures\targetingcursorcircle_a.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0107_01.dds" Type="Image"/>
+<Asset path="assets\textures\sm_char_256tileground.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-collection-taldarim-probe.dds" Type="Image"/>
+<Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
+<Asset path="assets\textures\decal_spray_0107_01.lvl0" Type="Image"/>
+<Asset path="assets\textures\blackgrid2.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="GenericBuildingRubble" Variations="4,5,7"/>
+<Actor id="KorhalDestroyedBuilding" Variations="0,1,2"/>
+<Actor id="PortZionBarrelPhysics"/>
+<Actor id="ZerusTallGrassCluster" Variations="1"/>
+<Actor id="BloodSplats" Variations="0,1,2,3,4,5"/>
+<Actor id="PortZionGroundMix" Variations="0,1,2,3,4,5,6,7,8,9,10"/>
+<Actor id="RainEmitterLarge"/>
+<Actor id="Waterfall"/>
+<Actor id="TarsonisArrow"/>
+<Actor id="ColonistCorpse" Variations="0,1,2,3,5,6,8,11,15,17,18,19"/>
+<Actor id="MarineCorpse" Variations="0,1,3,4,5,6"/>
+<Actor id="OS_HaHaMiroScreen"/>
+<Actor id="CCData_ColonistSupplies" Variations="9"/>
+<Actor id="CCData_MilitarySupplies" Variations="3"/>
+<Actor id="CCData_RoadRoundAbout" Variations="1"/>
+<Actor id="CCData_ArmyCrateGroup"/>
+<Behavior id="Detector10"/>
+<Behavior id="MercReaperJump"/>
+<Behavior id="OS_Grind120_1"/>
+<Behavior id="OS_Grind150_1Dot5"/>
+<Behavior id="OS_Grind90_1"/>
+<Behavior id="OS_Grind150_1"/>
+<Behavior id="OS_Grind45_1"/>
+<Behavior id="CountLife_100"/>
+<Behavior id="DamageDealtMinimal05F"/>
+<Behavior id="DamageDealtMinimal11F"/>
+<Behavior id="DamageDealtMinimal17F"/>
+<Behavior id="CCData_InZjBehavior"/>
+<Behavior id="OS_MianYiShangHai_TongMeng"/>
+<Behavior id="DamageLimit_Vehicle"/>
+<Behavior id="CCData_DiPanPoSunDummy"/>
+<Behavior id="CCData_FuPaoPoSunDummy"/>
+<Behavior id="CCData_SEPoSunDummy"/>
+<Behavior id="CCData_FaDongJiPoSunDummy"/>
+<Behavior id="CCData_ZhuPaoPoSunDummy"/>
+<Behavior id="CCData_CZhuangZhiPoSunDummy"/>
+<Behavior id="CCData_DisabledDummy"/>
+<Behavior id="CCData_PowerStarATK"/>
+<Behavior id="CCData_PowerStarSPD"/>
+<Behavior id="CCData_PowerStarDEF"/>
+<Behavior id="CCData_PowerStarRAG"/>
+<Behavior id="CCData_PowerStarHPH"/>
+<Behavior id="CCData_PlaneDeltaGround"/>
+<Behavior id="znyshx"/>
+<Behavior id="lsjq"/>
+<Behavior id="BJSJ10"/>
+<Effect id="CCData_TrueDamage"/>
+<Effect id="CCData_EnergyNovaSet"/>
+<Effect id="CCData_ZeroDamage"/>
+<Effect id="YSSSYXHDWP"/>
+<Model id="MissileTurretBirth"/>
+<Model id="THorner05SElectricalArcs"/>
+<Model id="NanaKey_UI_VehicleFPS_Display"/>
+<Model id="NanaKey_BG_TerrainGroup21"/>
+<Model id="NanaKey_BG_TankmodeWalls"/>
+<Model id="OS_HaHaMiro"/>
+<Model id="OS_HaHaMiroScreen"/>
+<Model id="OS_ReneeCamera"/>
+<Model id="OS_ReneeScreen"/>
+<Model id="CCData_HeXinQiu"/>
+<Model id="CCData_DongHua01"/>
+<Model id="CCData_DongHua02"/>
+<Model id="CCData_DongHua03"/>
+<Model id="CCData_DongHua04"/>
+<Model id="CCData_DongHua05"/>
+<Model id="CCData_DongHua06"/>
+<Sound id="UI_BnetError"/>
+<Sound id="UI_ObjectiveBonusDiscovered"/>
+<Sound id="UI_TextPrintout"/>
+<Sound id="UI_DoorMenu_ListSelect"/>
+<Sound id="HellionTankMorph_StandMorphEnd_Stage04"/>
+<Sound id="Music_BossFight_Osia" Variations="0"/>
+<Soundtrack id="nDLC_Music_Nova01_FinalEscape"/>
+<Soundtrack id="nDLC_Music_Nova04_Intro"/>
+<Terrain id="KorhalCity"/>
+<Texture id="CCData_Onlymyrailgun"/>
+<Unit id="SCV"/>
+<Unit id="Marine"/>
+<Unit id="Reaper"/>
+<Unit id="Marauder"/>
+<Unit id="Observer"/>
+<Unit id="Hatchery"/>
+<Unit id="Zergling"/>
+<Unit id="Hydralisk"/>
+<Unit id="Roach"/>
+<Unit id="BanelingBurrowed"/>
+<Unit id="HydraliskBurrowed"/>
+<Unit id="RoachBurrowed"/>
+<Unit id="ZerglingBurrowed"/>
+<Unit id="RedstoneLavaCritterBurrowed"/>
+<Unit id="RedstoneLavaCritterInjuredBurrowed"/>
+<Unit id="RedstoneLavaCritter"/>
+<Unit id="RedstoneLavaCritterInjured"/>
+<Unit id="QueenBurrowed"/>
+<Unit id="UltraliskBurrowed"/>
+<Unit id="OrbitalCommand"/>
+<Unit id="Ursadon"/>
+<Unit id="Lyote"/>
+<Unit id="CarrionBird"/>
+<Unit id="KarakMale"/>
+<Unit id="KarakFemale"/>
+<Unit id="UrsadakFemaleExotic"/>
+<Unit id="UrsadakMale"/>
+<Unit id="UrsadakFemale"/>
+<Unit id="UrsadakCalf"/>
+<Unit id="UrsadakMaleExotic"/>
+<Unit id="Scantipede"/>
+<Unit id="Dog"/>
+<Unit id="Sheep"/>
+<Unit id="Cow"/>
+<Unit id="DestructibleStreetlight" Variations="0,3"/>
+<Unit id="DestructibleDebris4x4"/>
+<Unit id="SpartanCompany"/>
+<Unit id="DestructibleGateStraightVerticalLF"/>
+<Unit id="DominionKillTeam"/>
+<Unit id="Goliath"/>
+<Unit id="Civilian"/>
+<Unit id="ReaperPlacement"/>
+<Unit id="ThornLizard"/>
+<Unit id="DestructibleCityDebris2x4Horizontal"/>
+<Unit id="DestructibleCityDebris6x6"/>
+<Unit id="Artosilope"/>
+<Unit id="Anteplott"/>
+<Unit id="Crabeetle"/>
+<Unit id="HotSHunter"/>
+<Unit id="HotSSplitterlingBig"/>
+<Unit id="HotSSplitterlingMedium"/>
+<Unit id="Defiler"/>
+<Unit id="PrimalRoachBurrowed"/>
+<Unit id="PrimalHydraliskBurrowed"/>
+<Unit id="ScantipedeParasiticSmall"/>
+<Unit id="LeapingCritter"/>
+<Unit id="ScantipedeParasitic"/>
+<Unit id="Yeti"/>
+<Unit id="YetiMomma"/>
+<Unit id="GiantYeti"/>
+<Unit id="ZerusAlienTreeHover"/>
+<Unit id="DefilerMPBurrowed"/>
+<Unit id="DefilerMP"/>
+<Unit id="Moopy"/>
+<Unit id="Ursula"/>
+<Unit id="KasaiSpaceWhale"/>
+<Unit id="BeachGirl"/>
+<Unit id="OS_HaHaMiro"/>
+<Unit id="OS_ReneeCamera"/>
+<Unit id="OS_ScreenMaJia"/>
+<Unit id="CCData_MedicalKit"/>
+<Unit id="CCData_SniperRifle"/>
+<Unit id="CCData_GrenadeLauncher"/>
+<Unit id="CCData_CaissonRocket"/>
+<Unit id="CCData_CaissonTrackRocket"/>
+<Unit id="CCData_MainArmsAmmunitionBox"/>
+<Unit id="CCData_RichOxygenInjection"/>
+<Unit id="CCData_CaissonGrenade"/>
+<Unit id="CCData_StoryBoss_HotSNoxious"/>
+<Unit id="CCData_StoryBoss_HotSTorrasque"/>
+<Unit id="CCData_V10093_ColonistShip"/>
+<Unit id="CCData_Story_FeiChuan"/>
+<Unit id="CCData_HB_Campfire"/>
+<Unit id="CCData_HB_SandBag" Variations="0,1,2"/>
+<Unit id="CCData_HB_FangZhenJiPao"/>
+<Unit id="CCData_HB_MissileTurret"/>
+<Unit id="CCData_HB_TeslaTurret"/>
+<Unit id="CCData_FKBaffle4Wall"/>
+<Unit id="CCData_ZhuCheKu" Variations="1"/>
+<Unit id="CCData_ZhenBaoXiang"/>
+<Unit id="CCData_BeiYongCheKu" Variations="0,1"/>
+<Unit id="CCData_ShengChanCheJian"/>
+<Unit id="CCData_TeYiBaoXiang"/>
+<Unit id="CCData_WangShouBaoXiang"/>
+<Unit id="CCData_V10016_TerminatorT800"/>
+<Unit id="CCData_V10013_HadesFlame"/>
+<Unit id="CCData_T29_ZhuShenEX"/>
+<Unit id="CCData_V10111_StormFighter"/>
+<Unit id="CCData_SCVShop"/>
+<Unit id="CCData_ManufacturingStand"/>
+<Unit id="CCData_WeaponRack" Variations="0"/>
+<Unit id="CCData_UmojanLabCage" Variations="0"/>
+<Unit id="CCData_DestructibleUmojanLabPowerCell"/>
+<Unit id="CCData_ZombieLilysMother"/>
+<Unit id="CCData_StashBox"/>
+<Unit id="CCData_V10115_MechanicalCrab"/>
+<Unit id="CCData_Hero_Lilys"/>
+<Unit id="CCData_ValhallaCabinet" Variations="6"/>
+<Unit id="CCData_PortZionDumpster"/>
+<Unit id="CCData_Scientist" Variations="0"/>
+<Unit id="CCData_NovaResupplyCrate"/>
+<Unit id="CCData_PalletGas"/>
+<Unit id="CCData_GasCanisterZerg"/>
+<Unit id="CCData_BaoXiang"/>
+<Unit id="CCData_StoryBoss_Mitosaurus"/>
+<Unit id="CCData_StoryBoss_Slivan"/>
+<Unit id="CCData_StoryBoss_Brakk"/>
+<Unit id="CCData_Pretender"/>
+<Unit id="CCData_PickupHealthFull"/>
+<Unit id="CCData_TeShuBaoXiang"/>
+<Unit id="CCData_T17_Bulldozer" Variations="1"/>
+<Unit id="CCData_V10012_Goliath"/>
+<Unit id="CCData_V10047_DefenderM"/>
+<Unit id="CCData_V10072_MoShaZheM"/>
+<Unit id="CCData_V10104_ChiefExecutiveArmor"/>
+<Unit id="CCData_V10108_SXSecurityRobot"/>
+<Unit id="CCData_V10062_Medic"/>
+<Unit id="CCData_V10050_Eradicator"/>
+<Unit id="CCData_V10068_MilitarizedColonistTransport"/>
+<Unit id="CCData_V10114_Raven"/>
+<Unit id="CCData_V10079_1_RoguePurifierSupportDroneA"/>
+<Unit id="CCData_V10079_2_RoguePurifierSupportDroneB"/>
+<Unit id="CCData_SheJiTu"/>
+<Unit id="CCData_V10103_WarDog"/>
+<Unit id="CCData_WuQi"/>
+<Unit id="CCData_WuQiNew"/>
+<Unit id="CCData_JiJian"/>
+<Unit id="CCData_JiJianNew"/>
+<Unit id="CCData_T03_Goliath"/>
+<Unit id="CCData_Storefront" Variations="1,4,8"/>
+<Unit id="CCData_Storefront2F" Variations="0"/>
+<Unit id="CCData_ShanMaiLanTian"/>
+<Unit id="CCData_ZobieMaker"/>
+<Unit id="CCData_Honor"/>
+<Unit id="CCData_XiuLiChang"/>
+<Unit id="CCData_ShopSOS"/>
+<Unit id="CCData_BuildingRuin" Variations="0,1,2,3,4,5,6,7"/>
+<Unit id="CCData_Star"/>
+<Unit id="CCData_TongXunDaLou" Variations="0,1,2,3,4,5,6,7"/>
+<Unit id="CCData_SheJiTuNew"/>
+<Unit id="CCData_V10113_DukesRevenge"/>
+<Unit id="CCData_V10023_RepiarTank"/>
+<Unit id="CCData_GasCanisterProtoss"/>
+<Unit id="CCData_LifeEnergy"/>
+<Unit id="CCData_NaturalGas"/>
+<Unit id="CCData_PickupZbx"/>
+<Unit id="CCData_ZergBiomassPickup"/>
+<Unit id="CCData_Gas"/>
+<Unit id="CCData_FlightEquipment"/>
+<Unit id="CCData_DeepRemoteEnergy"/>
+<Unit id="CCData_Crystal"/>
+<Unit id="CCData_VehicleSP"/>
+<Unit id="CCData_VehicleEnergy"/>
+<Unit id="CCData_FlashbangGrenade"/>
+<Unit id="CCData_StorageBox"/>
+<Unit id="CCData_V10079_SuperComputer"/>
+<Unit id="CourierU"/>
+<Unit id="DCQ0"/>
+<Unit id="DZA_DCQ0_DF"/>
+<Unit id="DZA_DCQ1_DF"/>
+<Unit id="DZA_DCQ10_DF"/>
+<Unit id="DZA_DCQ2_DF"/>
+<Unit id="DZA_DCQ3_DF"/>
+<Unit id="DZA_DCQ4_DF"/>
+<Unit id="DZA_DCQ5_DF"/>
+<Unit id="DZA_DCQ6_DF"/>
+<Unit id="DZA_DCQ7_DF"/>
+<Unit id="DZA_DCQ8_DF"/>
+<Unit id="DZA_DCQ9_DF"/>
+<Unit id="DZA_LZJJ0_DF"/>
+<Unit id="DZA_LZJJ1_DF"/>
+<Unit id="DZA_LZJJ2_DF"/>
+<Unit id="DZA_LZJJ3_DF"/>
+<Unit id="DZA_LZJJ4_DF"/>
+<Unit id="DZA_LZJJ5_DF"/>
+<Unit id="DZA_LZJJ6_DF"/>
+<Unit id="DZA_LZJJ7_DF"/>
+<Unit id="DZA_LZJJ8_DF"/>
+<Unit id="DZA_LZJJ9_DF"/>
+<Unit id="DZA_LZJJ10_DF"/>
+<Unit id="DZA_DBJJNLMK0_DF"/>
+<Unit id="DZA_DBJJNLMK1_DF"/>
+<Unit id="DZA_DBJJNLMK2_DF"/>
+<Unit id="DZA_DBJJNLMK3_DF"/>
+<Unit id="DZA_DBJJNLMK4_DF"/>
+<Unit id="DZA_DBJJNLMK5_DF"/>
+<Unit id="DZA_DBJJNLMK6_DF"/>
+<Unit id="DZA_DBJJNLMK7_DF"/>
+<Unit id="DZA_DBJJNLMK8_DF"/>
+<Unit id="DZA_DBJJNLMK9_DF"/>
+<Unit id="DZA_DBJJNLMK10_DF"/>
+<Unit id="DZA_DBJJYQ0_DF"/>
+<Unit id="DZA_DBJJYQ1_DF"/>
+<Unit id="DZA_DBJJYQ2_DF"/>
+<Unit id="DZA_DBJJYQ3_DF"/>
+<Unit id="DZA_DBJJYQ4_DF"/>
+<Unit id="DZA_DBJJYQ5_DF"/>
+<Unit id="DZA_DBJJYQ6_DF"/>
+<Unit id="DZA_DBJJYQ7_DF"/>
+<Unit id="DZA_DBJJYQ8_DF"/>
+<Unit id="DZA_DBJJYQ9_DF"/>
+<Unit id="DZA_DBJJYQ10_DF"/>
+<Unit id="DZA_DBJJGYQ0_DF"/>
+<Unit id="DZA_DBJJGYQ1_DF"/>
+<Unit id="DZA_DBJJGYQ2_DF"/>
+<Unit id="DZA_DBJJGYQ3_DF"/>
+<Unit id="DZA_DBJJGYQ4_DF"/>
+<Unit id="DZA_DBJJGYQ5_DF"/>
+<Unit id="DZA_DBJJGYQ6_DF"/>
+<Unit id="DZA_DBJJGYQ7_DF"/>
+<Unit id="DZA_DBJJGYQ8_DF"/>
+<Unit id="DZA_DBJJGYQ9_DF"/>
+<Unit id="DZA_DBJJGYQ10_DF"/>
+<Unit id="DZA_DBJJCPU0_DF"/>
+<Unit id="DZA_DBJJCPU1_DF"/>
+<Unit id="DZA_DBJJCPU2_DF"/>
+<Unit id="DZA_DBJJCPU3_DF"/>
+<Unit id="DZA_DBJJCPU4_DF"/>
+<Unit id="DZA_DBJJCPU5_DF"/>
+<Unit id="DZA_DBJJCPU6_DF"/>
+<Unit id="DZA_DBJJCPU7_DF"/>
+<Unit id="DZA_DBJJCPU8_DF"/>
+<Unit id="DZA_DBJJCPU9_DF"/>
+<Unit id="DZA_DBJJCPU10_DF"/>
+<Unit id="CCData_NovaXanthosAssault"/>
+<Weapon id="SpartanCompanyGUpgraded"/>
+<Weapon id="MengskWraithG"/>
+<Weapon id="SJPirateCapitalShip"/>
+<Weapon id="SJHyperionDummy"/>
+<Weapon id="CCData_90mmCannon"/>
+<Weapon id="CCData_ClusterLaserBattleShipMain"/>
+<Weapon id="CCData_ClusterLaserBattleShip"/>
+<Weapon id="CCData_MK46StarRailFortressGun"/>
+<Weapon id="CCData_G03RJiPao"/>
+<Weapon id="CCData_G03RJiPaoMain"/>
+<Weapon id="CCData_StarshipCannon"/>
+<Weapon id="CCData_ClusterLaserLTMain"/>
+<Weapon id="CCData_ClusterLaserLT"/>
+<Weapon id="CCData_PrismaticallyAlignedRapidfireLaserCannon"/>
+</Preload>
