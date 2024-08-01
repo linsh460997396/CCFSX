@@ -213,23 +213,23 @@ Attribute001/Value003/Name=PVEVP
 Attribute002/Desc=决定开局地图模板（开发测试专用）
 Attribute002/Name=[>>地图编号<<]
 Attribute002/Value001/Desc=地图编号1
-Attribute002/Value001/Name=破碎银河系R1
+Attribute002/Value001/Name=破碎银河R1
 Attribute002/Value002/Desc=地图编号2
-Attribute002/Value002/Name=破碎银河系R2
+Attribute002/Value002/Name=破碎银河R2
 Attribute002/Value003/Desc=地图编号3
-Attribute002/Value003/Name=破碎银河系R3
+Attribute002/Value003/Name=破碎银河R3
 Attribute002/Value004/Desc=地图编号4
-Attribute002/Value004/Name=破碎银河系R4
+Attribute002/Value004/Name=破碎银河R4
 Attribute002/Value005/Desc=地图编号5
-Attribute002/Value005/Name=破碎银河系R5
+Attribute002/Value005/Name=破碎银河R5
 Attribute002/Value006/Desc=地图编号6
-Attribute002/Value006/Name=破碎银河系R6
+Attribute002/Value006/Name=破碎银河R6
 Attribute002/Value007/Desc=地图编号7
-Attribute002/Value007/Name=破碎银河系R7
+Attribute002/Value007/Name=破碎银河R7
 Attribute002/Value008/Desc=地图编号8
-Attribute002/Value008/Name=破碎银河系R8
+Attribute002/Value008/Name=破碎银河R8
 Attribute002/Value009/Desc=地图编号9
-Attribute002/Value009/Name=破碎银河系R9
+Attribute002/Value009/Name=破碎银河R9
 Attribute002/Value010/Desc=地图编号10
 Attribute002/Value010/Name=虫出封锁线[Osia_重制版]
 Attribute002/Value011/Desc=地图编号11
@@ -307,7 +307,7 @@ Attribute007/Value003/Name=普通
 Attribute007/Value004/Name=快
 Attribute007/Value005/Desc=游戏提升1.4倍速，每周期现实时间从0.0625s→0.04s
 Attribute007/Value005/Name=更快
-Attribute008/Desc=采用玩家Mod配置进行游玩的模式
+Attribute008/Desc=采用玩家Mod配置进行游玩的模式，开局会进入编辑界面
 Attribute008/Name=[>>沙盒模式<<]
 Attribute008/Value001/Name=关闭
 Attribute008/Value002/Name=开启
@@ -359,7 +359,7 @@ Attribute013/Value003/Desc=超二的U+N档数据清零并允许其存档（会�
 Attribute013/Value003/Name=开启LV3
 Attribute013/Value004/Desc=超二U+N档数据清零且不允许其存档（不破坏存档）
 Attribute013/Value004/Name=开启LV2
-Attribute014/Desc=强化异形，会对电脑阵营造成影响
+Attribute014/Desc=异形加强，并且会感染其他种族（暂时直接结盟）
 Attribute014/Name=[>>高度感染<<]
 Attribute014/Value001/Name=关闭
 Attribute014/Value002/Desc=强化异形，会对电脑阵营造成影响（目前强制开启，并将敌人结盟以减轻负担）
@@ -432,11 +432,6 @@ Attribute023/Value001/Desc=默认虫出+王兽音乐
 Attribute023/Value001/Name=默认
 Attribute023/Value002/Desc=追加BOSS音乐（如赏金首等其他怪物）
 Attribute023/Value002/Name=追加
-Attribute024/Desc=开局模组编辑模式
-Attribute024/Name=[>>编辑模式<<]
-Attribute024/Value001/Desc=沙盒的主要功能，开启后进入编辑界面
-Attribute024/Value001/Name=开启
-Attribute024/Value002/Name=关闭
 Attribute025/Desc=开局镜头模板
 Attribute025/Name=[>>默认镜头<<]
 Attribute025/Value001/Desc=聊天指令：-DefaultCamera=1
@@ -2122,18 +2117,22 @@ Defensive Matrix=防御矩阵
 DocInfo/DescLong=纪念虫出封锁线及老作者“奥西亚”，缅怀童年回忆"重装机兵"
 DocInfo/DescShort=8
 DocInfo/Name=虫出封锁线[Osia_重制版]
-DocInfo/PatchNote001=1）游玩须知：F1是菜单，F5/F6是跟随和取消跟随；
-DocInfo/PatchNote002=>>>有聊天信息时，快速双击F1可弹出新版聊天窗口；
+DocInfo/PatchNote001=2）畅玩模式自动开启12个新版人类建造；
+DocInfo/PatchNote002=3）
 DocInfo/PatchNote003=提示：本图尚未结束测试，会有长期改动
-DocInfo/PatchNote004=
-DocInfo/PatchNote005=2）按~键可将常规资源展示在鼠标位置；
-DocInfo/PatchNote006=>>>星际原四大资源UI是双击分号键显示（也可在F1菜单的UI项目中修改）；
-DocInfo/PatchNote007=3）F4弹出工业资源列表（含采集物+工业加工物）
-DocInfo/PatchNote008=>>>目前未完成工业建筑，用挖掘载具左键蓄力手挖各项资源进行测试；
-DocInfo/PatchNote009=4）MOD配置界面尚未做完所以使用无效；5）单机游玩可完整保存了；
-DocInfo/PatchNote010=6）F1菜单-镜头功能：追加虫出原版镜头。
-DocInfo/PatchNote011=
-DocInfo/PatchNote012=PS：有问题加群反馈，感谢！
+DocInfo/PatchNote004=1）修正新版聊天窗口快捷键说明；
+DocInfo/PatchNote005=
+DocInfo/PatchNote006=V0.44
+DocInfo/PatchNote007=1）游玩须知：F1是菜单，F5/F6是跟随和取消跟随；
+DocInfo/PatchNote008=>>>有聊天信息时，快速双击F1可弹出新版聊天窗口；
+DocInfo/PatchNote009=2）按~键可将常规资源展示在鼠标位置；
+DocInfo/PatchNote010=>>>星际原四大资源UI是双击分号键显示（也可在F1菜单的UI项目中修改）；
+DocInfo/PatchNote011=3）F4弹出工业资源列表（含采集物+工业加工物）
+DocInfo/PatchNote012=>>>目前未完成工业建筑，用挖掘载具左键蓄力手挖各项资源进行测试；
+DocInfo/PatchNote013=4）MOD配置界面尚未做完所以使用无效；5）单机游玩可完整保存了；
+DocInfo/PatchNote014=6）F1菜单-镜头功能：追加虫出原版镜头。
+DocInfo/PatchNote015=
+DocInfo/PatchNote016=PS：有问题加群反馈，感谢！
 Effect/Name/ATSLaserBatteryU=G03R机炮
 Effect/Name/AdeptPhaseShiftCancelAB=AdeptPhaseShiftCancelAB
 Effect/Name/AdeptPsionicTransferDamage=AdeptPsionicTransferDamage
@@ -3647,6 +3646,7 @@ LoadingScreen/MMHelp39=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">公
 LoadingScreen/MMHelp40=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">公元3081年，名为"造梦者（DREAMERS）"的公司宣称致力于灾后对世界的恢复重建，并将此前研制中的超级人工智能计算机"诺亚"公布投入使用，初衷是在"诺亚"的协助下应对各地的威胁。<n><s val="ys_green165">-By 剧情设定
 LoadingScreen/MMHelp41=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">人类的核按钮掌握在少数人手中，为何同时大规模爆发？后世研制治理环境并进一步用以对抗变异生物的超级电脑<诺亚>为何攻击人类？一切尽在探索中...<n><s val="ys_green165">-By 剧情开发
 LoadingScreen/MMHelp42=<s val="ys_BlackRed165"><Tips><s val="ys_yellow165">计划追加第二剧情逃生路线，镇子概率性被王兽毁灭<n/><n>附近拥地军阀势力已被击溃，从博士研究日志获知百年前人类巅峰文明为何被毁...<n><s val="ys_green165">-By 开发计划
+LoadingScreen/MMHelp43=<s val="ys_BlackRed165"><Tips><s val="ys_yellow165">在游戏初始化未完成时，可用星际2自带的Ctrl+shift+F进行任意目标跟随，但推荐等待片刻使用F5/F6（跟随/取消跟随控制单位），不要混肴使用<n><s val="ys_green165">-By 镜头跟随
 LoadingScreen/Subtitle=欢迎大家给出改进意见或者提出bug反馈<n/>反馈群：960744306
 MapInfo/Player02/Name=玩家2
 MapInfo/Player03/Name=玩家3
@@ -4877,7 +4877,7 @@ Param/Value/1731DE82=注意警戒周围！
 Param/Value/174E437C=<c val="FFFF00">【支援辅机】转让</c>
 Param/Value/17873EC1=启用！操作者是管理员
 Param/Value/178A68F7=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"攻城坦克設計圖"
-Param/Value/178DB452=<s val="ys_WhiteGrey164"><c val="FFFF00">F7</c> 显示/隐藏 聊天窗口<n/>【<c val="8000FF">点击这个面板再点击别处可以任意移动</c>】<n/>点击"<c val="FFFF00">+" 扩展窗口尺寸、"-" 缩减窗口尺寸<n/></c><s val="ys_green164">选择列表项目可以查看/复制文本内容</c><n/>↓>>><c val="FFFF00">聊天窗口控制指令</c><<<↓<n/>"<c val="FFFF00">-LL 聊天清空</c>"<c val="FF8040"><清除记录></c><n/>"<c val="FFFF00">-LL 调试尾行</c>"<c val="FF8040"><保持新选项></c><n/>"<c val="FFFF00">-LL 调试尾行 off</c><c val="FF8040"><取消保持新选项></c><n/>"<c val="FFFF00">-LL D100/-100</c>"<c val="FF8040"><调整宽度（按±生效）></c><n/><s val="ys_BlackRed164">唤出或移动面板、点击±按钮后自动取消选择项
+Param/Value/178DB452=<s val="ys_WhiteGrey164"><c val="FFFF00">双击F1</c> 显/隐 聊天盒<n/>【<c val="8000FF">点击这个面板再点击别处可以任意移动</c>】<n/>点击"<c val="FFFF00">+" 扩展窗口尺寸、"-" 缩减窗口尺寸<n/></c><s val="ys_green164">选择列表项目可以查看/复制文本内容</c><n/>↓>>><c val="FFFF00">聊天窗口控制指令</c><<<↓<n/>"<c val="FFFF00">-LL 聊天清空</c>"<c val="FF8040"><清除记录></c><n/>"<c val="FFFF00">-LL 调试尾行</c>"<c val="FF8040"><保持新选项></c><n/>"<c val="FFFF00">-LL 调试尾行 off</c><c val="FF8040"><取消保持新选项></c><n/>"<c val="FFFF00">-LL D100/-100</c>"<c val="FF8040"><调整宽度（按±生效）></c><n/><s val="ys_BlackRed164">唤出或移动面板、点击±按钮后自动取消选择项
 Param/Value/179E1850=<c val="FF00FF">虎式-K1设计图</c>
 Param/Value/17AA13C6=<s val="ys_green164">单位指令[诺亚强A地板]注：无视不可指挥、禁足
 Param/Value/17AE2E36=<c val="FF00FF">修改功勋值-1000</c>
@@ -5498,6 +5498,7 @@ Param/Value/385509DC=<s val="ys_green225">关闭
 Param/Value/3857FA2F=<c val="FF8040">得到</c>
 Param/Value/388FCF4D=【当前】阀值增减=
 Param/Value/3895DE5E=<s val="ys_green164">"显示头像框（角色）" => <c val="FFFF00">真</c>
+Param/Value/38A1E104=<s val="ys_green164"><c val="FFFF00">[F5]</c>选择控制单位 <c val="FF0000">失败！</c></c><c val="FFFF00"><游戏未初始化完成，请等待片刻..></c>
 Param/Value/38A893C5=先清理你的背包再捡东西
 Param/Value/38BC828B=<c val="FF00FF">光剑设计图</c>
 Param/Value/38BEE304=<c val="FFFF00">【专精化 结构中枢-核心供能/硬件模块<c val="00FFFF">[超级计算机升级]</c>】</c>设置对象
@@ -5536,7 +5537,6 @@ Param/Value/3A80D74B=<c val="FF8040">[主炮名称]</c>
 Param/Value/3A9014D4=<s val="ys_green164">玩家</s>
 Param/Value/3AAA9E84=<s val="ys_green164">设置 => <c val="FFFF00">将当前角色颜色设定为橙色</s>
 Param/Value/3AABAD28=<s val="ys_green164">【特典】<c val="FFFF00">无敌巴士 <c val="FF00FF">设计图</c>
-Param/Value/3AB98D91=<s val="ys_green165"><c val="FFFF00">[玩家操作]</c>任务栏</c> 关闭！</c><c val="FFFF00"><双击F1></c>
 Param/Value/3AD0560C=<c val="FF00FF">专精化 <c val="00FFFF">[超级计算机]<c val="FFFF00">防卫改装-镭射集群</c></c>升级</c>
 Param/Value/3AD5EFA1=<c val="FF8040">得到</c>
 Param/Value/3AD89EA4=<c val="FF8040">的</c>
@@ -6534,6 +6534,7 @@ Param/Value/70F81829=<c val="FF8040">得到</c>
 Param/Value/70FA44B4=<s val="ys_green124"><c val="FFFF00">
 Param/Value/710E023B=<c val="FF8040">得到</c>
 Param/Value/711C8D4A=<c val="FFFF00">[新档]</c><c val="FF00FF">校验未通过！</c>你的存档已被破坏，所有数据将被清除。
+Param/Value/711D4BFA=<s val="ys_green165"><c val="FFFF00">[玩家操作]</c>聊天盒</c> 打开！</c><c val="FFFF00"><双击F1></c>
 Param/Value/711DD4E1=<c val="FF8040">得到</c>
 Param/Value/7122193B=<c val="FF00FF">军用运输机设计图</c>
 Param/Value/712777E9=<c val="FFFF00">操作港作业机设计图</c>
@@ -7474,6 +7475,7 @@ Param/Value/A30227AC=
 Param/Value/A32BD9B1=<c val="FF00FF">粒子相位枪·改 设计图</c>
 Param/Value/A32C4425=【玩家指令】
 Param/Value/A33143BC=<c val="FF00FF">专精化 吞云推进器-风暴战机</c>
+Param/Value/A33636B6=<s val="ys_green164"><c val="FFFF00">[双击M]</c>开启小地图 <c val="FF0000">失败！</c></c><c val="FFFF00"><游戏未初始化完成，请等待片刻..></c>
 Param/Value/A33EF3AB=<s val="ys_green164">设置<c val="FFFF00">【视物品为盟友】</c>= 
 Param/Value/A35B5C6F=严重破损
 Param/Value/A360796F=<s val="ys_green164">【轻型机甲】<c val="FFFF00">先锋 <c val="FF00FF">设计图</c>
@@ -8456,7 +8458,7 @@ Param/Value/D6A86C0F=<s val="ys_green164">设置 => <c val="FFFF00">回收当前
 Param/Value/D6C351EA=<c val="FF0000">主炮[备用]严重损坏！</c>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.44
+Param/Value/D6F4D09B=V0.45
 Param/Value/D6F79CBF=<s val="ys_green164"><c val="FFFF00">待更新</c>
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
@@ -9041,7 +9043,6 @@ Param/Value/F65CF113=<s val="ys_green164">设置 => <c val="FFFF00">[攻击按�
 Param/Value/F6612654=<c val="FFFF80">副炮轻度损坏！</c>
 Param/Value/F6712860=<c val="FF8040">得到</c>
 Param/Value/F678E0A0=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"巨人設計圖"
-Param/Value/F6919CE5=<s val="ys_green165"><c val="FFFF00">[玩家操作]</c>任务栏</c> 打开！</c><c val="FFFF00"><双击F1></c>
 Param/Value/F6C82036=<s val="ys_green224"><c val="FFFF00">
 Param/Value/F6CF074B=<c val="FF00FF">M1坦克设计图</c>
 Param/Value/F6E09160=<s val="ys_red164"><大家元旦快乐！OB酱给大家献上福利>：<n><s val="ys_green164"><输入></c><c val="FFFFFF"> -OB福利 <c val="FFFF00"><超级计算机前来支援！><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -OB福利2 <c val="FFFF00"><体验超级计算机满天赋满精通><n><s val="ys_green164"><输入></c><c val="FFFFFF"> -元旦快乐 <c val="FFFF00"><超级计算机在宝箱或通关获取时加抽一次，功勋限制免除><n>注：OB福利只需输入一次！超级计算机只能出场1台。

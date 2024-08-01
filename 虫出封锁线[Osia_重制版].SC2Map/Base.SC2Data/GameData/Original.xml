@@ -851,7 +851,7 @@
         <LoadingScreenHelp index="37" Text="LoadingScreen/MMHelp40" Race=""/>
         <LoadingScreenHelp index="38" Text="LoadingScreen/MMHelp41" Race=""/>
         <LoadingScreenHelp index="39" Text="LoadingScreen/MMHelp42" Race=""/>
-        <LoadingScreenHelp index="40" removed="1"/>
+        <LoadingScreenHelp index="40" Text="LoadingScreen/MMHelp43" Race=""/>
         <LoadingScreenHelp index="41" removed="1"/>
         <LoadingScreenHelp index="42" removed="1"/>
         <LoadingScreenHelp index="43" removed="1"/>

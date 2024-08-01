@@ -14,13 +14,13 @@
     </Dependencies>
     <PatchNote>
         <Version>
-            <Value>0.44</Value>
+            <Value>0.45</Value>
         </Version>
         <Date>
-            <Value>5/10/2024</Value>
+            <Value>8/1/2024</Value>
         </Date>
         <Notes>
-            <Value>3,4,1,2,5,6,7,8,9,10,11,12</Value>
+            <Value>3,4,1,2,5,6,7,8,9,10,11,12,13,14,15,16</Value>
         </Notes>
     </PatchNote>
 </DocInfo>
