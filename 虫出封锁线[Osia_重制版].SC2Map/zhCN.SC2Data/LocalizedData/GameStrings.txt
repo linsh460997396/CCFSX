@@ -2121,22 +2121,23 @@ Defensive Matrix=防御矩阵
 DocInfo/DescLong=纪念虫出封锁线及老作者“奥西亚”，缅怀童年回忆"重装机兵"
 DocInfo/DescShort=8
 DocInfo/Name=虫出封锁线[Osia_重制版]
-DocInfo/PatchNote001=2）畅玩模式下自动开启12个新人类建造；
-DocInfo/PatchNote002=3）制作了沙盒模式功能初版。
+DocInfo/PatchNote001=3）修正V10087载具：开炮时炮塔转向目标，删除该载具错误变形；
+DocInfo/PatchNote002=4）机甲建造的防御墙采用固定角度。
 DocInfo/PatchNote003=提示：本图尚未结束测试，会有长期改动
-DocInfo/PatchNote004=1）修正新版聊天窗口快捷键说明；
-DocInfo/PatchNote005=
-DocInfo/PatchNote006=V0.44
-DocInfo/PatchNote007=1）游玩须知：F1是菜单，F5/F6是跟随和取消跟随；
-DocInfo/PatchNote008=>>>有聊天信息时，快速双击F1可弹出新版聊天窗口；
-DocInfo/PatchNote009=2）按~键可将常规资源展示在鼠标位置；
-DocInfo/PatchNote010=>>>星际原四大资源UI是双击分号键显示（也可在F1菜单的UI项目中修改）；
-DocInfo/PatchNote011=3）F4弹出工业资源列表（含采集物+工业加工物）
-DocInfo/PatchNote012=>>>目前未完成工业建筑，用挖掘载具左键蓄力手挖各项资源进行测试；
-DocInfo/PatchNote013=4）MOD配置界面尚未做完所以使用无效；5）单机游玩可完整保存了；
-DocInfo/PatchNote014=6）F1菜单-镜头功能：追加虫出原版镜头。
-DocInfo/PatchNote015=
-DocInfo/PatchNote016=PS：有问题加群反馈，感谢！
+DocInfo/PatchNote004=1）修正新版聊天窗口快捷键说明；2）畅玩模式下自动开启12个新人类建造；
+DocInfo/PatchNote005=5）制作了沙盒模式功能初版。
+DocInfo/PatchNote006=
+DocInfo/PatchNote007=V0.44
+DocInfo/PatchNote008=1）游玩须知：F1是菜单，F5/F6是跟随和取消跟随；
+DocInfo/PatchNote009=>>>有聊天信息时，快速双击F1可弹出新版聊天窗口；
+DocInfo/PatchNote010=2）按~键可将常规资源展示在鼠标位置；
+DocInfo/PatchNote011=>>>星际原四大资源UI是双击分号键显示（也可在F1菜单的UI项目中修改）；
+DocInfo/PatchNote012=3）F4弹出工业资源列表（含采集物+工业加工物）
+DocInfo/PatchNote013=>>>目前未完成工业建筑，用挖掘载具左键蓄力手挖各项资源进行测试；
+DocInfo/PatchNote014=4）MOD配置界面尚未做完所以使用无效；5）单机游玩可完整保存了；
+DocInfo/PatchNote015=6）F1菜单-镜头功能：追加虫出原版镜头。
+DocInfo/PatchNote016=
+DocInfo/PatchNote017=PS：有问题加群反馈，感谢！
 Effect/Name/ATSLaserBatteryU=G03R机炮
 Effect/Name/AdeptPhaseShiftCancelAB=AdeptPhaseShiftCancelAB
 Effect/Name/AdeptPsionicTransferDamage=AdeptPsionicTransferDamage
@@ -3760,6 +3761,7 @@ Param/Expression/231F8166=~A~~B~
 Param/Expression/2366CCAC=~A~~B~~C~
 Param/Expression/236F6063=<s val="ys_white204">如你所见这里<c val="FFFF00">物资</c>充足，我可以帮你做点<c val="FFFF00">强化</c>作业，外面生存也很是艰难的。
 Param/Expression/2371D041=<s val="ys_White164"><c val="FF00FF">为【玩家~A~】创建武装者单位！</c>
+Param/Expression/239654EF=<s val="ys_BlackRed164">【警告】<s val="ys_green164">该模块仅能添加1次
 Param/Expression/23A54E85=~A~~B~~C~~D~
 Param/Expression/23F22F6D=~A~~B~~C~
 Param/Expression/240FF3B5=~A~~B~
@@ -4512,7 +4514,7 @@ Param/Value/0525823E=<c val="FF8040">的</c>
 Param/Value/0535CA0B=<s val="ys_green124"><c val="FFFF00">
 Param/Value/05560135=<c val="FF8040">得到</c>
 Param/Value/0567252D=9
-Param/Value/056B77AF=虫出剧情脚本模拟了原版运行逻辑，默认加载。注意：本模块只能被添加一次，当你把这个模块移除后游玩，原则上配置信息外的游玩内容不予保存，你需要考虑添加诸如“创建玩家英雄”或其他剧情脚本来替代。建议配合“虫出小镇”来加载以防异样，否则程序将适当debug（如去除原商店屋顶的生成，因为没有必要了）。
+Param/Value/056B77AF=包含了虫出原版运行逻辑。注意：本模块只能被添加一次，当你把这个模块移除后进行游玩，原则上配置信息外的游玩内容不予保存，你需要考虑添加诸如“初始化玩家英雄”或其他剧情脚本来替代。建议配合“虫出小镇”来加载以防异样，否则程序将适当debug（如去除重制版商店屋顶，因为没必要了）。
 Param/Value/056FA5BB=<s val="ys_green164">设置 => <c val="FFFF00">[SC2调试信息] = OFF</s>
 Param/Value/05A5B3B4=<s val="ModCenterSize28Bold"><c val="FFBF00">恭</c><c val="EDBE1D">喜</c><c val="DABE3C">地</c><c val="C8BE5A">獄</c><c val="B6BE79">難</c><c val="A4BE97">度</c><c val="92BEB5">通</c><c val="7FBED4">關</c><c val="6EBEF2">!</c><n/><img path="Assets\Textures\btn-unit-terran-thorsiegemode.dds"/><n/>您獲得了閃擊雷神專精強化(目標量)。</s>
 Param/Value/05D23492=+1
@@ -4958,6 +4960,7 @@ Param/Value/1B0867C0=<s val="ABChoiceReplayButtonText"><c val="C8A96F"><img path
 Param/Value/1B0CA4AC=<s val="ys_green164">【轻型机甲】<c val="FFFF00">不朽者II <c val="FF00FF">设计图</c>
 Param/Value/1B286E5F=+1
 Param/Value/1B5A7A62=/
+Param/Value/1B645A57=含：1、额外兵种乱入（任意设置归属）；2、内定载具创建；3）其他可造建筑、单位类型装饰物。注意：本模块附带"注册额外载具"功能，可让创建出来的对象实例作为载具，内定载具仅需指定归属=0即可靠近后按F搭载，但F键得靠非常近才有效，当部分单位半径过大无法靠近时请用右键搭载。本模块注册载具由于不是内定载具，会采用隐藏英雄并更换控制单位的方法，这种强制注册载具方式可用来"骑刺蛇"。
 Param/Value/1B67BD32=<c val="FF00FF">[需元帅军衔]</c>
 Param/Value/1B811794=<img path="Assets\jx\上校徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[上校]
 Param/Value/1B8B5B2E=<img path="Assets\jx\上士徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[上士]
@@ -5132,7 +5135,7 @@ Param/Value/2425F886=<c val="FF8040">得到</c>
 Param/Value/242D672A=<c val="FF00FF">平板车设计图</c>
 Param/Value/24374E87=<s val="ys_green164">设置 => <c val="FFFF00">当前跟随目标</s>
 Param/Value/24415F2C=<c val="FF8040">得到</c>
-Param/Value/24465D60=可以设置等待间隔，影响后续模块效果。
+Param/Value/24465D60=可以设置等待间隔，影响后续模块。
 Param/Value/244770A1=<c val="FF00FF">矿机设计图</c>
 Param/Value/2447A7F9=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-电子连结键破坏炮 <c val="FF00FF">LV</c>
 Param/Value/2455B217=<s val="ys_green164">设置 => <c val="FFFF00">[生物锁] = OFF</s>
@@ -5270,7 +5273,7 @@ Param/Value/2B1EB2E4=<s val="ys_green165">任务栏<c val="FFFF00">ON</c></s>
 Param/Value/2B2E22F8=<c val="FF00FF">奇迹武器DG-3设计图</c>
 Param/Value/2B2FFC38=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[3]</c></c>！
 Param/Value/2B3A509D=<c val="FF8040">得到</c>
-Param/Value/2B4BAE37=预制代码块或地编产物Object文件分析后转代码块进行布置测试，在星际2中，地编带足印碰撞的装饰物以会丢碰撞，由作者在这里进行修补测试（结合视野阻碍、路径碰撞功能模块）。
+Param/Value/2B4BAE37=用预制代码或地编Object文件分析转代码进行布置测试，在星际2中，地编带足印碰撞的装饰物以会丢碰撞（因为装饰物的足印碰撞被写死在地图二进制文件中，而单位的足印不是）。本模块加载那些代码布置，方便地图空间重复利用，并结合视野、碰撞、建筑阻断功能进行布置后修补测试。由于未做排泄，只能被加载一次。
 Param/Value/2B4DECBD=<c val="FF8040">得到随机福利资金</c>
 Param/Value/2B639B85=<c val="FF8080">罐</c><c val="FF9A9A">装</c><c val="FFB6B6">燃</c><c val="FFD0D0">料</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
 Param/Value/2B695554=+1
@@ -5400,6 +5403,7 @@ Param/Value/32292BBE=<c val="FF8040">得到</c>
 Param/Value/3238AED5=<c val="00FF00">请求</c> <c val="800040">空载具中立 </c><c val="FF8000">处理！</c>
 Param/Value/323F2128=1
 Param/Value/3268CBDC=<c val="FF8040">拥有</c>
+Param/Value/326D55F0=<s val="ys_BlueGreen164">Core - </s>创建单位
 Param/Value/326F95FD=等级已最高！
 Param/Value/329B02F3=已释放！操作者为 
 Param/Value/32AC6338=<c val="FFFF00">【全图纸升级[新载具部分]】</c>已为玩家
@@ -5727,6 +5731,7 @@ Param/Value/44CC5AB2=<s val="ys_green164">【轻型机甲】<c val="FFFF00">帝�
 Param/Value/44D274BF=<s val="ys_green165">小地图<c val="FFFF00">OFF</c></s>
 Param/Value/44DE11FD=<c val="FF8040">发动机中度损坏！</c>
 Param/Value/44E26384=<c val="FF8040">得到</c>
+Param/Value/44E27A98=指定模型ID来创建演算体类型的装饰物（由于模型不带足印，请结合碰撞、视野、建筑阻断功能来创造静止不动的装饰物体）。
 Param/Value/44E4AEDF=<c val="FF8040">[主炮重量]</c>
 Param/Value/44EBC6C7=<c val="FF00FF">鱼人装甲设计图</c>
 Param/Value/450AEF0F=
@@ -6055,7 +6060,7 @@ Param/Value/5681657C=为当前【跟随单位组】内的单位
 Param/Value/56864B7B=<s val="ys_green124"><c val="FFFF00">
 Param/Value/56874D74=启用！操作者是管理员
 Param/Value/5692A595=<c val="FF8040">得到</c>
-Param/Value/569D649F=利用预制阻断器进行视野阻断，无法看穿后方视野（对AI同样有效）。
+Param/Value/569D649F=视野阻断，无法看穿后方视野（对AI同样有效）。
 Param/Value/56A1D23F=
 Param/Value/56C3D220=<s val="ys_green165"><img path="Assets\Buttons\Icons\07.dds" height="42" width="42"/></s>
 Param/Value/56DB2028=<c val="FF8040">得到资金</c>
@@ -6126,7 +6131,7 @@ Param/Value/5A64CB78=<c val="FF00FF">戰犬设计图</c>
 Param/Value/5A69DB36=为当前载具
 Param/Value/5A833EFE=<s val="ys_green164">【大型机甲】<c val="FFFF00">阿特拉斯 <c val="FF00FF">设计图</c>
 Param/Value/5A923C69=<c val="FFFF00">王兽箱出货率提升！</c>
-Param/Value/5AAC1B1A=额外载具指内定载具以外的其他单位，像刺蛇这种类型亦可强制"注册为载具"来模拟骑乘。注意：本模块不能指定具体对象，必须是以类型、筛选器作为条件进行，如要进行具体实例对象的强制注册请使用“Core - 造兵”模块（如场景中有2个刺蛇实体，只想注册其中一个）。
+Param/Value/5AAC1B1A=额外载具指内定载具外的其他单位，像刺蛇这种类型亦可强制"注册为载具"来模拟骑乘（如隐藏英雄后把模型附着在其上）。注意：本模块不能指定具体对象，必须是以类型、筛选器作为条件，如要进行具体实例对象的强制注册请使用“Core - 创建单位”（如场景中有2个刺蛇实体，只想注册其中一个而不是刺蛇类型时）。
 Param/Value/5AC8E873=<s val="ys_green164">【中型机甲】<c val="FFFF00">战狼-II <c val="FF00FF">设计图</c>
 Param/Value/5AD246D8=9
 Param/Value/5AF01160=<c val="FF8040">得到</c>
@@ -6136,7 +6141,7 @@ Param/Value/5B03271D=<s val="ys_green164">设置 => <c val="FFFF00">关闭头像
 Param/Value/5B0C3BDA=Q
 Param/Value/5B15B575=<c val="FF00FF">轻便摩托车设计图</c>
 Param/Value/5B1722A7=<c val="FF8040">得到</c>
-Param/Value/5B260770=<s val="ys_BlueGreen164">Core - </s>造兵
+Param/Value/5B260770=<s val="ys_BlueGreen164">Core - </s>创建外敌
 Param/Value/5B280347=<c val="FF00FF">巨像设计图</c>
 Param/Value/5B71E9A4=<c val="FF00FF">变更【雷王兽】所属为玩家</c>
 Param/Value/5B7DB969=【群魔祭天】
@@ -6206,7 +6211,7 @@ Param/Value/5EDB33BD=<c val="FF8040">得到</c>
 Param/Value/5EF520E1=模型T台
 Param/Value/5F1CFF20=<c val="FF00FF">收割者设计图</c>
 Param/Value/5F23C9D9=<s val="ys_green164">【轻型机甲】<c val="FFFF00">帝盾卫兵 <c val="FF00FF">设计图</c>
-Param/Value/5F364B5C=利用预制阻断器进行建筑阻断（无法摆放建筑）。
+Param/Value/5F364B5C=建筑阻断（无法摆放建筑）。
 Param/Value/5F40F08B=<c val="FF8040">购买速度强化星</c>
 Param/Value/5F5FF700=<s val="ys_green164">【轻型机甲】<c val="FFFF00">维京突击者 <c val="FF00FF">设计图</c>
 Param/Value/5F609434=<s val="ys_green164">【全设计图降级】已启用！
@@ -6273,6 +6278,7 @@ Param/Value/61DCE3D6=<c val="FFFF00">【专精化 一级战列舰升级】</c>�
 Param/Value/61F77513=按SHIFT+CTRL+ALT+D打开调试窗口
 Param/Value/61FF0808=<c val="FFFF00">【ELF福利】</c>
 Param/Value/62107B1F=<s val="ys_green205">储物箱
+Param/Value/62117CB8=开启
 Param/Value/62146A43=<c val="FFFF80">C装置小破！</c>
 Param/Value/621FAEBF=<c val="FFFF00">【</c><s val="ys_orange164"><c val="FFFF00"></c>小镇英雄</c><c val="FFFF00">】</c>
 Param/Value/622D498C=<s val="ys_green164">【大型机甲】<c val="FFFF00">泰坦X56 <c val="FF00FF">设计图</c>
@@ -6294,7 +6300,7 @@ Param/Value/631DF939=<c val="FF8040">得到</c>
 Param/Value/63289EC6=<c val="FF8040">的</c>
 Param/Value/6346EFF1=<s val="ABChoiceReplayButtonText"><c val="C8A96F"><img path="Assets\jx\元帥徽记.tga"/>
 Param/Value/635EF78D=<c val="FFFF00">【天赋化】<c val="FFFF00">模块加装-<c val="00FFFF">开启<c val="FF0000">聚焦<c val="FFFF00">"虹"</c></c>阵列</c> 已为玩家
-Param/Value/63792C8D=利用预制阻断器进行视野和建筑阻断，无法布置建筑也无法看穿后方视野（对AI同样有效）。
+Param/Value/63792C8D=视野和建筑阻断，无法布置建筑也无法看穿后方视野（对AI同样有效）。
 Param/Value/637E7F64=<s val="ys_green164">【特典】<c val="FFFF00">操作港作业机 <c val="FF00FF">设计图</c>
 Param/Value/638BA0E3=<s val="ys_green164">"显示头像框（目标）" => <c val="FFFF00">真</c>
 Param/Value/6391B74D=<c val="FF8040">得到</c>
@@ -6420,7 +6426,7 @@ Param/Value/6937AD16=<c val="FF8040">得到</c>
 Param/Value/6939EFE9=修改【允许攻击车库最大次数】 = 
 Param/Value/694433F0=<s val="ys_green164">【轻型战车】<c val="FFFF00">赤练蛇战车 <c val="FF00FF">设计图</c>
 Param/Value/6971AC62=<c val="FF8040">得到富氧针剂S，技能充能+</c>
-Param/Value/69971585=可以设置等待间隔，影响后续模块效果。
+Param/Value/69971585=可以设置等待间隔，影响后续模块。
 Param/Value/69BA48EA=<s val="ys_green164">【轻型机甲】<c val="FFFF00">死神之首 <c val="FF00FF">设计图</c>
 Param/Value/69C1ED58=<c val="FF8040">得到</c>
 Param/Value/69C4078E=<c val="FF8040">得到</c>
@@ -6814,7 +6820,7 @@ Param/Value/7D9EEBB6=<s val="ys_green164">【天赋化】<c val="FFFF00">验算�
 Param/Value/7DA6DD2F=炼化属性数量
 Param/Value/7DABB544=<c val="FF00FF">天赋 <c val="00FFFF">开启<c val="FF0000">聚焦<c val="FFFF00">“虹”</c></c>阵列
 Param/Value/7DAFB64F=<s val="ys_BlackRed224">帕鲁</s>
-Param/Value/7DC82FE4=利用预制阻断器进行视野和路径阻断，无法通过也无法看穿后方视野（对AI同样有效）。
+Param/Value/7DC82FE4=视野和路径阻断，无法通过也无法看穿后方视野（对AI同样有效）。
 Param/Value/7DCFB616=【更多指令】
 Param/Value/7DD79727=<c val="FF8040">得到</c>
 Param/Value/7DDAC996=<c val="FF8040">得到</c>
@@ -7744,7 +7750,7 @@ Param/Value/AFCBFF2A=<c val="FF00FF">RB-II型设计图</c>
 Param/Value/AFD97711=<c val="FF8040">得到</c>
 Param/Value/AFDCFFDB=<c val="FF8040">得到</c>
 Param/Value/AFE2A2BE=的释放计票为
-Param/Value/AFE2DBDB=本模块引发调用地图内置的Start()函数来创建玩家英雄，执行顺序在Awake()后面，仅需此功能模块即可操作武装者进行操作（但地图可能没任何敌人，也没胜利条件）。模块内容包含：初始化前置动作、补给调整、玩家诞生、开局动作、开局选项、初始化剧情动作。注意：本模块只能被添加一次，与剧情脚本一起加载会导致重复，与其他功能模组冲突情况下将拒绝被添加。
+Param/Value/AFE2DBDB=调用地图内置函数来创建玩家英雄，仅需此功能即可操作武装者（但地图可能没任何敌人，也没胜利条件）。模块包含：初始化前置动作、补给调整、玩家诞生、开局动作、开局选项、初始化剧情动作。注意：本模块只能被添加一次，与剧情脚本一起加载会导致重复，建议与其他功能模组配合（冲突情况下将拒绝被添加）。
 Param/Value/AFFA656D=<c val="FF8040">得到</c>
 Param/Value/B00721B0=<c val="FF8040">得到</c>
 Param/Value/B0167B16=<s val="ys_green164">【<c val="FFFF00">地球人类救济中心</c>】派遣</c>
@@ -8222,6 +8228,7 @@ Param/Value/C8E93C57=<c val="FF8080">电</c><c val="FFAFAF">池</c><c val="FFDED
 Param/Value/C8EEAF1C=炼化属性数量
 Param/Value/C9185CF2=<c val="FF8040">得到</c>
 Param/Value/C918FA2A=<s val="ys_green164">【特典】<c val="FFFF00">鼓舞者 <c val="FF00FF">设计图</c>
+Param/Value/C9359896=<s val="ys_BlueGreen164">Core - </s>创建模型
 Param/Value/C937D0CF=<c val="FF00FF">攻击</c>
 Param/Value/C93F5B9A=<c val="FF8040">得到</c>
 Param/Value/C95991AB=<c val="FF8040">的</c>
@@ -8350,7 +8357,7 @@ Param/Value/CF85C129=<s val="ys_green165">信息栏<c val="FFFF00">ON</c></s>
 Param/Value/CF8AC968=<s val="ys_green164">"显示载具舱" => <c val="FFFF00">真</c><n/>注：如果已上载具，需要下次生效
 Param/Value/CF8CD5C3=<c val="FFFF00">【操作港作业机】进攻</c>
 Param/Value/CFA23736=<s val="ys_BlueGreen164">Core - </s>创建视野建筑阻断器
-Param/Value/CFAC65DB=包含：1、额外兵种乱入，可以创建三种势力兵种，设置它们的种类、归属、出现位置等，本模块附带“注册额外载具”功能，以创建出来的对象实例作为载具；2、内定载具创建；3）其他可造单位（建筑、装饰物）。注意：内定载具仅需指定归属=0即可靠近后按F搭载，但F键需靠非常近才有效，当部分单位半径过大无法靠近时需使用右键搭载。利用本模块注册载具由于不是内定载具，会采用隐藏英雄-更换控制单位的方法，这种强制注册载具方式可用来"骑刺蛇"。
+Param/Value/CFAC65DB=额外兵种乱入，本模块提供创建三种势力的兵种，你可以设置它们的种类、归属、出现位置等。
 Param/Value/CFB0F3D9=<c val="FF00FF">天赋 <c val="00FFFF">武器改装-阳电子破坏炮
 Param/Value/CFC07B27=<c val="FF8040">得到</c>
 Param/Value/CFCEF61D=<s val="ys_green164">【轻型机甲】<c val="FFFF00">野兽II <c val="FF00FF">设计图</c>
@@ -8815,7 +8822,7 @@ Param/Value/E65EDE36=_普兵随机数] =
 Param/Value/E6681FD2=<c val="FF8080">钢</c><c val="FFAFAF">锭</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/E6728E5D=<s val="ys_White164">通过<c val="FFFF00">【指令】</c>对
 Param/Value/E675DE96=<c val="FF00FF">地堡设计图</c>
-Param/Value/E67FE220=虫出小镇（包含单位和装饰物），默认加载。注意：本模块只能被添加一次，若移除则会在开局进行一次地图清理以便你布置其他单位、装饰物。
+Param/Value/E67FE220=虫出小镇（包含单位和装饰物），当玩家从列表移除时，执行原始城镇清理。注意：本模块只能被添加一次，若移除，则会在开局进行一次地图清理以便你布置其他单位、装饰物。
 Param/Value/E687EBF0=<c val="FF8040">的</c>
 Param/Value/E689F359=<c val="FF8040">得到</c>
 Param/Value/E6970D6E=<s val="ys_green164">【外星生成器数】
@@ -8833,7 +8840,7 @@ Param/Value/E6EFA577=<s val="ys_green165">对抗模式：<c val="FFFF00">自定�
 Param/Value/E6F66B64=<s val="ys_green164">【中型战车】<c val="FFFF00">SX型安保机器人 <c val="FF00FF">设计图</c>
 Param/Value/E6FE0D36=<c val="FF8040">得到</c>
 Param/Value/E703101F=/
-Param/Value/E71C714F=利用预制阻断器进行路径阻断（无法通过）。
+Param/Value/E71C714F=路径阻断（无法通过）。
 Param/Value/E73503E3=<c val="FE9A81">敵隊長</c>
 Param/Value/E745C329=<s val="ys_green164">设置 => <c val="FFFF00">[宝箱自动敌对] = OFF</s>
 Param/Value/E7477C62=启用！操作者是管理员
