@@ -982,7 +982,7 @@
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="1"/>
+            <Value Id="2"/>
         </Default>
     </Attribute>
     <Attribute>
@@ -1060,8 +1060,20 @@
         <Visibility Value="All"/>
         <Access Value="All"/>
         <Value>
+            <Id Value="4"/>
+            <Name Value="Attribute024/Value004/Name"/>
+        </Value>
+        <Value>
+            <Id Value="3"/>
+            <Name Value="Attribute024/Value003/Name"/>
+        </Value>
+        <Value>
             <Id Value="1"/>
             <Name Value="Attribute024/Value001/Name"/>
+        </Value>
+        <Value>
+            <Id Value="5"/>
+            <Name Value="Attribute024/Value005/Name"/>
         </Value>
         <Value>
             <Id Value="2"/>
