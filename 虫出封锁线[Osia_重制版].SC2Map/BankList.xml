@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankList>
+    <Bank Name="ModSlot0" Player="5"/>
+    <Bank Name="ModSlot0" Player="3"/>
+    <Bank Name="ModSlot1" Player="7"/>
+    <Bank Name="ModSlot1" Player="5"/>
     <Bank Name="u4vu6ghjp6504" Player="3"/>
+    <Bank Name="ModSlot2" Player="4"/>
     <Bank Name="NewModeBank" Player="8"/>
     <Bank Name="ItemBank" Player="1"/>
     <Bank Name="u4vu6ghjp6504" Player="4"/>
+    <Bank Name="ModSlot1" Player="4"/>
     <Bank Name="PlayerSettings" Player="2"/>
+    <Bank Name="ModSlot0" Player="4"/>
     <Bank Name="ItemBank" Player="8"/>
+    <Bank Name="ModSlot2" Player="3"/>
+    <Bank Name="ModSlot0" Player="8"/>
     <Bank Name="ItemBank" Player="6"/>
     <Bank Name="u4vu6ghjp6504" Player="2"/>
     <Bank Name="NewModeBank" Player="1"/>
@@ -14,22 +23,37 @@
     <Bank Name="NewModeBank" Player="2"/>
     <Bank Name="u4vu6ghjp6504" Player="7"/>
     <Bank Name="NewModeBank" Player="4"/>
+    <Bank Name="ModSlot1" Player="3"/>
     <Bank Name="u4vu6ghjp6504" Player="6"/>
+    <Bank Name="ModSlot0" Player="1"/>
     <Bank Name="PlayerSettings" Player="6"/>
     <Bank Name="ItemBank" Player="3"/>
+    <Bank Name="ModSlot2" Player="6"/>
     <Bank Name="ItemBank" Player="5"/>
+    <Bank Name="ModSlot2" Player="5"/>
     <Bank Name="PlayerSettings" Player="7"/>
+    <Bank Name="ModSlot0" Player="2"/>
+    <Bank Name="ModSlot2" Player="1"/>
+    <Bank Name="ModSlot0" Player="7"/>
     <Bank Name="u4vu6ghjp6504" Player="1"/>
     <Bank Name="PlayerSettings" Player="3"/>
     <Bank Name="ItemBank" Player="7"/>
     <Bank Name="ItemBank" Player="2"/>
     <Bank Name="PlayerSettings" Player="4"/>
     <Bank Name="PlayerSettings" Player="1"/>
+    <Bank Name="ModSlot1" Player="1"/>
     <Bank Name="NewModeBank" Player="7"/>
     <Bank Name="u4vu6ghjp6504" Player="5"/>
     <Bank Name="NewModeBank" Player="6"/>
+    <Bank Name="ModSlot1" Player="8"/>
     <Bank Name="PlayerSettings" Player="5"/>
     <Bank Name="NewModeBank" Player="5"/>
+    <Bank Name="ModSlot0" Player="6"/>
     <Bank Name="ItemBank" Player="4"/>
     <Bank Name="u4vu6ghjp6504" Player="8"/>
+    <Bank Name="ModSlot2" Player="2"/>
+    <Bank Name="ModSlot1" Player="6"/>
+    <Bank Name="ModSlot2" Player="7"/>
+    <Bank Name="ModSlot2" Player="8"/>
+    <Bank Name="ModSlot1" Player="2"/>
 </BankList>
