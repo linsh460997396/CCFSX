@@ -3748,6 +3748,7 @@ Param/Expression/19958A9F=<s val="ys_White164">~A~
 Param/Expression/19AE886E=~A~~B~
 Param/Expression/19E0C08F=~A~<n/>~B~
 Param/Expression/1A6FDEB8=~A~
+Param/Expression/1AC43808=玩家~A~的ModSlot~B~
 Param/Expression/1ACE736E=~A~~B~~C~
 Param/Expression/1AF45803=~A~~E~~B~~F~~C~~D~
 Param/Expression/1B6A968E=<s val="ys_green164">~A~
@@ -3835,6 +3836,7 @@ Param/Expression/3A9F4845=~A~<n/>~B~
 Param/Expression/3ACB56EB=~A~
 Param/Expression/3AF110AD=<s val="ys_green164">~A~：
 Param/Expression/3B0D17FD=~A~~B~~C~~D~
+Param/Expression/3B8137A0=P~A~Slot~B~
 Param/Expression/3C23A46B=~A~~B~
 Param/Expression/3C395369=~A~~B~~C~~D~
 Param/Expression/3CA2EA50=~A~~B~<s val="ys_BlackRed164">击杀了~C~
@@ -4099,6 +4101,7 @@ Param/Expression/92662497=~A~~B~~C~
 Param/Expression/928A05DA=~A~~B~
 Param/Expression/934DFF89=~A~
 Param/Expression/93A1438C=~A~~B~
+Param/Expression/93AEF043=玩家~A~的ModSlot~B~
 Param/Expression/93B4F116=<c val="FF0000">设置有误！</c>区间：<c val="FFFF00">0</c> 至 <c val="FFFF00">~A~</c> 
 Param/Expression/94107070=~A~
 Param/Expression/944074D7=~A~~B~~C~
@@ -4155,6 +4158,7 @@ Param/Expression/A5353246=~A~~B~
 Param/Expression/A59D3A37=~A~设置 聊天频道 => 2 （同盟） </c>
 Param/Expression/A5A7760D=~A~
 Param/Expression/A63A1E1E=~A~~B~
+Param/Expression/A685D63A=P~A~Slot~B~
 Param/Expression/A6D98BD2=~A~~B~
 Param/Expression/A6DDB7E9=~A~
 Param/Expression/A7708C1C=~A~~B~~C~~D~
@@ -4709,6 +4713,7 @@ Param/Value/0E28EF33=呜？哇！有一只庞大的怪兽在这里守着什么�
 Param/Value/0E3279B8=开启！
 Param/Value/0E444355=<c val="FF00FF">【杀死全部生成器】已启用</c>
 Param/Value/0E4CDDD7=<s val="ys_green164">【车辆】<c val="FFFF00">轻便摩托车 <c val="FF00FF">设计图</c>
+Param/Value/0E564A51=<s val="ys_blue165">
 Param/Value/0E59A082=<c val="FF8000">交易量</c>！
 Param/Value/0E59C5A9=<c val="FFFF00">强度信息</c>
 Param/Value/0E7F0AF3=战车装甲S 只能由机械单位装备!
@@ -7894,10 +7899,12 @@ Param/Value/B3D20555=<c val="FF8040">得到</c>
 Param/Value/B3D3E6F0=<s val="ys_green164">【轻型机甲】<c val="FFFF00">RB-II型 <c val="FF00FF">设计图</c>
 Param/Value/B3DE5690=<c val="FF00FF">蚁式-S1设计图</c>
 Param/Value/B3E60706=<c val="FF8040">得到</c>
+Param/Value/B3ED3F6E=
 Param/Value/B3F75BF7=<s val="ys_White164">进行 </c><c val="FFFF00">U档 <c val="00FF00">数据恢复！</c>
 Param/Value/B3FC4606=炼化属性数量
 Param/Value/B3FC8B5B=<c val="FF8040">得到随机福利资金</c>
 Param/Value/B3FD6147=注意警戒周围！
+Param/Value/B402C4CD=<s val="ys_blue165">
 Param/Value/B42AEAF8=<c val="FF00FF">改良型地狱炮台设计图</c>
 Param/Value/B4323CF6=<c val="FF00FF">主神級特裝機甲改 设计图</c>
 Param/Value/B43311E6=<c val="FF00FF">【Code】40003</c>
@@ -8114,6 +8121,7 @@ Param/Value/BF341E2E=启用！操作者是管理员
 Param/Value/BF35D74E=<c val="FF00FF">攻击</c>
 Param/Value/BF38FC1E=<c val="FF8040">得到回收补偿资金</c>
 Param/Value/BF50A9A9=<c val="FFFF80">S-E轻度损坏！</c>
+Param/Value/BF524080=<s val="ys_blue165">
 Param/Value/BF5BBB49=确定(<c val="FFEE00">O</c>)
 Param/Value/BF721BFF=<s val="ys_green164">【特殊】<c val="FFFF00">矿机 <c val="FF00FF">设计图</c>
 Param/Value/BF73B9E3=<s val="ys_green164">翻页
@@ -8165,6 +8173,7 @@ Param/Value/C1982850=<s val="ys_green164">【AI波次总控】=>ON！
 Param/Value/C19C2336=<c val="FF8040">发动机中破！</c>
 Param/Value/C1B4837A=<c val="FF8040">得到</c>
 Param/Value/C1CA1A5C=<c val="FF8080">罐</c><c val="FF9090">装</c><c val="FFA0A0">氧</c><c val="FFB1B1">化</c><c val="FFC1C1">铝</c><c val="FFD2D2">溶</c><c val="FFE2E2">液</c><c val="FFF3F3">+</c><c val="FFF8F8">1</c>
+Param/Value/C1CA519E=<s val="ys_blue165">
 Param/Value/C1D2FF09=5
 Param/Value/C1DC5E2B=<s val="ys_green165">进行 </c><c val="FFFF00">U档升级！
 Param/Value/C202EA06=<c val="FF00FF">虎式-K1设计图</c>
