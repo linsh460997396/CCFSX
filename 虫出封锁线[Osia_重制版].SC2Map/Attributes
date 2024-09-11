@@ -102,6 +102,7 @@
         <Id Value="9"/>
         <Type Value="Global"/>
         <Name Value="Attribute009/Name"/>
+        <Description Value="Attribute009/Desc"/>
         <Availability Value="All"/>
         <Visibility Value="All"/>
         <Access Value="All"/>
@@ -1953,7 +1954,6 @@
             <Default>
                 <Slot Id="Global"/>
                 <Value Id="1"/>
-                <Locked/>
             </Default>
         </Attribute>
         <Attribute Id="17">
