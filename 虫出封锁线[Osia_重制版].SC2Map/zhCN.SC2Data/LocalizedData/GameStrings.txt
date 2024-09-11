@@ -4526,7 +4526,7 @@ Param/Value/0525823E=<c val="FF8040">的</c>
 Param/Value/0535CA0B=<s val="ys_green124"><c val="FFFF00">
 Param/Value/05560135=<c val="FF8040">得到</c>
 Param/Value/0567252D=9
-Param/Value/056B77AF=虫出原版运行逻辑，本模块只能被添加一次。注：当模块移除后进行游玩，原则上配置信息外的游玩内容不予保存，你需要考虑添加胜败条件模块或其他剧情脚本来替代（如有），未配合“虫出小镇”来加载时程序将适当debug以防异样。
+Param/Value/056B77AF=虫出原版运行逻辑，本模块只能被添加一次。注：当模块移除后进行游玩，原则上配置信息外的游玩内容不予保存，你需要考虑添加胜败条件模块或其他剧情脚本来替代（如有），未配合“虫出小镇”来加载时程序可能出问题。
 Param/Value/056FA5BB=<s val="ys_green164">设置 => <c val="FFFF00">[SC2调试信息] = OFF</s>
 Param/Value/05899DD4=毒裂兽遭遇区
 Param/Value/05A5B3B4=<s val="ModCenterSize28Bold"><c val="FFBF00">恭</c><c val="EDBE1D">喜</c><c val="DABE3C">地</c><c val="C8BE5A">獄</c><c val="B6BE79">難</c><c val="A4BE97">度</c><c val="92BEB5">通</c><c val="7FBED4">關</c><c val="6EBEF2">!</c><n/><img path="Assets\Textures\btn-unit-terran-thorsiegemode.dds"/><n/>您獲得了閃擊雷神專精強化(目標量)。</s>
@@ -6963,6 +6963,7 @@ Param/Value/82C8BCA9=<s val="ys_green164">波次-E-[歼灭所有玩家]
 Param/Value/82D661A7=<s val="ys_green164">【特典】<c val="FFFF00">医疗机甲 <c val="FF00FF">设计图</c>
 Param/Value/82DA6955=<c val="FF8040">得到</c>
 Param/Value/82E186D8=<s val="ys_green165">驾驶舱<c val="FFFF00">OFF</c></s>
+Param/Value/82E3F875=用于移除剧情脚本后，自定义胜败条件。
 Param/Value/82E52415=<c val="FF8040">得到</c>
 Param/Value/82F252BA=<c val="FF8040">得到</c>
 Param/Value/82FF777F=【当前】阀值增减=
@@ -8845,6 +8846,7 @@ Param/Value/E3330744=右上标签
 Param/Value/E33D59C1=启用！操作者是管理员
 Param/Value/E33D921F=<s val="ys_green164">【天赋化】<c val="FFFF00">武器改装-开启S-E<c val="00FFFF">[风暴战机] </c><c val="FF00FF">升级</c>
 Param/Value/E33EB2D7=<c val="FF8080">固</c><c val="FF9292">体</c><c val="FFA5A5">生</c><c val="FFB8B8">物</c><c val="FFCBCB">燃</c><c val="FFDEDE">料</c><c val="FFF1F1">+</c><c val="FFF8F8">1</c>
+Param/Value/E3465EAB=<s val="ys_BlueGreen164">Core - </s>胜败条件
 Param/Value/E349B15E=<c val="FF00FF">【移动至 玩家出生点】已启用！</c>
 Param/Value/E34EFABD= [小镇英雄]</c></s>
 Param/Value/E34FEDB1=对着<c val="FF8040">空气</c>使用了 </c><c val="FFFF00">诺亚核心种子</c><c val="00FFFF">(不完全形态)</c>！
