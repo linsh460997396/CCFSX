@@ -68,8 +68,8 @@
 <Behavior id="OS_MianYiShangHai_TongMeng"/>
 <Behavior id="DamageLimit_Vehicle"/>
 <Behavior id="CCData_DiPanPoSunDummy"/>
-<Behavior id="CCData_FuPaoPoSunDummy"/>
 <Behavior id="CCData_SEPoSunDummy"/>
+<Behavior id="CCData_FuPaoPoSunDummy"/>
 <Behavior id="CCData_FaDongJiPoSunDummy"/>
 <Behavior id="CCData_ZhuPaoPoSunDummy"/>
 <Behavior id="CCData_CZhuangZhiPoSunDummy"/>

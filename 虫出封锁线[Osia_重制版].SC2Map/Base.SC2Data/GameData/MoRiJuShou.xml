@@ -45,7 +45,7 @@
     <CEffectDamage id="MRJS_Damage_MRClusterRocketG" parent="DU_WEAP_MISSILE">
         <EditorCategories value=""/>
         <Visibility value="Visible"/>
-        <Amount value="20"/>
+        <Amount value="8"/>
         <Death value="Fire"/>
     </CEffectDamage>
     <CEffectLaunchMissile id="MRJS_LM5_MRClusterRocketG">
@@ -470,7 +470,7 @@
     <CEffectDamage id="MRJS_Damage_MRClusterRocketA" parent="DU_WEAP_MISSILE">
         <EditorCategories value=""/>
         <Visibility value="Visible"/>
-        <Amount value="20"/>
+        <Amount value="8"/>
         <Death value="Fire"/>
     </CEffectDamage>
     <CEffectLaunchMissile id="MRJS_LM4_MRClusterRocketA">
@@ -1131,9 +1131,11 @@
                 <CountMax value="40"/>
                 <CountStart value="40"/>
                 <CountUse value="5"/>
+                <Location value="Unit"/>
                 <TimeUse value="10"/>
                 <Flags index="RestoreAllChargesOnCooldown" value="1"/>
             </Charge>
+            <Cooldown Location="Unit"/>
         </Cost>
         <TargetFilters value="Ground,Visible;Self,Missile,Stasis,Dead,Hidden,Hallucination,Invulnerable"/>
         <TargetSorts>
@@ -1162,9 +1164,11 @@
                 <CountMax value="40"/>
                 <CountStart value="40"/>
                 <CountUse value="5"/>
+                <Location value="Unit"/>
                 <TimeUse value="10"/>
                 <Flags index="RestoreAllChargesOnCooldown" value="1"/>
             </Charge>
+            <Cooldown Location="Unit"/>
         </Cost>
         <TargetFilters value="Air,Visible;Self,Missile,Stasis,Dead,Hidden,Hallucination,Invulnerable"/>
         <TargetSorts>

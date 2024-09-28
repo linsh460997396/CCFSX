@@ -1711,6 +1711,12 @@
                 <Value Id="7"/>
             </Default>
         </Attribute>
+        <Attribute Id="21">
+            <Default>
+                <Slot Id="Global"/>
+                <Value Id="2"/>
+            </Default>
+        </Attribute>
         <Attribute Namespace="999" Id="3004">
             <Default>
                 <Slot Id="0"/>
@@ -1759,12 +1765,6 @@
             <Default>
                 <Slot Id="11"/>
                 <Value Id="1450788964"/>
-            </Default>
-        </Attribute>
-        <Attribute Id="21">
-            <Default>
-                <Slot Id="Global"/>
-                <Value Id="2"/>
             </Default>
         </Attribute>
     </Variant>
@@ -1970,6 +1970,12 @@
                 <Locked/>
             </Default>
         </Attribute>
+        <Attribute Id="21">
+            <Default>
+                <Slot Id="Global"/>
+                <Value Id="6"/>
+            </Default>
+        </Attribute>
         <Attribute Namespace="999" Id="3004">
             <Default>
                 <Slot Id="0"/>
@@ -2018,12 +2024,6 @@
             <Default>
                 <Slot Id="11"/>
                 <Value Id="1450788964"/>
-            </Default>
-        </Attribute>
-        <Attribute Id="21">
-            <Default>
-                <Slot Id="Global"/>
-                <Value Id="6"/>
             </Default>
         </Attribute>
     </Variant>
