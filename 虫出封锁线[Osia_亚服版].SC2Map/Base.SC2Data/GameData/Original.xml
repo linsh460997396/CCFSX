@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <!-- Abstract entries -->
+    <CKinetic default="1"/>
+    <CKineticDistance default="1"/>
+    <!-- Standard entries -->
+    <CKineticFollow default="1"/>
+    <CKineticRotate default="1"/>
+    <CKineticSequence default="1"/>
+    <CKineticSet default="1"/>
+    <CKineticTranslate default="1"/>
+    <CEffectCreep default="1"/>
+    <CEffectLastTarget default="1"/>
+    <CEffectRandomPointInCircle default="1"/>
+    <CEffectCreateUnit default="1" id="SprayDefault"/>
+    <CEffectSet default="1" id="WizSimpleSkillshotInitialSet"/>
+    <CEffectTeleport id="AshWormBurrowMove"/>
+    <CEffectModifyUnit id="CasterHealtoFullEnergy"/>
+    <CEffectDamage id="KillTargetDeathNormal"/>
+    <CEffectModifyUnit id="CopyTargetSelectionAndControlGroups"/>
+    <CEffectDamage id="GunTurret"/>
+    <CEffectEnumArea id="RailGunTurretSearch"/>
+    <CEffectDamage id="Suicide"/>
+    <CEffectApplyBehavior id="SuperStimpackMarauderHellbat"/>
+    <CEffectSet id="SuperStimpackMarauderHellbatSet"/>
+    <CAbilAttackModifier default="1"/>
+    <CAbilEffectInstant id="SalvageBunkerRefund"/>
+    <CAbilBehavior id="WraithCloak">
+        <CmdButtonArray index="On" DefaultButtonFace="CloakField"/>
+    </CAbilBehavior>
+    <CAbilBuildable id="BuildInProgress">
+        <CmdButtonArray index="Halt" DefaultButtonFace="Halt"/>
+        <MaxBuilders value="2"/>
+        <PowerBuildBonusRate value="1"/>
+    </CAbilBuildable>
+    <CAbilEffectTarget id="D8Charge"/>
+    <CAbilEffectTarget id="NovaEradicatorLaunchMissile"/>
+    <CAbilEffectTarget id="VultureSpiderMines"/>
+    <CAbilEffectInstant id="ImmortalOverload"/>
+    <CAbilEffectInstant id="ImmortalBarrierBase"/>
+    <CValidatorUnitCompareField id="IsFlying"/>
+    <CValidatorUnitCompareField id="IsNotFlying"/>
+    <CButton id="CancelBuilding">
+        <HotkeyAlias value="CancelBuilding"/>
+    </CButton>
+    <CButton id="SpiderMineReplenish"/>
+    <CButton id="BlackButton"/>
+    <CButton id="ImmortalBarrierBase"/>
+    <CButton id="TornadoMissile"/>
+    <CButton id="BanelingHunterPassive"/>
+    <CButton id="BanelingSplitterlingPassive"/>
+    <CButton id="MoveHoldPosition"/>
+    <CButton id="MovePatrol"/>
+    <CCamera id="Dflt">
+        <ParamInitial index="FieldOfView" value="41.200001"/>
+        <ParamInitial index="Distance" value="30.000000"/>
+        <ParamInitial index="Pitch" value="60.000000"/>
+        <ZoomTable index="0">
+            <Param index="Distance" Value="40.000000"/>
+            <Param index="Pitch" Modify="0" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable index="1">
+            <Param index="Distance" Value="38.000000"/>
+            <Param index="Pitch" Modify="0" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable index="2">
+            <Param index="Distance" Value="36.000000"/>
+            <Param index="Pitch" Modify="0" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable index="3">
+            <Param index="Distance" Value="34.000000"/>
+            <Param index="Pitch" Modify="0" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable index="4">
+            <Param index="Distance" Value="32.000000"/>
+            <Param index="Pitch" Modify="0" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="30.000000"/>
+            <Param index="Pitch" Value="60.000000"/>
+            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="28.000000"/>
+            <Param index="Pitch" Value="58.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="25.000000"/>
+            <Param index="Pitch" Value="56.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="21.000000"/>
+            <Param index="Pitch" Value="54.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="16.000000"/>
+            <Param index="Pitch" Value="48.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Value="4.000000"/>
+            <Param index="HeightOffset" Value="0.875000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Value="3.000000"/>
+            <Param index="HeightOffset" Value="0.750000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Value="2.000000"/>
+            <Param index="HeightOffset" Value="0.625000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Value="2.000000"/>
+            <Param index="HeightOffset" Value="0.500000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="26.000000"/>
+            <Param index="Pitch" Modify="1" Value="48.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="22.000000"/>
+            <Param index="Pitch" Modify="1" Value="44.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FarClip" Modify="1" Value="500.000000"/>
+            <Param index="Distance" Modify="1" Value="18.000000"/>
+            <Param index="Pitch" Modify="1" Value="40.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FarClip" Modify="1" Value="300.000000"/>
+            <Param index="Distance" Modify="1" Value="12.000000"/>
+            <Param index="Pitch" Modify="1" Value="36.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FarClip" Modify="1" Value="200.000000"/>
+            <Param index="Distance" Modify="1" Value="6.000000"/>
+            <Param index="Pitch" Modify="1" Value="30.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FarClip" Modify="1" Value="100.000000"/>
+            <Param index="Distance" Modify="1" Value="6.000000"/>
+            <Param index="Pitch" Modify="1" Value="15.000000"/>
+            <Param index="HeightOffset" Modify="1"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FieldOfView" Value="120.000000"/>
+            <Param index="FarClip" Modify="1" Value="100.000000"/>
+            <Param index="Distance" Modify="1"/>
+            <Param index="Pitch" Modify="1"/>
+            <Param index="HeightOffset" Modify="1" Value="2.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FieldOfView" Value="120.000000"/>
+            <Param index="FarClip" Modify="1" Value="100.000000"/>
+            <Param index="Distance" Modify="1"/>
+            <Param index="Pitch" Modify="1"/>
+            <Param index="HeightOffset" Modify="1" Value="0.400000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="FieldOfView" Value="120.000000"/>
+            <Param index="FarClip" Modify="1" Value="100.000000"/>
+            <Param index="Distance" Modify="1"/>
+            <Param index="Pitch" Modify="1" Value="350.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="0.400000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="15.000000"/>
+            <Param index="Pitch" Modify="1" Value="44.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="13.000000"/>
+            <Param index="Pitch" Modify="1" Value="40.000000"/>
+        </ZoomTable>
+        <ZoomTable>
+            <Param index="Distance" Modify="1" Value="13.000000"/>
+            <Param index="Pitch" Modify="1" Value="36.000000"/>
+        </ZoomTable>
+        <ZoomDefault value="3"/>
+        <PitchIncrement value="2.000000"/>
+    </CCamera>
+    <!--                                                                                         -->
+    <!-- DestructibleGateStraightVerticalLF .................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="DestructibleGateStraightVerticalLF">
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="DestructibleUmojanLabPowerCell">
+        <On Terms="UnitDeath" Send="Destroy"/>
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+    </CActorUnit>
+    <CActorUnit id="InfestedDominionHousing2">
+        <ModelFlags index="IgnoreWalkables" value="1"/>
+    </CActorUnit>
+    <CActorUnit id="HoverSiegeModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020AP_LeopardV" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020AP_LeopardV" Send="AnimPlay Start Morph,Start"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020AP_LeopardV" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020_LeopardV" Send="Destroy"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="HoverTankModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020_LeopardV" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020_LeopardV" Send="AnimPlay End Morph,End"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020_LeopardV" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020AP_LeopardV" Send="Destroy"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!-- Extra entries here are useful for debug output. -->
+    <CActorModel id="GenericAttackLaunchModel"/>
+    <CActorUnit id="NovaGunTurretCloakField">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorMissile id="Goliath">
+        <EditorCategories value="DoodadType:NotDoodad"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorMissile>
+    <CActorUnit id="Factory">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Cyclone">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorTurret id="GunTurretTurret">
+        <On Terms="AbilMorph.*.Start; MorphTo GunTurretUnderground2" Send="Destroy"/>
+    </CActorTurret>
+    <!--                                                                                         -->
+    <!-- Nova .................................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Nova">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Marauder (Dominion Kill Team) ......................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="DominionKillTeam">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Firebat">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="HERC">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="HammerSecurity">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Hellion">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="HellionTank">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="HellionVulturePath">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Liberator">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Marauder">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="Marine">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Marine Warfield....................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="MarineWarfield">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="MengskFirebat">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Odin .................................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Odin">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Predator .............................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Predator">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Raynor ................................................................................ -->
+    <!--                                                                                         -->
+    <CActorUnit id="Raynor">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Raynor For TRaynor01 .................................................................. -->
+    <!--                                                                                         -->
+    <CActorUnit id="Raynor01">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorMissile id="Reaper">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorMissile>
+    <CActorSiteOpRotationExplicit id="SOpPointDown1ByDot5"/>
+    <CActorUnit id="Separatist">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="SiegeBreakerSiegeModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10018AP_WolfR" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10018AP_WolfR" Send="AnimPlay Start Morph,Start"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10018AP_WolfR" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10018_WolfR" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T25AP_SiegeBreaker" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T25AP_SiegeBreaker" Send="AnimPlay Start Morph,Start"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25AP_SiegeBreaker" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25_SiegeBreaker" Send="Destroy"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="SiegeBreakerTankModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10018_WolfR" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_V10018_WolfR" Send="AnimPlay End Morph,End"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10018_WolfR" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10018AP_WolfR" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T25_SiegeBreaker" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T25_SiegeBreaker" Send="AnimPlay End Morph,End"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25_SiegeBreaker" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25AP_SiegeBreaker" Send="Destroy"/>
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorMissile id="SiegeModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T04AP_SiegeTank" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T04AP_SiegeTank" Send="AnimPlay Start Morph,Start"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T04AP_SiegeTank" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T04_SiegeTank" Send="Destroy"/>
+    </CActorMissile>
+    <CActorMissile id="SiegeTank">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H40"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorMissile>
+    <CActorMissile id="TankModeMorphModel">
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T04_SiegeTank" Send="Create"/>
+        <On Terms="AbilMorph.*.Start; MorphTo CCData_T04_SiegeTank" Send="AnimPlay End Morph,End"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T04_SiegeTank" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T04AP_SiegeTank" Send="Destroy"/>
+    </CActorMissile>
+    <!--                                                                                         -->
+    <!-- TaurenSpaceMarine ..................................................................... -->
+    <!--                                                                                         -->
+    <CActorUnit id="TaurenSpaceMarine">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorStateMonitor id="TerranFlamesMediumBuilding">
+        <On Terms="UnitCreation.CCData_SupplyDepot" Send="Create"/>
+        <On Terms="UnitCreation.CCData_SupplyDepotLowered" Send="Create"/>
+        <On Terms="UnitCreation.CCData_FKWall" Send="Create"/>
+        <On Terms="UnitCreation.CCData_FKWallDown" Send="Create"/>
+        <On Terms="UnitCreation.CCData_FKBaffleWallDown" Send="Create"/>
+    </CActorStateMonitor>
+    <CActorUnit id="Thor">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!-- Tychus with a big ass chaingun ........................................................ -->
+    <!--                                                                                         -->
+    <CActorUnit id="TychusChaingun">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="VikingAssault">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorSimple id="VoidDetectorRadarSetupEnemyDetector"/>
+    <CActorUnit id="Vulture">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <CActorUnit id="WarHound">
+        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <StatusBarFlags index="Shields" value="0"/>
+        <StatusBarFlags index="Life" value="0"/>
+        <StatusBarFlags index="Energy" value="0"/>
+        <StatusBarFlags index="Cargo" value="0"/>
+        <StatusBarFlags index="Progress" value="0"/>
+        <StatusBarFlags index="Duration" value="0"/>
+        <StatusBarFlags index="Magazine" value="0"/>
+        <StatusBarFlags index="Workers" value="0"/>
+    </CActorUnit>
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <!-- Terrain Flattening ==================================================================== -->
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <CActorTerrainDeformer id="BuildingTerrainFlatten"/>
+    <CActorTerrainDeformer id="BuildingTerrainFlattenEditor"/>
+    <CActorTerrainDeformer id="BuildingTerrainFlattenInstant"/>
+    <CActorStateMonitor id="TerranFlamesSmallBuilding">
+        <On Terms="UnitCreation.CCData_HB_PerditionTurret" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_AutoTurret" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_FangZhenJiPao" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_WhistleRingRobot" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_GasFortDown" Send="Create"/>
+        <On Terms="UnitCreation.CCData_HB_GasFort" Send="Create"/>
+    </CActorStateMonitor>
+    <CActorSelection id="FlyerHelperSplat"/>
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <!-- Shadows =============================================================================== -->
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <CActorShadow id="FlyerShadow"/>
+    <CActorSelection id="GroundPreSelection"/>
+    <CActorShadow id="GroundShadow"/>
+    <CActorModel id="ModelPretargetGround"/>
+    <CActorSound id="SoundEmitter"/>
+    <CRewardModel default="1" id="ArchonSkinBase"/>
+    <CRewardIcon default="1" id="CollectionSkinLicenseBase"/>
+    <CRewardModel default="1" id="DisruptorSkinBase"/>
+    <CRewardModel default="1" id="OracleSkinBase"/>
+    <CRewardModel default="1" id="TempestSkinBase"/>
+    <CRewardModel default="1" id="WarpPrismSkinBase"/>
+    <CRewardIcon id="FeatOfStrength_BlizzConline_2021"/>
+    <CRewardIcon id="FeatOfStrength_BlizzConline_20212"/>
+    <CRewardIcon id="FeatOfStrength_IEM_2022"/>
+    <CRewardPortrait id="Portrait_2022_IEM_Champion"/>
+    <CWater id="Korhal">
+        <State index="0">
+            <Height value="7.150000"/>
+            <Color value="0.109804,0.227451,0.254902,0.752000"/>
+            <ColorFallOff value="0.299000"/>
+            <UvRate value="0.143000,0.000000,0.000000,0.000000"/>
+            <MeshRoughness value="0.816000"/>
+            <TextureRoughness value="0.523000"/>
+            <RefractionDistortion value="0.020000"/>
+        </State>
+    </CWater>
+    <CWater id="ZhakulDas">
+        <State index="0">
+            <Height value="7.990000"/>
+            <Color value="0.000000,0.000000,0.000000,1.000000"/>
+            <CausticsFallOff value="1.560000"/>
+            <Specularity value="37.500000"/>
+            <MeshRoughness value="0.000000"/>
+            <RefractionDistortion value="0.001600"/>
+            <ReflectivityPower value="8.030000"/>
+        </State>
+    </CWater>
+    <CTerrain id="KorhalCity">
+        <Lighting value="OS_CustomLight"/>
+    </CTerrain>
+    <CModel id="Bus">
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="ColossusPortrait"/>
+    <CModel id="ImmortalPortrait"/>
+    <CModel id="MarineXPR"/>
+    <CModel id="NanaKey_BG_TankmodeWalls">
+        <TextureDeclares Prefix="NanaKey_BG_">
+            <Adaptions TriggerOnSubstring="_TankmodeWalls.dds" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="RavenPortrait"/>
+    <CModel id="GoliathPortrait"/>
+    <CModel id="ImmortalTaldarimWeaponAttackLaunchModel"/>
+    <CModel id="ActorForceField"/>
+    <CModel id="BarrageModel"/>
+    <CModel id="DiamondbackPortrait"/>
+    <CModel id="ThorPortrait"/>
+    <CModel id="Spectre"/>
+    <CModel id="RegenerativeBioSteelGlaze"/>
+    <CModel id="TitanMechMissileAttackMissile"/>
+    <CModel id="UltraliskPortrait"/>
+    <CGame id="Dflt">
+        <DifficultyLevels index="8" Enabled="0">
+            <Flags index="TrialAllowed" value="0"/>
+        </DifficultyLevels>
+        <DifficultyLevels index="9" Enabled="0">
+            <Flags index="TrialAllowed" value="0"/>
+        </DifficultyLevels>
+        <DifficultyLevels index="10" Enabled="0">
+            <Flags index="TrialAllowed" value="0"/>
+        </DifficultyLevels>
+        <UnpathableMargin value="0,0,0,0"/>
+        <CameraMargin value="0,0,0,0"/>
+        <JoinInProgress value="1"/>
+        <!-- Test Builds -->
+        <!-- <AIBuilds index="213" Enabled="0"/>
+             <AIBuilds index="214" Enabled="0"/>
+             <AIBuilds index="215" Enabled="1"/> -->
+    </CGame>
+    <CWeaponLegacy id="MengskReaperD8Charge"/>
+    <CWeaponLegacy id="MercReaperD8Charge"/>
+    <CWeaponLegacy id="GoliathAUpgraded"/>
+    <CWeaponLegacy id="GoliathGUpgraded"/>
+    <CWeaponLegacy id="LanzerTorpedoes"/>
+    <CWeaponLegacy id="MengskGoliathA"/>
+    <CWeaponLegacy id="MengskGoliathAUpgraded"/>
+    <CWeaponLegacy id="MengskGoliathG"/>
+    <CWeaponLegacy id="MengskGoliathGUpgraded"/>
+    <CWeaponLegacy id="MengskVikingAssault"/>
+    <CWeaponLegacy id="MengskVikingFighter"/>
+    <CWeaponLegacy id="NovaEradicatorFlamethrower">
+        <EditorCategories value="Race:Terran"/>
+        <DisplayEffect value="NovaEradicatorFlamethrowerDummy"/>
+        <Effect value="NovaEradicatorFlamethrowerDamage"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="RotatingTurretAuto"/>
+    <CWeaponStrafe id="SJFighter1"/>
+    <CWeaponStrafe id="SJViking"/>
+    <CWeaponLegacy id="SpartanCompanyAUpgraded"/>
+    <CWeaponLegacy id="SpartanCompanyGUpgraded"/>
+    <CWeaponLegacy id="TwinGatlingCannon"/>
+    <CWeaponLegacy id="GhostVultureAnimationController"/>
+    <CWeaponLegacy id="NovaVultureAnimationController"/>
+    <CWeaponLegacy id="WreckingCrewAssault"/>
+    <CWeaponLegacy id="WreckingCrewFighter"/>
+    <CGameUI id="Dflt">
+        <ResourceArray index="Custom" Icon="Assets\Textures\ui_emoticons_gminerals.dds"/>
+        <LoadingScreenHelp index="0" Text="LoadingScreen/MMHelp00"/>
+        <LoadingScreenHelp index="1" Text="LoadingScreen/MMHelp01"/>
+        <LoadingScreenHelp index="2" Text="LoadingScreen/MMHelp02"/>
+        <LoadingScreenHelp index="3" Text="LoadingScreen/MMHelp03"/>
+        <LoadingScreenHelp index="4" Text="LoadingScreen/MMHelp04"/>
+        <LoadingScreenHelp index="5" Text="LoadingScreen/MMHelp05"/>
+        <LoadingScreenHelp index="6" Text="LoadingScreen/MMHelp06"/>
+        <LoadingScreenHelp index="7" Text="LoadingScreen/MMHelp07"/>
+        <LoadingScreenHelp index="8" Text="LoadingScreen/MMHelp08"/>
+        <LoadingScreenHelp index="9" Text="LoadingScreen/MMHelp10"/>
+        <LoadingScreenHelp index="10" Text="LoadingScreen/MMHelp11"/>
+        <LoadingScreenHelp index="11" Text="LoadingScreen/MMHelp12"/>
+        <LoadingScreenHelp index="12" Text="LoadingScreen/MMHelp13"/>
+        <LoadingScreenHelp index="13" Text="LoadingScreen/MMHelp14"/>
+        <LoadingScreenHelp index="14" Text="LoadingScreen/MMHelp15"/>
+        <LoadingScreenHelp index="15" Text="LoadingScreen/MMHelp16"/>
+        <LoadingScreenHelp index="16" Text="LoadingScreen/MMHelp17"/>
+        <LoadingScreenHelp index="17" Text="LoadingScreen/MMHelp18"/>
+        <LoadingScreenHelp index="18" Text="LoadingScreen/MMHelp19"/>
+        <LoadingScreenHelp index="19" Text="LoadingScreen/MMHelp20"/>
+        <LoadingScreenHelp index="20" Text="LoadingScreen/MMHelp21"/>
+        <LoadingScreenHelp index="21" Text="LoadingScreen/MMHelp22" Race=""/>
+        <LoadingScreenHelp index="22" Text="LoadingScreen/MMHelp23" Race=""/>
+        <LoadingScreenHelp index="23" Text="LoadingScreen/MMHelp24" Race=""/>
+        <LoadingScreenHelp index="24" Text="LoadingScreen/MMHelp25" Race=""/>
+        <LoadingScreenHelp index="25" Text="LoadingScreen/MMHelp26" Race=""/>
+        <LoadingScreenHelp index="26" Text="LoadingScreen/MMHelp28" Race=""/>
+        <LoadingScreenHelp index="27" Text="LoadingScreen/MMHelp29" Race=""/>
+        <LoadingScreenHelp index="28" Text="LoadingScreen/MMHelp30" Race=""/>
+        <LoadingScreenHelp index="29" Text="LoadingScreen/MMHelp32" Race=""/>
+        <LoadingScreenHelp index="30" Text="LoadingScreen/MMHelp33" Race=""/>
+        <LoadingScreenHelp index="31" Text="LoadingScreen/MMHelp34" Race=""/>
+        <LoadingScreenHelp index="32" Text="LoadingScreen/MMHelp35" Race=""/>
+        <LoadingScreenHelp index="33" Text="LoadingScreen/MMHelp36" Race=""/>
+        <LoadingScreenHelp index="34" Text="LoadingScreen/MMHelp37" Race=""/>
+        <LoadingScreenHelp index="35" Text="LoadingScreen/MMHelp38" Race=""/>
+        <LoadingScreenHelp index="36" Text="LoadingScreen/MMHelp39" Race=""/>
+        <LoadingScreenHelp index="37" Text="LoadingScreen/MMHelp40" Race=""/>
+        <LoadingScreenHelp index="38" Text="LoadingScreen/MMHelp41" Race=""/>
+        <LoadingScreenHelp index="39" Text="LoadingScreen/MMHelp42" Race=""/>
+        <LoadingScreenHelp index="40" Text="LoadingScreen/MMHelp43" Race=""/>
+        <LoadingScreenHelp index="41" removed="1"/>
+        <LoadingScreenHelp index="42" removed="1"/>
+        <LoadingScreenHelp index="43" removed="1"/>
+        <LoadingScreenHelp index="44" removed="1"/>
+        <LoadingScreenHelp index="45" removed="1"/>
+        <LoadingScreenHelp index="46" removed="1"/>
+        <LoadingScreenHelp index="47" removed="1"/>
+        <LoadingScreenHelp index="48" removed="1"/>
+        <LoadingScreenHelp index="49" removed="1"/>
+        <LoadingScreenHelp index="50" removed="1"/>
+        <LoadingScreenHelp index="51" removed="1"/>
+        <LoadingScreenHelp index="52" removed="1"/>
+        <LoadingScreenHelp index="53" removed="1"/>
+        <LoadingScreenHelp index="54" removed="1"/>
+        <LoadingScreenHelp index="55" removed="1"/>
+        <LoadingScreenHelp index="56" removed="1"/>
+        <LoadingScreenHelp index="57" removed="1"/>
+        <LoadingScreenHelp index="58" removed="1"/>
+        <LoadingScreenHelp index="59" removed="1"/>
+        <LoadingScreenHelp index="60" removed="1"/>
+        <LoadingScreenHelp index="61" removed="1"/>
+        <HelpGameMechanics index="0">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_00_Name"/>
+            <Description value="HelpGameMechanic_00_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="1">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_01_Name"/>
+            <Description value="HelpGameMechanic_01_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="2">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_02_Name"/>
+            <Description value="HelpGameMechanic_02_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="3">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_03_Name"/>
+            <Description value="HelpGameMechanic_03_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="4">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_04_Name"/>
+            <Description value="HelpGameMechanic_04_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="5">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_05_Name"/>
+            <Description value="HelpGameMechanic_05_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="6">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_06_Name"/>
+            <Description value="HelpGameMechanic_06_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="7">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_07_Name"/>
+            <Description value="HelpGameMechanic_07_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="8">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_08_Name"/>
+            <Description value="HelpGameMechanic_08_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="9">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_09_Name"/>
+            <Description value="HelpGameMechanic_09_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="10">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_10_Name"/>
+            <Description value="HelpGameMechanic_10_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="11">
+            <Icon value=""/>
+            <IconBackground value=""/>
+            <Name value="HelpGameMechanic_11_Name"/>
+            <Description value="HelpGameMechanic_11_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics index="12" Icon="UI/HelpMenuDialogGameMechanics_Minerals" Name="UI/HelpGameMechanic_Minerals_Name" Description="UI/HelpGameMechanic_Minerals_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_ReducedMineralFields" Name="UI/HelpGameMechanic_ReducedMineralFields_Name" Description="UI/HelpGameMechanic_ReducedMineralFields_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_RichMinerals" Name="UI/HelpGameMechanic_RichMinerals_Name" Description="UI/HelpGameMechanic_RichMinerals_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Vespene" Name="UI/HelpGameMechanic_VespeneGeysers_Name" Description="UI/HelpGameMechanic_VespeneGeysers_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_RichVespene" Name="UI/HelpGameMechanic_RichVespeneGeysers_Name" Description="UI/HelpGameMechanic_RichVespeneGeysers_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Bushes" Name="UI/HelpGameMechanic_LineOfSight_Name" Description="UI/HelpGameMechanic_LineOfSight_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Destructible" Name="UI/HelpGameMechanic_DestructibleRocks_Name" Description="UI/HelpGameMechanic_DestructibleRocks_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Collapsible" Name="UI/HelpGameMechanic_FallingRocks_Name" Description="UI/HelpGameMechanic_FallingRocks_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Xelnaga" Name="UI/HelpGameMechanic_XelNagaWatchTower_Name" Description="UI/HelpGameMechanic_XelNagaWatchTower_Description"/>
+        <HelpGameMechanics Icon="UI/HelpMenuDialogGameMechanics_Fog" Name="UI/HelpGameMechanic_FogOfWar_Name" Description="UI/HelpGameMechanic_FogOfWar_Description"/>
+        <HelpGameMechanics>
+            <Icon value="UI/HelpMenuDialogGameMechanics_HighGround"/>
+            <IconBackground value="UI/HelpMenuDialogGameMechanics_IconFrame"/>
+            <Name value="UI/HelpGameMechanic_HighLowGround_Name"/>
+            <Description value="UI/HelpGameMechanic_HighLowGround_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics>
+            <Icon value="UI/HelpMenuDialogGameMechanics_AccelerationZoneGenerators"/>
+            <IconBackground value="UI/HelpMenuDialogGameMechanics_IconFrame"/>
+            <Name value="UI/HelpGameMechanic_AccelerationZoneGenerators_Name"/>
+            <Description value="UI/HelpGameMechanic_AccelerationZoneGenerators_Description"/>
+        </HelpGameMechanics>
+        <HelpGameMechanics>
+            <Icon value="UI/HelpMenuDialogGameMechanics_InhibitorZoneGenerators"/>
+            <IconBackground value="UI/HelpMenuDialogGameMechanics_IconFrame"/>
+            <Name value="UI/HelpGameMechanic_InhibitorZoneGenerators_Name"/>
+            <Description value="UI/HelpGameMechanic_InhibitorZoneGenerators_Description"/>
+        </HelpGameMechanics>
+        <HelpTechTitle value="重装机兵"/>
+    </CGameUI>
+    <CSkin default="1" id="AdeptBase"/>
+    <CSkin default="1" id="BanelingBase"/>
+    <CSkin default="1" id="BansheeBase"/>
+    <CSkin default="1" id="BattlecruiserBase"/>
+    <CSkin default="1" id="DisruptorBase"/>
+    <CSkin default="1" id="DroneBase"/>
+    <CSkin default="1" id="GhostAlternateBase"/>
+    <CSkin default="1" id="HydraliskBase"/>
+    <CSkin default="1" id="InfestorBase"/>
+    <CSkin default="1" id="LiberatorBase"/>
+    <CSkin default="1" id="LurkerBase"/>
+    <CSkin default="1" id="MarauderBase"/>
+    <CSkin default="1" id="MutaliskBase"/>
+    <CSkin default="1" id="OracleBase"/>
+    <CSkin default="1" id="QueenBase"/>
+    <CSkin default="1" id="RavagerBase"/>
+    <CSkin default="1" id="RavenBase"/>
+    <CSkin default="1" id="ReaperBase"/>
+    <CSkin default="1" id="RoachBase"/>
+    <CSkin default="1" id="SCVBase">
+        <Name value="Skin/Name/SCVBase"/>
+    </CSkin>
+    <CSkin default="1" id="SiegeTankBase"/>
+    <CSkin default="1" id="UltraliskBase"/>
+    <CSkin default="1" id="VikingBase"/>
+    <CSkin default="1" id="WarpPrismBase"/>
+    <CSkin default="1" id="ZerglingBase"/>
+    <CMoverAvoid id="Ground"/>
+    <CSound id="Thor_Help"/>
+    <CConversation id="acLobby"/>
+    <CTurret id="RotatingTurretAuto">
+        <Idle value="Spin"/>
+    </CTurret>
+    <CTurret id="GunTurret"/>
+    <CUnit default="1" id="DryDockedBattlecruiser">
+        <Name value="Unit/Name/##id##"/>
+        <Description value="Button/Tooltip/##id##"/>
+        <ReviveType value="##id##"/>
+    </CUnit>
+    <CUnit id="AdeptPhaseShift">
+        <FlagArray index="Invulnerable" value="0"/>
+    </CUnit>
+    <!--CUnit id="Harbinger">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Mob value="Campaign"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <LifeStart value="5000"/>-->
+    <!--        <LifeMax value="5000"/>-->
+    <!--        <LifeArmor value="2"/>-->
+    <!--        <LifeRegenRate value="0.2734"/>-->
+    <!--        <LifeArmorName value="Unit/LifeArmorName/HybridArmor"/>-->
+    <!--        <EnergyStart value="200"/>-->
+    <!--        <EnergyMax value="200"/>-->
+    <!--        <Mover value="Dragoon"/>-->
+    <!--        <Height value="1"/>-->
+    <!--        <Speed value="1.5"/>-->
+    <!--        <Acceleration value="6.25"/>-->
+    <!--        <LateralAcceleration value="46"/>-->
+    <!--        <Sight value="9"/>-->
+    <!--        <AttackTargetPriority value="20"/>-->
+    <!--        <DamageDealtXP value="1"/>-->
+    <!--        <DamageTakenXP value="1"/>-->
+    <!--        <KillXP value="80"/>-->
+    <!--        <WeaponArray Link="HarbingerWeapon"/>-->
+    <!--        <BehaviorArray Link="HarbingerAura"/>-->
+    <!--        <AbilArray Link="stop"/>-->
+    <!--        <AbilArray Link="attack"/>-->
+    <!--        <AbilArray Link="move"/>-->
+    <!--        <AbilArray Link="DisruptionCloud"/>-->
+    <!--        <AbilArray Link="VoidHarbingerDarkConsumption"/>-->
+    <!--        <AbilArray Link="VoidHarbingerVoidEmpowerment"/>-->
+    <!--        <AbilArray Link="EnervatingBeam"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>-->
+    <!--            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>-->
+    <!--            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>-->
+    <!--            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>-->
+    <!--            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>-->
+    <!--            <LayoutButtons Face="DisruptionCloud" Type="AbilCmd" AbilCmd="DisruptionCloud,Execute" Row="2" Column="0"/>-->
+    <!--            <LayoutButtons Face="DarkConsumptionOn" Type="AbilCmd" AbilCmd="VoidHarbingerDarkConsumption,On" Row="2" Column="1"/>-->
+    <!--            <LayoutButtons Face="DarkConsumptionOff" Type="AbilCmd" AbilCmd="VoidHarbingerDarkConsumption,Off" Row="2" Column="1"/>-->
+    <!--            <LayoutButtons Face="VoidEmpowermentOff" Type="AbilCmd" AbilCmd="VoidHarbingerVoidEmpowerment,Off" Row="2" Column="2"/>-->
+    <!--            <LayoutButtons Face="VoidEmpowermentOn" Type="AbilCmd" AbilCmd="VoidHarbingerVoidEmpowerment,On" Row="2" Column="2"/>-->
+    <!--            <LayoutButtons Face="HarbingerEnervatingBeam" Type="AbilCmd" AbilCmd="EnervatingBeam,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="1.5"/>-->
+    <!--        <InnerRadius value="1"/>-->
+    <!--        <CargoSize value="4"/>-->
+    <!--        <ScoreKill value="1600"/>-->
+    <!--        <SubgroupPriority value="15"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--        <Attributes index="Psionic" value="1"/>-->
+    <!--        <Attributes index="Massive" value="1"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="HarbingerKillEverythingWeapon" parent="MISSILE">-->
+    <!--        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="HarbingerLaunchMissileWeapon" parent="MISSILE">-->
+    <!--        <Mover value="HarbingerKillEverythingWeapon"/>-->
+    <!--        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit-->
+    <CUnit id="CarrierRepairDrone">
+        <FlagArray index="Invulnerable" value="0"/>
+    </CUnit>
+    <CUnit id="DarkTemplarShuttle">
+        <FlagArray index="Invulnerable" value="0"/>
+    </CUnit>
+    <CUnit id="KaraxServitorWeaponA">
+        <FlagArray index="Invulnerable" value="0"/>
+    </CUnit>
+    <CUnit id="KaraxServitorWeaponB"/>
+    <CUnit id="PrisonZealot">
+        <Name value="Unit/Name/ZealotPrisoner"/>
+    </CUnit>
+    <CUnit id="Spectre">
+        <CardLayouts index="0">
+            <LayoutButtons index="10" AbilCmd="255,255"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="AutomatedRefinery">
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="CancelBuilding"/>
+            <LayoutButtons index="1" AbilCmd="255,255"/>
+            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Bunker">
+        <CardLayouts index="0">
+            <LayoutButtons index="7" Face="Halt" AbilCmd="BuildInProgress,Halt"/>
+            <LayoutButtons index="8" Face="Salvage" AbilCmd="SalvageShared,On"/>
+            <LayoutButtons index="10" Face="SelectBuilder" Type="SelectBuilder" AbilCmd="" Row="1" Column="3"/>
+            <LayoutButtons index="11" Face="StopBunker" Type="AbilCmd" AbilCmd="BunkerStop,Stop" Row="0" Column="1"/>
+            <LayoutButtons index="12">
+                <Face value="ShrikeTurret"/>
+                <Type value="Passive"/>
+                <AbilCmd value=""/>
+                <Requirements value="ShrikeTurretResearched"/>
+                <Row value="1"/>
+                <Column value="2"/>
+            </LayoutButtons>
+            <LayoutButtons index="13">
+                <Face value="Attack"/>
+                <Type value="AbilCmd"/>
+                <AbilCmd value="BunkerAttack,Execute"/>
+                <Requirements value=""/>
+                <Row value="0"/>
+                <Column value="4"/>
+            </LayoutButtons>
+            <LayoutButtons index="14" Face="SuperStimMarineRedirect" AbilCmd="SuperStimpackMarineRedirect,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="15" Face="SuperStimMarauderRedirect" AbilCmd="SuperStimpackMarauderRedirect,Execute"/>
+            <LayoutButtons index="16" Face="SuperStimReaperRedirect" AbilCmd="SuperStimpackReaperRedirect,Execute"/>
+            <LayoutButtons index="17" Face="SpiderMine" AbilCmd="ReaperSpiderMinesRedirect,Execute" Row="1"/>
+            <LayoutButtons index="18" removed="1"/>
+        </CardLayouts>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="HiveMindEmulator">
+        <CardLayouts index="0">
+            <LayoutButtons index="0" Face="CancelBuilding"/>
+            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+        </CardLayouts>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="RailGunTurret">
+        <CardLayouts index="0">
+            <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildInProgress,Halt" Row="2" Column="3"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+            <LayoutButtons Face="SelectBuilder" Type="SelectBuilder" Row="1" Column="3"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="BroodLordEgg"/>
+    <CUnit id="TechTreeCarrier">
+        <Name value="Unit/Name/TechTreeCarrier"/>
+        <Description value="Button/Tooltip/TechTreeCarrier"/>
+        <HotkeyAlias value="TechTreeCarrier"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechTreeColossus">
+        <Name value="Unit/Name/TechTreeColossus"/>
+        <Description value="Button/Tooltip/TechTreeColossus"/>
+        <HotkeyAlias value="TechTreeColossus"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechTreeDarkTemplar">
+        <Name value="Unit/Name/TechTreeDarkTemplar"/>
+        <Description value="Button/Tooltip/TechTreeDarkTemplar"/>
+        <HotkeyAlias value="TechTreeDarkTemplar"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechTreeHighTemplar">
+        <Name value="Unit/Name/TechTreeHighTemplar"/>
+        <Description value="Button/Tooltip/TechTreeHighTemplar"/>
+        <HotkeyAlias value="TechTreeHighTemplar"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechTreeImmortal">
+        <Name value="Unit/Name/TechTreeImmortal"/>
+        <Description value="Button/Tooltip/TechTreeImmortal"/>
+        <HotkeyAlias value="TechTreeImmortal"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TechTreePhoenix">
+        <Name value="Unit/Name/TechTreePhoenix"/>
+        <Description value="Button/Tooltip/TechTreePhoenix"/>
+        <HotkeyAlias value="TechTreePhoenix"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="TestHero"/>
+    <CUnit id="HammerSecurityLMWeapon">
+        <HotkeyAlias value="HammerSecurityLMWeapon"/>
+    </CUnit>
+    <CUnit id="RaynorLab">
+        <Race value="Terr"/>
+        <HotkeyAlias value="RaynorLab"/>
+    </CUnit>
+    <CUnit id="RotatingTurretAuto">
+        <HotkeyAlias value="RotatingTurretAuto"/>
+    </CUnit>
+    <CUnit id="SJHyperion">
+        <Race value="Terr"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="UrsadakFemaleExotic">
+        <LifeArmorName value="Unit/LifeArmorName/UrsadakFemaleExoticGroundArmor"/>
+        <HotkeyAlias value="UrsadakFemaleExotic"/>
+    </CUnit>
+    <CUnit id="VoidSeeker">
+        <FlagArray index="Invulnerable" value="0"/>
+    </CUnit>
+    <CUnit id="VultureWeapon">
+        <HotkeyAlias value="VultureWeapon"/>
+    </CUnit>
+    <CUnit id="LocustMPPrecursor"/>
+    <CUnit id="AmonHostDeathBeamUnit"/>
+    <CUnit id="AntiGravitonBurstPlaceholder"/>
+    <CUnit id="AutoTestAttacker">
+        <DeathRevealRadius value="2"/>
+        <Mob value="None"/>
+        <FlagArray index="Invulnerable" value="0"/>
+        <EditorFlags index="NoPalettes" value="0"/>
+        <PlaneArray index="Ground" value="0"/>
+        <Collide index="Ground" value="0"/>
+        <Collide index="ForceField" value="0"/>
+        <Collide index="Small" value="0"/>
+        <Attributes index="Light" value="0"/>
+        <Attributes index="Biological" value="0"/>
+        <LifeStart value="1"/>
+        <LifeMax value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/None"/>
+        <Speed value="0"/>
+        <Acceleration value="0"/>
+        <LateralAcceleration value="0"/>
+        <StationaryTurningRate value="720"/>
+        <TurningRate value="720"/>
+        <Sight value="0"/>
+        <Food value="0"/>
+        <CostResource index="Minerals" value="0"/>
+        <RepairTime value="0"/>
+        <AttackTargetPriority value="0"/>
+        <KillXP value="0"/>
+        <AbilArray index="0" removed="1"/>
+        <AbilArray index="1" removed="1"/>
+        <AbilArray index="2" removed="1"/>
+        <BehaviorArray index="0" removed="1"/>
+        <WeaponArray index="0" removed="1"/>
+        <CardLayouts index="0" removed="1"/>
+        <Radius value="0.5"/>
+        <SeparationRadius value="0.5"/>
+        <CargoSize value="0"/>
+        <ScoreMake value="0"/>
+        <ScoreKill value="0"/>
+        <ScoreResult value=""/>
+        <SubgroupPriority value="0"/>
+        <MinimapRadius value="0.5"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="0"/>
+            <ChanceArray index="Idle" value="100"/>
+            <ChanceArray index="Turn" value="0"/>
+        </Fidget>
+    </CUnit>
+    <CUnit id="BanelingEggNest"/>
+    <!--CUnit id="CarrierHyperjumping">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <Mob value="Multiplayer"/>-->
+    <!--        <FlagArray index="Uncommandable" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="PreventDestroy" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="AIFleeDamageDisabled" value="1"/>-->
+    <!--        <PlaneArray index="Air" value="1"/>-->
+    <!--        <Collide index="Flying" value="1"/>-->
+    <!--        <Attributes index="Armored" value="1"/>-->
+    <!--        <Attributes index="Mechanical" value="1"/>-->
+    <!--        <Attributes index="Massive" value="1"/>-->
+    <!--        <LifeStart value="300"/>-->
+    <!--        <LifeMax value="300"/>-->
+    <!--        <LifeArmor value="2"/>-->
+    <!--        <LifeArmorName value="Unit/LifeArmorName/ProtossPlating"/>-->
+    <!--        <ShieldsStart value="150"/>-->
+    <!--        <ShieldsMax value="150"/>-->
+    <!--        <ShieldRegenDelay value="10"/>-->
+    <!--        <ShieldRegenRate value="2"/>-->
+    <!--        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>-->
+    <!--        <Mover value="Fly"/>-->
+    <!--        <Speed value="1.875"/>-->
+    <!--        <Acceleration value="1.0625"/>-->
+    <!--        <LateralAcceleration value="46.0625"/>-->
+    <!--        <Sight value="12"/>-->
+    <!--        <Height value="3.75"/>-->
+    <!--        <VisionHeight value="4"/>-->
+    <!--        <Food value="-6"/>-->
+    <!--        <RepairTime value="120"/>-->
+    <!--        <AttackTargetPriority value="20"/>-->
+    <!--        <DamageDealtXP value="1"/>-->
+    <!--        <DamageTakenXP value="1"/>-->
+    <!--        <KillXP value="120"/>-->
+    <!--        <AbilArray Link="stop"/>-->
+    <!--        <AbilArray Link="attack"/>-->
+    <!--        <AbilArray Link="move"/>-->
+    <!--        <BehaviorArray Link="CarrierHyperjumpRemovePrecursorUnit"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>-->
+    <!--            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>-->
+    <!--            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>-->
+    <!--            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>-->
+    <!--            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>-->
+    <!--            <LayoutButtons Face="Interceptor" Type="AbilCmd" AbilCmd="CarrierHangar,Ammo1" Row="2" Column="0"/>-->
+    <!--            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="HangarQueue5,CancelLast" Row="2" Column="4"/>-->
+    <!--            <LayoutButtons Face="GravitonCatapult" Type="Passive" Requirements="UseGravitonCatapult" Row="2" Column="1"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="1.25"/>-->
+    <!--        <SeparationRadius value="1.25"/>-->
+    <!--        <ScoreMake value="600"/>-->
+    <!--        <ScoreKill value="600"/>-->
+    <!--        <ScoreResult value="BuildOrder"/>-->
+    <!--        <SubgroupPriority value="11"/>-->
+    <!--        <MinimapRadius value="1.25"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--        <Mass value="0.6"/>-->
+    <!--    </CUnit-->
+    <CUnit id="BeamCaster"/>
+    <!-- Placeholder unit for ShadowFury placement on opposite sides of targets -->
+    <CUnit id="DarkTemplarShadowFuryLaunchPlaceholder"/>
+    <CUnit id="DestructibleStoreFrontCityProps">
+        <HotkeyAlias value="DestructibleStoreFrontCityProps"/>
+    </CUnit>
+    <CUnit id="HybridReleaseFallbackUnit"/>
+    <CUnit id="KerriganEpilogue03StrikeAmonTarget"/>
+    <CUnit id="NydusWormLavaDeath"/>
+    <CUnit id="PickupEngineCharge"/>
+    <CUnit id="PickupFullSupplyVulturePath"/>
+    <CUnit id="PickupManaRecharge"/>
+    <!--CUnit id="SOAStrafeAttackTargeter">-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FlagArray index="Unstoppable" value="1"/>-->
+    <!--        <PlaneArray index="Air" value="1"/>-->
+    <!--        <Mover value="Fly"/>-->
+    <!--        <AbilArray Link="SOAStrafeAttackExecute"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="SOAStrafeAttackUnit" Type="AbilCmd" AbilCmd="SOAStrafeAttackExecute,Execute" Row="0" Column="0"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit-->
+    <!--CUnit id="SOAStrafeAttackUnit">-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="Uncommandable" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FlagArray index="Unstoppable" value="1"/>-->
+    <!--        <PlaneArray index="Air" value="1"/>-->
+    <!--        <Mover value="Fly"/>-->
+    <!--        <Acceleration value="1000"/>-->
+    <!--        <Sight value="15"/>-->
+    <!--        <AbilArray Link="move"/>-->
+    <!--        <BehaviorArray Link="SuppressCloak"/>-->
+    <!--        <BehaviorArray Link="SOAStrafeAttack"/>-->
+    <!--        <BehaviorArray Link="SOAStrafeAttackRadar"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit-->
+    <!--CUnit id="VoidImmortalReviveCorpse">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <Mob value="Multiplayer"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="AISplash" value="1"/>-->
+    <!--        <FlagArray index="ArmySelect" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Ground" value="1"/>-->
+    <!--        <Collide index="Small" value="1"/>-->
+    <!--        <Collide index="ForceField" value="1"/>-->
+    <!--        <Attributes index="Armored" value="1"/>-->
+    <!--        <Attributes index="Mechanical" value="1"/>-->
+    <!--        <LifeStart value="200"/>-->
+    <!--        <LifeMax value="200"/>-->
+    <!--        <LifeArmor value="1"/>-->
+    <!--        <ShieldRegenDelay value="10"/>-->
+    <!--        <Speed value="2.25"/>-->
+    <!--        <Acceleration value="1000"/>-->
+    <!--        <Sight value="9"/>-->
+    <!--        <Food value="-4"/>-->
+    <!--        <CostCategory value="Army"/>-->
+    <!--        <CostResource index="Minerals" value="250"/>-->
+    <!--        <CostResource index="Vespene" value="100"/>-->
+    <!--        <RepairTime value="55"/>-->
+    <!--        <AttackTargetPriority value="20"/>-->
+    <!--        <DamageDealtXP value="1"/>-->
+    <!--        <DamageTakenXP value="1"/>-->
+    <!--        <KillXP value="35"/>-->
+    <!--        <AbilArray Link="VoidImmortalReviveRebuild"/>-->
+    <!--        <AbilArray Link="que1"/>-->
+    <!--        <AbilArray Link="Rally"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,Rally1" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <CardLayouts CardId="0002">-->
+    <!--            <LayoutButtons Face="VoidImmortalRevive" Type="AbilCmd" AbilCmd="VoidImmortalReviveRebuild,Execute" Row="2" Column="0"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="0.75"/>-->
+    <!--        <SeparationRadius value="0.625"/>-->
+    <!--        <InnerRadius value="0.5"/>-->
+    <!--        <CargoSize value="4"/>-->
+    <!--        <ScoreMake value="350"/>-->
+    <!--        <ScoreKill value="350"/>-->
+    <!--        <ScoreResult value="BuildOrder"/>-->
+    <!--        <SubgroupPriority value="2"/>-->
+    <!--        <MinimapRadius value="0.625"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--        <GlossaryPriority value="120"/>-->
+    <!--        <Fidget>-->
+    <!--            <ChanceArray index="Anim" value="5"/>-->
+    <!--            <ChanceArray index="Idle" value="90"/>-->
+    <!--        </Fidget>-->
+    <!--        <TauntDuration index="Dance" value="5"/>-->
+    <!--    </CUnit-->
+    <CUnit id="Purifier03VespeneTank">
+        <HotkeyAlias value="Purifier03VespeneTank"/>
+    </CUnit>
+    <CUnit id="SMMarSaraBarProps"/>
+    <CUnit id="SMRaynorGun"/>
+    <CUnit id="SMTerran11PropsRifleShells"/>
+    <CUnit id="ScopeTest"/>
+    <CUnit id="XelNagaConstructChaseBeamUnit"/>
+    <!-- Zealot, whirlwind -->
+    <CUnit id="ZealotAiur"/>
+    <CUnit id="ZergEggNest"/>
+    <CUnit id="ZergEggNestSmall"/>
+    <CUnit id="SnowGlazeStarterMP"/>
+    <CUnit id="FenixChampionPlaceholder">
+        <HotkeyAlias value="FenixChampionPlaceholder"/>
+    </CUnit>
+    <CUnit id="AdjutantCapsule">
+        <EditorCategories value="ObjectType:Unit"/>
+    </CUnit>
+    <!--CUnit id="TheBridgeAlpha01">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="315"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <Mob value="Multiplayer"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="PreventReveal" value="1"/>-->
+    <!--        <FlagArray index="PreventDefeat" value="1"/>-->
+    <!--        <FlagArray index="PreventDestroy" value="1"/>-->
+    <!--        <FlagArray index="TownAlert" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FlagArray index="TownCamera" value="1"/>-->
+    <!--        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>-->
+    <!--        <ResourceDropOff index="Minerals" value="1"/>-->
+    <!--        <ResourceDropOff index="Vespene" value="1"/>-->
+    <!--        <ResourceDropOff index="Terrazine" value="1"/>-->
+    <!--        <ResourceDropOff index="Custom" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Burrow" value="1"/>-->
+    <!--        <Collide index="Ground" value="1"/>-->
+    <!--        <Collide index="Small" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Collide index="ForceField" value="1"/>-->
+    <!--        <Attributes index="Armored" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="500"/>-->
+    <!--        <LifeMax value="500"/>-->
+    <!--        <LifeArmor value="1"/>-->
+    <!--        <LifeArmorName value="Unit/LifeArmorName/ProtossBuildingPlating"/>-->
+    <!--        <ShieldsStart value="500"/>-->
+    <!--        <ShieldsMax value="500"/>-->
+    <!--        <ShieldRegenDelay value="10"/>-->
+    <!--        <ShieldRegenRate value="2"/>-->
+    <!--        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>-->
+    <!--        <StationaryTurningRate value="719.4726"/>-->
+    <!--        <TurningRate value="719.4726"/>-->
+    <!--        <Sight value="11"/>-->
+    <!--        <VisionHeight value="4"/>-->
+    <!--        <Food value="10"/>-->
+    <!--        <CostCategory value="Economy"/>-->
+    <!--        <AttackTargetPriority value="11"/>-->
+    <!--        <AbilArray Link="stop"/>-->
+    <!--        <AbilArray Link="attack"/>-->
+    <!--        <WeaponArray Link="TheBridgeCannon" Turret="MothershipCoreTurret"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>-->
+    <!--            <LayoutButtons Face="AttackBuilding" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <ScoreMake value="500"/>-->
+    <!--        <ScoreKill value="500"/>-->
+    <!--        <ScoreResult value="BuildOrder"/>-->
+    <!--        <SubgroupPriority value="2"/>-->
+    <!--        <MinimapRadius value="2.5"/>-->
+    <!--        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>-->
+    <!--        <TacticalAI value="Nexus"/>-->
+    <!--        <GlossaryPriority value="10"/>-->
+    <!--        <AIEvaluateAlias value="Nexus"/>-->
+    <!--    </CUnit-->
+    <CUnit id="ArtanisAreaStunAirPlaceholder"/>
+    <CUnit id="BattlecruiserHeliosMorph">
+        <Name value="Unit/Name/BattlecruiserHeliosMorphHelios"/>
+        <Description value="Button/Tooltip/BattlecruiserHeliosMorphHelios"/>
+        <HotkeyAlias value="BattlecruiserHeliosMorph"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="DuelBubbleUnit"/>
+    <CUnit id="HighArchonTemplar">
+        <Description value="Button/Tooltip/HighArchonTemplarAiur"/>
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="KaraxRepairDrone">
+        <HotkeyCategory value=""/>
+    </CUnit>
+    <CUnit id="OdinWreckage"/>
+    <CUnit id="OneWayLOSBlocker1x1"/>
+    <!--CUnit id="TrapForceFieldULBR">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="135"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <Footprint value="ShipForceFieldWallLongULBR"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallLongULBR"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--        <AbilArray Link="TrapForceFieldULBROff"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateOpen" Type="AbilCmd" AbilCmd="TrapForceFieldULBROff,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldULBROff">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="135"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallLongULBR"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--        <AbilArray Link="TrapForceFieldULBR"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateClose" Type="AbilCmd" AbilCmd="TrapForceFieldULBR,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldBLUR">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="45"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <Footprint value="ShipForceFieldWallLongURBL"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallLongURBL"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--        <AbilArray Link="TrapForceFieldBLUROff"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateOpen" Type="AbilCmd" AbilCmd="TrapForceFieldBLUROff,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldBLUROff">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="45"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallLongURBL"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--        <AbilArray Link="TrapForceFieldBLUR"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateClose" Type="AbilCmd" AbilCmd="TrapForceFieldBLUR,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldSmallULBR">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="135"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <AbilArray Link="TrapForceFieldSmallULBROff"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateOpen" Type="AbilCmd" AbilCmd="TrapForceFieldSmallULBROff,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <Footprint value="ShipForceFieldWallULBR"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallULBR"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldSmallULBROff">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="135"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <AbilArray Link="TrapForceFieldSmallULBR"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateClose" Type="AbilCmd" AbilCmd="TrapForceFieldSmallULBR,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallULBR"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldSmallBLUR">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="45"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <AbilArray Link="TrapForceFieldSmallBLUROff"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateOpen" Type="AbilCmd" AbilCmd="TrapForceFieldSmallBLUROff,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <Footprint value="ShipForceFieldWallURBL"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallURBL"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="TrapForceFieldSmallBLUROff">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Facing value="45"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Turnable" value="0"/>-->
+    <!--        <FlagArray index="CreateVisible" value="1"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FogVisibility value="Snapshot"/>-->
+    <!--        <EditorFlags index="NeutralDefault" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Attributes index="Structure" value="1"/>-->
+    <!--        <LifeStart value="10000"/>-->
+    <!--        <LifeMax value="10000"/>-->
+    <!--        <LifeArmor value="10"/>-->
+    <!--        <AbilArray Link="TrapForceFieldSmallBLUR"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="GateClose" Type="AbilCmd" AbilCmd="TrapForceFieldSmallBLUR,Execute" Row="2" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Radius value="2"/>-->
+    <!--        <SeparationRadius value="2"/>-->
+    <!--        <PlacementFootprint value="ShipForceFieldWallURBL"/>-->
+    <!--        <SubgroupPriority value="1"/>-->
+    <!--        <MinimapRadius value="0"/>-->
+    <!--        <EditorCategories value="ObjectType:Other,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit-->
+    <!--CUnit id="RuneShield4">-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="Unselectable" value="1"/>-->
+    <!--        <FlagArray index="Untargetable" value="1"/>-->
+    <!--        <FlagArray index="Invulnerable" value="1"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FlagArray index="Unstoppable" value="1"/>-->
+    <!--        <Sight value="15"/>-->
+    <!--        <BehaviorArray Link="RuneShield4Search"/>-->
+    <!--        <PlacementFootprint value="Footprint2x2"/>-->
+    <!--        <MinimapRadius value="1"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="RuneShield5">-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <FlagArray index="NoPortraitTalk" value="1"/>-->
+    <!--        <FlagArray index="Unstoppable" value="1"/>-->
+    <!--        <Collide index="Burrow" value="1"/>-->
+    <!--        <Collide index="Ground" value="1"/>-->
+    <!--        <Collide index="Small" value="1"/>-->
+    <!--        <Collide index="Structure" value="1"/>-->
+    <!--        <Collide index="RoachBurrow" value="1"/>-->
+    <!--        <Collide index="ForceField" value="1"/>-->
+    <!--        <LifeStart value="100"/>-->
+    <!--        <LifeMax value="100"/>-->
+    <!--        <ShieldsStart value="100"/>-->
+    <!--        <ShieldsMax value="100"/>-->
+    <!--        <ShieldRegenRate value="2"/>-->
+    <!--        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>-->
+    <!--        <Sight value="15"/>-->
+    <!--        <BehaviorArray Link="RuneShield5Search"/>-->
+    <!--        <Footprint value="FootprintDoodad1x1"/>-->
+    <!--        <PlacementFootprint value="Footprint1x1"/>-->
+    <!--        <MinimapRadius value="1"/>-->
+    <!--        <EditorCategories value="ObjectType:Structure,ObjectFamily:Campaign"/>-->
+    <!--    </CUnit-->
+    <CUnit id="PathableShieldRadius11"/>
+    <!--CUnit id="PickupEnergy100">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupEnergy25">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupEnergy50">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupEnergyFull">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupHealth100">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupHealth25">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupHealth50">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupHealthFull">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupPalletGas">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupPalletMinerals">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupScrapSalvage1x1">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupScrapSalvage2x2">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="PickupScrapSalvage3x3">-->
+    <!--        <BehaviorArray Link="PickupDetector"/>-->
+    <!--    </CUnit-->
+    <CUnit id="PlaceWormholeUnit"/>
+    <CUnit id="ReaperPlaceholder">
+        <HotkeyAlias value="ReaperPlaceholder"/>
+    </CUnit>
+    <CUnit id="RedstoneLavaCritter">
+        <HotkeyAlias value="RedstoneLavaCritter"/>
+    </CUnit>
+    <CUnit id="RedstoneLavaCritterInjured">
+        <HotkeyAlias value="RedstoneLavaCritterInjured"/>
+    </CUnit>
+    <CUnit id="SMFly"/>
+    <CUnit id="SMTerran06AProps"/>
+    <CUnit id="SMTerran07Props"/>
+    <CUnit id="SMTerran11Props"/>
+    <CUnit id="SMTerran12FX"/>
+    <CUnit id="SS_BackgroundSpace01"/>
+    <CUnit id="SS_BackgroundSpaceProt01"/>
+    <CUnit id="SS_BackgroundSpaceProt02"/>
+    <CUnit id="SS_BackgroundSpaceProt03"/>
+    <CUnit id="SS_BackgroundSpaceProt04"/>
+    <CUnit id="SS_BackgroundSpaceTerran01"/>
+    <CUnit id="SS_BackgroundSpaceZerg01"/>
+    <CUnit id="SS_BackgroundZerg01"/>
+    <CUnit id="SS_Battlecruiser"/>
+    <CUnit id="ShadowCloudSmallEpilogue01"/>
+    <CUnit id="TerranBiomass"/>
+    <CUnit id="UrsadakCalf">
+        <LifeArmorName value="Unit/LifeArmorName/UrsadakCalfGroundArmor"/>
+        <HotkeyAlias value="UrsadakCalf"/>
+    </CUnit>
+    <CUnit id="Ursula">
+        <LifeArmorName value="Unit/LifeArmorName/UrsulaGroundArmor"/>
+        <HotkeyAlias value="Ursula"/>
+    </CUnit>
+    <CUnit id="WreckedBattlecruiserHeliosFinal"/>
+    <CUnit id="KarakFemale">
+        <LifeArmorName value="Unit/LifeArmorName/KarakFemaleGroundArmor"/>
+        <HotkeyAlias value="KarakFemale"/>
+    </CUnit>
+    <CUnit id="GasCanister"/>
+    <CUnit id="GasCanisterProtoss"/>
+    <CUnit id="GasCanisterProtoss25"/>
+    <CUnit id="GasCanisterProtoss50"/>
+    <CUnit id="GasCanisterZerg"/>
+    <CUnit id="MengskBC"/>
+    <CUnit id="PalletGas"/>
+    <CUnit id="MengskStatue">
+        <HotkeyAlias value="MengskStatue"/>
+    </CUnit>
+    <CUnit id="MengskStatueAlone">
+        <HotkeyAlias value="MengskStatueAlone"/>
+    </CUnit>
+    <CUnit id="PoisonGasCloud">
+        <Race value="Terr"/>
+    </CUnit>
+    <CUnit id="UrsadakFemale">
+        <LifeArmorName value="Unit/LifeArmorName/UrsadakFemaleGroundArmor"/>
+        <HotkeyAlias value="UrsadakFemale"/>
+    </CUnit>
+    <CUnit id="WolfStatue">
+        <HotkeyAlias value="WolfStatue"/>
+    </CUnit>
+    <CUnit id="YoinkMissile">
+        <HotkeyAlias value="YoinkMissile"/>
+    </CUnit>
+    <CBehaviorBuff id="ImmuneToFriendlySplash"/>
+    <CBehaviorBuff id="OutOfCombatEnergyRegen"/>
+    <CBehaviorBuff id="HyperionHyperjumpTeleport">
+        <Modification>
+            <BehaviorLinkDisableArray index="0" value="MRJS_HyperionVoidCoopSecondaryWeapons"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HyperionHyperjumpTeleportIn">
+        <Modification>
+            <BehaviorLinkDisableArray index="0" value="MRJS_HyperionVoidCoopSecondaryWeapons"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HyperionHyperjumpTeleportOut">
+        <Modification>
+            <BehaviorLinkDisableArray index="0" value="MRJS_HyperionVoidCoopSecondaryWeapons"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="OutOfCombatEnergyRegenDummy"/>
+    <CBehaviorBuff id="VoidZealotWhirlwind">
+        <Modification>
+            <WeaponDisableArray value="CCData_PsiBlade"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Detector9"/>
+    <CBehaviorBuff id="Frenzy"/>
+    <CBehaviorBuff id="Hallucination"/>
+    <CBehaviorBuff id="HellbatLeapStun">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImmortalBarrierBase"/>
+    <CBehaviorBuff id="ImmortalOverload"/>
+    <CBehaviorBuff id="LokiDocked"/>
+    <CBehaviorBuff id="MultilockTargetingSystems">
+        <Modification>
+            <WeaponEnableArray value="CCData_DiYuHuoFeiDanII"/>
+            <WeaponEnableArray value="CCData_JiGuanPaoII"/>
+            <WeaponEnableArray value="CCData_LanzerThunderII"/>
+            <WeaponEnableArray value="CCData_GatlingBombII"/>
+            <WeaponEnableArray value="CCData_MKLanzerTorpedoII"/>
+            <WeaponEnableArray value="CCData_MengskGoliathGUpgraded"/>
+            <WeaponDisableArray value="CCData_DiYuHuoFeiDan"/>
+            <WeaponDisableArray value="CCData_JiGuanPao"/>
+            <WeaponDisableArray value="CCData_LanzerThunder"/>
+            <WeaponDisableArray value="CCData_GatlingBomb"/>
+            <WeaponDisableArray value="CCData_MKLanzerTorpedo"/>
+            <WeaponDisableArray value="CCData_MengskGoliathG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Parked"/>
+    <CBehaviorBuff id="UnderConstruction"/>
+    <CRace id="Terr">
+        <ShowResource index="Terrazine" value="1"/>
+        <ShowResource index="Custom" value="1"/>
+    </CRace>
+</Catalog>

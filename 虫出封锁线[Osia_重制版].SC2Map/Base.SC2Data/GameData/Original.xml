@@ -873,7 +873,6 @@
         <LoadingScreenHelp index="59" removed="1"/>
         <LoadingScreenHelp index="60" removed="1"/>
         <LoadingScreenHelp index="61" removed="1"/>
-        <CustomLayoutFileArray value="GameUIOverride.SC2Layout"/>
         <HelpGameMechanics index="0">
             <Icon value=""/>
             <IconBackground value=""/>
@@ -975,6 +974,7 @@
             <Description value="UI/HelpGameMechanic_InhibitorZoneGenerators_Description"/>
         </HelpGameMechanics>
         <HelpTechTitle value="重装机兵"/>
+        <CustomLayoutFileArray value="GameUIOverride.SC2Layout"/>
     </CGameUI>
     <CSkin default="1" id="AdeptBase"/>
     <CSkin default="1" id="BanelingBase"/>
