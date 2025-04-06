@@ -4,7 +4,7 @@
         <cliffSetList num="1">
             <cliffSet i="0" name="KorhalCityCliff0"/>
         </cliffSetList>
-        <vertData quantizeBias="2.101077e+01" quantizeScale="4.579221e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="1.362146e+00" quantizeScale="1.581018e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="KorhalCity"/>
@@ -1108,55 +1108,6 @@
             <blockTextureSet i="1022" tileSet="0"/>
             <blockTextureSet i="1023" tileSet="0"/>
         </blockTextureSetList>
-        <cliffCellList num="16384" numOccupied="48">
-            <cc i="6667" f="1" cid="0" cvar="0"/>
-            <cc i="6668" f="1" cid="0" cvar="0"/>
-            <cc i="6669" f="1" cid="0" cvar="0"/>
-            <cc i="6670" f="1" cid="0" cvar="3"/>
-            <cc i="6671" f="1" cid="0" cvar="1"/>
-            <cc i="6672" f="1" cid="0" cvar="3"/>
-            <cc i="6673" f="1" cid="0" cvar="2"/>
-            <cc i="6674" f="1" cid="0" cvar="3"/>
-            <cc i="6675" f="1" cid="0" cvar="0"/>
-            <cc i="6676" f="1" cid="0" cvar="0"/>
-            <cc i="6679" f="1" cid="0" cvar="0"/>
-            <cc i="6680" f="1" cid="0" cvar="3"/>
-            <cc i="6681" f="1" cid="0" cvar="1"/>
-            <cc i="6682" f="1" cid="0" cvar="2"/>
-            <cc i="6683" f="1" cid="0" cvar="3"/>
-            <cc i="6684" f="1" cid="0" cvar="0"/>
-            <cc i="6685" f="1" cid="0" cvar="1"/>
-            <cc i="6686" f="1" cid="0" cvar="0"/>
-            <cc i="6687" f="1" cid="0" cvar="1"/>
-            <cc i="6688" f="1" cid="0" cvar="0"/>
-            <cc i="6795" f="1" cid="0" cvar="0"/>
-            <cc i="6804" f="1" cid="0" cvar="2"/>
-            <cc i="6807" f="1" cid="0" cvar="3"/>
-            <cc i="6816" f="1" cid="0" cvar="2"/>
-            <cc i="6923" f="1" cid="0" cvar="2"/>
-            <cc i="6932" f="1" cid="0" cvar="2"/>
-            <cc i="6935" f="1" cid="0" cvar="2"/>
-            <cc i="6944" f="1" cid="0" cvar="2"/>
-            <cc i="7051" f="1" cid="0" cvar="0"/>
-            <cc i="7052" f="1" cid="0" cvar="0"/>
-            <cc i="7053" f="1" cid="0" cvar="0"/>
-            <cc i="7054" f="1" cid="0" cvar="0"/>
-            <cc i="7055" f="1" cid="0" cvar="0"/>
-            <cc i="7056" f="1" cid="0" cvar="2"/>
-            <cc i="7057" f="1" cid="0" cvar="3"/>
-            <cc i="7058" f="1" cid="0" cvar="1"/>
-            <cc i="7059" f="1" cid="0" cvar="2"/>
-            <cc i="7060" f="1" cid="0" cvar="0"/>
-            <cc i="7063" f="1" cid="0" cvar="0"/>
-            <cc i="7064" f="1" cid="0" cvar="1"/>
-            <cc i="7065" f="1" cid="0" cvar="0"/>
-            <cc i="7066" f="1" cid="0" cvar="0"/>
-            <cc i="7067" f="1" cid="0" cvar="2"/>
-            <cc i="7068" f="1" cid="0" cvar="1"/>
-            <cc i="7069" f="1" cid="0" cvar="3"/>
-            <cc i="7070" f="1" cid="0" cvar="2"/>
-            <cc i="7071" f="1" cid="0" cvar="1"/>
-            <cc i="7072" f="1" cid="0" cvar="0"/>
-        </cliffCellList>
+        <cliffCellList num="16384" numOccupied="0"/>
     </heightMap>
 </terrain>

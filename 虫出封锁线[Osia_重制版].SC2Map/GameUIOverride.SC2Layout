@@ -38,7 +38,7 @@
             </Frame>
         </Frame-->
 
-        <Frame type="CommandPanel" name="CommandPanel">
+        <!--Delete Frame type="CommandPanel" name="CommandPanel">
             <Anchor side="Top" relative="$parent" pos="Max" offset="0"/>
             <Anchor side="Bottom" relative="$parent" pos="Mid" offset="550"/>
             <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
@@ -53,19 +53,19 @@
             </Frame>
             <Frame type="CommandButton" name="CommandButton00">
                 <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
-                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/ Delete-->
                 <!--Anchor side="Bottom" relative="$parent" pos="Min" offset="0"/-->
-                <Width val="56"/>
+                <!--Delete Width val="56"/>
                 <Height val="56"/>
             </Frame>
             <Frame type="CommandButton" name="CommandButton01">
                 <Width val="56"/>
                 <Height val="56"/>
             </Frame>
-            <Frame type="CommandButton" name="CommandButton02">
+            <Frame type="CommandButton" name="CommandButton02" Delete-->
                 <!--Anchor side="Top" relative="$parent/CommandButton00" pos="Max" offset="0"/-->
                 <!--Anchor side="Left" relative="$parent/CommandButton00" pos="Min" offset="0"/-->
-                <Width val="56"/>
+                <!--Delete Width val="56"/>
                 <Height val="56"/>
             </Frame>
             <Frame type="CommandButton" name="CommandButton03">
@@ -158,7 +158,7 @@
                 <Anchor side="Top" relative="$parent/CommandTargetImage" pos="Max" offset="10"/>
                 <Anchor side="Left" relative="$parent/CommandTargetName" pos="Max" offset="15"/>
                 <Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
-            </Frame>
+            </Frame Delete-->
 
 
             <!--Frame type="Image" name="BackgroundImage">
@@ -168,7 +168,7 @@
                 <RenderPriority val="400"/>
                 <AcceptsMouse val="true"/>
             </Frame-->
-        </Frame>
+        <!--Delete /Frame Delete-->
 
         <Frame type="InventoryPanel" name="InventoryPanel">
             <!--RenderPriority val="800"/>

@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Catalog/>
+<Catalog>
+    <CModel id="NanaKey_UI_VehicleFPS_Display">
+        <Flags index="ForcePortraitModel" value="1"/>
+    </CModel>
+</Catalog>
