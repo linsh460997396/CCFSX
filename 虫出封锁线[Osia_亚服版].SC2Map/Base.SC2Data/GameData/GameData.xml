@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CGame id="Dflt">
+        <JoinInProgress value="1"/>
+        <AIResourceRequest index="Vespene" value="1"/>
+        <AIResourceRequest index="Terrazine" value="1"/>
+        <AIResourceRequest index="Custom" value="1"/>
+    </CGame>
+</Catalog>

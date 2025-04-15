@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="Ambience_Thunder_OneShot">
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+    <CSound id="BossOsia2" parent="MUSIC">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="MetalMaxBOSS战音乐.mp3" FacialGroup=""/>
+        <Category value="Alert"/>
+        <MuteFadeIn/>
+        <MuteFadeIn Time="250"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="Kerrigan_BeamInitial_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray>
+            <File value="Assets\Sounds\Alarak_LightningStrike_02.wav"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\Alarak_LightningStrike_01.wav"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\Alarak_LightningStrike_01a.wav"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\Alarak_LightningStrike_01b.wav"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray File="Assets\Sounds\2.红警电击音效.mp3" FacialGroup=""/>
+        <AssetArray>
+            <File value="Assets\Sounds\1.电枪音效.wav"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray>
+            <File value="Assets\Sounds\3.被电击滋滋滋音效.mp3"/>
+            <Volume value="-96.000000,-96.000000"/>
+            <Weight value="0"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <Category value="Spell"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="0.010000,0.010000"/>
+    </CSound>
+    <CSound id="Kerrigan_BeamSecondary_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Zerg"/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath01_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath02_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath03_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath06_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath07_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Alarak_FallToDeath08_2ch.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_ChargeUp_01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_ChargeUp_02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_ChargeUp_03.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_ChargeUp_04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_Launch_01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_Launch_02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\VoidShard_Energy_Launch_03.wav" FacialGroup=""/>
+        <Category value="Spell"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMuteCount value="5"/>
+        <Pitch value="2.000000,5.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="WaterfallMedium21456" parent="Ambience_Object">
+        <EditorCategories value="Race:Neutral"/>
+        <AssetArray File="Assets\Sounds\Uni\Doodads\Doodad_WaterfallMedium0.wav"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMuteCount value="3"/>
+        <FogFadeIn Volume="-96.000000"/>
+        <FogFadeIn Time="3000"/>
+        <FogFadeOut/>
+        <FogFadeOut Time="2000" Volume="-96.000000"/>
+        <LoopCount value="-1"/>
+        <OffsetFadeIn Volume="-96.000000"/>
+        <OffsetFadeIn Time="2000"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+        <VolumeRolloffFadeBlend value="Linear"/>
+    </CSound>
+    <CSound id="Rain232416" parent="Ambience_Map">
+        <AssetArray File="Assets\Sounds\Uni\Ambience\Campaigns\Ambience_TRaynor03Rain.ogg"/>
+        <OffsetFadeIn index="1" Time="5000"/>
+        <Volume value="0.000000,2.000000"/>
+    </CSound>
+    <CSound id="Doodad_UnbuildablePlates_Death">
+        <Category value="UI"/>
+        <Volume value="-9.000000,-9.000000"/>
+    </CSound>
+    <CSound id="OdinBuild_Clunk">
+        <Volume value="-6.000000,0.000000"/>
+    </CSound>
+    <CSound id="TankerTruck_Movement">
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="UI_BnetDefaultClick">
+        <Volume value="-5.000000,-5.000000"/>
+    </CSound>
+    <CSound id="UniqueItem">
+        <AssetArray File="17.wav" FacialGroup=""/>
+        <Category value="Alert"/>
+    </CSound>
+    <CSound id="VictoryOsia" parent="MUSIC">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LTmusic1.mp3" FacialGroup=""/>
+        <Category value="Alert"/>
+        <MuteFadeIn/>
+        <MuteFadeIn Time="250"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="BossOsia" parent="MUSIC">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LTmusic7.mp3" FacialGroup=""/>
+        <Category value="Alert"/>
+        <MuteFadeIn/>
+        <MuteFadeIn Time="250"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="nDLC_Music_Nova01_BossFight" parent="MUSIC_other">
+        <AssetArray File="Assets\Music\nDLC01_Music_Cue06.ogg" FacialGroup=""/>
+        <Category value="Music"/>
+        <SpeakerMix index="Center" value="0.000000"/>
+        <SpeakerMix index="BackLeft" value="0.500000"/>
+        <SpeakerMix index="BackRight" value="0.500000"/>
+        <SpeakerMix index="SideLeft" value="0.000000"/>
+        <SpeakerMix index="SideRight" value="0.000000"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="BarrageSound252" parent="250mmStrikeCannonsSound">
+        <AssetArray index="0">
+            <File value="Assets\Sounds\Gen_Explo_Fire_01.wav"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="6.000000,6.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray index="1" removed="1"/>
+        <AssetArray index="2" removed="1"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="BarrageSound25" parent="250mmStrikeCannonsSound">
+        <AssetArray index="0">
+            <File value="Assets\Sounds\Gen_Explo_Fire_01.wav"/>
+            <Pitch value="-1.000000,1.000000"/>
+            <Volume value="6.000000,6.000000"/>
+            <FacialGroup value=""/>
+        </AssetArray>
+        <AssetArray index="1" removed="1"/>
+        <AssetArray index="2" removed="1"/>
+        <Volume value="3.000000,3.000000"/>
+    </CSound>
+    <CSound id="FireSuppressionBots_Loop2" parent="Ambience_Object">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Nova_Xanthos_MechBridge_Fire_01.ogg" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Nova_Xanthos_MechBridge_Fire_02.ogg" FacialGroup=""/>
+        <LoopCount value="-1"/>
+        <SustainFade index="1" Time="2000" Volume="-96.000000"/>
+        <Volume value="6.000000,6.000000"/>
+    </CSound>
+</Catalog>

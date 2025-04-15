@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="ZOMBIEborn"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="33.031,165.9704,51.0307,167.9704"/>
+        </shape>
+        <shape type="rect">
+            <quad value="18,165.9704,23,167.9704"/>
+        </shape>
+        <shape type="rect">
+            <quad value="64,166,70,168"/>
+        </shape>
+        <shape type="rect">
+            <quad value="23,111,41,113"/>
+        </shape>
+        <shape type="rect">
+            <quad value="47,111,65,113"/>
+        </shape>
+        <shape type="rect">
+            <quad value="23,79,41,81"/>
+        </shape>
+        <shape type="rect">
+            <quad value="47,79,65,81"/>
+        </shape>
+        <shape type="rect">
+            <quad value="23,51,41,53"/>
+        </shape>
+        <shape type="rect">
+            <quad value="46.5,52,52.5,54"/>
+        </shape>
+        <shape type="rect">
+            <quad value="18,22,64,24"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="商店內區"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="74.0607,3.8483,82.0605,9.8483"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="商店全部"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="64,1.0002,88,17"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="玩家出生區"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="41.5617,7.1826"/>
+            <radius value="2"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="王掉寶區"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="1,1"/>
+            <radius value="4"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="修理區"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="50,6.5"/>
+            <width value="2"/>
+            <height value="2"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="挖到寶箱圈"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="1,1"/>
+            <radius value="2"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="T1 無敵區"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="16.5002,0,63.5,27"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="T3 無敵區"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="23.2526,135.2834,64.2795,168"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="玩家出生區 T3"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="43,150"/>
+            <radius value="2"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="玩家出生區 T1"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="42,5.5"/>
+            <radius value="2"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="廣場"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="28.5,142,58.5,166"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="攻略區"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="16,18.0002,71,168"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="踩怪區"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="1,1"/>
+            <radius value="3.5"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="流浪軍基地"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="38.0002,118.5,49,130.5"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="流浪軍觸發S"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="41,119"/>
+            <radius value="11"/>
+        </shape>
+        <shape type="circle">
+            <center value="47,130"/>
+            <radius value="11"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="機件觸發"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="16,100,23,102"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="Zerg测试"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="35.3947,45.9575,70.5314,52.296"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="营地"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="35.231,1.2453,52.778,9.0588"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="毒障兽触发区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="45.1223,51.3222"/>
+            <radius value="11.4111"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="宿主触发区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="43.1953,99.8847"/>
+            <radius value="11"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="毒裂兽触发区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="67.3308,131.5"/>
+            <radius value="11"/>
+        </shape>
+    </region>
+    <region id="23">
+        <name value="大牛触发区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="20.2778,129.525"/>
+            <radius value="11"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="巴拉克触发区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="42.8295,152.175"/>
+            <radius value="11"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="王兽事件支援区"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="13.0002,-0.182,63,23.818"/>
+        </shape>
+        <shape type="rect">
+            <quad value="55,17,75,57"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="支援攻击范围"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="32.2902,0.6108,56.6081,12.5935"/>
+        </shape>
+        <shape type="circle">
+            <center value="38,12"/>
+            <radius value="5"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="营口道路"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="15.0002,16.5002,71,25.5"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="大牛引导[左道]"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="15.778,85.2937,24.778,164.876"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="毒裂兽引导[右道]"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="63,59.178,73,136.1481"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="楼A附近"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="11.962,29.225,31.4187,45.6054"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="僵尸部队A区"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="19.971,105.0478"/>
+            <radius value="3.6394"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="监狱区域"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="11.7998,2"/>
+            <width value="2.4"/>
+            <height value="2.4"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="检测区域1"/>
+        <shape type="rect">
+            <quad value="0.0002,0.0002,90,90"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="检测区域2"/>
+        <shape type="rect">
+            <quad value="5,90,85,170"/>
+        </shape>
+    </region>
+</Regions>
