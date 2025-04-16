@@ -187,6 +187,13 @@ Abil/Name/CCData_V10018_NormalMode=普通模式
 Abil/Name/CCData_V10020_APMode=攻城模式
 Abil/Name/CCData_V10020_NormalMode=普通模式
 Abil/Name/CCData_VehicleTransport=载具乘降
+Abil/Name/CCData_VehicleTransport2=载具乘降
+Abil/Name/CCData_VehicleTransport3=载具乘降
+Abil/Name/CCData_VehicleTransport4=载具乘降
+Abil/Name/CCData_VehicleTransport5=载具乘降
+Abil/Name/CCData_VehicleTransport6=载具乘降
+Abil/Name/CCData_VehicleTransport7=载具乘降
+Abil/Name/CCData_VehicleTransport8=载具乘降
 Abil/Name/CCData_VehicleTransportCanNotLeft=载具乘降（无法离开）
 Abil/Name/CCData_VoidHighTemplarPsiOrb=灵能球
 Abil/Name/CCData_VultureQueue=生成蜘蛛雷队列
@@ -221,9 +228,9 @@ Abil/Name/VultureSpiderMines=部署蜘蛛雷
 AchievementTerm/Name/MRJS_CommanderStukovApocaliskSummon=Apocalisk Now Summon
 Attribute001/Desc=制作中..
 Attribute001/Name=[>>伤害管控<<]
-Attribute001/Value002/Desc=仅允许PVE
+Attribute001/Value002/Desc=PVE模式开局，但玩家依然可切换至PVEVP
 Attribute001/Value002/Name=PVE
-Attribute001/Value003/Desc=开局默认PVE，允许玩家手动切换至PVP
+Attribute001/Value003/Desc=PVEVP模式开局，但玩家依然可切换至PVE
 Attribute001/Value003/Name=PVEVP
 Attribute002/Desc=决定开局地图模板（开发测试专用）
 Attribute002/Name=[>>地图编号<<]
@@ -302,11 +309,10 @@ Attribute004/Value014/Name=白天
 Attribute004/Value015/Name=阳光明媚
 Attribute004/Value016/Name=夜幕降临
 Attribute004/Value017/Name=昼夜辉光
-Attribute005/Desc=决定光照效果是否支持昼夜交替，即便关闭此选项，地图时间也不会停止。
+Attribute005/Desc=支持昼夜交替的光照会执行变化，即便关闭，地图时间也不会停止。
 Attribute005/Name=[>>昼夜交替<<]
-Attribute005/Value001/Desc=追加时间系统，影响游戏逻辑和光照渲染
+Attribute005/Value001/Desc=使特定光照支持昼夜变化
 Attribute005/Value001/Name=开启
-Attribute005/Value002/Desc=时间停止在指定光照下，昼夜变化的光照也不再变化
 Attribute005/Value002/Name=关闭
 Attribute006/Desc=使用指令游玩的模式（无法存档）
 Attribute006/Name=[>>畅玩模式<<]
@@ -375,16 +381,15 @@ Attribute013/Value003/Desc=超二U+N档数据清零并允许其存档（会破�
 Attribute013/Value003/Name=开启模式三
 Attribute013/Value004/Desc=超二U+N档数据清零且不允许其存档（不破坏存档）
 Attribute013/Value004/Name=开启模式二
-Attribute014/Desc=异形加强且会感染其他种族，可能对电脑阵营造成影响（如将敌人结盟以防乱斗造成性能问题）
+Attribute014/Desc=尚在制作，对异形加强或感染其他种族用
 Attribute014/Name=[>>高度感染<<]
 Attribute014/Value001/Name=关闭
-Attribute014/Value002/Desc=异形加强且会感染其他种族，可能对电脑阵营造成影响（如将敌人结盟以防乱斗造成性能问题）
 Attribute014/Value002/Name=开启
 Attribute015/Desc=任意BOSS死亡后呼叫的敌兵类型
 Attribute015/Name=[>>敌兵类型<<]
 Attribute015/Value001/Desc=原
 Attribute015/Value001/Name=原作
-Attribute015/Value002/Desc=BOSS死后可能出现新的敌兵类型
+Attribute015/Value002/Desc=BOSS死后出现新的敌兵类型
 Attribute015/Value002/Name=随机
 Attribute016/Desc=主车库和生产车间的控制权获取范围，过大会致路人误触而过小则使用不便（配合键盘移动能更靠近建筑）
 Attribute016/Name=[>>车库范围<<]
@@ -394,16 +399,18 @@ Attribute016/Value003/Name=3.5
 Attribute016/Value004/Name=4.0
 Attribute016/Value005/Name=4.5
 Attribute016/Value006/Name=5.0
-Attribute017/Desc=决定敌人的进攻方式
-Attribute017/Name=[>>进攻方式<<]
-Attribute017/Value001/Name=随机
-Attribute017/Value002/Desc=推荐方式
-Attribute017/Value002/Name=默认
-Attribute017/Value003/Desc=优先进攻玩家用户
-Attribute017/Value003/Name=测试
-Attribute018/Desc=仅对新增物品生效，不影响原版道具
+Attribute017/Desc=决定敌人进攻方式
+Attribute017/Name=[>>游戏AI<<]
+Attribute017/Value001/Desc=全部AI随机（抽签）进攻，很抽象，不推荐正常游戏使用，仅用来调试具体AI的执行
+Attribute017/Value001/Name=混合AI
+Attribute017/Value002/Desc=进攻所有敌人
+Attribute017/Value002/Name=默认AI
+Attribute017/Value003/Desc=进攻幸存者的测试AI（在细节设计完成前不推荐使用）
+Attribute017/Value003/Name=测试AI
+Attribute018/Desc=不影响原版道具，仅对新增物品生效（N键同样可主动拾取）
 Attribute018/Name=[>>自动拾取<<]
 Attribute018/Value001/Name=关闭
+Attribute018/Value002/Desc=N键同样可以主动市区
 Attribute018/Value002/Name=自动拾取_0.0625s
 Attribute018/Value003/Name=自动拾取_0.125s
 Attribute018/Value004/Name=自动拾取_0.25s
@@ -477,7 +484,7 @@ Attribute025/Value005/Desc=聊天指令：-DefaultCamera=4
 Attribute025/Value005/Name=RPG-02
 Attribute025/Value006/Desc=聊天指令：-DefaultCamera=5
 Attribute025/Value006/Name=RPG-03
-Attribute026/Desc=调试窗口输出更多额外信息，游戏中亦可开关
+Attribute026/Desc=在调试窗口输出更多额外信息，游戏中亦可开关
 Attribute026/Name=[>>调试模式<<]
 Attribute026/Value001/Name=关闭
 Attribute026/Value002/Name=开启
@@ -3677,7 +3684,7 @@ MapInfo/Player05/Name=玩家5
 MapInfo/Player06/Name=玩家6
 MapInfo/Player07/Name=玩家7
 MapInfo/Player08/Name=玩家8
-MapInfo/Player09/Name=玩家同盟
+MapInfo/Player09/Name=地球人类救济中心
 MapInfo/Player10/Name=军阀
 MapInfo/Player11/Name=不明
 MapInfo/Player12/Name=未知实体
@@ -5310,7 +5317,7 @@ Param/Value/2CA6AEDD=<c val="FF8040">得到</c>
 Param/Value/2CAFE8C4=<c val="FF8040">得到</c>
 Param/Value/2CBE026F=<s val="ys_green164">设置 => <c val="FFFF00">[雷王兽] </s>
 Param/Value/2CC6A99C=/
-Param/Value/2CDBABC5=<s val="ys_green164">单方面视玩家0（中立）的状态（<c val="FF8000">快捷键</c><c val="FFFF00"><数字小键盘 * 双击></c>）<n/>中立保护ON：溅射伤害对玩家0（中立）无效<n/>中立保护OFF：单方面视玩家0（玩家同盟）为敌人<n/><c val="FFFF00">注：若武器只有溅射伤害而无主目标伤害，需关闭保护让伤害生效（如喷火器、加特林）</c>
+Param/Value/2CDBABC5=<s val="ys_green164">单方面视玩家0（中立）的状态（<c val="FF8000">快捷键</c><c val="FFFF00"><数字小键盘 * 双击></c>）<n/>中立保护ON：溅射伤害对玩家0（中立）无效<n/>中立保护OFF：单方面视玩家0（救济中心）为敌人<n/><c val="FFFF00">注：若武器只有溅射伤害而无主目标伤害，需关闭保护让伤害生效（如喷火器、加特林）</c>
 Param/Value/2CE5CDC3=启用！操作者是管理员
 Param/Value/2CEFD18E=<s val="ys_green165">退出游戏</s>
 Param/Value/2CF02DB8=<s val="ys_green164">【单方面】将 </c><c val="FFFF00">共享关闭</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[2]</c></c>！
@@ -5798,7 +5805,7 @@ Param/Value/47004E1E=<s val="ys_green164">【特典】<c val="FFFF00">执行官�
 Param/Value/47252283=</c><c val="00FFFF">小级递增</c>
 Param/Value/4726797F=<c val="FF00FF">[需元帅军衔]</c>
 Param/Value/475A6F22=<c val="FF00FF">战地装甲设计图</c>
-Param/Value/4764F5B8=<s val="ys_green164">【上飞船玩家数】
+Param/Value/4764F5B8=<s val="ys_green164">【登船玩家数】
 Param/Value/476C4341=<s val="ys_green164">【轻型机甲】<c val="FFFF00">不朽者II <c val="FF00FF">设计图</c>
 Param/Value/47742001=<s val="ys_green164">【当前普兵数[异形]】
 Param/Value/477D71A9=<c val="FF00FF">【杀死剧情BOSS】已启用</c>
@@ -7268,7 +7275,7 @@ Param/Value/939B13D5=<c val="FF8040">得到</c>
 Param/Value/939C6D09=<s val="ys_green164">【大型机甲】<c val="FFFF00">巨像设计图 <c val="FF00FF">设计图</c>
 Param/Value/93A93CF6=已释放！操作者为 
 Param/Value/93C6C1B9=<c val="FF00FF">【Code】10111</c>
-Param/Value/93C7C9CF=13（玩家同盟）
+Param/Value/93C7C9CF=13（救济中心）
 Param/Value/93E85B99=<s val="ys_green164">【全资源+开图器】已禁用！
 Param/Value/93EBBCCC=<c val="FF8040">得到</c>
 Param/Value/93F3E140=<img path="Assets\jx\下士徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[下士]
@@ -10485,7 +10492,7 @@ Variant001/Team/01=异形
 Variant001/Team/02=诺亚
 Variant001/Team/03=外星
 Variant001/Team/04=未知实体
-Variant001/Team/05=未知
+Variant001/Team/05=不明
 Variant001/Team/06=军阀
 Variant002/ModeDesc=困难模式
 Variant002/ModeName=困难模式
@@ -10494,7 +10501,7 @@ Variant002/Team/01=异形
 Variant002/Team/02=诺亚
 Variant002/Team/03=外星
 Variant002/Team/04=未知实体
-Variant002/Team/05=未知
+Variant002/Team/05=不明
 Variant002/Team/06=军阀
 Variant003/ModeDesc=专家模式
 Variant003/ModeName=专家模式
@@ -10503,7 +10510,7 @@ Variant003/Team/01=异形
 Variant003/Team/02=诺亚
 Variant003/Team/03=外星
 Variant003/Team/04=未知实体
-Variant003/Team/05=未知
+Variant003/Team/05=不明
 Variant003/Team/06=军阀
 Weapon/Name/Autocannon=Autocannon
 Weapon/Name/Autocannon2=AutocannonII
