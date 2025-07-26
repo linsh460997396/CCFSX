@@ -53,159 +53,86 @@
     <CButton id="MovePatrol"/>
     <CCamera id="Dflt">
         <ParamInitial index="FieldOfView" value="41.200001"/>
-        <ParamInitial index="Distance" value="30.000000"/>
-        <ParamInitial index="Pitch" value="60.000000"/>
         <ZoomTable index="0">
-            <Param index="Distance" Value="40.000000"/>
-            <Param index="Pitch" Modify="0" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="Distance" Value="56.000000"/>
+            <Param index="Pitch" Modify="0" Value="68.000000"/>
+            <Param index="Yaw" Value="180.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable index="1">
-            <Param index="Distance" Value="38.000000"/>
-            <Param index="Pitch" Modify="0" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="Distance" Value="48.000000"/>
+            <Param index="Pitch" Modify="0" Value="64.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable index="2">
-            <Param index="Distance" Value="36.000000"/>
+            <Param index="Distance" Value="40.000000"/>
             <Param index="Pitch" Modify="0" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable index="3">
             <Param index="Distance" Value="34.000000"/>
-            <Param index="Pitch" Modify="0" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="Pitch" Modify="0" Value="56.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable index="4">
-            <Param index="Distance" Value="32.000000"/>
-            <Param index="Pitch" Modify="0" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
+            <Param index="Distance" Value="30.000000"/>
+            <Param index="Pitch" Modify="0" Value="52.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
-            <Param index="Distance" Modify="1" Value="30.000000"/>
-            <Param index="Pitch" Value="60.000000"/>
-            <Param index="Yaw" Modify="1" Value="180.000000"/>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="28.000000"/>
-            <Param index="Pitch" Value="58.000000"/>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="25.000000"/>
-            <Param index="Pitch" Value="56.000000"/>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="21.000000"/>
-            <Param index="Pitch" Value="54.000000"/>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="16.000000"/>
+            <Param index="Distance" Modify="1" Value="26.000000"/>
             <Param index="Pitch" Value="48.000000"/>
             <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Value="4.000000"/>
-            <Param index="HeightOffset" Value="0.875000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Value="3.000000"/>
-            <Param index="HeightOffset" Value="0.750000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Value="2.000000"/>
-            <Param index="HeightOffset" Value="0.625000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Value="2.000000"/>
-            <Param index="HeightOffset" Value="0.500000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="26.000000"/>
-            <Param index="Pitch" Modify="1" Value="48.000000"/>
-        </ZoomTable>
-        <ZoomTable>
             <Param index="Distance" Modify="1" Value="22.000000"/>
-            <Param index="Pitch" Modify="1" Value="44.000000"/>
+            <Param index="Pitch" Value="44.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FarClip" Modify="1" Value="500.000000"/>
             <Param index="Distance" Modify="1" Value="18.000000"/>
-            <Param index="Pitch" Modify="1" Value="40.000000"/>
+            <Param index="Pitch" Value="40.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FarClip" Modify="1" Value="300.000000"/>
             <Param index="Distance" Modify="1" Value="12.000000"/>
-            <Param index="Pitch" Modify="1" Value="36.000000"/>
+            <Param index="Pitch" Value="36.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FarClip" Modify="1" Value="200.000000"/>
             <Param index="Distance" Modify="1" Value="6.000000"/>
-            <Param index="Pitch" Modify="1" Value="30.000000"/>
+            <Param index="Pitch" Value="30.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="1.000000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FarClip" Modify="1" Value="100.000000"/>
-            <Param index="Distance" Modify="1" Value="6.000000"/>
-            <Param index="Pitch" Modify="1" Value="15.000000"/>
-            <Param index="HeightOffset" Modify="1"/>
+            <Param index="Distance" Modify="1" Value="4.000000"/>
+            <Param index="Pitch" Value="15.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="0.875000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FieldOfView" Value="120.000000"/>
             <Param index="FarClip" Modify="1" Value="100.000000"/>
-            <Param index="Distance" Modify="1"/>
-            <Param index="Pitch" Modify="1"/>
-            <Param index="HeightOffset" Modify="1" Value="2.000000"/>
+            <Param index="Distance" Modify="1" Value="3.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="0.750000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FieldOfView" Value="120.000000"/>
             <Param index="FarClip" Modify="1" Value="100.000000"/>
-            <Param index="Distance" Modify="1"/>
-            <Param index="Pitch" Modify="1"/>
-            <Param index="HeightOffset" Modify="1" Value="0.400000"/>
+            <Param index="Distance" Modify="1" Value="2.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="0.625000"/>
         </ZoomTable>
         <ZoomTable>
             <Param index="FieldOfView" Value="120.000000"/>
             <Param index="FarClip" Modify="1" Value="100.000000"/>
-            <Param index="Distance" Modify="1"/>
-            <Param index="Pitch" Modify="1" Value="350.000000"/>
-            <Param index="HeightOffset" Modify="1" Value="0.400000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="15.000000"/>
-            <Param index="Pitch" Modify="1" Value="44.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="13.000000"/>
-            <Param index="Pitch" Modify="1" Value="40.000000"/>
-        </ZoomTable>
-        <ZoomTable>
-            <Param index="Distance" Modify="1" Value="13.000000"/>
-            <Param index="Pitch" Modify="1" Value="36.000000"/>
+            <Param index="Distance" Modify="1" Value="2.000000"/>
+            <Param index="Pitch" Value="350.000000"/>
+            <Param index="HeightOffset" Modify="1" Value="0.500000"/>
         </ZoomTable>
         <ZoomDefault value="3"/>
-        <PitchIncrement value="2.000000"/>
     </CCamera>
     <!--                                                                                         -->
     <!-- DestructibleGateStraightVerticalLF .................................................... -->
