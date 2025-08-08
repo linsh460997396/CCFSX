@@ -501,6 +501,10 @@ Attribute027/Value001/Desc=有玩家没看过剧本时，自动进行播放
 Attribute027/Value001/Name=自动
 Attribute027/Value002/Name=始终启用
 Attribute027/Value003/Name=关闭
+Attribute028/Name=[>>剧情细节<<]
+Attribute028/Value001/Desc=在剧情发生时隐藏游戏菜单
+Attribute028/Value001/Name=隐藏菜单
+Attribute028/Value003/Name=无
 Behavior/Name/BJSJ0=暴击几率 +<d ref="Behavior,BJSJ0,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%
 Behavior/Name/BJSJ1=暴击几率 +<d ref="Behavior,BJSJ1,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%
 Behavior/Name/BJSJ10=暴击几率 +<d ref="Behavior,BJSJ10,Modification.CriticalAttackChanceScaledBonus*100" precision="2"/>%

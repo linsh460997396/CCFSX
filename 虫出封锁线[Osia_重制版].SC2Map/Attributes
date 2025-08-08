@@ -1105,6 +1105,27 @@
             <Value Id="1"/>
         </Default>
     </Attribute>
+    <Attribute>
+        <Id Value="28"/>
+        <Type Value="Global"/>
+        <Name Value="Attribute028/Name"/>
+        <Availability Value="All"/>
+        <Visibility Value="All"/>
+        <Access Value="Host"/>
+        <Value>
+            <Id Value="1"/>
+            <Name Value="Attribute028/Value001/Name"/>
+            <Description Value="Attribute028/Value001/Desc"/>
+        </Value>
+        <Value>
+            <Id Value="3"/>
+            <Name Value="Attribute028/Value003/Name"/>
+        </Value>
+        <Default>
+            <Slot Id="Global"/>
+            <Value Id="1"/>
+        </Default>
+    </Attribute>
     <DefaultVariants Value="0"/>
     <Variant>
         <Id Value="1"/>
