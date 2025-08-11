@@ -12,4 +12,15 @@
         <Value>bnet:MM_ID管控/0.0/146804,file:Mods\MM_ID管控.SC2Mod</Value>
         <Value>bnet:《魔兽争霸III》（美术Mod）/0.0/999,file:Mods/War3.SC2Mod</Value>
     </Dependencies>
+    <PatchNote>
+        <Version>
+            <Value>0.46</Value>
+        </Version>
+        <Date>
+            <Value>8/12/2025</Value>
+        </Date>
+        <Notes>
+            <Value>1,2</Value>
+        </Notes>
+    </PatchNote>
 </DocInfo>
