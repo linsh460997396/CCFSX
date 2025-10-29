@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="1stYamatoGun"/>
+    <CButton id="AN100012">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100022">
+        <Icon value="Assets\Textures\btn-unit-terran-odin.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100032">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100042">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100052">
+        <Icon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100062">
+        <Icon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100072">
+        <Icon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100082">
+        <Icon value="Assets\Textures\btn-unit-terran-odin.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100092">
+        <Icon value="Assets\Textures\btn-unit-terran-odin.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100102">
+        <Icon value="Assets\UI\btn-unit-terran-goliath-umojan.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100112">
+        <Icon value="Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100122">
+        <Icon value="Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100132">
+        <Icon value="Assets\Textures\btn-unit-terran-hellionbattlemode.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-hellionbattlemode.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100142">
+        <Icon value="Assets\Textures\btn-unit-protoss-zealot-purifier.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-zealot-purifier.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AN100152">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingassault.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100162">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingassault.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100172">
+        <Icon value="Assets\Textures\btn-unit-terran-scv.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-scv.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="AN100182">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100192">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100202">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100212">
+        <Icon value="Assets\Textures\btn-unit-terran-sniperbot3000.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-sniperbot3000.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100222">
+        <Icon value="Assets\Textures\btn-unit-terran-cyclone.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-cyclone.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100232">
+        <Icon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100242">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100252">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankmercenary-tank.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetank.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100262">
+        <Icon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100272">
+        <Icon value="Assets\Textures\btn-unit-terran-cobra.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-cobra.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100282">
+        <Icon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100292">
+        <Icon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100302">
+        <Icon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100312">
+        <Icon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-outbackhunter.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100322" parent="SprayDefault">
+        <Tooltip value="Button/Tooltip/AN100322"/>
+        <Icon value="Assets\Textures\Decal_Spray_0037_01.dds"/>
+        <AlertTooltip value="Button/Tooltip/AN100322"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100332">
+        <Icon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-marauder.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100342">
+        <Icon value="Assets\Textures\btn-unit-terran-mule.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100362">
+        <Icon value="excavator.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100372" parent="SprayDefault">
+        <Tooltip value="Button/Tooltip/AN100372"/>
+        <Icon value="Assets\Textures\Decal_Spray_0037_01.dds"/>
+        <AlertTooltip value="Button/Tooltip/AN100372"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100382">
+        <Icon value="storm_ui_icon_blaze_oil.dds"/>
+        <AlertIcon value="Weapons\btn-ability-terran-raynortossgrenade-color.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100392">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100402">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100412">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100422">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100432">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100442">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100452">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100462">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100472">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100482">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100492">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100502">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100512">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100522">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100532">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100542">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100552">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100562">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100572">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100582">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100592">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100602">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100612">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100622">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100632">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100642">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100652">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100662">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100672">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100682">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100692">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100702">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100712">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100722">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100732">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100742">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100752">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100762">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100772">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100782">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100792">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100802">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100812">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100822">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100832">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100842">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100852">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100862">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100872">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100882">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100892">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100902">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100912">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100922">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100932">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100942">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100952">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100962">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100972">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100982">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN100992">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101002">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101012">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101022">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101032">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101042">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101052">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101062">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101072">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101082">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101092">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101102">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101112">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101122">
+        <Tooltip value="Button/Tooltip/AN10112"/>
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertTooltip value="Button/Tooltip/AN10112"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101132">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AN101133">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+        <TooltipFlags index="ShowResources" value="0"/>
+    </CButton>
+    <CButton id="ANTX1012">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1022">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1032">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1042">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1052">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1062">
+        <Icon value="Assets\Textures\btn-upgrade-mengsk-veterancy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1072">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1082">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1092">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1102">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1112">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ANTX1122">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingarchangel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <Hotkey value=""/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Archangelosia">
+        <Icon value="Archangel.dds"/>
+    </CButton>
+    <CButton id="ArchangelGosia2">
+        <Icon value="ArchangelGEX.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TitanMechBombardment"/>
+    </CButton>
+    <CButton id="AutoTurret2">
+        <Icon value="Assets\Textures\btn-unit-terran-autoturretblackops.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <Hotkey value="MM_BuildShaoQiangTa"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Campfire2">
+        <Icon value="Assets\Textures\fireball_10.dds"/>
+        <AlertIcon value="Assets\Textures\fireball_10.dds"/>
+        <Hotkey value="Y"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="Campfire"/>
+    </CButton>
+    <CButton id="CloakOff2">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-Decloak-color.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-Decloak-color.dds"/>
+        <Hotkey value="Button/Hotkey/CloakOff_D"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="CloakOff"/>
+        <HotkeySet value="Cloak"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ColonistTransportLoad2">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-Load.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ColonistTransportUnloadAll2">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-UnloadAll.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Generallimo6547">
+        <Icon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+    </CButton>
+    <CButton id="HoldFire265465">
+        <Icon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <AlertIcon value="Assets\Textures\BTN-Ability-Terran-HoldFire.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <Name value="Button/Name/HoldFire"/>
+        <Tooltip value="Button/Tooltip/HoldFire"/>
+    </CButton>
+    <CButton id="MM_BuShuFangZhenJuPao">
+        <Icon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_BuShuFangZhenJuPao2">
+        <Icon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-autoturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_BuildTeslaTurret">
+        <Icon value="Assets\UI\TeslaTurretButtonFinal.dds"/>
+        <AlertIcon value="Assets\UI\TeslaTurretButtonFinal.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_BuildTeslaTurret2">
+        <Icon value="Assets\UI\TeslaTurretButtonFinal.dds"/>
+        <AlertIcon value="Assets\UI\TeslaTurretButtonFinal.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_FBZJLand">
+        <Tooltip value="着陆L"/>
+        <Icon value="Assets\Textures\btn-ability-terran-land.dds"/>
+        <AlertTooltip value="着陆L"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-land.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MM_JianZaoBunker">
+        <Icon value="Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <Hotkey value="Button/Hotkey/Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_JianZaoBunker2">
+        <Icon value="Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunkerneosteel.dds"/>
+        <Hotkey value="Button/Hotkey/Bunker"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_YJZLJLand">
+        <Tooltip value="着陆L"/>
+        <Icon value="Assets\Textures\btn-ability-terran-land.dds"/>
+        <AlertTooltip value="着陆L"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-land.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MM_FBZJLift">
+        <Tooltip value="升空L"/>
+        <Icon value="Assets\Textures\btn-ability-terran-liftoff.dds"/>
+        <AlertTooltip value=""/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-liftoff.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MM_YJZLJLift">
+        <Tooltip value="升空L"/>
+        <Icon value="Assets\Textures\btn-ability-terran-liftoff.dds"/>
+        <AlertTooltip value=""/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-liftoff.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MM_XieZaiMuBiao">
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MM_XieZaiMuBiao2">
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="MM_XieZaiMuBiao"/>
+    </CButton>
+    <CButton id="MM_sandbag2">
+        <Icon value="Assets\Textures\btn-tips-rubble.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-rubble.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MissileTurret2">
+        <Icon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="MissileTurret"/>
+    </CButton>
+    <CButton id="MissileTurret22">
+        <Icon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="MissileTurret2"/>
+    </CButton>
+    <CButton id="Odinosia2301">
+        <Icon value="Assets\Textures\btn-unit-terran-odin.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TitanMechBombardment"/>
+    </CButton>
+    <CButton id="C14GUN2">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="C14GUN22">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="C14DMR">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="FlamethrowerOSIA">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="GustavRailgunN">
+        <Icon value="Gustav.dds"/>
+        <AlertIcon value="Gustav.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HidesForSimpleText value="0"/>
+    </CButton>
+    <CButton id="HireSpartanCompanyOSIA54156">
+        <Icon value="Assets\Textures\btn-unit-terran-goliathmercenary.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-goliath.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="PerditionTurret2">
+        <Icon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <Hotkey value="MM_BuildMoRiPaoTa"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="PerditionTurret"/>
+    </CButton>
+    <CButton id="PerditionTurret22">
+        <Icon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-perditionturret.dds"/>
+        <Hotkey value="MM_BuildMoRiPaoTa"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="PerditionTurret2"/>
+    </CButton>
+    <CButton id="SqwpButton">
+        <Icon value="Assets\Textures\btn-research-zerg-cellularreactor.dds"/>
+    </CButton>
+    <CButton id="Stim265">
+        <Tooltip value=""/>
+        <Icon value="Assets\Textures\btn-ability-protoss-chronobeam.dds"/>
+        <AlertTooltip value=""/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-stimpack-color.dds"/>
+        <Hotkey value="Button/Hotkey/HadesOverdrive"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Thorblaster5465">
+        <Icon value="Assets\Textures\btn-unit-terran-thor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="TitanMechBombardment"/>
+    </CButton>
+    <CButton id="YagdraFireball"/>
+    <CButton id="YagdraTunnel"/>
+    <CButton id="busosia">
+        <Icon value="bus.dds"/>
+        <AlertIcon value="bus.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Bulldozerosia">
+        <Icon value="Assets\Textures\wireframe-terran-bulldozer00.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-bulldozer00.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="busosia"/>
+    </CButton>
+    <CButton id="extraUpgrade01">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade00">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade02">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade03">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade05">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade04">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade06">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade07">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade08">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="extraUpgrade09">
+        <Icon value="book.tga"/>
+    </CButton>
+    <CButton id="moreBuild2">
+        <Icon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="TerranBuild"/>
+    </CButton>
+    <CButton id="moreBuild22">
+        <Icon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="repairtankosia">
+        <Icon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="VikingFighterAmod">
+        <Icon value="Assets\Textures\btn-unit-terran-vikingassault.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-vikingfighter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="VikingFighter"/>
+    </CButton>
+    <CButton id="excavatorosia">
+        <Icon value="excavator.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-militarizedcolonisttransport.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="rpgluncher">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <HotkeyAlias value="C14GUN2"/>
+    </CButton>
+    <CButton id="C14GUN3">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="Rpgstore">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <Hotkey value="Button/Hotkey/Changeweaponmenu2"/>
+    </CButton>
+    <CButton id="C14GUN4">
+        <Tooltip value="Button/Tooltip/C14GUN32"/>
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <Hotkey value="Button/Hotkey/Changeweaponmenu2"/>
+    </CButton>
+    <CButton id="HireSiegeBreakers2">
+        <Icon value="Assets\Textures\btn-unit-terran-sniperbot3000.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-sniperbot3000.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="starATK">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
+        <Hotkey value="Button/Hotkey/HireDukesRevenge2"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Cars">
+        <Icon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+        <AlertIcon value="Assets\Textures\wireframe-terran-civiliancarsunit-01.dds"/>
+        <Hotkey value="Button/Hotkey/HireDukesRevenge2"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="C14GUN">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="Campfire">
+        <Icon value="Assets\Textures\fireball_10.dds"/>
+        <AlertIcon value="Assets\Textures\fireball_10.dds"/>
+        <Hotkey value="Button/Hotkey/642651"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Changeweaponmenu">
+        <Icon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-experiencedplasmagun.dds"/>
+    </CButton>
+    <CButton id="starDEF">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel1.dds"/>
+        <Hotkey value="Button/Hotkey/HireDukesRevenge2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="starATK"/>
+    </CButton>
+    <CButton id="starSPD">
+        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel2.dds"/>
+        <Hotkey value="Button/Hotkey/HireDukesRevenge2"/>
+        <EditorCategories value="Race:Terran"/>
+        <HotkeyAlias value="starATK"/>
+    </CButton>
+    <CButton id="takeonosia">
+        <Icon value="Assets\Textures\btn-ability-terran-load.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-load.dds"/>
+    </CButton>
+    <CButton id="takeoffosia">
+        <Icon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-unloadall.dds"/>
+        <HotkeyAlias value="takeonosia"/>
+    </CButton>
+    <CButton id="UnknownButton2"/>
+    <CButton id="Stim24323">
+        <Icon value="Assets\Textures\btn-upgrade-raynor-shockwavemissilebattery.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-nova-tacticalstealthsuit.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="HydraliskFrenzy26">
+        <Icon value="Assets\Textures\btn-unit-zerg-yagdra.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AmonTentacleDShowsAoE2">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-burrowcharge.dds"/>
+    </CButton>
+    <CButton id="CorruptionAbility2222">
+        <Icon value="Assets\Textures\btn-upgrade-zagara-scourgegasreduction.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-corruption.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EMPZB@JXLWS1">
+        <Icon value="Assets\Textures\decal_zerg_0044_01.dds"/>
+    </CButton>
+</Catalog>

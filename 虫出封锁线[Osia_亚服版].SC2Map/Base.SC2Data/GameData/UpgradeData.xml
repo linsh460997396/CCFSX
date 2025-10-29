@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="1000">
+        <Alert value=""/>
+    </CUpgrade>
+    <CUpgrade id="100010">
+        <Name value="大建升级"/>
+        <Alert value=""/>
+    </CUpgrade>
+    <CUpgrade id="100074">
+        <Alert value=""/>
+        <EffectArray Operation="Subtract" Reference="Abil,Odinsp,Cost[0].Charge.TimeUse" Value="0.120000"/>
+        <EffectArray Operation="Subtract" Reference="Abil,Odinsp,FinishTime[0]" Value="0.100000"/>
+        <EditorCategories value="Race:Terran"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100073">
+        <Alert value=""/>
+        <EffectArray Operation="Subtract" Reference="Abil,Gustavgun,Cost[0].Cooldown.TimeUse" Value="2.000000"/>
+        <MaxLevel value="5"/>
+    </CUpgrade>
+    <CUpgrade id="100072">
+        <Alert value=""/>
+        <EffectArray Reference="Effect,DiamondbackSearch,AreaArray[1].MaxCount" Value="1"/>
+        <EffectArray Reference="Weapon,Diamondback,DisplayAttackCount" Value="1"/>
+        <EffectArray Reference="Weapon,CCData_DiamondBack,DisplayAttackCount" Value="4"/>
+        <EffectArray Reference="Effect,CCData_Search_Diamondback,AreaArray[0].MaxCount" Value="4"/>
+        <EditorCategories value="Race:Terran"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100071"/>
+    <CUpgrade id="100063">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Effect,G03REffect,AreaArray[1].Arc" Value="60.000000"/>
+        <EffectArray Reference="Effect,G03REffect,AreaArray[1].MaxCount" Value="2"/>
+        <LeaderAlias value="10006"/>
+        <MaxLevel value="5"/>
+    </CUpgrade>
+    <CUpgrade id="100064">
+        <Alert value=""/>
+        <EffectArray Reference="Unit,UmojanLabWarbot,TurningRate" Value="14.941400"/>
+        <EffectArray Reference="Unit,UmojanLabWarbot,Deceleration" Value="0.125000"/>
+        <EffectArray Reference="Unit,UmojanLabWarbot,Acceleration" Value="0.125000"/>
+        <EffectArray Reference="Unit,UmojanLabWarbot,StationaryTurningRate" Value="14.941400"/>
+        <EffectArray Reference="Unit,UmojanLabWarbot,Speed" Value="0.101500"/>
+        <LeaderAlias value="10006"/>
+        <MaxLevel value="5"/>
+    </CUpgrade>
+    <CUpgrade id="100065">
+        <Alert value=""/>
+        <EffectArray Reference="Unit,Spectre,EnergyMax" Value="10"/>
+        <EffectArray Reference="Unit,Spectre,EnergyStart" Value="10"/>
+        <MaxLevel value="10"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100066">
+        <Alert value=""/>
+        <EffectArray Reference="Unit,Spectre,LifeMax" Value="10"/>
+        <EffectArray Reference="Unit,Spectre,LifeStart" Value="10"/>
+        <MaxLevel value="10"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100069">
+        <Alert value=""/>
+        <EffectArray Operation="Subtract" Reference="Effect,excavatorworkosiasearch,ExpireDelay" Value="0.500000"/>
+        <EffectArray Operation="Subtract" Reference="Effect,excavatorworkosiasearch,PeriodicPeriodArray[0]" Value="0.500000"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100067">
+        <Alert value=""/>
+        <EffectArray Reference="Unit,ThorAP,LifeStart" Value="60"/>
+        <EffectArray Reference="Unit,Thor,LifeStart" Value="60"/>
+        <EffectArray Reference="Unit,ThorAP,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Thor,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,ThorAP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Thor,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ThorAP,LifeMax" Value="60"/>
+        <EffectArray Reference="Unit,Thor,LifeMax" Value="60"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100068">
+        <Alert value=""/>
+        <EffectArray Reference="Effect,Repair651479,VitalArray[Life].Change" Value="0.25"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100070">
+        <Alert value=""/>
+        <EffectArray Reference="Unit,TitanMechAssaultOSIA,StationaryTurningRate" Value="20.039000"/>
+        <EffectArray Reference="Unit,TitanMechAssaultOSIA,TurningRate" Value="20.039000"/>
+        <MaxLevel value="10"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="100075">
+        <Alert value=""/>
+        <EffectArray Reference="Effect,OdinSPdamage,Amount" Value="10"/>
+        <EffectArray Reference="Effect,OdinSPdamage2,Amount" Value="10"/>
+        <EditorCategories value="Race:Terran"/>
+        <MaxLevel value="5"/>
+        <LeaderAlias value="10006"/>
+    </CUpgrade>
+    <CUpgrade id="10088">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10090">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10099">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10030"/>
+    <CUpgrade id="10070">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10066">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10025">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Behavior,countlife,Duration" Value="40"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul32,MinScanRange" Value="4"/>
+    </CUpgrade>
+    <CUpgrade id="10002"/>
+    <CUpgrade id="10003"/>
+    <CUpgrade id="10006">
+        <Alert value=""/>
+        <EffectArray Operation="Subtract" Reference="Abil,Mrgacrushisua,PrepTime[0]" Value="0.250000"/>
+        <EffectArray Reference="Abil,Mrgacrushisua,Range[0]" Value="0"/>
+        <MaxLevel value="5"/>
+    </CUpgrade>
+    <CUpgrade id="100062">
+        <Alert value=""/>
+    </CUpgrade>
+    <CUpgrade id="10010"/>
+    <CUpgrade id="10008">
+        <LeaderAlias value="10004"/>
+    </CUpgrade>
+    <CUpgrade id="10009">
+        <LeaderAlias value="10004"/>
+    </CUpgrade>
+    <CUpgrade id="10004"/>
+    <CUpgrade id="10007"/>
+    <CUpgrade id="10005">
+        <LeaderAlias value="10004"/>
+    </CUpgrade>
+    <CUpgrade id="10024"/>
+    <CUpgrade id="10023">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10022">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10021">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10020">
+        <LeaderAlias value="10010"/>
+    </CUpgrade>
+    <CUpgrade id="10017">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10014"/>
+    <CUpgrade id="10011"/>
+    <CUpgrade id="10012"/>
+    <CUpgrade id="10013"/>
+    <CUpgrade id="10018">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10019">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10026">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Behavior,countlife,Duration" Value="10"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul32,MinScanRange" Value="7"/>
+        <EffectArray Reference="Unit,InfestedTerran2,Speed" Value="0.125000"/>
+        <EffectArray Reference="Effect,LocustMPCreateUnitA,SpawnCount" Value="2"/>
+        <EffectArray Reference="Effect,LocustMPCreateUnitB,SpawnCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeMax" Value="6000"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeStart" Value="6000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="500"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="500"/>
+        <LeaderAlias value="10025"/>
+    </CUpgrade>
+    <CUpgrade id="10027">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Behavior,countlife,Duration" Value="5"/>
+        <EffectArray Operation="Set" Reference="Weapon,Zeratul32,MinScanRange" Value="13"/>
+        <EffectArray Reference="Unit,InfestedTerran2,Speed" Value="0.250000"/>
+        <EffectArray Reference="Effect,LocustMPCreateUnitA,SpawnCount" Value="5"/>
+        <EffectArray Reference="Effect,LocustMPCreateUnitB,SpawnCount" Value="5"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeStart" Value="6600"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,Speed" Value="1"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="1000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="1000"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <LeaderAlias value="10025"/>
+    </CUpgrade>
+    <CUpgrade id="10071">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="10089">
+        <LeaderAlias value="10013"/>
+    </CUpgrade>
+    <CUpgrade id="1stArmor"/>
+    <CUpgrade id="1stArmor2">
+        <Icon value="Assets\Textures\btn-upgrade-terran-neosteelframe.dds"/>
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Unit,OdinOsiaEX,LifeArmor" Value="4"/>
+        <EffectArray Operation="Subtract" Reference="Abil,OdinspS,Cost[0].Vital[Energy]" Value="2"/>
+        <EffectArray Operation="Set" Reference="Unit,OdinOsiaEX,CostResource[Vespene]" Value="1"/>
+        <EffectArray Reference="Abil,OdinspSX,Range[0]" Value="0.25"/>
+        <EffectArray Operation="Subtract" Reference="Abil,OdinspSX,PrepTime[0]" Value="0.250000"/>
+        <EffectArray Operation="Subtract" Reference="Abil,OdinspSX,FinishTime[0]" Value="0.250000"/>
+        <EffectArray Reference="Unit,OdinOsiaEX,CostResource[Minerals]" Value="250"/>
+        <EditorCategories value="Race:Terran,UpgradeType:ArmorBonus"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="1stArmor3">
+        <Icon value="Assets\Textures\btn-upgrade-terran-neosteelframe.dds"/>
+        <EffectArray Reference="Unit,DukesRevenge2,LifeArmor[0]" Value="0.25"/>
+        <EffectArray Operation="Set" Reference="Unit,DukesRevenge2,CostResource[Minerals]" Value="80000"/>
+        <EffectArray Operation="Set" Reference="Unit,DukesRevenge2,CostResource[Vespene]" Value="10"/>
+        <EffectArray Operation="Subtract" Reference="Weapon,DRBattlecruiserG2,Period" Value="0.050000"/>
+        <EffectArray Operation="Subtract" Reference="Unit,DukesRevenge2,RepairTime" Value="10.000000"/>
+        <EditorCategories value="Race:Terran,UpgradeType:ArmorBonus"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="1stELBG">
+        <EffectArray index="0" Operation="Subtract" Reference="Abil,DukesRevengeYamato2,Cost[0].Vital[Energy]" Value="45"/>
+        <EffectArray index="1" Reference="Abil,DukesRevengeYamato2,Range[0]" Value="15"/>
+        <EffectArray index="2" Reference="Effect,LaserDrillTripodDamage22,AttributeBonus[Heroic]" Value="2"/>
+        <EffectArray index="3" Reference="Effect,LaserDrillTripodDamage2,AttributeBonus[Heroic]" Value="2"/>
+        <EffectArray index="4" Reference="Effect,LaserDrillTripodDamage22,Maximum" Value="2"/>
+        <EffectArray index="5" Reference="Effect,LaserDrillTripodDamage2,Maximum" Value="2"/>
+        <EffectArray index="6" Operation="Subtract" Reference="Effect,LaserDrillTripodDamage22,ArmorReduction" Value="0.5"/>
+        <EffectArray index="7" removed="1"/>
+        <EffectArray index="8" removed="1"/>
+        <EffectArray index="9" removed="1"/>
+        <EffectArray index="10" removed="1"/>
+        <EffectArray index="11" removed="1"/>
+        <EffectArray index="12" removed="1"/>
+        <EffectArray index="13" removed="1"/>
+        <EffectArray index="14" removed="1"/>
+        <EffectArray index="15" removed="1"/>
+        <EffectArray index="16" removed="1"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="BattlecruiserEnableSpecializations">
+        <EffectArray Reference="Effect,LokiYamatoU2,Maximum" Value="100"/>
+        <EffectArray Operation="Subtract" Reference="Abil,DukesRevengeYamato3,Cost[0].Vital[Energy]" Value="25"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="LsUpgrade23">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="12"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="9"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="150"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="150"/>
+    </CUpgrade>
+    <CUpgrade id="LsUpgrade422">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="13"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="8"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="180"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="120"/>
+    </CUpgrade>
+    <CUpgrade id="LsUpgrade52">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="20"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="15"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="15"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="15"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="10"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="200"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="150"/>
+    </CUpgrade>
+    <CUpgrade id="LsUpgrade72">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="20"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="15"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="12"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="200"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="150"/>
+    </CUpgrade>
+    <CUpgrade id="LsUpgrade722">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="20"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="50"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="15"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="12"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="200"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="150"/>
+    </CUpgrade>
+    <CUpgrade id="M40001"/>
+    <CUpgrade id="M40002"/>
+    <CUpgrade id="M40003"/>
+    <CUpgrade id="M40004"/>
+    <CUpgrade id="M40005"/>
+    <CUpgrade id="MM_FFZJ_ZP2">
+        <Race value="Terr"/>
+        <EditorCategories value="UpgradeType:Talents"/>
+        <AffectedUnitArray value="VikingFighter3"/>
+        <AffectedUnitArray value="VikingAssault"/>
+        <EffectArray Reference="Effect,LG05Damage2,Amount" Value="0.3"/>
+        <EffectArray Reference="Effect,LG05Damage3,Amount" Value="0.3"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="MM_FFZJ_JGPXN">
+        <Race value="Terr"/>
+        <EffectArray Reference="Effect,PrismaticallyAlignedRapidfireLaserCannonDamage,AttributeBonus[Heroic]" Value="0.5"/>
+        <EffectArray Operation="Subtract" Reference="Unit,VikingFighter3,RepairTime" Value="10.000000"/>
+        <EffectArray Reference="Effect,PrismaticallyAlignedRapidfireLaserCannonDamage,LeechFraction[Energy]" Value="0.001"/>
+        <EffectArray Reference="Effect,PrismaticallyAlignedRapidfireLaserCannonDamage,ArmorReduction" Value="0.05"/>
+        <EffectArray Reference="Effect,PrismaticallyAlignedRapidfireLaserCannonDamage,Amount" Value="0.5"/>
+        <AffectedUnitArray value="VikingFighter3"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_CK">
+        <Alert value=""/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="3.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="1.6"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_CKEX">
+        <Alert value=""/>
+        <EffectArray Reference="Weapon,Zeratul32,MinScanRange" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Brakk,LifeMax" Value="6600"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Slivan,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,Slivan,LifeMax" Value="6600"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="4.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="4.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="4.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="4.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="4.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="1.8"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_DY1">
+        <Alert value=""/>
+        <EffectArray Reference="Weapon,Zeratul32,MinScanRange" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Brakk,LifeMax" Value="6600"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,Slivan,LifeStart" Value="6600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeMax" Value="6600"/>
+        <EffectArray Reference="Unit,Slivan,LifeMax" Value="6600"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="5.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="5.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="5.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="5.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="5.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="2"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_DY2">
+        <Alert value=""/>
+        <EffectArray Reference="Weapon,Zeratul32,MinScanRange" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeStart" Value="10000"/>
+        <EffectArray Reference="Unit,Brakk,LifeMax" Value="10000"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeStart" Value="10000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="10000"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeMax" Value="10000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="10000"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeStart" Value="10000"/>
+        <EffectArray Reference="Unit,Slivan,LifeStart" Value="10000"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeMax" Value="10000"/>
+        <EffectArray Reference="Unit,Slivan,LifeMax" Value="10000"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="6.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="6.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="6.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="6.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="6.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="2.2"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_DY3">
+        <Alert value=""/>
+        <EffectArray Reference="Weapon,Zeratul32,MinScanRange" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeStart" Value="16600"/>
+        <EffectArray Reference="Unit,Brakk,LifeMax" Value="16600"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeStart" Value="16600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="16600"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeMax" Value="16600"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="16600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeStart" Value="16600"/>
+        <EffectArray Reference="Unit,Slivan,LifeStart" Value="16600"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeMax" Value="16600"/>
+        <EffectArray Reference="Unit,Slivan,LifeMax" Value="16600"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="7.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="7.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="7.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="7.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="7.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="2.5"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_DY4">
+        <Alert value=""/>
+        <EffectArray Reference="Weapon,Zeratul32,MinScanRange" Value="1"/>
+        <EffectArray Reference="Unit,Brakk,LifeStart" Value="20000"/>
+        <EffectArray Reference="Unit,Brakk,LifeMax" Value="20000"/>
+        <EffectArray Reference="Effect,Zeratul32,Amount" Value="1"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeStart" Value="20000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeStart" Value="20000"/>
+        <EffectArray Reference="Unit,Mitosaurus,LifeMax" Value="20000"/>
+        <EffectArray Reference="Unit,HotSNoxious,LifeMax" Value="20000"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeStart" Value="20000"/>
+        <EffectArray Reference="Unit,Slivan,LifeStart" Value="20000"/>
+        <EffectArray Reference="Unit,HotSTorrasque,LifeMax" Value="20000"/>
+        <EffectArray Reference="Unit,Slivan,LifeMax" Value="20000"/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="8.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Slivan,LifeRegenRate" Value="8.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="8.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="8.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="8.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="3"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_KN">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="2.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="2.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="2.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="2.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="1.4"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_PT">
+        <Alert value=""/>
+        <EffectArray Operation="Set" Reference="Unit,Brakk,LifeRegenRate" Value="1.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,Mitosaurus,LifeRegenRate" Value="1.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSNoxious,LifeRegenRate" Value="1.000000"/>
+        <EffectArray Operation="Set" Reference="Unit,HotSTorrasque,LifeRegenRate" Value="1.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Zeratul32,Minimum" Value="1.2"/>
+    </CUpgrade>
+    <CUpgrade id="MM_NDSJ_XX">
+        <Alert value=""/>
+    </CUpgrade>
+    <CUpgrade id="MM_RewardDanceViking">
+        <Race value="Terr"/>
+        <EffectArray Operation="Set" Reference="Unit,VikingFighter3,TauntDuration[Dance]" Value="5"/>
+        <AffectedUnitArray value="VikingFighter3"/>
+    </CUpgrade>
+    <CUpgrade id="MM_FFZJ_ZP">
+        <Race value="Terr"/>
+        <EditorCategories value="UpgradeType:Talents"/>
+        <AffectedUnitArray value="VikingFighter3"/>
+        <AffectedUnitArray value="VikingAssault"/>
+        <EffectArray Reference="Effect,DRBattlecruiserGU22,AttributeBonus[Heroic]" Value="1"/>
+        <EffectArray Operation="Subtract" Reference="Abil,MengskBCMissilePods,Cost[0].Vital[Energy]" Value="3"/>
+        <EffectArray Reference="Effect,DRBattlecruiserGU22,Amount" Value="1"/>
+        <MaxLevel value="9"/>
+    </CUpgrade>
+    <CUpgrade id="MM_VikingJotunBoosters">
+        <Icon value="Assets\Textures\btn-upgrade-terran-jotunboosters.dds"/>
+        <Alert value="ResearchComplete"/>
+        <Race value="Terr"/>
+        <ScoreResult value="BuildOrder"/>
+        <EffectArray Operation="Set" Reference="Abil,MengskBCMissilePods,Range[0]" Value="12"/>
+        <EditorCategories value="Race:Terran,UpgradeType:AttackBonus"/>
+        <AffectedUnitArray value="VikingFighter3"/>
+    </CUpgrade>
+    <CUpgrade id="SJFBZJ"/>
+    <CUpgrade id="SJFBZJ2"/>
+    <CUpgrade id="SJ_YJZLJ_Land">
+        <LeaderAlias value="SJFBZJ2"/>
+    </CUpgrade>
+    <CUpgrade id="SJ_YJZLJ_Fly">
+        <LeaderAlias value="SJFBZJ"/>
+    </CUpgrade>
+    <CUpgrade id="UnknownUpgrade">
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeMax" Value="0.05"/>
+        <MaxLevel value="255"/>
+    </CUpgrade>
+    <CUpgrade id="UnknownUpgrade2">
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeStart" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeArmor" Value="0.01"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,AshWorm2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk22,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,StukovApocalisk2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Omegalisk,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,Yagdra2,LifeMax" Value="0.05"/>
+        <EffectArray Operation="AddBaseMultiply" Reference="Unit,OmegaliskBurrowed,LifeMax" Value="0.05"/>
+        <MaxLevel value="255"/>
+        <LeaderAlias value="UnknownUpgrade"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade01">
+        <EffectArray Reference="Unit,Spectre,LifeStart" Value="50"/>
+        <EffectArray Reference="Unit,Spectre,LifeRegenRate" Value="2.000000"/>
+        <EffectArray Reference="Unit,Spectre,LifeMax" Value="50"/>
+        <EffectArray Reference="Unit,Spectre,LifeArmor" Value="3"/>
+        <EffectArray Reference="Unit,Spectre,LifeArmorLevel" Value="3"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade02">
+        <EffectArray Reference="Unit,Spectre,Speed" Value="0.750000"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade03">
+        <EffectArray Operation="Multiply" Reference="Abil,TerranBuild2,InfoArray[Build17].Time" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,TerranBuild2,InfoArray[Build26].Time" Value="0.500000"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade04">
+        <EffectArray Operation="Set" Reference="Weapon,GuassRifleDMR,CriticalChance" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade05">
+        <EffectArray Operation="Multiply" Reference="Effect,Repair,RechargeVitalRate" Value="2.000000"/>
+        <EffectArray Operation="Set" Reference="Effect,Repair,DrainResourceCostFactor[Custom]" Value="0.1"/>
+        <EffectArray Operation="Set" Reference="Effect,Repair,DrainResourceCostFactor[Minerals]" Value="0.1"/>
+        <EffectArray Operation="Set" Reference="Effect,Repair,DrainResourceCostFactor[Terrazine]" Value="0.1"/>
+        <EffectArray Operation="Set" Reference="Effect,Repair,DrainResourceCostFactor[Vespene]" Value="0.1"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade06">
+        <EffectArray Operation="Set" Reference="Behavior,powerStarATK,Modification.DamageDealtFraction[Melee]" Value="0.3"/>
+        <EffectArray Operation="Set" Reference="Behavior,powerStarATK,Modification.DamageDealtFraction[Ranged]" Value="0.3"/>
+        <EffectArray Operation="Set" Reference="Behavior,powerStarATK,Modification.DamageDealtFraction[Spell]" Value="0.3"/>
+        <EffectArray Operation="Set" Reference="Behavior,powerStarATK,Modification.DamageDealtFraction[Splash]" Value="0.3"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade07">
+        <EffectArray Operation="Set" Reference="Behavior,powerStarSPD,Modification.AttackSpeedMultiplier" Value="1.3"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade08">
+        <EffectArray Reference="Behavior,powerStarDEF,Modification.LifeArmorBonus" Value="1"/>
+    </CUpgrade>
+    <CUpgrade id="extraupgrade09">
+        <EffectArray Operation="Multiply" Reference="Abil,ThorFortress,FinishTime[0]" Value="0.600000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,ThorFortress,PrepTime[0]" Value="0.600000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeMode,InfoArray[0].SectionArray[Actor].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeMode,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeBreakerSiege,InfoArray[0].SectionArray[Actor].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeBreakerSiege,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,Unsiege,InfoArray[0].SectionArray[Actor].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,Unsiege,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.500000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeBreakerUnsiege,InfoArray[0].SectionArray[Stats].DurationArray[Duration]" Value="0.600000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,SiegeBreakerUnsiege,InfoArray[0].SectionArray[Actor].DurationArray[Duration]" Value="0.600000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,OdinspSX,PrepTime[0]" Value="0.600000"/>
+        <EffectArray Operation="Multiply" Reference="Abil,OdinspSX,FinishTime[0]" Value="0.600000"/>
+    </CUpgrade>
+    <CUpgrade id="ylUpgrade22">
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountUse" Value="1"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD2,Cost[0].Charge.CountMax" Value="6"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Cost[0].Charge.CountMax" Value="20"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Cost[0].Charge.CountMax" Value="12"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd2,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd,Cost[0].Charge.CountMax" Value="10"/>
+        <EffectArray Operation="Set" Reference="Abil,UseLd3,Cost[0].Charge.CountMax" Value="5"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdSL,PeriodCount" Value="1"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDelay,PeriodCount" Value="2"/>
+        <EffectArray Operation="Set" Reference="Abil,FsHJD,Range[0]" Value="12"/>
+        <EffectArray Operation="Set" Reference="Abil,epBonesTossGrenade,Range[0]" Value="10"/>
+        <EffectArray Operation="Set" Reference="Effect,HjdDamage,Amount" Value="180"/>
+        <EffectArray Operation="Set" Reference="Effect,BonesTossGrenadeDamage2,Amount" Value="180"/>
+    </CUpgrade>
+</Catalog>

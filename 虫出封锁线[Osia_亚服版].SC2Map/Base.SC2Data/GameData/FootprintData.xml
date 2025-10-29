@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CFootprint id="Footprint1x1BlockLOS22">
+        <Layers index="Check" Area="-5,-5,5,5">
+            <Sets Character="o">
+                <Negative index="NoBuild" value="1"/>
+                <Negative index="BlockVision" value="1"/>
+            </Sets>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+            <Rows value=".........."/>
+        </Layers>
+        <Layers index="Place" Area="-5,-5,5,5">
+            <Sets index="0">
+                <Positive index="BlockVision" value="1"/>
+            </Sets>
+            <Sets Character="o">
+                <Positive index="NoBuild" value="1"/>
+                <Positive index="BlockVision" value="1"/>
+            </Sets>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxx"/>
+        </Layers>
+    </CFootprint>
+    <CFootprint id="Footprint4x4">
+        <Shape>
+            <Offsets value="-2,-2;2,-2;-2,2;2,2"/>
+            <Borders value="0,2,2;1,0,2;2,3,2;3,1,2"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="FootprintColonistShip">
+        <Layers index="Pathing" removed="1"/>
+        <Shape>
+            <Radius value="1.4143"/>
+            <Offsets value="-1,-1;1,-1;-1,1;1,1"/>
+            <Borders value="0,2,0;1,0,0;2,3,0;3,1,0"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="FootprintNoBuild4x4OSIA">
+        <Layers index="Check" Area="-2,-2,2,2">
+            <Rows value="...."/>
+            <Rows value="...."/>
+            <Rows value="...."/>
+            <Rows value="...."/>
+        </Layers>
+        <Layers index="Place" Area="-2,-2,2,2">
+            <Rows value="xxxx"/>
+            <Rows value="xxxx"/>
+            <Rows value="xxxx"/>
+            <Rows value="xxxx"/>
+        </Layers>
+        <Shape>
+            <Radius value="2.8286"/>
+            <Offsets value="-2,-2;2,-2;-2,2;2,2"/>
+            <Borders value="0,2,0;1,0,0;2,3,0;3,1,0"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="FootprintNoBuild2x2OSIA">
+        <Layers index="Check">
+            <Rows value=".."/>
+            <Rows value=".."/>
+        </Layers>
+        <Layers index="Place">
+            <Rows value="xx"/>
+            <Rows value="xx"/>
+        </Layers>
+        <Shape>
+            <Radius value="1.4143"/>
+            <Offsets value="-1,-1;1,-1;-1,1;1,1"/>
+            <Borders value="0,2,0;1,0,0;2,3,0;3,1,0"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="FootprintNoBuild8x8OSIA">
+        <Layers index="Check" Area="-4,-4,4,4">
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+            <Rows value="........"/>
+        </Layers>
+        <Layers index="Place" Area="-4,-4,4,4">
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+            <Rows value="xxxxxxxx"/>
+        </Layers>
+        <Shape>
+            <Radius value="5.657"/>
+            <Offsets value="-4,-4;4,-4;-4,4;4,4"/>
+            <Borders value="0,2,0;1,0,0;2,3,0;3,1,0"/>
+        </Shape>
+    </CFootprint>
+    <CFootprint id="FootprintNoBuild12x12OSIA2">
+        <Layers index="Check" Area="-6,-6,6,6">
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+            <Rows value="............"/>
+        </Layers>
+        <Layers index="Place" Area="-6,-6,6,6">
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+            <Rows value="xxxxxxxxxxxx"/>
+        </Layers>
+        <Shape>
+            <Radius value="8.4853"/>
+            <Offsets value="-6,-6;6,-6;-6,6;6,6"/>
+            <Borders value="0,2,0;1,0,0;2,3,0;3,1,0"/>
+        </Shape>
+    </CFootprint>
+</Catalog>
