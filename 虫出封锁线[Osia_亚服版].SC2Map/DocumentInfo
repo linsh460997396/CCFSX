@@ -9,7 +9,7 @@
     <Dependencies>
         <Value>bnet:一等战列/0.0/147802,file:Mods\一等战列.SC2Mod</Value>
         <Value>bnet:MM_数据库/0.0/159029,file:Mods\MM_数据库.SC2Mod</Value>
-        <Value>bnet:MM_功能库/0.0/159030,file:Mods\MM_功能库.SC2Mod</Value>
+        <Value>bnet:MM_功能库_Official/0.0/180066,file:Mods\MM_功能库.SC2Mod</Value>
         <Value>bnet:虫出_ID管控/0.0/464348,file:Mods\虫出_ID管控.SC2Mod</Value>
     </Dependencies>
     <Screenshot>
