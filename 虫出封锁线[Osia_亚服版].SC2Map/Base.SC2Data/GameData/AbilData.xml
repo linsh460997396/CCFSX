@@ -1355,9 +1355,9 @@
         <Flags index="ShowCargoSize" value="0"/>
         <Flags index="ShowStatus" value="0"/>
         <Range value="3"/>
-        <MaxCargoCount value="12"/>
+        <MaxCargoCount value="1"/>
         <MaxCargoSize value="1"/>
-        <TotalCargoSpace value="12"/>
+        <TotalCargoSpace value="1"/>
         <UnloadPeriod value="1"/>
         <TargetFilters value="Visible;Neutral,Enemy,Buried,Dead,Hidden"/>
     </CAbilTransport>

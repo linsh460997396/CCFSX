@@ -316,7 +316,7 @@
         <WalkAnimMoveSpeed value="2.1445"/>
         <BarOffset value="250"/>
         <BarWidth value="140"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <GroupIcon>
             <Image value="Assets\Textures\wireframe-protoss-rogueai.dds"/>
         </GroupIcon>

@@ -769,6 +769,7 @@ void InitGlobals () {
     gv_e7B4ABE889B2E6A0B7E5BC8F204 = StringExternal("Param/Value/B698B451");
     gv_e8B083E8AF95E58CBAE6A0B7E5BC8F = StringExternal("Param/Value/B0D921CB");
     gv_e8818AE5A4A9E58CBAE6A0B7E5BC8F = StringExternal("Param/Value/1223D075");
+    gv_e38090E59CB0E59BBEE78AB6E68081E38091 = 2;
     gv_e38090E59CB0E59BBEE78988E69CACE38091 = StringExternal("Param/Value/B9411CA0");
     gv_e38090E9809FE5BAA6E7AD89E7BAA7E38091 = 4;
     gv_e38090E994AEE79B98E7A7BBE58AA8E38091 = 3;
@@ -1025,7 +1026,7 @@ void InitGlobals () {
     }
     gv_e98187E7AEA1E79086E8B7B3E8BF87E7ADBEE5908DE6A0A1E9AA8CEFBC88E58E9FE6A1A3EFBC89 = 1;
     gv_e782B8E6A1A3E694B9E4B8BAE4B88DE4BF9DE5AD98 = 1;
-    gv_e5AD98E6A1A3E78988E69CAC = "1.0";
+    gv_e5AD98E6A1A3E78988E69CAC = "1.2";
     for (init_i = 0; init_i <= 16; init_i += 1) {
         gv_e78EA9E5AEB6E58FA5E69F84[init_i] = "";
     }
@@ -2842,7 +2843,9 @@ bool gt_1F2E491BbS2SryP(bool iTOuLj3, bool y3Dagad)
     BankValueSetFromInt(gv_5F8F1E11[lv_463E5CDD], "048", "048", lv_14FAB429);
     BankValueSetFromInt(gv_5F8F1E11[lv_463E5CDD], "049", "049", lv_6E99EAF9);
     BankValueSetFromInt(gv_5F8F1E11[lv_463E5CDD], "050", "050", lv_931BB132);
-    BankSave(gv_5F8F1E11[lv_463E5CDD]); return true;
+    BankSave(gv_5F8F1E11[lv_463E5CDD]);
+    gf_E4BF9DE5AD98E695B0E68DAEE99B86(lv_463E5CDD);
+    return true;
 }
 void Bamon2A()
 {
@@ -2957,7 +2960,6 @@ bool gt_A16E6D28bS2SryP(bool iTOuLj3, bool y3Dagad)
     lv_8D3EB039 = TechTreeUpgradeCount(lv_40FAEC13, "Thorblasterupgrade", c_techCountCompleteOnly);
     lv_0E447D9C = TechTreeUpgradeCount(lv_40FAEC13, "10090", c_techCountCompleteOnly);
     if (!y3Dagad) { return true; }
-    gf_E4BF9DE5AD98E695B0E68DAEE99B86(lv_40FAEC13);
     if (PlayerHandle(lv_40FAEC13) != "")
     {
         BankValueSetFromString(gv_5F8F1E11[lv_40FAEC13], "294A83", "ID1U0CL4", PlayerHandle(lv_40FAEC13));
@@ -3021,8 +3023,11 @@ bool gt_A16E6D28bS2SryP(bool iTOuLj3, bool y3Dagad)
     BankValueSetFromInt(gv_5F8F1E11[lv_40FAEC13], "048", "048", lv_B7A248CF);
     BankValueSetFromInt(gv_5F8F1E11[lv_40FAEC13], "049", "049", lv_8D3EB039);
     BankValueSetFromInt(gv_5F8F1E11[lv_40FAEC13], "050", "050", lv_0E447D9C);
-    BankSave(gv_5F8F1E11[lv_40FAEC13]); libNtve_gf_HideScreenButton(false, 3);
-    Wait(2.0, c_timeGame); libNtve_gf_HideScreenButton(true, 3);
+    BankSave(gv_5F8F1E11[lv_40FAEC13]); 
+    gf_E4BF9DE5AD98E695B0E68DAEE99B86(lv_40FAEC13);
+    libNtve_gf_HideScreenButton(false, 3);
+    Wait(2.0, c_timeGame); 
+    libNtve_gf_HideScreenButton(true, 3);
     return true;
 }
 void blqj6jX() { gt_A16E6D28 = TriggerCreate("gt_A16E6D28bS2SryP"); }
@@ -3196,7 +3201,9 @@ bool gt_B9D7C48FbS2SryP(bool iTOuLj3, bool y3Dagad)
     BankValueSetFromInt(gv_5F8F1E11[lv_EA2C2F5B], "048", "048", lv_8550D0AA);
     BankValueSetFromInt(gv_5F8F1E11[lv_EA2C2F5B], "049", "049", lv_4B91F108);
     BankValueSetFromInt(gv_5F8F1E11[lv_EA2C2F5B], "050", "050", lv_C8284A85);
-    BankSave(gv_5F8F1E11[lv_EA2C2F5B]); GameOver(EventPlayer(), c_gameOverVictory, false, true);
+    BankSave(gv_5F8F1E11[lv_EA2C2F5B]); 
+    gf_E4BF9DE5AD98E695B0E68DAEE99B86(lv_EA2C2F5B);
+    GameOver(EventPlayer(), c_gameOverVictory, false, true);
     return true;
 }
 void AP8NPZ6() { gt_B9D7C48F = TriggerCreate("gt_B9D7C48FbS2SryP"); }
@@ -7145,7 +7152,7 @@ bool gt_A84D315FbS2SryP(bool iTOuLj3, bool y3Dagad)
     UnitSelect(gv_7D4E3F49[EventPlayer()], EventPlayer(), true);
     TextTagAttachToUnit(gv_11C00CA7[EventPlayer()], gv_7D4E3F49[EventPlayer()], 1.0);
     TextTagShow(gv_11C00CA7[EventPlayer()], PlayerGroupAlliance(c_playerGroupAlly, EventPlayer()), true);
-    if ((EventPlayer() != libNtve_gf_KillingPlayer()) && (libNtve_gf_KillingPlayer() == c_playerTypeUser) && ((libNtve_gf_KillingPlayer() == 1) || (libNtve_gf_KillingPlayer() == 2) || (libNtve_gf_KillingPlayer() == 3) || (libNtve_gf_KillingPlayer() == 4) || (libNtve_gf_KillingPlayer() == 5) || (libNtve_gf_KillingPlayer() == 6) || (libNtve_gf_KillingPlayer() == 7) || (libNtve_gf_KillingPlayer() == 8)))
+    if ((EventPlayer() != libNtve_gf_KillingPlayer()) && (PlayerType(libNtve_gf_KillingPlayer()) == c_playerTypeUser) && ((libNtve_gf_KillingPlayer() == 1) || (libNtve_gf_KillingPlayer() == 2) || (libNtve_gf_KillingPlayer() == 3) || (libNtve_gf_KillingPlayer() == 4) || (libNtve_gf_KillingPlayer() == 5) || (libNtve_gf_KillingPlayer() == 6) || (libNtve_gf_KillingPlayer() == 7) || (libNtve_gf_KillingPlayer() == 8)))
     {
         TextExpressionSetToken("Param/Expression/438DA234", "A", gv_e9BB98E8AEA4E5908DE5AD97E69687E69CAC[libNtve_gf_KillingPlayer()]);
         UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, TextExpressionAssemble("Param/Expression/438DA234"));
@@ -16292,7 +16299,7 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C058 () {
     while (true) {
         auto17309F35_var = PlayerGroupNextPlayer(auto17309F35_g, auto17309F35_var);
         if (auto17309F35_var < 0) { break; }
-        if ((auto17309F35_var == c_playerTypeUser)) {
+        if ((PlayerType(auto17309F35_var) == c_playerTypeUser)) {
             autoC862CD27_val = GameAttributePlayerValue("8", auto17309F35_var);
             if (autoC862CD27_val == "0001") {
                 gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[auto17309F35_var] = 0;
@@ -16634,7 +16641,7 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C050 () {
     while (true) {
         autoD345D940_var = PlayerGroupNextPlayer(autoD345D940_g, autoD345D940_var);
         if (autoD345D940_var < 0) { break; }
-        if ((autoD345D940_var == c_playerTypeUser)) {
+        if ((PlayerType(autoD345D940_var) == c_playerTypeUser)) {
             autoE0F57FC9_val = GameAttributePlayerValue("3", autoD345D940_var);
             if (autoE0F57FC9_val == "0002") {
                 gv_e38090E78EA9E5AEB6E58589E785A7E38091[autoD345D940_var] = 1;
@@ -17636,7 +17643,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C063 (int lp_p) {
     int autoB9C54679_var;
 
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e5A4B4E8A194E695B0E68DAEE5AD97E7ACA6[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "TX");
     if ((StringLength(gv_e5A4B4E8A194E695B0E68DAEE5AD97E7ACA6[lp_p]) != 16)) {
         if ((gv_e5A4B4E8A194E695B0E68DAEE5AD97E7ACA6[lp_p] == "")) {
@@ -17865,7 +17871,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C054 (int lp_p) {
     int auto7B4C9B99_var;
 
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e5A4A9E8B58BE695B0E68DAEE5AD97E7ACA6[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "TF");
     if ((StringLength(gv_e5A4A9E8B58BE695B0E68DAEE5AD97E7ACA6[lp_p]) != 16)) {
         if ((gv_e5A4A9E8B58BE695B0E68DAEE5AD97E7ACA6[lp_p] == "")) {
@@ -18023,7 +18028,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C025 (int lp_p) {
     int auto36BD9C04_var;
 
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e4B893E7B2BEE695B0E68DAEE5AD97E7ACA6[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "EX");
     if ((StringLength(gv_e4B893E7B2BEE695B0E68DAEE5AD97E7ACA6[lp_p]) != 16)) {
         if ((gv_e4B893E7B2BEE695B0E68DAEE5AD97E7ACA6[lp_p] == "")) {
@@ -18182,7 +18186,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C029 (int lp_p) {
 void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C020 (int lp_p) {
     // Automatic Variable Declarations
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E8BDBDE585B7EFBC89[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "Tz");
     if ((StringLength(gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E8BDBDE585B7EFBC89[lp_p]) != 110)) {
         if ((gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E8BDBDE585B7EFBC89[lp_p] == "")) {
@@ -18750,7 +18753,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C020 (int lp_p) {
 void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C022 (int lp_p) {
     // Automatic Variable Declarations
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E4BABAE7B1BBE5BBBAE980A0EFBC89[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "Bd");
     if ((StringLength(gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E4BABAE7B1BBE5BBBAE980A0EFBC89[lp_p]) != 5)) {
         if ((gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6EFBC88E4BABAE7B1BBE5BBBAE980A0EFBC89[lp_p] == "")) {
@@ -22207,7 +22209,6 @@ void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C030 (int lp_p) {
 void gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C043 (int lp_p) {
     // Automatic Variable Declarations
     // Implementation
-    gv_e58A9FE58B8BE580BC[lp_p] = gv_55F58130[lp_p];
     gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6E689A9EFBC88E8BDBDE585B7EFBC89[lp_p] = gf_E8AFBBE58F96E5AD97E7ACA6E4B8B2(lp_p, "Main", "TzEx");
     if ((StringLength(gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6E689A9EFBC88E8BDBDE585B7EFBC89[lp_p]) != 10)) {
         if ((gv_e59BBEE7BAB8E6A08FE5AD97E7ACA6E689A9EFBC88E8BDBDE585B7EFBC89[lp_p] == "")) {
@@ -27703,6 +27704,7 @@ void gf_E8AFBBE58F96E695B0E68DAEE99B86 (int lp_p) {
         BankLoad("NewModeBank", lp_p);
         gv_newModeBank[lp_p] = BankLastCreated();
         if (true) {
+            gv_e58A9FE58B8BE580BC[lp_p] = gf_E8AFBBE58F96E58A9FE58B8BE580BC(lp_p);
             gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C063(lp_p);
             gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C067(lp_p);
             gf_E697A0E6A087E9A298E79A84E58AA8E4BD9C054(lp_p);
@@ -27722,19 +27724,15 @@ void gf_E8AFBBE58F96E695B0E68DAEE99B86 (int lp_p) {
             gv_e8AFBBE58F96E79A84E5AD98E6A1A3E78988E69CAC[lp_p] = gf_E8AFBBE58F96E5AD98E6A1A3E78988E69CAC(lp_p);
             if ((TextToString(lv_e59CB0E59BBEE78988E69CAC) != TextToString(gv_e38090E59CB0E59BBEE78988E69CACE38091))) {
                 gv_e59CB0E59BBEE78988E69CACE4B88DE4B880E887B4[lp_p] = true;
-                gf_TellDrDebug(("[Player_" + IntToString(lp_p) + "_MapVersion] => false"));
             }
             else {
                 gv_e59CB0E59BBEE78988E69CACE4B88DE4B880E887B4[lp_p] = false;
-                gf_TellDrDebug(("[Player_" + IntToString(lp_p) + "_MapVersion] => true"));
             }
             if ((gv_e8AFBBE58F96E79A84E5AD98E6A1A3E78988E69CAC[lp_p] != gv_e5AD98E6A1A3E78988E69CAC)) {
                 gv_e5AD98E6A1A3E78988E69CACE4B88DE4B880E887B4[lp_p] = true;
-                gf_TellDrDebug(("[Player_" + IntToString(lp_p) + "_BankVersion] => false"));
             }
             else {
                 gv_e5AD98E6A1A3E78988E69CACE4B88DE4B880E887B4[lp_p] = false;
-                gf_TellDrDebug(("[Player_" + IntToString(lp_p) + "_BankVersion] => true"));
             }
             gv_e8AFBBE58F96E79A84E6A0A1E9AA8CE7A081[lp_p] = gf_E8AFBBE58F96E6A0A1E9AA8CE7A081(lp_p);
             if ((gv_e8AFBBE58F96E79A84E5AD98E6A1A3E78988E69CAC[lp_p] != "")) {
@@ -27840,7 +27838,7 @@ void gf_E8AFBBE58F96E695B0E68DAEE99B86 (int lp_p) {
                 gf_TellDrDebug(("[Player_" + IntToString(lp_p) + "_ERROR]Data length error (TF)"));
             }
 
-            if (((gv_e5AD98E6A1A3E4B88DE6B885E99BB6EFBC88E696B0E7B3BBE7BB9FEFBC89 == 1) || ((gv_e5AD98E6A1A3E78988E69CACE4B88DE4B880E887B4[lp_p] == true) && (libA04238D9_gv_CC_BankJiaoYan == true)) || ((gv_e59CB0E59BBEE78988E69CACE4B88DE4B880E887B4[lp_p] == true) && (libA04238D9_gv_CC_MapJiaoYan == true)))) {
+            if (((gv_e5AD98E6A1A3E4B88DE6B885E99BB6EFBC88E696B0E7B3BBE7BB9FEFBC89 == 1) || (libA04238D9_gv_CC_NBankJiaoYan == true) || ((gv_e5AD98E6A1A3E78988E69CACE4B88DE4B880E887B4[lp_p] == true) && (libA04238D9_gv_CC_BankJiaoYan == true)) || ((gv_e59CB0E59BBEE78988E69CACE4B88DE4B880E887B4[lp_p] == true) && (libA04238D9_gv_CC_MapJiaoYan == true)))) {
                 PlayerModifyPropertyInt(lp_p, c_playerPropTerrazine, c_playerPropOperSetTo, gv_e883BDE6BA90[lp_p]);
                 PlayerModifyPropertyInt(lp_p, c_playerPropCustom, c_playerPropOperSetTo, gv_e7A880E79FBF[lp_p]);
             }
@@ -32851,7 +32849,7 @@ bool gt_E99BB7E78E8BE585BDE99FB3E4B990_Func (bool testConds, bool runActions) {
     while (true) {
         autoDFB0A220_var = PlayerGroupNextPlayer(autoDFB0A220_g, autoDFB0A220_var);
         if (autoDFB0A220_var < 0) { break; }
-        if ((autoDFB0A220_var == c_playerTypeUser)) {
+        if ((PlayerType(autoDFB0A220_var) == c_playerTypeUser)) {
             libNtve_gf_SetUpgradeLevelForPlayer(autoDFB0A220_var, "CCData_JRSJ", 1);
         }
 
@@ -33551,7 +33549,7 @@ bool gt_E781ABE78E8BE585BDE99FB3E4B990_Func (bool testConds, bool runActions) {
     while (true) {
         autoC67BB984_var = PlayerGroupNextPlayer(autoC67BB984_g, autoC67BB984_var);
         if (autoC67BB984_var < 0) { break; }
-        if ((autoC67BB984_var == c_playerTypeUser)) {
+        if ((PlayerType(autoC67BB984_var) == c_playerTypeUser)) {
             libNtve_gf_SetUpgradeLevelForPlayer(autoC67BB984_var, "CCData_JRSJ", 1);
         }
 
@@ -35632,7 +35630,7 @@ bool gt_E78E8BE585BDE4BA8BE4BBB6E694AFE68FB4_Func (bool testConds, bool runActio
     while (true) {
         auto1BF84CA2_var = PlayerGroupNextPlayer(auto1BF84CA2_g, auto1BF84CA2_var);
         if (auto1BF84CA2_var < 0) { break; }
-        if ((auto1BF84CA2_var == c_playerTypeUser)) {
+        if ((PlayerType(auto1BF84CA2_var) == c_playerTypeUser)) {
             libNtve_gf_SetUpgradeLevelForPlayer(auto1BF84CA2_var, "CCData_JRSJ", 1);
         }
 
@@ -35769,7 +35767,7 @@ bool gt_E694AFE68FB4E8BF9BE694BB_Func (bool testConds, bool runActions) {
         while (true) {
             auto7D3B79A3_var = PlayerGroupNextPlayer(auto7D3B79A3_g, auto7D3B79A3_var);
             if (auto7D3B79A3_var < 0) { break; }
-            if ((auto7D3B79A3_var == c_playerTypeUser)) {
+            if ((PlayerType(auto7D3B79A3_var) == c_playerTypeUser)) {
                 lv_e7BB9FE8AEA1E695B0E5AD97 = gv_e4B8AAE4BABAE4B893E7B2BE[4][auto7D3B79A3_var];
                 if ((lv_e7BB9FE8AEA1E695B0E5AD97 > lv_e69C80E5A4A7E695B0E5AD97)) {
                     lv_e69C80E5A4A7E695B0E5AD97 = lv_e7BB9FE8AEA1E695B0E5AD97;
@@ -35791,7 +35789,7 @@ bool gt_E694AFE68FB4E8BF9BE694BB_Func (bool testConds, bool runActions) {
         while (true) {
             auto65533A38_var = PlayerGroupNextPlayer(auto65533A38_g, auto65533A38_var);
             if (auto65533A38_var < 0) { break; }
-            if ((auto65533A38_var == c_playerTypeUser)) {
+            if ((PlayerType(auto65533A38_var) == c_playerTypeUser)) {
                 lv_e7BB9FE8AEA1E695B0E5AD97 = gv_e4B8AAE4BABAE4B893E7B2BE[3][auto65533A38_var];
                 if ((lv_e7BB9FE8AEA1E695B0E5AD97 > lv_e69C80E5A4A7E695B0E5AD97)) {
                     lv_e69C80E5A4A7E695B0E5AD97 = lv_e7BB9FE8AEA1E695B0E5AD97;
@@ -35810,7 +35808,7 @@ bool gt_E694AFE68FB4E8BF9BE694BB_Func (bool testConds, bool runActions) {
         while (true) {
             auto3C0F3D61_var = PlayerGroupNextPlayer(auto3C0F3D61_g, auto3C0F3D61_var);
             if (auto3C0F3D61_var < 0) { break; }
-            if ((auto3C0F3D61_var == c_playerTypeUser)) {
+            if ((PlayerType(auto3C0F3D61_var) == c_playerTypeUser)) {
                 lv_e7BB9FE8AEA1E695B0E5AD97 = gv_e4B8AAE4BABAE4B893E7B2BE[2][auto3C0F3D61_var];
                 if ((lv_e7BB9FE8AEA1E695B0E5AD97 > lv_e69C80E5A4A7E695B0E5AD97)) {
                     lv_e69C80E5A4A7E695B0E5AD97 = lv_e7BB9FE8AEA1E695B0E5AD97;
@@ -35833,7 +35831,7 @@ bool gt_E694AFE68FB4E8BF9BE694BB_Func (bool testConds, bool runActions) {
         while (true) {
             auto3A6A70AA_var = PlayerGroupNextPlayer(auto3A6A70AA_g, auto3A6A70AA_var);
             if (auto3A6A70AA_var < 0) { break; }
-            if ((auto3A6A70AA_var == c_playerTypeUser)) {
+            if ((PlayerType(auto3A6A70AA_var) == c_playerTypeUser)) {
                 lv_e7BB9FE8AEA1E695B0E5AD97 = gv_e4B8AAE4BABAE5A4A9E8B58B[1][auto3A6A70AA_var];
                 if ((lv_e7BB9FE8AEA1E695B0E5AD97 > lv_e69C80E5A4A7E695B0E5AD97)) {
                     lv_e69C80E5A4A7E695B0E5AD97 = lv_e7BB9FE8AEA1E695B0E5AD97;
@@ -35848,7 +35846,7 @@ bool gt_E694AFE68FB4E8BF9BE694BB_Func (bool testConds, bool runActions) {
         while (true) {
             auto4FD46115_var = PlayerGroupNextPlayer(auto4FD46115_g, auto4FD46115_var);
             if (auto4FD46115_var < 0) { break; }
-            if ((auto4FD46115_var == c_playerTypeUser)) {
+            if ((PlayerType(auto4FD46115_var) == c_playerTypeUser)) {
                 lv_e7BB9FE8AEA1E695B0E5AD97 = gv_e4B8AAE4BABAE5A4A9E8B58B[2][auto4FD46115_var];
                 if ((lv_e7BB9FE8AEA1E695B0E5AD97 > lv_e69C80E5A4A7E695B0E5AD97)) {
                     lv_e69C80E5A4A7E695B0E5AD97 = lv_e7BB9FE8AEA1E695B0E5AD97;
@@ -36468,7 +36466,7 @@ bool gt_E5BBB6E8BF9FE590AFE58AA8E8AEBEE7BDAE_Func (bool testConds, bool runActio
         while (true) {
             autoD8A0DBD5_var = PlayerGroupNextPlayer(autoD8A0DBD5_g, autoD8A0DBD5_var);
             if (autoD8A0DBD5_var < 0) { break; }
-            if ((autoD8A0DBD5_var == c_playerTypeUser)) {
+            if ((PlayerType(autoD8A0DBD5_var) == c_playerTypeUser)) {
                 libNtve_gf_SetUpgradeLevelForPlayer(autoD8A0DBD5_var, "CCData_JRSJ", 1);
             }
 
@@ -41797,7 +41795,7 @@ bool gt_E78EA9E5AEB6E8818AE5A4A9E68C87E4BBA41_Func (bool testConds, bool runActi
             while (true) {
                 auto532D83DA_var = PlayerGroupNextPlayer(auto532D83DA_g, auto532D83DA_var);
                 if (auto532D83DA_var < 0) { break; }
-                if ((auto532D83DA_var == c_playerTypeUser)) {
+                if ((PlayerType(auto532D83DA_var) == c_playerTypeUser)) {
                     gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[auto532D83DA_var] = 1;
                 }
 
@@ -41814,7 +41812,7 @@ bool gt_E78EA9E5AEB6E8818AE5A4A9E68C87E4BBA41_Func (bool testConds, bool runActi
             while (true) {
                 auto617B0826_var = PlayerGroupNextPlayer(auto617B0826_g, auto617B0826_var);
                 if (auto617B0826_var < 0) { break; }
-                if ((auto617B0826_var == c_playerTypeUser)) {
+                if ((PlayerType(auto617B0826_var) == c_playerTypeUser)) {
                     gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[auto617B0826_var] = 0;
                 }
 
@@ -42864,13 +42862,6 @@ bool gt_E78EA9E5AEB6E8818AE5A4A9E68C87E4BBA45E6A8A1E7B38AE8AF86E588AB_Func (bool
     lv_e78EA9E5AEB6ID = lv_p;
     lv_e6B58BE8AF95E58D95E4BD8DE7BB84 = UnitGroupEmpty();
 
-    // Conditions
-    if (testConds) {
-        if (!((gv_e6B8B8E6888FE5889DE5A78BE58C96E7BB93E69D9F == 1))) {
-            return false;
-        }
-    }
-
     // Actions
     if (!runActions) {
         return true;
@@ -43462,7 +43453,7 @@ bool gt_E6AF92E99A9CE585BDE99FB3E4B990_Func (bool testConds, bool runActions) {
         while (true) {
             auto898D7583_var = PlayerGroupNextPlayer(auto898D7583_g, auto898D7583_var);
             if (auto898D7583_var < 0) { break; }
-            if ((auto898D7583_var == c_playerTypeUser)) {
+            if ((PlayerType(auto898D7583_var) == c_playerTypeUser)) {
                 autoC94343B7_val = gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[auto898D7583_var];
                 if (autoC94343B7_val == 1) {
                     gf_E4B8BAE5AFB9E8B1A1E78EA9E5AEB6E692ADE694BEBOSSE68898E99FB3E4B990(auto898D7583_var);
@@ -43711,7 +43702,7 @@ bool gt_E5AEBFE4B8BBE99FB3E4B990_Func (bool testConds, bool runActions) {
         while (true) {
             auto4106C783_var = PlayerGroupNextPlayer(auto4106C783_g, auto4106C783_var);
             if (auto4106C783_var < 0) { break; }
-            if ((auto4106C783_var == c_playerTypeUser)) {
+            if ((PlayerType(auto4106C783_var) == c_playerTypeUser)) {
                 auto501F090E_val = gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[auto4106C783_var];
                 if (auto501F090E_val == 1) {
                     gf_E4B8BAE5AFB9E8B1A1E78EA9E5AEB6E692ADE694BEBOSSE68898E99FB3E4B990(auto4106C783_var);
@@ -43785,7 +43776,7 @@ bool gt_E6AF92E8A382E585BDE99FB3E4B990_Func (bool testConds, bool runActions) {
         while (true) {
             autoE2BD6B83_var = PlayerGroupNextPlayer(autoE2BD6B83_g, autoE2BD6B83_var);
             if (autoE2BD6B83_var < 0) { break; }
-            if ((autoE2BD6B83_var == c_playerTypeUser)) {
+            if ((PlayerType(autoE2BD6B83_var) == c_playerTypeUser)) {
                 auto0C28C93C_val = gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[autoE2BD6B83_var];
                 if (auto0C28C93C_val == 1) {
                     gf_E4B8BAE5AFB9E8B1A1E78EA9E5AEB6E692ADE694BEBOSSE68898E99FB3E4B990(autoE2BD6B83_var);
@@ -43859,7 +43850,7 @@ bool gt_E5A4A7E7899BE99FB3E4B990_Func (bool testConds, bool runActions) {
         while (true) {
             autoE999E264_var = PlayerGroupNextPlayer(autoE999E264_g, autoE999E264_var);
             if (autoE999E264_var < 0) { break; }
-            if ((autoE999E264_var == c_playerTypeUser)) {
+            if ((PlayerType(autoE999E264_var) == c_playerTypeUser)) {
                 auto4715C2FF_val = gv_e38090E78EA9E5AEB6E99FB3E4B990E38091[autoE999E264_var];
                 if (auto4715C2FF_val == 1) {
                     gf_E4B8BAE5AFB9E8B1A1E78EA9E5AEB6E692ADE694BEBOSSE68898E99FB3E4B990(autoE999E264_var);

@@ -2699,6 +2699,20 @@ DocInfo/PatchNote105=>>>维修厂若破坏，购买任意新载具时会自动�
 DocInfo/PatchNote106=>>>可以驾驶挖掘类载具，驶向建筑废墟角落任意，通过鼠标左键蓄力挖一点铜铁
 DocInfo/PatchNote107=>>>大地怒吼将破坏装饰物碰撞体的无敌状态（与挖机挖掘同等效果）
 DocInfo/PatchNote108=>>>破坏发生时的建筑耐久变化，可按Ctrl+Alt+Shift+D查看
+DocInfo/PatchNote109=2.94.4 fixed
+DocInfo/PatchNote110=1）全局使用原版状态条。
+DocInfo/PatchNote111=
+DocInfo/PatchNote112=2.94.3 fixed
+DocInfo/PatchNote113=1）处理某些场景（设置音乐光照、活动图纸、支援载具属性附加）只有房主生效的问题；
+DocInfo/PatchNote114=2）处理某些场景N档不保存的情况。
+DocInfo/PatchNote115=
+DocInfo/PatchNote116=2.94.2 fixed
+DocInfo/PatchNote117=1）处理存档继承问题；
+DocInfo/PatchNote118=2）处理修理车不加血问题。
+DocInfo/PatchNote119=
+DocInfo/PatchNote120=2.94.1 fixed
+DocInfo/PatchNote121=1）修复"王兽出来后特殊类载具只能房主购买"的Bug；
+DocInfo/PatchNote122=2）载具搭乘容量全部改为1个（本版不做多人搭乘，多P乱上无下车逻辑）。
 DocInfo/PatchNote451=1）加入重制版数据，为下一步更新做准备；
 DocInfo/Screenshot01=跟你的朋友們想辦法離開這個廢墟。
 Effect/Name/ATSLaserBatteryU=G03R机炮
@@ -12165,7 +12179,7 @@ Param/Value/B91E66AB=<s val="ys_green164">【特典】<c val="FFFF00">第一使�
 Param/Value/B92AC63A=<c val="FF00FF">温彻斯特设计图</c>
 Param/Value/B9369F83=<c val="FF8040">控制</c>
 Param/Value/B93DDD4E=<c val="FF00FF">使用指令</c>
-Param/Value/B9411CA0=V2.93.1
+Param/Value/B9411CA0=V2.94.4
 Param/Value/B94488D6=+1
 Param/Value/B9574098=<c val="FF00FF">豹式-V1设计图</c>
 Param/Value/B964341E=<s val="lv 2">【大型机甲】<c val="FFFF00">奥丁EX <c val="FF00FF">设计图</c>

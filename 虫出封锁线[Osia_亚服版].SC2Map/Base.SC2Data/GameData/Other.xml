@@ -883,7 +883,7 @@
     <!--                                                                                         -->
     <CActorUnit id="DestructibleGateStraightVerticalLF">
         <ModelFlags index="IgnoreWalkables" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -905,7 +905,7 @@
         <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020AP_LeopardV" Send="AnimPlay Start Morph,Start"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020AP_LeopardV" Send="Destroy"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020_LeopardV" Send="Destroy"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -920,7 +920,7 @@
         <On Terms="AbilMorph.*.Start; MorphTo CCData_V10020_LeopardV" Send="AnimPlay End Morph,End"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020_LeopardV" Send="Destroy"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_V10020AP_LeopardV" Send="Destroy"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -933,7 +933,7 @@
     <!-- Extra entries here are useful for debug output. -->
     <CActorModel id="GenericAttackLaunchModel"/>
     <CActorUnit id="NovaGunTurretCloakField">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -944,7 +944,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Factory">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -955,7 +955,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Cyclone">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -972,7 +972,7 @@
     <!-- Nova .................................................................................. -->
     <!--                                                                                         -->
     <CActorUnit id="Nova">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -986,7 +986,7 @@
     <!-- Marauder (Dominion Kill Team) ......................................................... -->
     <!--                                                                                         -->
     <CActorUnit id="DominionKillTeam">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -997,7 +997,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Firebat">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1008,7 +1008,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="HERC">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1019,7 +1019,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="HammerSecurity">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1030,7 +1030,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="HellionVulturePath">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1041,7 +1041,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Liberator">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1052,7 +1052,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Marauder">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1063,7 +1063,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="Marine">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1077,7 +1077,7 @@
     <!-- Marine Warfield....................................................................... -->
     <!--                                                                                         -->
     <CActorUnit id="MarineWarfield">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1088,7 +1088,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorUnit id="MengskFirebat">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1102,7 +1102,7 @@
     <!-- Odin .................................................................................. -->
     <!--                                                                                         -->
     <CActorUnit id="Odin">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1116,7 +1116,7 @@
     <!-- Predator .............................................................................. -->
     <!--                                                                                         -->
     <CActorUnit id="Predator">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1130,7 +1130,7 @@
     <!-- Raynor ................................................................................ -->
     <!--                                                                                         -->
     <CActorUnit id="Raynor">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1144,7 +1144,7 @@
     <!-- Raynor For TRaynor01 .................................................................. -->
     <!--                                                                                         -->
     <CActorUnit id="Raynor01">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1155,7 +1155,7 @@
         <StatusBarFlags index="Workers" value="0"/>
     </CActorUnit>
     <CActorMissile id="Reaper">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1167,7 +1167,7 @@
     </CActorMissile>
     <CActorSiteOpRotationExplicit id="SOpPointDown1ByDot5"/>
     <CActorUnit id="Separatist">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1186,7 +1186,7 @@
         <On Terms="AbilMorph.*.Start; MorphTo CCData_T25AP_SiegeBreaker" Send="AnimPlay Start Morph,Start"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25AP_SiegeBreaker" Send="Destroy"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25_SiegeBreaker" Send="Destroy"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1205,7 +1205,7 @@
         <On Terms="AbilMorph.*.Start; MorphTo CCData_T25_SiegeBreaker" Send="AnimPlay End Morph,End"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25_SiegeBreaker" Send="Destroy"/>
         <On Terms="AbilMorph.*.Finish; MorphFrom CCData_T25AP_SiegeBreaker" Send="Destroy"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1231,7 +1231,7 @@
     <!-- TaurenSpaceMarine ..................................................................... -->
     <!--                                                                                         -->
     <CActorUnit id="TaurenSpaceMarine">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1252,7 +1252,7 @@
     <!-- Tychus with a big ass chaingun ........................................................ -->
     <!--                                                                                         -->
     <CActorUnit id="TychusChaingun">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1264,7 +1264,7 @@
     </CActorUnit>
     <CActorSimple id="VoidDetectorRadarSetupEnemyDetector"/>
     <CActorUnit id="Vulture">
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1304,7 +1304,7 @@
     <CActorUnit id="OS_ReneeCamera" parent="GenericUnitStandard" unitName="OS_ReneeCamera">
         <EditorCategories value=""/>
         <HostSiteOps Ops="OS_SOpProphecyCameraOffset OS_SOpPointToCamera"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1319,7 +1319,7 @@
         <Model value="Invisible"/>
         <BuildModel value="Invisible"/>
         <PlacementModel value="Invisible"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -1338,7 +1338,7 @@
     <CActorUnit id="OS_HaHaMiro" parent="GenericUnitStandard" unitName="OS_HaHaMiro">
         <EditorCategories value=""/>
         <HostSiteOps Ops="OS_SOpProphecyCameraOffset OS_SOpPointToCamera"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>

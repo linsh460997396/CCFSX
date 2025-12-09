@@ -8404,7 +8404,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorUnit id="Smokescreen" parent="GenericUnitStandard" unitName="Smokescreen">
         <Macros value="UnpoweredAnim"/>
@@ -8456,7 +8456,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8504,7 +8504,7 @@
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-AutoTurret.dds"/>
         </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorModel id="BaiLongAdditionHeadDisplacementPrimary" parent="ModelAddition">
         <Inherits index="BaseModelScale" value="0"/>
@@ -8620,7 +8620,7 @@
         <Model value="Shape5PointStar"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8635,7 +8635,7 @@
         <Model value="Shape6PointStar"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8650,7 +8650,7 @@
         <Model value="Shape8PointStar"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8665,7 +8665,7 @@
         <Model value="ShapeDodecahedron"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8680,7 +8680,7 @@
         <Model value="ShapeSmileyFace"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8762,7 +8762,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8777,7 +8777,7 @@
         <Model value="Shape4PointStar"/>
         <PhysicsMatchKeysOrdered value="Basic"/>
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -8831,7 +8831,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorDoodad id="DecalLowQ">
         <EditorCategories value=""/>
@@ -8880,7 +8880,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <HighlightSubTooltip value="Subtooltip/DefensePoint"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorUnit id="BaseTurret" parent="TerranBuilding" unitName="BaseTurret">
         <On index="69" Terms="UnitDeath.BaseTurret" Target="_BuildingTerrainFlatten" Send="TimerSet 1.000000"/>
@@ -8898,7 +8898,7 @@
         <PlacementSound value="Terran_BuildingPlacementSmall"/>
         <PortraitModel value="AdjutantPortrait"/>
         <BarOffset value="20"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <GroupIcon>
             <Image value="Assets\Textures\Wireframe-Terran-MissileTurret.dds"/>
         </GroupIcon>
@@ -9172,7 +9172,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <HighlightSubTooltip value="Subtooltip/ReinforcementPoint"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorUnit id="MunitionsPoint" parent="GenericUnitStandard" unitName="MunitionsPoint">
         <Macros value="UnpoweredAnim"/>
@@ -9213,7 +9213,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <HighlightSubTooltip value="Subtooltip/MunitionsPoint"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorUnit id="DefenderTurret" parent="TerranBuilding" unitName="DefenderTurret">
         <On index="69" Terms="UnitDeath.DefenderTurret" Target="_BuildingTerrainFlatten" Send="TimerSet 1.000000"/>
@@ -9231,7 +9231,7 @@
         <PlacementSound value="Terran_BuildingPlacementSmall"/>
         <PortraitModel value="AdjutantPortrait"/>
         <BarOffset value="20"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <GroupIcon>
             <Image value="Assets\Textures\Wireframe-Terran-MissileTurret.dds"/>
         </GroupIcon>
@@ -9293,7 +9293,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <HighlightSubTooltip value="Subtooltip/CommandPoint"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorDoodad id="DesertEnergyCannon2">
         <EditorCategories value="DoodadType:Structures"/>
@@ -9329,7 +9329,7 @@
         <UnitFlags index="StandAnimBirthVariation" value="1"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9404,7 +9404,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9650,7 +9650,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9795,7 +9795,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9814,7 +9814,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9832,7 +9832,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9850,7 +9850,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9868,7 +9868,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -9913,7 +9913,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10016,7 +10016,7 @@
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10103,7 +10103,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10190,7 +10190,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10277,7 +10277,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10363,7 +10363,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10449,7 +10449,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10536,7 +10536,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10614,7 +10614,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10701,7 +10701,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10776,7 +10776,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10864,7 +10864,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10895,7 +10895,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -10953,7 +10953,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -11056,7 +11056,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <Scale value="0.100000"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorModel id="ValkyrShieldImpact" parent="ModelAnimationStyleContinuous">
         <On Terms="Behavior.ValkyrShieldPrimary.On" Send="Create"/>
@@ -11474,7 +11474,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -11563,7 +11563,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -11622,7 +11622,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -11701,7 +11701,7 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield02.dds"/>
             <Image value="Assets\Textures\Wireframe-Protoss-Obelisk-Shield03.dds"/>
         </WireframeShield>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -11747,7 +11747,7 @@
         <StatusBarFlags index="Duration" value="0"/>
         <StatusBarFlags index="Magazine" value="0"/>
         <StatusBarFlags index="Workers" value="0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorUnit id="SolarisDomeSegment" parent="Obelisk" unitName="SolarisDomeSegment">
         <Macros index="0" removed="1"/>
@@ -11814,7 +11814,7 @@
         </WireframeShield>
         <DeathArray index="Normal" ModelLink="HallucinationDeath" SoundLink="Sentry_HallucinationDeathMedium"/>
         <PlacementModel value="Obelisk"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorRange id="Range15">
         <Filter index="Ally" value="1"/>
@@ -11873,7 +11873,7 @@
         <StatusBarFlags index="Duration" value="0"/>
         <StatusBarFlags index="Magazine" value="0"/>
         <StatusBarFlags index="Workers" value="0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
     </CActorUnit>
     <CActorSound id="HELLoadersActivateSound" parent="SoundOneShot">
         <On Terms="Behavior.HELLoadersPrimary.On" Send="Create"/>
@@ -12303,7 +12303,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -12390,7 +12390,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -12501,7 +12501,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13400,7 +13400,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13450,7 +13450,7 @@
         <Scale value="2.000000"/>
         <HighlightTooltip value="Unit/Name/Kami"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13477,7 +13477,7 @@
         <Model value="MechHardpoint"/>
         <Scale value="2.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13527,7 +13527,7 @@
         <Model value="MechHardpoint"/>
         <Scale value="2.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13554,7 +13554,7 @@
         <Model value="MechHardpoint"/>
         <Scale value="2.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13739,7 +13739,7 @@
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-AutoTurret.dds"/>
         </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13844,7 +13844,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -13898,7 +13898,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14014,7 +14014,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14071,7 +14071,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14128,7 +14128,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14185,7 +14185,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14242,7 +14242,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14337,7 +14337,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14576,7 +14576,7 @@
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-MissileTurret.dds"/>
         </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14776,7 +14776,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-siegetank-mercenary-tankmode.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14927,7 +14927,7 @@
         </Wireframe>
         <Scale value="0.400000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -14984,7 +14984,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marauder-mercenary.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15104,7 +15104,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15288,7 +15288,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15379,7 +15379,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15470,7 +15470,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15598,7 +15598,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15764,7 +15764,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15856,7 +15856,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -15943,7 +15943,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16029,7 +16029,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <VitalNames index="Shields" value="Vital/ZergShields"/>
         <FogVisibility value="Hidden"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16056,7 +16056,7 @@
         <Model value="MechHardpoint"/>
         <Scale value="2.000000"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16184,7 +16184,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16298,7 +16298,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16361,7 +16361,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Spectre.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -16419,7 +16419,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -17559,7 +17559,7 @@
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -17591,7 +17591,7 @@
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -17932,7 +17932,7 @@
         <BuildModel value="GigasEnergyShield"/>
         <PlacementModel value="GigasEnergyShield"/>
         <HighlightTooltip value="Unit/Name/GigasEnergyShield"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18004,7 +18004,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Roach.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18292,7 +18292,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleLargeVehicle"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18358,7 +18358,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18459,7 +18459,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18546,7 +18546,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18737,7 +18737,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -18868,7 +18868,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19006,7 +19006,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19057,7 +19057,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleLargeVehicle"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19192,7 +19192,7 @@
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-Marine.dds"/>
         </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19607,7 +19607,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19702,7 +19702,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -19980,7 +19980,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -20234,7 +20234,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleLargeVehicle"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -20316,7 +20316,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -20426,7 +20426,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -20870,7 +20870,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -20950,7 +20950,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21173,7 +21173,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21232,7 +21232,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21331,7 +21331,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21384,7 +21384,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21574,7 +21574,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21750,7 +21750,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -21816,7 +21816,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -22176,7 +22176,7 @@
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
         <Scale value="0.100000,0.100000,1.000000"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -22263,7 +22263,7 @@
         <Baselines index="Walk" AnimProps=""/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <ModelFlags index="AllowHitTest" value="0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -22385,7 +22385,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23140,7 +23140,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleLargeVehicle"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23193,7 +23193,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23268,7 +23268,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23340,7 +23340,7 @@
         <Baselines index="Walk" AnimProps=""/>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23391,7 +23391,7 @@
             <AttachQuery Methods="AMFilterCenter"/>
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23470,7 +23470,7 @@
         <Baselines index="Stand" AnimProps=""/>
         <Baselines index="Walk" AnimProps=""/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23552,7 +23552,7 @@
         <Baselines index="Walk" AnimProps=""/>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23672,7 +23672,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -23887,7 +23887,7 @@
         <HighlightTooltip value="Unit/Name/MousePositionTarget"/>
         <TerrainSquibs index="0" removed="1"/>
         <Scale value="1.500000"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24475,7 +24475,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24534,7 +24534,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24607,7 +24607,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24679,7 +24679,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24730,7 +24730,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24880,7 +24880,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -24972,7 +24972,7 @@
         <MinimapIconScale value="0.100000"/>
         <MinimapIconBackground value="Assets\Textures\ui_minimap_icon_circle.dds"/>
         <MinimapIconBackgroundIsTeamColored value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25080,7 +25080,7 @@
         <Wireframe>
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25149,7 +25149,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25200,7 +25200,7 @@
             <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleUltralisk"/>
         </TerrainSquibs>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25306,7 +25306,7 @@
             <Image value="Assets\Textures\Wireframe-Terran-Ghost.dds"/>
         </Wireframe>
         <Scale value="0.200000,0.400000,0.200000"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25446,7 +25446,7 @@
         </Wireframe>
         <ModelFlags index="AllowHitTest" value="0"/>
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25516,7 +25516,7 @@
         <UnitFlags index="SuppressDefaultStatusBar" value="1"/>
         <MinimapIconScale value="0.000000"/>
         <MinimapIconBackgroundScale value="0.000000"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
@@ -25588,7 +25588,7 @@
             <Image value="Assets\Textures\Wireframe-Zerg-Zergling.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
-        <CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/>
+        <!--CustomUnitStatusFrame value="UnitStatus/HeroUnitStatusFrameUnitNameTemplate_H0"/-->
         <StatusBarFlags index="Shields" value="0"/>
         <StatusBarFlags index="Life" value="0"/>
         <StatusBarFlags index="Energy" value="0"/>
