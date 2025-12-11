@@ -2,8 +2,11 @@ MOD备用下载链接：http://cloud.189.cn/t/QVn2YjMveiAj（访问码：6rwy）
 
 2025-08-08 虫出封锁线[Osia_重制版]V0.46
 
-1）优化存档中的校验码II；2）房间选项可选剧情发生时是否隐藏菜单。
+1）N档添加校验码II；2）房间选项可选剧情发生是否隐藏菜单（界面尚在优化）。
 
 2025-08-07 虫出封锁线[Osia_重制版]V0.45.57（修复左上通道）
 
-2025-08-07 CShapeTest（增加新的方法，支持地图单位布置代码转回Object文件中的XML格式，以便重新插入Object在地图编辑器图形界面中检查这些物体的实际路径）
+2025-08-07 工具更新：https://github.com/linsh460997396/ObfuscarProgram.git
+1）增加新的方法支持地编布置Object文件中的XML信息与Galaxy代码互转（需MM_功能库支持管理装饰物演算体组），以便沙盒版新场景由纯Galaxy代码布置后还能重新插回Object在地图编辑器图形界面中检查这些物体的实际碰撞路径）。
+
+2）MM_功能库地址：https://github.com/linsh460997396/MMLibrary/tree/main/%E5%8A%9F%E8%83%BD%E5%BA%93
