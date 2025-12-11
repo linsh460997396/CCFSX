@@ -7,6 +7,7 @@ MOD备用下载链接：http://cloud.189.cn/t/QVn2YjMveiAj（访问码：6rwy）
 2025-08-07 虫出封锁线[Osia_重制版]V0.45.57（修复左上通道）
 
 2025-08-07 工具更新：https://github.com/linsh460997396/ObfuscarProgram.git
+
 1）增加新的方法支持地编布置Object文件中的XML信息与Galaxy代码互转（需MM_功能库支持管理装饰物演算体组），以便沙盒版新场景由纯Galaxy代码布置后还能重新插回Object在地图编辑器图形界面中检查这些物体的实际碰撞路径）。
 
 2）MM_功能库地址：https://github.com/linsh460997396/MMLibrary/tree/main/%E5%8A%9F%E8%83%BD%E5%BA%93
