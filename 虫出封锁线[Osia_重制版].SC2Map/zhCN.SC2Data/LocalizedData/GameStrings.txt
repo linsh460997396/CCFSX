@@ -2172,9 +2172,9 @@ Defensive Matrix=防御矩阵
 DocInfo/DescLong=自從一場浩劫過後，你與少數人存活下來，並且建立了安全的營地<n/>但隨著時間過去糧食短缺的情況越來越嚴重，你發現不能再維持現在的局面<n/>是時候離開這個安全的庇護所了...<n/><n/>調整隊伍2 = 遊戲難度
 DocInfo/DescShort=8
 DocInfo/Name=虫出封锁线[Osia_重制版]
-DocInfo/PatchNote001=尚在测试，不推荐游玩！
-DocInfo/PatchNote002=开源地址：https://github.com/linsh460997396/CCFSX
-DocInfo/Website=https://github.com/linsh460997396/CCFSX
+DocInfo/PatchNote001=v0.46.1 fixed
+DocInfo/PatchNote002=1）修改机枪炮塔变形问题；
+DocInfo/PatchNote003=2）修改部分单位状态条。
 Effect/Name/ATSLaserBatteryU=G03R机炮
 Effect/Name/AdeptPhaseShiftCancelAB=AdeptPhaseShiftCancelAB
 Effect/Name/AdeptPsionicTransferDamage=AdeptPsionicTransferDamage
@@ -8553,7 +8553,7 @@ Param/Value/D68A1EE6=<s val="ys_green164">通过<c val="FFFF00">【管理员指�
 Param/Value/D6A86C0F=<s val="ys_green164">设置 => <c val="FFFF00">回收当前载具</s>
 Param/Value/D6C51D63=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">LV</c>
 Param/Value/D6F1332A=<c val="FF8040">得到</c>
-Param/Value/D6F4D09B=V0.46
+Param/Value/D6F4D09B=V0.46.1
 Param/Value/D6F79CBF=<s val="ys_green164"><c val="FFFF00">待更新</c>
 Param/Value/D6FBF0C7=<c val="FF8040">得到</c>
 Param/Value/D703DC9E=<c val="FF00FF">内陆猎手设计图</c>
