@@ -1468,6 +1468,68 @@
                 <Value Id="6"/>
             </Default>
         </Attribute>
+        <Attribute Namespace="999" Id="3004">
+            <Default>
+                <Slot Id="0"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="1"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="2"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="3"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="4"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="5"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="6"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="7"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="8"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="9"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="10"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="11"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="12"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="13"/>
+                <Value Id="1298490473"/>
+            </Default>
+            <Default>
+                <Slot Id="14"/>
+                <Value Id="1298490473"/>
+            </Default>
+        </Attribute>
     </Variant>
     <Variant>
         <Id Value="2"/>
