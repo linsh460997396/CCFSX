@@ -1113,17 +1113,17 @@
         <Visibility Value="All"/>
         <Access Value="Host"/>
         <Value>
+            <Id Value="3"/>
+            <Name Value="Attribute028/Value003/Name"/>
+        </Value>
+        <Value>
             <Id Value="1"/>
             <Name Value="Attribute028/Value001/Name"/>
             <Description Value="Attribute028/Value001/Desc"/>
         </Value>
-        <Value>
-            <Id Value="3"/>
-            <Name Value="Attribute028/Value003/Name"/>
-        </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="1"/>
+            <Value Id="3"/>
         </Default>
     </Attribute>
     <DefaultVariants Value="0"/>

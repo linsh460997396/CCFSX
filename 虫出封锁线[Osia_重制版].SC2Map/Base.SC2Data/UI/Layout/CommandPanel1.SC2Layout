@@ -56,8 +56,8 @@
             <Height val="100"/>
         </Frame>
     </Frame>
-    <Frame type="CommandPanel" name="CommandPanel2" template="CommandPanel1/CommandPanel1">
 
+    <Frame type="CommandPanel" name="CommandPanel2" template="CommandPanel1/CommandPanel1">
         <Frame type="CommandButton" name="CommandButton01">
             <Anchor side="Left" relative="$parent/CommandButton00" pos="Max" offset="0"/>
             <Frame type="CommandHotkeyFrame" name="HotkeyFrame">
@@ -102,6 +102,122 @@
                 <Anchor side="Top" relative="$parent" pos="Min" offset="9"/>
                 <Anchor side="Left" relative="$parent" pos="Mid" offset="-8"/>
             </Frame>
+        </Frame>
+    </Frame>
+
+    <Frame type="CommandPanel" name="CommandPanel3" template="CommandPanel/CommandPanelTemplate">
+        <Width val="855"/>
+        <Height val="56"/>
+        <RenderPriority val="700"/>
+        <Frame type="CommandButton" name="CommandButton00">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandTooltip" name="CommandTooltip">
+            <Anchor side="Bottom" relative="$parent/CommandButton00" pos="Mid" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandButton00" pos="Mid" offset="0"/>
+            <Anchor side="Right" relative="$parent/CommandButton00" pos="Mid" offset="0"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton01">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton02">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton03">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton04">
+            <Anchor side="Top" relative="$parent/CommandButton01" pos="Min" offset="0"/>
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton05">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandButton04" pos="Max" offset="#CommandButtonGap"/>
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton06">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton07">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton08">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton09">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton10">
+            <Anchor side="Top" relative="$parent/CommandButton09" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandButton09" pos="Max" offset="#CommandButtonGap"/>
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton11">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton12">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton13">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="CommandButton" name="CommandButton14">
+            <Width val="56"/>
+            <Height val="56"/>
+        </Frame>
+        <Frame type="Label" name="RowText0">
+            <Anchor side="Top" relative="$parent/CommandButton05" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/CommandButton05" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandButton00" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent/CommandButton04" pos="Max" offset="0"/>
+        </Frame>
+        <Frame type="Label" name="RowText1">
+            <Anchor side="Left" relative="$parent/CommandButton05" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent/CommandButton09" pos="Max" offset="0"/>
+        </Frame>
+        <Frame type="Label" name="RowText2">
+            <Anchor side="Left" relative="$parent/CommandButton10" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent/CommandButton14" pos="Max" offset="0"/>
+        </Frame>
+        <Frame type="Frame" name="UncontrollableUnitFrame">
+            <Anchor side="Top" relative="$parent/CommandButton05" pos="Min" offset="-10"/>
+            <Anchor side="Bottom" relative="$parent/CommandButton14" pos="Max" offset="10"/>
+            <Anchor side="Left" relative="$parent/CommandButton00" pos="Min" offset="0"/>
+            <Anchor side="Right" relative="$parent/CommandButton14" pos="Max" offset="0"/>
+        </Frame>
+        <Frame type="Image" name="CommandTargetImage">
+            <Anchor side="Top" relative="$parent" pos="Min" offset="30"/>
+            <Anchor side="Left" relative="$parent" pos="Min" offset="32"/>
+            <Width val="76"/>
+            <Height val="76"/>
+        </Frame>
+        <Frame type="Label" name="CommandTargetName">
+            <Anchor side="Top" relative="$parent/CommandTargetImage" pos="Min" offset="0"/>
+            <Anchor side="Bottom" relative="$parent/CommandTargetImage" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$parent/CommandTargetImage" pos="Max" offset="5"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-31"/>
+        </Frame>
+
+        <Frame type="Label" name="CommandTargetPrompt">
+            <Anchor side="Top" relative="$parent/CommandTargetImage" pos="Max" offset="10"/>
+            <Anchor side="Left" relative="$parent/CommandTargetName" pos="Max" offset="15"/>
+            <Anchor side="Right" relative="$parent" pos="Max" offset="-5"/>
         </Frame>
     </Frame>
 </Desc>
