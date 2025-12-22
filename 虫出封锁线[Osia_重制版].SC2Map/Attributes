@@ -630,7 +630,7 @@
     </Attribute>
     <Attribute>
         <Id Value="23"/>
-        <Type Value="Global"/>
+        <Type Value="Player"/>
         <Name Value="Attribute023/Name"/>
         <Description Value="Attribute023/Desc"/>
         <Availability Value="All"/>
@@ -639,16 +639,43 @@
         <Value>
             <Id Value="1"/>
             <Name Value="Attribute023/Value001/Name"/>
-            <Description Value="Attribute023/Value001/Desc"/>
         </Value>
         <Value>
-            <Id Value="2"/>
-            <Name Value="Attribute023/Value002/Name"/>
-            <Description Value="Attribute023/Value002/Desc"/>
+            <Id Value="3"/>
+            <Name Value="Attribute023/Value003/Name"/>
+            <Description Value="Attribute023/Value003/Desc"/>
         </Value>
         <Default>
-            <Slot Id="Global"/>
-            <Value Id="1"/>
+            <Slot Id="0"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="1"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="2"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="3"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="4"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="5"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="6"/>
+            <Value Id="3"/>
+        </Default>
+        <Default>
+            <Slot Id="7"/>
+            <Value Id="3"/>
         </Default>
     </Attribute>
     <Attribute>

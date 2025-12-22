@@ -466,10 +466,10 @@ Attribute022/Value006/Desc=使用数字键盘的1235键来移动（灵敏度=>0.
 Attribute022/Value006/Name=启用1235键_0.125s
 Attribute023/Desc=选择BOSS战音乐
 Attribute023/Name=[>>玩家音乐<<]
-Attribute023/Value001/Desc=默认虫出+王兽音乐
 Attribute023/Value001/Name=默认
-Attribute023/Value002/Desc=追加BOSS音乐（赏金首等其他怪物尽可能采用更多音乐而不是原来那几个）
-Attribute023/Value002/Name=追加
+Attribute023/Value002/Desc=湖
+Attribute023/Value003/Desc=追加王兽音乐
+Attribute023/Value003/Name=追加
 Attribute024/Desc=影响F键搭乘扫描范围，1.5为原版体验，但更大半径载具会扫描不到（这种情况使用右键搭乘来弥补）。
 Attribute024/Name=[>>搭乘范围<<]
 Attribute024/Value001/Name=2.5
@@ -3690,7 +3690,7 @@ LoadingScreen/MMHelp40=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">公
 LoadingScreen/MMHelp41=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">人类的核按钮掌握在少数人手中，为何同时大规模爆发？后世研制治理环境并进一步用以对抗变异生物的超级电脑<诺亚>为何攻击人类？一切尽在探索中...<n><s val="ys_green165">-By 剧情开发
 LoadingScreen/MMHelp42=<s val="ys_BlackRed165"><Tips><s val="ys_yellow165">计划追加第二剧情逃生路线，镇子概率性被王兽毁灭<n/><n>附近拥地军阀势力已被击溃，从博士研究日志获知百年前人类巅峰文明为何被毁...<n><s val="ys_green165">-By 开发计划
 LoadingScreen/MMHelp43=<s val="ys_BlackRed165"><Tips><s val="ys_yellow165">在游戏初始化未完成时，可用星际2自带的Ctrl+shift+F进行任意目标跟随，但推荐等待片刻使用F5/F6（跟随/取消跟随控制单位），不要混肴使用<n><s val="ys_green165">-By 镜头跟随
-LoadingScreen/Subtitle=<s val="SwarmLoadingScreenTitleKaldir"><c val="7b00aa">虫 </c><c val="8208b6"> </c><c val="890fc2">出 </c><c val="9017ce"> </c><c val="971edb">封 </c><c val="9e26e7"> </c><c val="a52df3">锁 </c><c val="ac35ff"> </c><c val="a52df3">线  </c><n><c val="FFFF00"> < </c><c val="FFFF00">重 </c><c val="9017ce"> </c><c val="FFFF00">制 </c><c val="8208b6"> </c><c val="FFFF00">版> </c> </s><n>欢迎大家给出改进意见或者提出bug反馈<n/>反馈群：960744306
+LoadingScreen/Subtitle=<s val="SwarmLoadingScreenTitleKaldir"><c val="7b00aa">虫 </c><c val="8208b6"> </c><c val="890fc2">出 </c><c val="9017ce"> </c><c val="971edb">封 </c><c val="9e26e7"> </c><c val="a52df3">锁 </c><c val="ac35ff"> </c><c val="a52df3">线  </c><n><c val="FFFF00">< </c><c val="FFFF00">重 </c><c val="9017ce"> </c><c val="FFFF00">制 </c><c val="8208b6"> </c><c val="FFFF00">版> </c> </s><n>欢迎大家给出改进意见或者提出bug反馈<n/>反馈群：960744306
 LoadingScreen/TextBody=自從一場浩劫過後，你與少數人存活下來，並且建立了安全的營地<n/><n/>但隨著時間過去糧食短缺的情況越來越嚴重，你發現不能再維持現在的局面<n/><n/>是時候離開這個安全的庇護所了...<n/><n/><c val="FFFF80">提示 Hint:<n/>壓住滑鼠中鍵可以旋轉你的視角<n/>Press "Mouse middle key" can roll your screen.<n/><n/>工廠可購買搭乘載具，載具需要設計圖才能製造<n/>You can make vehicle in garage at base, and you need vheicle blueprint.<n/><n/>靠近任何空載具可以按"F"鍵搭乘<n/>You can geting any empty vehicle on when you closing it, just click "F" key<n/><n/>熱鍵 hotkey<n/>B=建設building<n/>C=隱形invisible/現身visible<n/>W=更換武器(人員) Change weapon (infantry)<n/><n/>遊戲內顯示熱鍵步驟<n/>按F10=>選項=>遊戲設定=>簡化指令欄取消打勾</c>
 MapInfo/Player02/Name=玩家2
 MapInfo/Player03/Name=玩家3
@@ -4961,7 +4961,7 @@ Param/Value/18C4D8B1=<c val="FF8040">得到</c>
 Param/Value/18D4B0DE=<s val="ys_green164">设置调试窗口 => <c val="FFFF00">[鼠标悬挑信息] = OFF</s>
 Param/Value/18EE9CE2=<c val="FF8040">得到</c>
 Param/Value/18F0C60F=<s val="ys_green164">【车辆】<c val="FFFF00">新酷多多驱跑车 <c val="FF00FF">设计图</c>
-Param/Value/18F6630B=<c val="FFFF00">默认</c>
+Param/Value/18F6630B=<c val="FFFF00">无</c>
 Param/Value/19005EAB=怪物 <c val="FFFF00">掉落了</c> <c val="FF00FF"><IX 型锻造图></c>
 Param/Value/19074210=<s val="ys_green164">设置 => <c val="FFFF00">查看载具武器强度</s>
 Param/Value/1909778A=<s val="ys_green164">【活动玩家数】
@@ -9220,7 +9220,7 @@ Param/Value/F81DDC87=<c val="FF8040">得到</c>
 Param/Value/F81E1595=<img path="Assets\jx\中尉徽记.tga" width="20" height="20"/><s val="ys_WhiteGrey165">[中尉]
 Param/Value/F86D1337=<c val="FF8040">得到</c>
 Param/Value/F86FFD69=<c val="FF00FF">榴弹发射器设计图</c>
-Param/Value/F870EAD8=<c val="FFFF00">默认</c>
+Param/Value/F870EAD8=<c val="FFFF00">无</c>
 Param/Value/F884065F=<c val="FF8080">铝</c><c val="FFA2A2">土</c><c val="FFC4C4">矿</c><c val="FFE7E7">+</c><c val="FFF2F2">1</c>
 Param/Value/F894A203=/
 Param/Value/F898AE6F=<c val="FF8040">得到</c>

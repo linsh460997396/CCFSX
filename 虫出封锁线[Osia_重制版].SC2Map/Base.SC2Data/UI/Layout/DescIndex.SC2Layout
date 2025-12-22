@@ -11,8 +11,8 @@
     <Include path="UI/Layout/MsgBox.SC2Layout"/>
     <Include path="UI/Layout/ShopPanel.SC2Layout"/>
     <Include path="UI/Layout/OptionButton.SC2Layout"/>
-    <Include path="UI/Layout/CommandPanel1.SC2Layout"/>
-    <Include path="UI/Layout/InfoPaneGroup2.SC2Layout"/>
+    <Include path="UI/Layout/CustomCommandPanel.SC2Layout"/>
+    <Include path="UI/Layout/CustomInfoPaneGroup.SC2Layout"/>
     <Include path="UI/Layout/MapUIOverride.SC2Layout"/>
     <Include path="UI/Layout/LoadScreen.SC2Layout"/>
     <Include path="UI/Layout/ChatUI.SC2Layout"/>
