@@ -1,0 +1,6 @@
+<Desc>
+    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer/MessageLogDialog" file="GameUI">
+        <!--F11聊天消息应该是检测状态然后刷出，这里直接设定为真反让其失效（替换为自定义聊天窗口弹出）-->
+        <Visible val="true"/>
+    </Frame>
+</Desc>

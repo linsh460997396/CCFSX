@@ -527,6 +527,7 @@ Behavior/Name/CCData_DefensiveMatrix=防御矩阵
 Behavior/Name/CCData_DisabledDummy=禁用（虚拟）
 Behavior/Name/CCData_DragStun=昏迷
 Behavior/Name/CCData_EquipLightSaber=装备光剑
+Behavior/Name/CCData_EradicatorFlamethrower=Eradicator Flamethrower
 Behavior/Name/CCData_FS_RavenShredderMissileArmorReductionUISubtruct=护甲降低
 Behavior/Name/CCData_FS_RavenShredderMissileTint=反护甲飞弹追踪
 Behavior/Name/CCData_Fire=火焰
@@ -578,6 +579,7 @@ Behavior/Name/CCData_YagdraFrenzy=狂暴[Yagdra]
 Behavior/Name/CCData_YiLiaoJiShu=医疗技术
 Behavior/Name/CCData_ZaiJuYiXueBaoHuSystem=载具保护系统
 Behavior/Name/CCData_ZhanDouJiShu=战斗技术
+Behavior/Name/CCData_ZhaoMingON=照明ON
 Behavior/Name/CFQGX_BJCDSJ0=暴击程度 +<d ref="((Effect,BJCDSJ0ZJ,Upgrades[0].Count*0.01)+(Effect,BJCDSJ0ZJ,Upgrades[1].Count*0.03)+(Effect,BJCDSJ0ZJ,Upgrades[2].Count*0.1)+(Effect,BJCDSJ0ZJ,Upgrades[3].Count*0.3))*100" precision="2"/>%
 Behavior/Name/CFQGX_BJCDSJ1=暴击程度 +<d ref="((Effect,BJCDSJ1ZJ,Upgrades[0].Count*0.01)+(Effect,BJCDSJ1ZJ,Upgrades[1].Count*0.03)+(Effect,BJCDSJ1ZJ,Upgrades[2].Count*0.1)+(Effect,BJCDSJ1ZJ,Upgrades[3].Count*0.3))*100" precision="2"/>%
 Behavior/Name/CFQGX_BJCDSJ10=暴击程度 +<d ref="((Effect,BJCDSJ10ZJ,Upgrades[0].Count*0.01)+(Effect,BJCDSJ10ZJ,Upgrades[1].Count*0.03)+(Effect,BJCDSJ10ZJ,Upgrades[2].Count*0.1)+(Effect,BJCDSJ10ZJ,Upgrades[3].Count*0.3))*100" precision="2"/>%
@@ -1018,8 +1020,8 @@ Button/Name/ANTX110=无畏勇者头衔
 Button/Name/ANTX110P=无畏勇者头衔
 Button/Name/ANTX111=黑车头子头衔
 Button/Name/ANTX111P=黑车头子头衔
-Button/Name/ANTX112=灵车漂移头衔
-Button/Name/ANTX112P=灵车漂移头衔
+Button/Name/ANTX112=灵屮漂移头衔
+Button/Name/ANTX112P=灵屮漂移头衔
 Button/Name/BanelingHunterPassive=爆虫·猎杀虫变种
 Button/Name/BanelingSplitterlingPassive=爆虫·分裂虫变种
 Button/Name/BlackButton=BlackButton
@@ -1213,7 +1215,7 @@ Button/Name/CCData_MaintenanceLogisticsTank=维修后勤坦克
 Button/Name/CCData_MaintenanceLogisticsTankP=维修后勤坦克
 Button/Name/CCData_MedicHeal=治疗
 Button/Name/CCData_MedicalExcitatoryFrone=医用兴奋无人机
-Button/Name/CCData_MedicalMorphine=医用吗啡
+Button/Name/CCData_MedicalMorphine=医用玛啡
 Button/Name/CCData_MedivacSpeedBoost=后燃推进系统
 Button/Name/CCData_MilitarySandbag=军用沙袋
 Button/Name/CCData_MilitarySandbagP=军用沙袋
@@ -1251,7 +1253,7 @@ Button/Name/CCData_PointDefenseDrone=制造定点防御靶机
 Button/Name/CCData_PoisonNova=剧毒冲击
 Button/Name/CCData_PortableBloodAnalyzer=医疗装甲血液分析仪
 Button/Name/CCData_PowerToThruster=供能至推进器
-Button/Name/CCData_PreparingNuclearWarhead=<c val="FF0000">准备核弹头</c>
+Button/Name/CCData_PreparingNuclearWarhead=<c val="FF0000">准备核弹骰</c>
 Button/Name/CCData_PsiWave=灵能震荡波
 Button/Name/CCData_PsionicAbilities=<c val="46C7C7">灵能能力</c>
 Button/Name/CCData_PsionicRadar=雷达
@@ -1293,6 +1295,7 @@ Button/Name/CCData_SY9=特殊变形结构
 Button/Name/CCData_SY9P=特殊变形结构
 Button/Name/CCData_SandBag=堆放沙袋
 Button/Name/CCData_Scoot=疾走
+Button/Name/CCData_Searchlight=探照灯
 Button/Name/CCData_ShatterRake=震裂扫击
 Button/Name/CCData_ShotGun=散弹枪
 Button/Name/CCData_ShotGunP=散弹枪
@@ -1308,7 +1311,7 @@ Button/Name/CCData_StarDEF=强化星（防御）
 Button/Name/CCData_StarHPHeal=强化星（生命恢复）
 Button/Name/CCData_StarSPD=强化星（速度）
 Button/Name/CCData_StarShotRange=强化星（射程）
-Button/Name/CCData_Stim=购买肾上腺素
+Button/Name/CCData_Stim=买慎上腺素
 Button/Name/CCData_Stimpack=强化剂
 Button/Name/CCData_Story_ShipLand=着陆（剧情飞船）
 Button/Name/CCData_Story_ShipLift=升空（剧情飞船）
@@ -2385,7 +2388,7 @@ Effect/Name/CCData_Damage_ArcliteShockCannonBlast=弧光震击炮·Blast
 Effect/Name/CCData_Damage_ArcliteShockCannonDirected=弧光震击炮·Directed
 Effect/Name/CCData_Damage_ArcliteShockCannonDummy=弧光震击炮·Dummy
 Effect/Name/CCData_Damage_ArcliteShockCannonEnemy=弧光震击炮·敌
-Effect/Name/CCData_Damage_ArcliteShockCannonFriend=弧光震击炮·友
+Effect/Name/CCData_Damage_ArcliteShockCannonFriend=弧光震击炮·Friend
 Effect/Name/CCData_Damage_ArcliteShockCannonMR=弧光震击炮·MR
 Effect/Name/CCData_Damage_AutoMG=自动机枪
 Effect/Name/CCData_Damage_Barrage=伤害 弹幕
@@ -3077,9 +3080,9 @@ Effect/Name/LG05launch22=集束镭射[轻量版]·主目标
 Effect/Name/MRJS_AB_ImmortalBarrierBase=末日屏障
 Effect/Name/MRJS_AlarakLightningStrikesAB=AlarakLightningStrikesAB
 Effect/Name/MRJS_AlarakLightningStrikesRB=AlarakLightningStrikesRB
-Effect/Name/MRJS_AlarakSupplicantDevotionCDR=AlarakSupplicantDevotionCDR
-Effect/Name/MRJS_AlarakSupplicantDevotionCDR_A=AlarakSupplicantDevotionCDR_A
-Effect/Name/MRJS_AlarakSupplicantDevotionCDR_B=AlarakSupplicantDevotionCDR_B
+Effect/Name/MRJS_AlarakSupplicantDevotionCDR=阿拉拉克 虔诚之心
+Effect/Name/MRJS_AlarakSupplicantDevotionCDR_A=阿拉拉克 虔诚之心 A
+Effect/Name/MRJS_AlarakSupplicantDevotionCDR_B=阿拉拉克 虔诚之心 B
 Effect/Name/MRJS_AlarakTheStrongestSurviveDummyAttackMissile=AlarakTheStrongestSurviveDummyAttackMissile
 Effect/Name/MRJS_AlarakTheStrongestSurviveDummyAttackMissileImpact=AlarakTheStrongestSurviveDummyAttackMissileImpact
 Effect/Name/MRJS_AlarakTheStrongestSurviveDummySecondaryAttackMissile=AlarakTheStrongestSurviveDummySecondaryAttackMissile
@@ -3655,7 +3658,7 @@ LoadingScreen/MMHelp05=<s val="ys_green165">在某个地方，<s val="ys_blue165
 LoadingScreen/MMHelp06=<s val="ys_BlackRed165">"人类...才是地球环境安全的威胁,环境净化方案即 毁..灭..人..类！！！"<n><s val="ys_WhiteGrey165">-By 诺亚(The C.O.R.E)</c>
 LoadingScreen/MMHelp07=<s val="ys_BlackRed165"><诺亚><s val="ys_yellow165">命令分布在各地的智能机械部队攻击人类，并制造了臭名昭著的"10年大破坏"，人类在大破坏的10年中与诺亚操控的机器部队战斗惨烈，最后制造了究极兵器，可惜没来得及使用就全灭了...<n><s val="ys_green165">-By 剧情故事
 LoadingScreen/MMHelp08=<s val="ys_green165">虽然最终人类军队落败，但<s val="ys_blue165"><诺亚><s val="ys_green165">同样受到了重创，失去了对一些机械的控制...并且前代文明还遗落着一些究极武器和特殊设施。<n><s val="ys_yellow165">-By 剧情故事</c>
-LoadingScreen/MMHelp09=<s val="ys_green165">主角（玩家）扮演拉多镇战车工的儿子，由于一心想成为赏金猎人被父亲赶出家门，在之后的冒险途中发现了超级智脑"诺亚"要抹杀人类的计划，于是主人公一行人消灭"诺亚"，默默拯救了世界。<n><s val="ys_yellow165">-"附近小镇被变异生物围困了，去帮一下吧！"<s val="ys_purple165"> By 主角（玩家）</c>
+LoadingScreen/MMHelp09=<s val="ys_green165">有个拉多镇战车工的孩子，由于一心想成为赏金猎人被父亲赶出家门，在冒险途中与同伴发现了超级智脑"诺亚"要抹铩人类的计划，于是一行人消灭"诺亚"，拯救世界。<n><s val="ys_yellow165">-"附近小镇被变异生物围困了，去帮一下吧！"<s val="ys_purple165"> By 主角团</c>
 LoadingScreen/MMHelp10=<s val="ys_green165">"这个时代，历史遗留的资料很多都毁灭了，人类为了温饱而活，过去的重要文献和遗留的军事设施都是一些占山为王的强盗头子把持着。"<n><s val="ys_yellow165">-By 考古学家
 LoadingScreen/MMHelp11=<s val="ys_BlackRed165">"我...即地球...我的意识...就是地球的意识！！！"<n><s val="ys_WhiteGrey165">-By 诺亚(The C.O.R.E)
 LoadingScreen/MMHelp12=<s val="ys_BlackRed165">为了得到这个命题的解答，我进行了几亿，几千亿...不，几亿兆次的推论和运算...<n><s val="ys_WhiteGrey165">-By 诺亚(The C.O.R.E)
@@ -3679,7 +3682,7 @@ LoadingScreen/MMHelp29=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">跟
 LoadingScreen/MMHelp30=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">游戏内有多种长相类似的箱子，有些物品箱只能靠近打开且无法被攻击（如装备箱），但如果遇到右击打不开的箱子，那就试试攻击它，可能会爆出意外惊喜。<n><s val="ys_green165">-By 游戏设置
 LoadingScreen/MMHelp31=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">为了镜头更自由，做了很多镜头，如果预设的镜头不好用，多多尝试使用户指令和镜头控制按钮、快捷键等，鼠标中键的旋转建议在跟随状态下使用为宜，<帮助按钮>里查看详细指导。<n><s val="ys_green165">-By 游戏设置
 LoadingScreen/MMHelp32=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">你们的任务是找到前代文明遗迹遗留的力量，目前很多都掌握在军阀手中。不消灭复苏的诺亚，人类文明可能将再次被重创，而这次也许是毁灭。"<n><s val="ys_green165">-By 第二剧情
-LoadingScreen/MMHelp33=<s val="ys_BlackRed165">前代文明发生大规模核爆，人类为治理环境、对抗变异而研发诺亚主机，原以为世界得以喘息，却发生了诺亚的叛变..文明断层发生在各国对抗诺亚的10年，人类无法战胜控制大量智能机械的诺亚而全线溃败，被杀人机器不断屠杀。我们的故事发生在莱克希，这座南北都是山谷大丛林中的隐匿小镇，人类新纪元事件的发源地。<n><s val="ys_WhiteGrey165">-By 重装机兵剧情衔接
+LoadingScreen/MMHelp33=<s val="ys_BlackRed165">前代文明发生大规模核爆，人类为治理环境、对抗变异而研发诺亚主机，原以为世界得以喘息，却发生了诺亚的叛变..文明断层发生在各国对抗诺亚的10年，人类无法战胜控制大量智能机械的诺亚而全线溃败，被铩人机器不断屠铩。我们的故事发生在莱克希，这座南北都是山谷大丛林中的隐匿小镇，人类新纪元事件的发源地。<n><s val="ys_WhiteGrey165">-By 重装机兵剧情衔接
 LoadingScreen/MMHelp34=<s val="ys_BlackRed165">玩家扮演PMC（雇佣兵）侥幸在公司大厦倒毁时逃过一劫，利用废弃大楼形成的天然屏障，将路口封堵后生存数周，如今水和食物短缺，面对随处可见怪物，只好拿起武器..<n><s val="ys_WhiteGrey165">-By 剧情设计
 LoadingScreen/MMHelp35=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">电类武器对机械单位有优势，火焰武器对丧尸生物单位有奇效。<n>电塔和火塔需要获得打怪掉落的设计图才能在玩家技能栏开放，一旦获得是永久的。<n><s val="ys_green165">-By 游戏设置
 LoadingScreen/MMHelp36=<s val="ys_BlackRed165"><提示><s val="ys_yellow165">特斯拉电磁塔在白天可以吸收太阳能补充电力，是个人类就能布置的小型太阳能收集装置，而其他的能源生产需要载具建造工业型建筑。<n><s val="ys_green165">-By 游戏设置
@@ -4573,6 +4576,7 @@ Param/Value/065AE8BE=<s val="ys_green164">【车辆改造】<c val="FFFF00">TF�
 Param/Value/06690724=<c val="FF00FF">阿特拉斯设计图</c>
 Param/Value/067B55F7=<s val="ys_green164">设置 => <c val="FFFF00">共享关闭</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[7]</c></c>！
 Param/Value/069A199D=+1
+Param/Value/06AD59E3=<s val="ys_green165">控制台面板
 Param/Value/06B04B42=<c val="FFFF00">【天赋化】<c val="FFFF00">模块加装-<c val="00FFFF">开启<c val="FF0000">聚焦<c val="FFFF00">"虹"</c></c>阵列</c> 已为玩家
 Param/Value/06CA6E21=修改【游戏音乐】 = 
 Param/Value/06D62C26=<c val="FF00FF">风暴战机设计图</c>
@@ -4892,7 +4896,7 @@ Param/Value/14E77E45=S-EII
 Param/Value/14F81492=<s val="ys_WhiteGrey164">
 Param/Value/1504DEC0=<s val="ys_green164">设置调试窗口 => <c val="FFFF00">[双击信息] = ON</s>
 Param/Value/150EF106=<c val="FF8040">得到</c>
-Param/Value/150F1AB5=<c val="FF8080">铀</c><c val="FF9A9A">燃</c><c val="FFB6B6">料</c><c val="FFD0D0">棒</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
+Param/Value/150F1AB5=<c val="FF8080">釉</c><c val="FF9A9A">燃</c><c val="FFB6B6">料</c><c val="FFD0D0">棒</c><c val="FFECEC">+</c><c val="FFF5F5">1</c>
 Param/Value/151599C6=<s val="ys_green165">队伍面板</s>
 Param/Value/15257628=<s val="ys_green165">自动拾取</s>
 Param/Value/154B5152=<c val="FFFF00">【OB福利】</c>
@@ -5242,6 +5246,7 @@ Param/Value/26C97725=关闭！
 Param/Value/26CDE2BC=<c val="FF00FF">货车改-II式设计图</c>
 Param/Value/26CE9C2C=<c val="FF8040">拥有</c>
 Param/Value/26D18B56=<s val="ys_green164">【重型机甲】<c val="FFFF00">雷神铁壁II型 <c val="FF00FF">设计图</c>
+Param/Value/27021BB4=<s val="ys_green164"> 显/隐 <c val="FFFF00">星际控制台面板</c> </c>
 Param/Value/2708C93B=<c val="FF8040">得到</c>
 Param/Value/270A9FB3=<c val="FF8040">拥有</c>
 Param/Value/2721D273=<c val="FF8040">得到</c>
@@ -5520,7 +5525,7 @@ Param/Value/3663F72B=<c val="FF8040">得到</c>
 Param/Value/3672263F=<s val="ys_orange204">
 Param/Value/3698210E=<s val="ys_green164">【<c val="FFFF00">地球人类救济中心</c>】派遣</c>
 Param/Value/36A01037=交易
-Param/Value/36A9AA15= <s val="ys_WhiteGrey165">[灵车漂移]</c></s>
+Param/Value/36A9AA15= <s val="ys_WhiteGrey165">[灵屮漂移]</c></s>
 Param/Value/36AC97D8=<c val="FF8040">得到</c>
 Param/Value/36C09087=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">升级</c>
 Param/Value/36C51431=<c val="FF00FF">帝盾卫兵设计图</c>
@@ -6052,7 +6057,7 @@ Param/Value/52F8BBB4=<s val="ModCenterSize28Bold">簡單難度是沒有獎勵的
 Param/Value/53195FE1=<c val="FF8040">得到</c>
 Param/Value/531EEA33=<s val="ModCenterSize28Bold"><c val="FFBF00">恭</c><c val="EDBE1D">喜</c><c val="DABE3C">普</c><c val="C8BE5A">通</c><c val="B6BE79">難</c><c val="A4BE97">度</c><c val="92BEB5">通</c><c val="7FBED4">關</c><c val="6EBEF2">!</c><n/><img path="Assets\Textures\btn-unit-terran-vikingassault.dds"/><n/>您獲得了維京戰機設計圖。</s>
 Param/Value/53651C51=<s val="BL_ButtonOrange205"><c val="800040">禁止</c></s><s val="BL_ButtonOrange165">(状态)</s>
-Param/Value/5368E84A=<s val="ys_green165">备用技能栏
+Param/Value/5368E84A=<s val="ys_green165">英雄技能栏
 Param/Value/537B3F4A=<s val="ys_green164">【轻型机甲】<c val="FFFF00">冥府之焰 <c val="FF00FF">设计图</c>
 Param/Value/53803B52=<c val="FF8040">得到</c>
 Param/Value/538BDEDF=炼化属性数量
@@ -6733,7 +6738,7 @@ Param/Value/75D0E65D=<c val="FF8040">得到瓦斯</c>
 Param/Value/75DA5573=<c val="FF00FF">终结者T-800 设计图</c>
 Param/Value/75DC9C1F=<c val="FF8040">得到</c>
 Param/Value/75E2C308=<c val="FF00FF">奥利安涡轮跑车设计图</c>
-Param/Value/7607DFA1=<s val="ys_green164">【灵车漂移】 已设为默认！</c>
+Param/Value/7607DFA1=<s val="ys_green164">【灵屮漂移】 已设为默认！</c>
 Param/Value/7623CC33=<c val="FF8040">得到</c>
 Param/Value/7627A1F0=炼化属性数量
 Param/Value/7647BCDA=<s val="ys_green164">【专精化】<c val="FFFF00">风暴战机<c val="00FFFF">配件模块 <c val="FF00FF">LV</c>
@@ -6786,7 +6791,7 @@ Param/Value/789A7F1E=<c val="FF8040">得到</c>
 Param/Value/78A54657=<c val="FF8000">系統公告：</c>玩家<c val="00FF00">~B~</c>獲得"C20散彈槍"
 Param/Value/78C060A2=等级已最高！
 Param/Value/78C3FDDE=等级已最高！
-Param/Value/78C48508=<c val="FF8080">铀</c><c val="FFAFAF">棒</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
+Param/Value/78C48508=<c val="FF8080">釉</c><c val="FFAFAF">棒</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/78DAD6D3=+1
 Param/Value/78E22E50=<s val="ys_green165">翻页<c val="FFFF00">1/2</c></s>
 Param/Value/78ED0EC6=<s val="ys_green205">↓这里是备用储藏箱，需<c val="FFFF00">双击</c>打开
@@ -7115,7 +7120,7 @@ Param/Value/89F3590E=<c val="FF00FF">SX型安保机器人设计图</c>
 Param/Value/89FD410C=<c val="FF00FF">-</c>
 Param/Value/8A347060=<c val="FF00FF">飓风导弹车设计图</c>
 Param/Value/8A575A7A=<s val="ys_green164">设置 => <c val="FFFF00">打开聊天显示框</s>
-Param/Value/8A6C2293=下搜船就安排杀人兵器捡漏...
+Param/Value/8A6C2293=下搜船就安排铩人兵器捡漏...
 Param/Value/8A6F9BCF=<s val="ys_green164">启用【飞船满血】
 Param/Value/8A724F45=<s val="ys_White164"><c val="FF0000"><c val="FFFF00">[新档]</c>_ERROR]<c val="FF80FF">（MBd建筑图纸长度出错！）</c></c>
 Param/Value/8A7C79D3=（用于<c val="00FF00">复活、炸机、跳车</c>）
@@ -7164,7 +7169,7 @@ Param/Value/8C5E1FF0=<c val="FF8040">得到</c>
 Param/Value/8C5F2E49=<c val="FF8040">[S-E状态]</c>
 Param/Value/8C83CD46=<s val="ys_green164">支援载具【<c val="FFFF00">清理者-超级计算机</c>】</c>
 Param/Value/8C87C261=<c val="FF8040">得到</c>
-Param/Value/8C887BFA=#@￥%...！...我要等不及了... 你们这群蠢货！
+Param/Value/8C887BFA=#@￥%...！...我要等不及了... 你们这群鹑货！
 Param/Value/8C896D72=<c val="FF00FF">战狼-II设计图</c>
 Param/Value/8C9712BA=<s val="ys_green164">设置 => <c val="FFFF00">将当前角色颜色设定为粉色</s>
 Param/Value/8C98FF27=<s val="ys_green164">难度等级调整为LV1【简单】
@@ -7702,7 +7707,7 @@ Param/Value/A9020916=<c val="FF8040">得到</c>
 Param/Value/A91425B2=整张地图
 Param/Value/A9185FEE=<s val="ys_green164">【人类建造】<c val="FFFF00">方阵机炮<c val="FF00FF">设计图</c>
 Param/Value/A93D36EE=<s val="ys_green164">设置 => <c val="FFFF00">共享控制</c> 转向 <c val="00FFFF">玩家<c val="FFFF00">[4]</c></c>！
-Param/Value/A950ABCF=<c val="FF8080">铀</c><c val="FFAFAF">矿</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
+Param/Value/A950ABCF=<c val="FF8080">釉</c><c val="FFAFAF">矿</c><c val="FFDEDE">+</c><c val="FFEEEE">1</c>
 Param/Value/A9515797=件物品。</c>
 Param/Value/A954689D=</c><c val="00FFFF">小级递增</c>
 Param/Value/A9661165=<c val="FF8080">重</c><c val="FFA2A2">渣</c><c val="FFC4C4">油</c><c val="FFE7E7">+</c><c val="FFF2F2">1</c>
@@ -8807,7 +8812,7 @@ Param/Value/E1E8D679=<s val="ys_green165"><c val="FFFF00">[玩家操作]</c>单�
 Param/Value/E1EB5A29=禁用随机区域
 Param/Value/E1FB65FF=<c val="FF00FF">使用指令</c>
 Param/Value/E2053552=<s val="ys_green164">【专精化】<c val="FFFF00">黄金奥丁 <c val="FF00FF">升级</c>
-Param/Value/E21A2D5E=<c val="FF8080">铀</c><c val="FFCBCB">+</c><c val="FFE5E5">1</c>
+Param/Value/E21A2D5E=<c val="FF8080">釉</c><c val="FFCBCB">+</c><c val="FFE5E5">1</c>
 Param/Value/E21A859E=<c val="FF0000">无法使用！</c>
 Param/Value/E220CAD5=<s val="ys_green164">【大型机甲】<c val="FFFF00">巨像设计图 <c val="FF00FF">设计图</c>
 Param/Value/E22A08D6=<c val="FF8040">拥有</c>
@@ -9575,7 +9580,7 @@ Unit/Name/CCData_Missile_ClusterRocket=集束火箭
 Unit/Name/CCData_Missile_Cyclone=飓风导弹
 Unit/Name/CCData_Missile_DiYuHuoFeiDan=地狱火飞弹
 Unit/Name/CCData_Missile_DiYuHuoFeiDanEmitter=地狱火飞弹
-Unit/Name/CCData_Missile_DominionKillTeam=帝国军突击队 LM 武器
+Unit/Name/CCData_Missile_DominionKillTeam=帝帼军突击队 LM 武器
 Unit/Name/CCData_Missile_DukesRevengeYamato=阳电子破坏炮
 Unit/Name/CCData_Missile_EthericJet=以太喷射
 Unit/Name/CCData_Missile_FlashGrenade=闪光弹
@@ -10236,8 +10241,8 @@ Unit/Name/ZZYQ_HurricaneMissileRight=飓风飞弹·II型 右
 Unit/Name/Zealot=狂热者
 Unit/Name/ZealotAiur=狂热者Aiur
 Unit/Name/ZealotPrisoner=狂热者Prisoner
-Unit/Name/ZergEggNest=虫卵蛋
-Unit/Name/ZergEggNestSmall=虫卵蛋 小型
+Unit/Name/ZergEggNest=虫卵蜑
+Unit/Name/ZergEggNestSmall=虫卵蜑 小型
 UnitSubtitle/CCData_StoryBoss_HotSNoxious=瘴毒兽变种
 UnitSubtitle/HotSTorrasque2=暴龙兽变种
 Upgrade/Name/BJCD1=暴击程度1%
@@ -10511,7 +10516,7 @@ Upgrade/Name/SJTX108=隔山打牛头衔
 Upgrade/Name/SJTX109=祭祀之雨头衔
 Upgrade/Name/SJTX110=无畏勇者头衔
 Upgrade/Name/SJTX111=黑车头子头衔
-Upgrade/Name/SJTX112=灵车漂移头衔
+Upgrade/Name/SJTX112=灵屮漂移头衔
 Upgrade/Name/TXSJ=头衔升级
 Upgrade/Name/TerranVehicleArmors=末日巨兽钢板
 Upgrade/Name/TerranVehicleArmorsLevel1=末日巨兽钢板等级1

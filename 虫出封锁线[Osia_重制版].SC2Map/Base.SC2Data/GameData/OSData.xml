@@ -1016,6 +1016,14 @@
             <Borders value="0,2,1;1,0,1;2,3,1;3,1,1"/>
         </Shape>
     </CFootprint>
+    <CModel id="NanaKey_BG_TankmodeWalls">
+        <TextureDeclares Prefix="NanaKey_BG_">
+            <Adaptions TriggerOnSubstring="_TankmodeWalls.dds" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="NanaKey_UI_VehicleFPS_Display">
+        <Flags index="ForcePortraitModel" value="1"/>
+    </CModel>
     <CModel id="OS_MultiCamera"/>
     <CModel id="OS_ReneeCamera"/>
     <CModel id="OS_ReneeScreen"/>

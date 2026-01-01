@@ -676,11 +676,6 @@
     <CModel id="ColossusPortrait"/>
     <CModel id="ImmortalPortrait"/>
     <CModel id="MarineXPR"/>
-    <CModel id="NanaKey_BG_TankmodeWalls">
-        <TextureDeclares Prefix="NanaKey_BG_">
-            <Adaptions TriggerOnSubstring="_TankmodeWalls.dds" Slot="main"/>
-        </TextureDeclares>
-    </CModel>
     <CModel id="RavenPortrait"/>
     <CModel id="GoliathPortrait"/>
     <CModel id="ImmortalTaldarimWeaponAttackLaunchModel"/>
@@ -901,7 +896,6 @@
             <Description value="UI/HelpGameMechanic_InhibitorZoneGenerators_Description"/>
         </HelpGameMechanics>
         <HelpTechTitle value="重装机兵"/>
-        <CustomLayoutFileArray value="GameUIOverride.SC2Layout"/>
     </CGameUI>
     <CSkin default="1" id="AdeptBase"/>
     <CSkin default="1" id="BanelingBase"/>

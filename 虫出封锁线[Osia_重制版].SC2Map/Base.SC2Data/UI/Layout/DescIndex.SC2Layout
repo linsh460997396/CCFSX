@@ -13,8 +13,10 @@
     <Include path="UI/Layout/OptionButton.SC2Layout"/>
     <Include path="UI/Layout/CustomCommandPanel.SC2Layout"/>
     <Include path="UI/Layout/CustomInfoPaneGroup.SC2Layout"/>
+    <Include path="UI/Layout/CustomInfoPanelTemplate.SC2Layout"/>
     <Include path="UI/Layout/MapUIOverride.SC2Layout"/>
     <Include path="UI/Layout/LoadScreen.SC2Layout"/>
     <Include path="UI/Layout/ChatUI.SC2Layout"/>
     <Include path="UI/Layout/CustomChatDisplay.SC2Layout"/>
+    <Include path="GameUIOverride.SC2Layout"/>
 </Desc>

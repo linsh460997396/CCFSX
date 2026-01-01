@@ -70,6 +70,7 @@
 <Behavior id="CCData_InZjBehavior"/>
 <Behavior id="OS_MianYiShangHai_TongMeng"/>
 <Behavior id="DamageLimit_Vehicle"/>
+<Behavior id="CCData_ZhaoMingON"/>
 <Behavior id="CCData_DiPanPoSunDummy"/>
 <Behavior id="CCData_SEPoSunDummy"/>
 <Behavior id="CCData_FuPaoPoSunDummy"/>
@@ -90,7 +91,6 @@
 <Effect id="CCData_EnergyNovaSet"/>
 <Effect id="CCData_ZeroDamage"/>
 <Effect id="YSSSYXHDWP"/>
-<Model id="Invisible"/>
 <Model id="MissileTurretBirth"/>
 <Model id="THorner05SElectricalArcs"/>
 <Model id="NanaKey_UI_VehicleFPS_Display"/>
@@ -110,7 +110,6 @@
 <Sound id="UI_BnetError"/>
 <Sound id="UI_DoorMenu_ListSelect"/>
 <Sound id="HellionTankMorph_StandMorphEnd_Stage04"/>
-<Sound id="30SecondSilence"/>
 <Sound id="Music_BossFight_Osia" Variations="0"/>
 <Soundtrack id="nDLC_Music_Nova01_FinalEscape"/>
 <Soundtrack id="nDLC_Music_Nova04_Intro"/>
