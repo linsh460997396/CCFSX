@@ -8,7 +8,7 @@
             <Frame type="BehaviorBar" name="BehaviorBar" template="BehaviorBar/BehaviorBarTemplate">
                 <Anchor side="Top" relative="$parent" pos="Min" offset="6"/>
                 <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
-                <RenderPriority val="520"/>
+                <RenderPriority val="512"/>
             </Frame>
 
             <Frame type="UnitWireframe" name="UnitWireframe" template="UnitWireframe/UnitWireframeTemplate">

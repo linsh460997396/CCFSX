@@ -37,8 +37,6 @@
 <Asset path="assets\textures\ui_planetpanel_contactportraitframe.dds" Type="Image"/>
 <Asset path="assets\textures\decal_spray_0107_01.lvl0" Type="Image"/>
 <Asset path="assets\textures\blackgrid2.dds" Type="Image"/>
-<Abil id="CCData_VehicleTransport2"/>
-<Abil id="CCData_VehicleTransport"/>
 <Actor id="SYSTEM_ActorConfig"/>
 <Actor id="GenericBuildingRubble" Variations="4,5,7"/>
 <Actor id="KorhalDestroyedBuilding" Variations="0,1,2"/>

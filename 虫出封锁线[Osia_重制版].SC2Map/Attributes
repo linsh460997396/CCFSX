@@ -767,7 +767,7 @@
     </Attribute>
     <Attribute>
         <Id Value="22"/>
-        <Type Value="Global"/>
+        <Type Value="Player"/>
         <Name Value="Attribute022/Name"/>
         <Description Value="Attribute022/Desc"/>
         <Availability Value="All"/>
@@ -803,7 +803,35 @@
             <Description Value="Attribute022/Value006/Desc"/>
         </Value>
         <Default>
-            <Slot Id="Global"/>
+            <Slot Id="0"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="1"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="2"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="3"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="4"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="5"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="6"/>
+            <Value Id="2"/>
+        </Default>
+        <Default>
+            <Slot Id="7"/>
             <Value Id="2"/>
         </Default>
     </Attribute>
@@ -960,7 +988,7 @@
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="5"/>
+            <Value Id="7"/>
         </Default>
     </Attribute>
     <Attribute>
@@ -1150,7 +1178,7 @@
         </Value>
         <Default>
             <Slot Id="Global"/>
-            <Value Id="3"/>
+            <Value Id="1"/>
         </Default>
     </Attribute>
     <DefaultVariants Value="0"/>
